@@ -90,8 +90,6 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
 
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
 
       # We are expecting this cache to have been created during the "Build-Snapshot-Artifacts" job in the "Acceptance" workflow.
       - name: Restore bootstrap cache
@@ -133,8 +131,6 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
 
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
 
       # We are expecting this cache to have been created during the "Build-Snapshot-Artifacts" job in the "Acceptance" workflow.
       - name: Restore bootstrap cache
@@ -184,8 +180,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
 
       - uses: actions/download-artifact@v2 # Downloads all artifacts
 
