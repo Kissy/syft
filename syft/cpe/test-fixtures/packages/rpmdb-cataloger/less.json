@@ -1,0 +1,141 @@
+{
+  "name": "less",
+  "version": "530-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "less",
+      "Version": "530",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/less@0:530-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "less",
+    "version": "530",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "less-530-1.el8.src.rpm",
+    "size": 344874,
+    "license": "GPLv3+ or BSD",
+    "vendor": "CentOS",
+    "url": "http://www.greenwoodsoftware.com/less/",
+    "files": [
+      {
+        "path": "/etc/profile.d/less.csh",
+        "mode": 33188,
+        "size": 500,
+        "sha256": "c117d4f9360e5a7c926f7662b647e9f1d06129817bba8386e4e8b27a01d1040b"
+      },
+      {
+        "path": "/etc/profile.d/less.sh",
+        "mode": 33188,
+        "size": 253,
+        "sha256": "7b85508c9181670fe169935310b8c95d7c2573f0318a70cecd12868569aab891"
+      },
+      {
+        "path": "/usr/bin/less",
+        "mode": 33261,
+        "size": 192040,
+        "sha256": "4c4d5641bc4eb7cdd0e464d4bde1befd5e8332677b2da8670dc0920afd5dd59e"
+      },
+      {
+        "path": "/usr/bin/lessecho",
+        "mode": 33261,
+        "size": 13840,
+        "sha256": "3e1abab5eef3bf496ccc8b4cca317465494699c7edc7864b12d12aa67a5fe0e5"
+      },
+      {
+        "path": "/usr/bin/lesskey",
+        "mode": 33261,
+        "size": 23664,
+        "sha256": "acd20d76648d57b1e3d0a8d12ad9a90f1c9cb26ddc7ad24f145c5611472585d8"
+      },
+      {
+        "path": "/usr/bin/lesspipe.sh",
+        "mode": 33261,
+        "size": 3143,
+        "sha256": "ae570b6311fa231d9ec8120327b4f498fce7d13c2bc0a2ed388b1617dda8e2dd"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ac",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ac/ea63020bb62652ce22905fd6d5188003f65666",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/df",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/df/92fcee7c1d0172f74690401ca656675a70eaae",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e0/74a4afdfc840aeeef3e281cef0a03efb376d68",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/less",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/less/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/licenses/less/LICENSE",
+        "mode": 33188,
+        "size": 1271,
+        "sha256": "c1d5ed3903398ca7f0852995a7a5588829f02d3b89c82165fd674285245ac576"
+      }
+    ]
+  }
+}

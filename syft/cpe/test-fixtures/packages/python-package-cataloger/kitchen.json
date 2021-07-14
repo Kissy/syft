@@ -1,0 +1,35 @@
+{
+  "name": "kitchen",
+  "version": "1.1.1",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info/PKG-INFO",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    },
+    {
+      "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info/top_level.txt",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "LGPLv2+"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/kitchen@1.1.1",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "kitchen",
+    "version": "1.1.1",
+    "license": "LGPLv2+",
+    "author": "Toshio Kuratomi",
+    "authorEmail": "toshio@fedoraproject.org",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib/python2.7/site-packages",
+    "topLevelPackages": [
+      "kitchen"
+    ]
+  }
+}

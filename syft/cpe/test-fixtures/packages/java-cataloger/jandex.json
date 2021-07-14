@@ -1,0 +1,80 @@
+{
+  "name": "jandex",
+  "version": "2.1.3.Final",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "jboss",
+      "Product": "jboss",
+      "Version": "2.1.3",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.jboss/jandex@2.1.3.Final",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jandex-2.1.3.Final.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "org.jboss.jandex",
+        "Bnd-LastModified": "1584743177288",
+        "Build-Jdk": "1.8.0_131",
+        "Build-Timestamp": "Fri, 20 Mar 2020 17:26:11 -0500",
+        "Built-By": "jason",
+        "Bundle-Description": "Parent POM for JBoss projects. Provides default project build configuration.",
+        "Bundle-DocURL": "http://www.jboss.org",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Java Annotation Indexer",
+        "Bundle-SymbolicName": "org.jboss.jandex",
+        "Bundle-Vendor": "JBoss by Red Hat",
+        "Bundle-Version": "2.1.3.Final",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "org.jboss.jandex;version=\"2.1.3.Final\"",
+        "Implementation-Title": "Java Annotation Indexer",
+        "Implementation-URL": "http://www.jboss.org/jandex",
+        "Implementation-Vendor": "JBoss by Red Hat",
+        "Implementation-Vendor-Id": "org.jboss",
+        "Implementation-Version": "2.1.3.Final",
+        "Import-Package": "org.apache.tools.ant;resolution:=optional,org.apache.tools.ant.types;resolution:=optional",
+        "Java-Vendor": "Oracle Corporation",
+        "Java-Version": "1.8.0_131",
+        "Main-Class": "org.jboss.jandex.Main",
+        "Manifest-Version": "1.0",
+        "Os-Arch": "x86_64",
+        "Os-Name": "Mac OS X",
+        "Os-Version": "10.15.1",
+        "Scm-Connection": "scm:git:git@github.com:jboss/jboss-parent-pom.git/jandex",
+        "Scm-Revision": "e861dd3d9c7811e94d91e1938605cc09a0cd94c8",
+        "Scm-Url": "http://github.com/jboss/jboss-parent-pom/jandex",
+        "Specification-Title": "Java Annotation Indexer",
+        "Specification-Vendor": "JBoss by Red Hat",
+        "Specification-Version": "2.1.3.Final",
+        "Tool": "Bnd-1.50.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.jboss/jandex/pom.properties",
+      "name": "",
+      "groupId": "org.jboss",
+      "artifactId": "jandex",
+      "version": "2.1.3.Final",
+      "extraFields": {}
+    }
+  }
+}

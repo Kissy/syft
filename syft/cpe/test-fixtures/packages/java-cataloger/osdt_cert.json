@@ -1,0 +1,32 @@
+{
+  "name": "osdt_cert",
+  "version": "12.2.0.1",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/osdt_cert-12.2.0.1.jar",
+    "manifest": {
+      "main": {
+        "Ant-Version": "Apache Ant 1.9.2",
+        "Created-By": "1.8.0_40-ea-b08 (Oracle Corporation)",
+        "Implementation-Title": "Oracle Security Developer Tools Crypto",
+        "Implementation-Vendor": "Oracle Corporation",
+        "Implementation-Version": "3.1.0",
+        "Manifest-Version": "1.0",
+        "Specification-Title": "Oracle Security Developer Tools Crypto",
+        "Specification-Vendor": "Oracle Corporation",
+        "Specification-Version": "3.1.0"
+      }
+    }
+  }
+}

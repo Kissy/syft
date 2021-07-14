@@ -1,0 +1,81 @@
+{
+  "name": "curl",
+  "version": "7.61.1-14.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "curl_project",
+      "Product": "curl",
+      "Version": "7.61.1",
+      "Update": "14.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/curl@0:7.61.1-14.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "curl",
+    "version": "7.61.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.el8",
+    "sourceRpm": "curl-7.61.1-14.el8.src.rpm",
+    "size": 709398,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "https://curl.haxx.se/",
+    "files": [
+      {
+        "path": "/usr/bin/curl",
+        "mode": 33261,
+        "size": 244096,
+        "sha256": "d302a1d554e6264d88e235e2c1c489b83abce97d6babebc8d3af17547203714e"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ea",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ea/846affe8b0a8728d035452ddfe28b6e2527142",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/zsh/site-functions",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/zsh/site-functions/_curl",
+        "mode": 33188,
+        "size": 13328,
+        "sha256": "9b1119ff5631d3b3d9e475c775f7ab8baabcbcc0273b038c6d6e5f54bea3265c"
+      }
+    ]
+  }
+}

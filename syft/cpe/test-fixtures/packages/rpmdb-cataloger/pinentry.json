@@ -1,0 +1,91 @@
+{
+  "name": "pinentry",
+  "version": "0.8.1-17.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pinentry@0:0.8.1-17.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pinentry",
+    "version": "0.8.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "17.el7",
+    "sourceRpm": "pinentry-0.8.1-17.el7.src.rpm",
+    "size": 159889,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.gnupg.org/aegypten/",
+    "files": [
+      {
+        "path": "/usr/bin/pinentry",
+        "mode": 33261,
+        "size": 2602,
+        "sha256": "63ff20b740ee9bdf89e9388a7797081e10d9306017f063e63e7f439b5a8c5f85"
+      },
+      {
+        "path": "/usr/bin/pinentry-curses",
+        "mode": 33261,
+        "size": 50328,
+        "sha256": "b062c34f78f69a2327938fda15188c4281fdc671b5a74934b50fcfdefd9f50fe"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/AUTHORS",
+        "mode": 33188,
+        "size": 364,
+        "sha256": "bb8d1605e2355b8ddb9d3308f8e42fe30ab26d1920aed61b7944181527e5f49d"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/COPYING",
+        "mode": 33188,
+        "size": 15131,
+        "sha256": "67f82e045cf7acfef853ea0f426575a8359161a0a325e19f02b529a87c4b6c34"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/ChangeLog",
+        "mode": 33188,
+        "size": 71362,
+        "sha256": "62d98c665f4bb03e21e96878e0f00abeb8490439c9896029d405bedd6f037eef"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/NEWS",
+        "mode": 33188,
+        "size": 5233,
+        "sha256": "f58edb04b9bce8740bcfcc68c4373401cd3597b90d45af994d04e9f885a62da6"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/README",
+        "mode": 33188,
+        "size": 2961,
+        "sha256": "99181333c014ab82260f2f68be76881d992d27e956768a0c84cce1a37004ae30"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/THANKS",
+        "mode": 33188,
+        "size": 290,
+        "sha256": "605be9f9aa1bfef24e4e8b596cf2ee42538e97876e781490a47c8c2eaf3a3e31"
+      },
+      {
+        "path": "/usr/share/doc/pinentry-0.8.1/TODO",
+        "mode": 33188,
+        "size": 869,
+        "sha256": "76c7907b5e0443aab20fd85a12fcc23abbb6e008c561ad61a671464e66819bb0"
+      }
+    ]
+  }
+}

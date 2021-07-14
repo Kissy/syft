@@ -1,0 +1,351 @@
+{
+  "name": "glibc-common",
+  "version": "2.28-127.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "glibc",
+      "Version": "2.28",
+      "Update": "127.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/glibc-common@0:2.28-127.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "glibc-common",
+    "version": "2.28",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "127.el8",
+    "sourceRpm": "glibc-2.28-127.el8.src.rpm",
+    "size": 9232292,
+    "license": "LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/glibc/",
+    "files": [
+      {
+        "path": "/usr/bin/catchsegv",
+        "mode": 33261,
+        "size": 3283,
+        "sha256": "8e59795b8077c647749fc60ebc5aca6489008f5fad216fe698d52a2e607e9c72"
+      },
+      {
+        "path": "/usr/bin/gencat",
+        "mode": 33261,
+        "size": 33008,
+        "sha256": "c8f0d8fe939c786771f3a5d5efc8c732ffbfaf948fce7d5e39e5cd1bdb1c8561"
+      },
+      {
+        "path": "/usr/bin/getconf",
+        "mode": 33261,
+        "size": 37680,
+        "sha256": "5688724bad8fa8cb57e3c10153d5f4550757c074d1c0036280b80ac6c77b7998"
+      },
+      {
+        "path": "/usr/bin/getent",
+        "mode": 33261,
+        "size": 46176,
+        "sha256": "77d27fa670c3960fea570b63d2309007650333dfbade08be521f853c56c35509"
+      },
+      {
+        "path": "/usr/bin/iconv",
+        "mode": 33261,
+        "size": 84592,
+        "sha256": "8d913bdda64e39d8fe9fad451b4e43183801eab2b3fd870fe2a30a3eef9a7fc7"
+      },
+      {
+        "path": "/usr/bin/ldd",
+        "mode": 33261,
+        "size": 5441,
+        "sha256": "8db39aa6d8727f788f0c4ffcd882a64068f0362bea9ffe38de828f2c5583a705"
+      },
+      {
+        "path": "/usr/bin/locale",
+        "mode": 33261,
+        "size": 70648,
+        "sha256": "dc8a89e49ce2008ea24401975e5435927325bd93a030f828ba0b49e1f4f44692"
+      },
+      {
+        "path": "/usr/bin/localedef",
+        "mode": 33261,
+        "size": 364456,
+        "sha256": "64d46d5b836561f3587a71679f9759c954eb39593ea410cfee0de8f9ddae0ff3"
+      },
+      {
+        "path": "/usr/bin/makedb",
+        "mode": 33261,
+        "size": 34768,
+        "sha256": "18541e7f0d6abcb7bdf6f167c96a27e01f7ac6f916a245752ca5303006f53740"
+      },
+      {
+        "path": "/usr/bin/pldd",
+        "mode": 33261,
+        "size": 23552,
+        "sha256": "d3b644ba0ae1690cb360e9ec92fa2acc7ed09e9f98d862c390aca9fbc09befba"
+      },
+      {
+        "path": "/usr/bin/sotruss",
+        "mode": 33261,
+        "size": 4281,
+        "sha256": "af68e860ba180298f5245e09addd18cf9362c39ef7bb53e1b8bd4110f6ee8947"
+      },
+      {
+        "path": "/usr/bin/sprof",
+        "mode": 33261,
+        "size": 37048,
+        "sha256": "99714dfe992a0e8a7daff3c0ba08918cddd838076073925935d8781cf7780984"
+      },
+      {
+        "path": "/usr/bin/tzselect",
+        "mode": 33261,
+        "size": 15370,
+        "sha256": "830199fe1d50c1a4d82b38673c0567dcde097fed14efa3888ba98bcdcef66fe6"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/59/1cfa8b3056f1317baf1fe63863943aec5c102b",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b/0f6847774e7633aefa413b42feedf4e6484da2",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/66/a79bb7b80c4067948ccfa09523410cb04f51e1",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/8d/87a2354c99bc9781612885435ab35aebfddbc2",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ac",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ac/c8b037bbf9465fece6bf102ab0dab8e5cc6bed",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b3/f5c826a6aadd9509be4a7c908b84adb8da71ec",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b7/92986bbd0106cac6f754278bf258dde732b38e",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b8/d8b5ff0f57663c7db7011741a8a82b8ee37b5d",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ce",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ce/c4802547edde68f3b5cdcd94fd30b367a1db86",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1/1f179c527eb7392a8f29ce3fe24fc16dfe9a38",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d5/aca2fbccc4b441e6d4cf689e03b497d91c8be3.3",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e7/b5ed7bfe3c6ee0a6aedc30bb5e70b93d05292e",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/locale",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_ADDRESS",
+        "mode": 33188,
+        "size": 131,
+        "sha256": "e56fdac7f4d70bdb7517a9a3c98bbfefef52fcfb082d3a49c26eec93fd8f9d9d"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_COLLATE",
+        "mode": 33188,
+        "size": 6949250,
+        "sha256": "7ac04f3f6e159488d62861b22cb7bf4e5c83a51d2961dcfcd103a6723cefb051"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_CTYPE",
+        "mode": 33188,
+        "size": 337024,
+        "sha256": "8d1401ee710ca9f0e123e38dff897dd26138cb118960c8239bfe76baaa4c25a1"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_IDENTIFICATION",
+        "mode": 33188,
+        "size": 252,
+        "sha256": "4d7144ea8176f0291754f5287bb06f3ab11803e0c178e84741fdc935c4b73f0a"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_MEASUREMENT",
+        "mode": 33188,
+        "size": 23,
+        "sha256": "bb14a6f2cbd5092a755e8f272079822d3e842620dd4542a8dfa1e5e72fc6115b"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_MESSAGES",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES",
+        "mode": 33188,
+        "size": 53,
+        "sha256": "94b0b5b9478be3d07699972940961cdfa6c7fd86e4d4601b11a6be2268e4dbad"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_MONETARY",
+        "mode": 33188,
+        "size": 282,
+        "sha256": "5b4d493a4960092900dea714839a694a9aa3f445a0f03b50c9bc16a788e6eeff"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_NAME",
+        "mode": 33188,
+        "size": 62,
+        "sha256": "14507aad9f806112e464b9ca94c93b2e4d759ddc612b5f87922d7cac7170697d"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_NUMERIC",
+        "mode": 33188,
+        "size": 50,
+        "sha256": "f5976e6b3e6b24dfe03caad6a5b98d894d8110d8bd15507e690fd60fd3e04ab2"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_PAPER",
+        "mode": 33188,
+        "size": 34,
+        "sha256": "cde048b81e2a026517cc707c906aebbd50f5ee3957b6f0c1c04699dffcb7c015"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_TELEPHONE",
+        "mode": 33188,
+        "size": 47,
+        "sha256": "f4caf0d12844219b65ba42edc7ec2f5ac1b2fc36a3c88c28887457275daca1ee"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_TIME",
+        "mode": 33188,
+        "size": 3360,
+        "sha256": "5bcce4e0710a2e0ad24b195bf65073d3d9fee0d011b40bd080d2e033f69272d5"
+      },
+      {
+        "path": "/usr/sbin/build-locale-archive",
+        "mode": 33216,
+        "size": 1081976,
+        "sha256": "c6a2add317df60ccee8c3f7372918e5ee7426799e6b379fe6b45aaeabde388aa"
+      },
+      {
+        "path": "/usr/sbin/zdump",
+        "mode": 33261,
+        "size": 27688,
+        "sha256": "53543d19808a848c26f58b160ed144ac8eb52dece15c280e45a21887cff142e8"
+      },
+      {
+        "path": "/usr/sbin/zic",
+        "mode": 33261,
+        "size": 65416,
+        "sha256": "5fc6cd4e5fa502d23ebefdd5efacf0af7bdce06e42006135e566607a3ec76327"
+      },
+      {
+        "path": "/usr/share/i18n",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/i18n/charmaps",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/i18n/locales",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/locale/locale.alias",
+        "mode": 33188,
+        "size": 2997,
+        "sha256": "ef71c6302d6d2254d52588f2a076e6224117a024a1494e3b78be469cfe708e05"
+      }
+    ]
+  }
+}

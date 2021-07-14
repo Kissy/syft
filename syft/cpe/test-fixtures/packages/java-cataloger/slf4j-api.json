@@ -1,0 +1,63 @@
+{
+  "name": "slf4j-api",
+  "version": "1.7.25",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "slf4j",
+      "Product": "slf4j-api",
+      "Version": "1.7.25",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/slf4j-api-1.7.25.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Build-Jdk": "1.7.0_17",
+        "Built-By": "ceki",
+        "Bundle-Description": "The slf4j API",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "slf4j-api",
+        "Bundle-RequiredExecutionEnvironment": "J2SE-1.5",
+        "Bundle-SymbolicName": "slf4j.api",
+        "Bundle-Vendor": "SLF4J.ORG",
+        "Bundle-Version": "1.7.25",
+        "Created-By": "Apache Maven",
+        "Export-Package": "org.slf4j;version=1.7.25, org.slf4j.spi;version=1.7.25, org.slf4j.helpers;version=1.7.25, org.slf4j.event;version=1.7.25",
+        "Implementation-Title": "slf4j-api",
+        "Implementation-Version": "1.7.25",
+        "Import-Package": "org.slf4j.impl;version=1.6.0",
+        "Manifest-Version": "1.0",
+        "X-Compile-Source-JDK": "1.5",
+        "X-Compile-Target-JDK": "1.5"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.slf4j/slf4j-api/pom.properties",
+      "name": "",
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "1.7.25",
+      "extraFields": {}
+    }
+  }
+}

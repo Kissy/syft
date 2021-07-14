@@ -1,0 +1,247 @@
+{
+  "name": "yum-utils",
+  "version": "1.1.31-54.0.1.el7_8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/yum-utils@0:1.1.31-54.0.1.el7_8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "yum-utils",
+    "version": "1.1.31",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "54.0.1.el7_8",
+    "sourceRpm": "yum-utils-1.1.31-54.0.1.el7_8.src.rpm",
+    "size": 345472,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://yum.baseurl.org/download/yum-utils/",
+    "files": [
+      {
+        "path": "/etc/bash_completion.d",
+        "mode": 16877,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/bash_completion.d/yum-utils.bash",
+        "mode": 33188,
+        "size": 11272,
+        "sha256": "2f7f0a5e806ac13400b865b47743cd95a31fc98018f563d75e3030ed6b3cfb42"
+      },
+      {
+        "path": "/usr/bin/debuginfo-install",
+        "mode": 33261,
+        "size": 8071,
+        "sha256": "2ef5c90ddf4396ff2c4e236a610ae9eda840001ead6b949c7b9a3ccaaa83f2ce"
+      },
+      {
+        "path": "/usr/bin/find-repos-of-install",
+        "mode": 33261,
+        "size": 4371,
+        "sha256": "c637571d3a5f71866552efa450afcd7dd821a59e7d83688565789649f34a8dd9"
+      },
+      {
+        "path": "/usr/bin/needs-restarting",
+        "mode": 33261,
+        "size": 8260,
+        "sha256": "ba999d310b557628598598506012d4bda31210a287da801fa5fa08776bf603ff"
+      },
+      {
+        "path": "/usr/bin/package-cleanup",
+        "mode": 33261,
+        "size": 17803,
+        "sha256": "980e8bbe9888d11860eaf9eb8e0013d6da4f73cb9863e7ccf08b6d5002d4a4e6"
+      },
+      {
+        "path": "/usr/bin/repo-graph",
+        "mode": 33261,
+        "size": 4191,
+        "sha256": "39b2c5b6cc16df1b8a8977bc621499f01a1490adab7fb6a7035fae8ba9a4d7b8"
+      },
+      {
+        "path": "/usr/bin/repo-rss",
+        "mode": 33261,
+        "size": 10315,
+        "sha256": "6016e75e21c38296fd6c6038df50cce3d8c9cd09e006f7fbdd87bab679546a7a"
+      },
+      {
+        "path": "/usr/bin/repoclosure",
+        "mode": 33261,
+        "size": 11699,
+        "sha256": "944eb06c18b7bbd35c042f1d8daa7ea004468e3b5d66b76bdcbe63df3261d3d7"
+      },
+      {
+        "path": "/usr/bin/repodiff",
+        "mode": 33261,
+        "size": 14301,
+        "sha256": "51f0ac8c6ca032be954c004c7bdf388ddc148b5bec02f5a9d1547f87badd2c39"
+      },
+      {
+        "path": "/usr/bin/repomanage",
+        "mode": 33261,
+        "size": 7043,
+        "sha256": "07ed24b6cf6ae28a09e3733ee78ad93db4b3d7e8e6f33af7d21e4ece89b461df"
+      },
+      {
+        "path": "/usr/bin/repoquery",
+        "mode": 33261,
+        "size": 57013,
+        "sha256": "4d57c27be1898ca06685ebfa42436f2c34698800575f0022270a979511c6fd5a"
+      },
+      {
+        "path": "/usr/bin/reposync",
+        "mode": 33261,
+        "size": 14479,
+        "sha256": "51098a0b8380bd792d6ca0ca8846c7d76fe93779a3203addb04d3feb4519fe24"
+      },
+      {
+        "path": "/usr/bin/repotrack",
+        "mode": 33261,
+        "size": 10101,
+        "sha256": "65331878e0e32e6adcb37d5b7cca93c36999055d06692d135cfb96efb14b2579"
+      },
+      {
+        "path": "/usr/bin/show-changed-rco",
+        "mode": 33261,
+        "size": 10371,
+        "sha256": "cd09283351dd0d971099b3ce3691fe5366118d02f1b6d4c15793e7cc54934f21"
+      },
+      {
+        "path": "/usr/bin/show-installed",
+        "mode": 33261,
+        "size": 16572,
+        "sha256": "1afc9483851b8a736ca51031054d1c2c0d0b4ef0371013295266b0c4f1a331ca"
+      },
+      {
+        "path": "/usr/bin/verifytree",
+        "mode": 33261,
+        "size": 11046,
+        "sha256": "c57195b527973b744badba0c28e08fa6e9f18c09d65b1d73436177618967caa0"
+      },
+      {
+        "path": "/usr/bin/yum-builddep",
+        "mode": 33261,
+        "size": 10189,
+        "sha256": "fe9c6a4b83d37ba3b9de621bb07370616c98f919fc154cc7e25586311235cc5a"
+      },
+      {
+        "path": "/usr/bin/yum-config-manager",
+        "mode": 33261,
+        "size": 9579,
+        "sha256": "16b357b4c13ef1e1699665c538a5f7a6024d8b6b85a952249339be7d3a09b4ea"
+      },
+      {
+        "path": "/usr/bin/yum-debug-dump",
+        "mode": 33261,
+        "size": 8538,
+        "sha256": "a3fe9bfc00fa9de46a655feb33c6752043018f6baa66ffd59192f0aac4536acd"
+      },
+      {
+        "path": "/usr/bin/yum-debug-restore",
+        "mode": 33261,
+        "size": 7903,
+        "sha256": "b47a77a05d057ffee04c03911fbd9a287f0dc7ec2c443630410139a8d4ab82f6"
+      },
+      {
+        "path": "/usr/bin/yum-groups-manager",
+        "mode": 33261,
+        "size": 11031,
+        "sha256": "deb68686beef204d21a8b784f24bdd0bb775792a54e125a8bba9f737baf0863e"
+      },
+      {
+        "path": "/usr/bin/yumdownloader",
+        "mode": 33261,
+        "size": 11115,
+        "sha256": "cb1acb192e743fb9799589f152d170d2f9b4eca0bca62d3b658b95e864ac2e94"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils/__init__.py",
+        "mode": 33261,
+        "size": 809,
+        "sha256": "85242b7258f6ff1ab162818c4fbd052e8d621cc8ca36343678c5489d6e99ab90"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils/__init__.pyc",
+        "mode": 33188,
+        "size": 233,
+        "sha256": "7ee5f7cb8e0d72a52caf274474423fcf89abca1f4bb6e8d504b3a8e6ca50a0e5"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils/__init__.pyo",
+        "mode": 33188,
+        "size": 233,
+        "sha256": "7ee5f7cb8e0d72a52caf274474423fcf89abca1f4bb6e8d504b3a8e6ca50a0e5"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils/i18n.py",
+        "mode": 33261,
+        "size": 1515,
+        "sha256": "a4acfab693b526f75af17c5cc2a15168f38c8ffdc368f2fd7291ee373f731183"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils/i18n.pyc",
+        "mode": 33188,
+        "size": 978,
+        "sha256": "1d3982343de2920647521b4bb736729b77f51e9c1d2d55b38eb33f9706755d83"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/yumutils/i18n.pyo",
+        "mode": 33188,
+        "size": 978,
+        "sha256": "1d3982343de2920647521b4bb736729b77f51e9c1d2d55b38eb33f9706755d83"
+      },
+      {
+        "path": "/usr/sbin/yum-complete-transaction",
+        "mode": 33261,
+        "size": 9446,
+        "sha256": "230763b574c8bfaf318d4a553f83a6f5d4e1e8688a222bd9e41063948d2cb0ce"
+      },
+      {
+        "path": "/usr/sbin/yumdb",
+        "mode": 33261,
+        "size": 8880,
+        "sha256": "b688749dd3f7a994513b13ee7f630f251e9aef114615585eba453695ef358370"
+      },
+      {
+        "path": "/usr/share/doc/yum-utils-1.1.31",
+        "mode": 16877,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/yum-utils-1.1.31/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/doc/yum-utils-1.1.31/README",
+        "mode": 33188,
+        "size": 166,
+        "sha256": "7a02938fa7cdb4b0545e5a189cd158e8ee4d6ad88fc2b608e5a8d76309de8861"
+      },
+      {
+        "path": "/usr/share/doc/yum-utils-1.1.31/yum-util-cli-template",
+        "mode": 33188,
+        "size": 2059,
+        "sha256": "4eae7a9af3df0cf517430716390d636a346e8ba86e76b7898ec25924cea7a512"
+      }
+    ]
+  }
+}

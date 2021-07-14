@@ -1,0 +1,105 @@
+{
+  "name": "rpm-python",
+  "version": "4.11.3-45.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "rpm",
+      "Version": "4.11.3",
+      "Update": "45.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/rpm-python@0:4.11.3-45.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rpm-python",
+    "version": "4.11.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "45.el7",
+    "sourceRpm": "rpm-4.11.3-45.el7.src.rpm",
+    "size": 149762,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.rpm.org/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/__init__.py",
+        "mode": 33188,
+        "size": 2018,
+        "sha256": "c3ab4a161bad4cb766dd4c5411f97db9cf8a4b93021b480b6f715706739ccd3f"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/__init__.pyc",
+        "mode": 33188,
+        "size": 2804,
+        "sha256": "d36d1b67dabd5d03b66ab802301ff71032819babf51a8e7370421f3ffaceffb4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/__init__.pyo",
+        "mode": 33188,
+        "size": 2804,
+        "sha256": "d36d1b67dabd5d03b66ab802301ff71032819babf51a8e7370421f3ffaceffb4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/_rpm.so",
+        "mode": 33261,
+        "size": 108664,
+        "sha256": "841f0c60b847b56e98fcab78c7704a5d5ad51212d5e2911776df72af8e979094"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/_rpmb.so",
+        "mode": 33261,
+        "size": 17032,
+        "sha256": "8f6ff5fbf473c9bb2ce2c5bf300da981fa57dc942d603664968286d174b58d65"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/_rpms.so",
+        "mode": 33261,
+        "size": 7176,
+        "sha256": "c9194a767dd70f5ea350423943863ffbdc54e11cab9d09e20297001ad3fe82a7"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/transaction.py",
+        "mode": 33188,
+        "size": 5527,
+        "sha256": "d5f4705441f128516b6f9fb14a52c6d2b2b8029cfc640599ef4148f04996aa09"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/transaction.pyc",
+        "mode": 33188,
+        "size": 6541,
+        "sha256": "c1525a5d91272aaebad28438cc64ef38e523f2bfb7b2e79dd05a871eadf249ec"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/rpm/transaction.pyo",
+        "mode": 33188,
+        "size": 6541,
+        "sha256": "c1525a5d91272aaebad28438cc64ef38e523f2bfb7b2e79dd05a871eadf249ec"
+      }
+    ]
+  }
+}

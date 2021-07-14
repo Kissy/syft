@@ -1,0 +1,105 @@
+{
+  "name": "rpm-libs",
+  "version": "4.14.3-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "rpm",
+      "Version": "4.14.3",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/rpm-libs@0:4.14.3-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rpm-libs",
+    "version": "4.14.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "rpm-4.14.3-4.el8.src.rpm",
+    "size": 722320,
+    "license": "GPLv2+ and LGPLv2+ with exceptions",
+    "vendor": "CentOS",
+    "url": "http://www.rpm.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0b/cb89aba8c738fbbeba93f44229d5630eba66d2",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c4",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c4/c342fb8abe68860a7c3eaa9dcfb1c6aeb9c2e4",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librpm.so.8",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librpm.so.8.2.0",
+        "mode": 33261,
+        "size": 515016,
+        "sha256": "c21a482c4debf4f92c3afa85cdb7413ccbf80369ee226a93cd0eb91bfdca8af5"
+      },
+      {
+        "path": "/usr/lib64/librpmio.so.8",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librpmio.so.8.2.0",
+        "mode": 33261,
+        "size": 207304,
+        "sha256": "1bdd8e37b6e6ecbfe03e0ae3c33d3cdb75e1226a245c9befbccc2d09d04bd716"
+      },
+      {
+        "path": "/usr/lib64/rpm-plugins",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

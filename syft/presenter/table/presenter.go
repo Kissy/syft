@@ -24,12 +24,20 @@ func NewPresenter(catalog *pkg.Catalog) *Presenter {
 func (pres *Presenter) Present(output io.Writer) error {
 	rows := make([][]string, 0)
 
-	columns := []string{"Name", "Version", "Type"}
+	// TODO configurable
+	columns := []string{"Name", "Version", "Type", "CPEs"}
 	for p := range pres.catalog.Enumerate() {
+		var CPEs string
+		for _, cpe := range p.CPEs {
+			CPEs = cpe.BindToFmtString()
+			break
+		}
+
 		row := []string{
 			p.Name,
 			p.Version,
 			string(p.Type),
+			CPEs,
 		}
 		rows = append(rows, row)
 	}

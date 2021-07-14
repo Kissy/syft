@@ -1,0 +1,50 @@
+{
+  "name": "HikariCP",
+  "version": "3.1.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/com.zaxxer/HikariCP@3.1.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/HikariCP-3.1.0.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "com.zaxxer.hikari",
+        "Bnd-LastModified": "1523420880671",
+        "Build-Jdk": "1.8.0_161",
+        "Built-By": "brettw",
+        "Bundle-Description": "Ultimate JDBC Connection Pool",
+        "Bundle-DocURL": "https://github.com/brettwooldridge",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "HikariCP",
+        "Bundle-SymbolicName": "com.zaxxer.HikariCP",
+        "Bundle-Vendor": "Zaxxer.com",
+        "Bundle-Version": "3.1.0",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "DynamicImport-Package": "*",
+        "Export-Package": "com.zaxxer.hikari;version=\"3.1.0\";uses:=\"com.zaxxer.hikari.metrics,javax.naming,javax.naming.spi,javax.sql\",com.zaxxer.hikari.hibernate;version=\"3.1.0\";uses:=\"com.zaxxer.hikari,org.hibernate,org.hibernate.engine.jdbc.connections.spi,org.hibernate.service.spi\",com.zaxxer.hikari.metrics;version=\"3.1.0\",com.zaxxer.hikari.pool;version=\"3.1.0\";uses:=\"com.zaxxer.hikari,com.zaxxer.hikari.metrics,com.zaxxer.hikari.util,javax.sql\",com.zaxxer.hikari.util;version=\"3.1.0\";uses:=\"javax.sql\"",
+        "Import-Package": "javax.management,javax.naming,javax.naming.spi,javax.sql,com.codahale.metrics;resolution:=optional;version=\"[3.2,4)\",com.codahale.metrics.health;resolution:=optional;version=\"[3.2,4)\",io.micrometer.core.instrument;resolution:=optional,org.slf4j;version=\"[1.6,2)\",org.hibernate;resolution:=optional;version=\"[5.2,6)\",org.hibernate.engine.jdbc.connections.spi;resolution:=optional;version=\"[5.2,6)\",org.hibernate.service;resolution:=optional;version=\"[5.2,6)\",org.hibernate.service.spi;resolution:=optional;version=\"[5.2,6)\",javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,org.hibernate.cfg;resolution:=optional;version=\"[5.2,6)\"",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-3.3.0.201609221906"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.zaxxer/HikariCP/pom.properties",
+      "name": "",
+      "groupId": "com.zaxxer",
+      "artifactId": "HikariCP",
+      "version": "3.1.0",
+      "extraFields": {}
+    }
+  }
+}

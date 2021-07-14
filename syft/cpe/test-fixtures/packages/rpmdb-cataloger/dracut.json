@@ -1,0 +1,1767 @@
+{
+  "name": "dracut",
+  "version": "049-95.git20200804.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "kernel",
+      "Product": "dracut",
+      "Version": "049",
+      "Update": "95.git20200804.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dracut@0:049-95.git20200804.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dracut",
+    "version": "049",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "95.git20200804.el8",
+    "sourceRpm": "dracut-049-95.git20200804.el8.src.rpm",
+    "size": 1045193,
+    "license": "GPLv2+ and LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://dracut.wiki.kernel.org/",
+    "files": [
+      {
+        "path": "/etc/dracut.conf",
+        "mode": 33188,
+        "size": 117,
+        "sha256": "e157d2c2ca987ece9fb284b2def670904f959dce0ca1f82076dfbf6858516fcb"
+      },
+      {
+        "path": "/etc/dracut.conf.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/dracut",
+        "mode": 33261,
+        "size": 70915,
+        "sha256": "6f51099aa95ddce72f9479260b3e439a868e57f31e37663e4d0240545a65c096"
+      },
+      {
+        "path": "/usr/bin/lsinitrd",
+        "mode": 33261,
+        "size": 8232,
+        "sha256": "6d1b027df2ae1199199492c18eab227e6ff7523f6b9770d2d1436d42780117dd"
+      },
+      {
+        "path": "/usr/bin/mkinitrd",
+        "mode": 33261,
+        "size": 6585,
+        "sha256": "9d9b43cade9a6644647ce6fa3bf73ef675ac51e4cfed7d0d96fde5359c157668"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/20",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/20/4572a117ac3ba06cc1844669304bb1cb1d2923",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f3/d70b66986bd3e4c6f69c84e812cee490655e7d",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-functions",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-functions.sh",
+        "mode": 33261,
+        "size": 20145,
+        "sha256": "971ad97874b3ff532cef154d2242b028b008615291cb4df5138f357bdfc3b444"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-init.sh",
+        "mode": 33261,
+        "size": 34566,
+        "sha256": "f91a05ac7c5de5bd087394cb906261d3df974f3f1386e664964e6f214bb964bc"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-initramfs-restore",
+        "mode": 33261,
+        "size": 1277,
+        "sha256": "aa58a6625b2f08677060bad5f3c34198e75e4688abf7c65af54b250f268ca6db"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-install",
+        "mode": 33261,
+        "size": 76056,
+        "sha256": "a7c94f3f9d780d942731525a52e04cbdec8a368fa6c120f4c675e180b39e1b9b"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-logger.sh",
+        "mode": 33261,
+        "size": 13304,
+        "sha256": "f4af8626e7746cb72e4d1293dd8cd39f67809dfb840ee422dc56308c86495da0"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut-version.sh",
+        "mode": 33188,
+        "size": 38,
+        "sha256": "10f3fb415d347afd4316ea36d8e8e1f755e13f2a5537e421b30377b0c16ee7d0"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut.conf.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/dracut.conf.d/01-dist.conf",
+        "mode": 33188,
+        "size": 536,
+        "sha256": "10456148cc42a37de5ab9c3d630a5dbaebdc426cf5b1138b0277a8ca68ae3413"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00bash",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00bash/module-setup.sh",
+        "mode": 33261,
+        "size": 361,
+        "sha256": "a6adccf4b41d02689a2f9367d412cffba0ad56d1cb0b0c9ada1062ea2f390c3f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00systemd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00systemd/module-setup.sh",
+        "mode": 33261,
+        "size": 9456,
+        "sha256": "696e909c8ef29dcbbf8c33c9fffd3c4781127304806ed69bbc91bbe5734ef907"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00warpclock",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00warpclock/module-setup.sh",
+        "mode": 33188,
+        "size": 662,
+        "sha256": "9d6177941826f62c419314294f344c5237bf61af068bcdeb9529aa06c77ce409"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/00warpclock/warpclock.sh",
+        "mode": 33188,
+        "size": 151,
+        "sha256": "dfe9adfa7de5d19e9c862ea2609c3faf56052e8607080f6608c35dc187b21551"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01fips",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01fips/fips-boot.sh",
+        "mode": 33261,
+        "size": 265,
+        "sha256": "ab106047f36befd5e1074ff40b9fd0f28a772df2eabf03f3b2006809ad847848"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01fips/fips-load-crypto.sh",
+        "mode": 33188,
+        "size": 209,
+        "sha256": "79e97373b6136bc2f55e0f532eb62e2c6c45e883e520ca62e98641361bce33f4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01fips/fips-noboot.sh",
+        "mode": 33261,
+        "size": 244,
+        "sha256": "bbf0f3b783e2dd8531a2060759d2ddf09f602625c4b08a621f965b2774bf9a61"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01fips/fips.sh",
+        "mode": 33261,
+        "size": 4734,
+        "sha256": "97f1058a341fb8008b21d82bbce4bbc31488cb99c219b05785a1c698df855eb5"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01fips/module-setup.sh",
+        "mode": 33261,
+        "size": 2433,
+        "sha256": "9ad6d166f019c9b975fd3a96ecd3eaedec627666a1c9f734315c4a983cbdf927"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01systemd-initrd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/01systemd-initrd/module-setup.sh",
+        "mode": 33261,
+        "size": 1862,
+        "sha256": "05e6fefbfdd29cc4c6fea2778d9f08e37a60eee2f0f223c7d0585ecbae54e179"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/03modsign",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/03modsign/load-modsign-keys.sh",
+        "mode": 33261,
+        "size": 234,
+        "sha256": "6011f2fe5b1fe5b4b8a74d4de4dfb9bb056ce30649a8150bb9c572db17163162"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/03modsign/module-setup.sh",
+        "mode": 33261,
+        "size": 728,
+        "sha256": "4f2d632dc5e53fecc193d7110ca4ee1222fe91a7021dd576ad3d67ff63f1c030"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/03rescue",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/03rescue/module-setup.sh",
+        "mode": 33261,
+        "size": 377,
+        "sha256": "7069667ddc37b73afc94db34f15d81628dfc6e7ed24a39dde463edd025ae45a2"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/04watchdog",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/04watchdog/module-setup.sh",
+        "mode": 33261,
+        "size": 2876,
+        "sha256": "241b6c197bfa7dbe45d26f5aa20fca3bb789ce763b462c7f4b92600bf4266c30"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/04watchdog/watchdog-stop.sh",
+        "mode": 33261,
+        "size": 61,
+        "sha256": "76aea04877c2856545349293a98d0c2687a8add94965e2fc3b1f63460756bf07"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/04watchdog/watchdog.sh",
+        "mode": 33261,
+        "size": 245,
+        "sha256": "b595ece211ee978dbb81394df222126e885fda3c2c0f1ffb0b775b87495f8b19"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/05busybox",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/05busybox/module-setup.sh",
+        "mode": 33261,
+        "size": 699,
+        "sha256": "dd2bc517a7b83e519da5d8dfb15a71f210a30329883c16950a580897faf172af"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/06rngd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/06rngd/module-setup.sh",
+        "mode": 33188,
+        "size": 1288,
+        "sha256": "8528c88669859fc019fd0e67072f6d001f595861cc95d7373342c4a64fe9e849"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/06rngd/rngd.service",
+        "mode": 33188,
+        "size": 147,
+        "sha256": "a8cfb816ee800367605eff9cbd56e7e71cf2ff93cf629c1b037316e2b089c7f3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/10i18n",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/10i18n/10-console.rules",
+        "mode": 33188,
+        "size": 168,
+        "sha256": "98ccbc8f85a1dea5c3d371b86d7a7b781019d840fa06786e3765d31f9dd4bdca"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/10i18n/README",
+        "mode": 33188,
+        "size": 4420,
+        "sha256": "c0d384430249c51269fd17cd96602ad8b878fda1642883555264606712754e1f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/10i18n/console_init.sh",
+        "mode": 33261,
+        "size": 1612,
+        "sha256": "338fd522c9375ecee7516e6a121b80f75be5fce2f460bc83755d85a53c057bb1"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/10i18n/module-setup.sh",
+        "mode": 33261,
+        "size": 8308,
+        "sha256": "7d6822992ce382715146b92af2acc2f0bbae9b6d48e7091840d90ce6e1c34166"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/10i18n/parse-i18n.sh",
+        "mode": 33261,
+        "size": 1159,
+        "sha256": "b5ffa9074fd0983d5caee39f7f9a0f016d2bd96436ab365487e511895c8c42a7"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/30convertfs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/30convertfs/convertfs.sh",
+        "mode": 33261,
+        "size": 6035,
+        "sha256": "410141eddb24c1cd7ec58d8286ff474642e5fc0f05dc573c49a02bb6ba12eecf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/30convertfs/do-convertfs.sh",
+        "mode": 33261,
+        "size": 194,
+        "sha256": "ccbbc718b1beb9400fc74a413b9be6340d19087f2279c72d5c60902b4404c96c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/30convertfs/module-setup.sh",
+        "mode": 33261,
+        "size": 336,
+        "sha256": "65b77ee7310ed758ccd4c2a406292ec425dcccbe0f37a8904da225cffc68c1ad"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/45url-lib",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/45url-lib/module-setup.sh",
+        "mode": 33261,
+        "size": 3051,
+        "sha256": "7c455ba241bf2fb39b7da22534617700f95373665750b249b9af461f5739ca9e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/45url-lib/url-lib.sh",
+        "mode": 33261,
+        "size": 5028,
+        "sha256": "6bab8657e82cde89deb06539a4624c93d3e529d15da3575bb135781b7a78868b"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50drm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50drm/module-setup.sh",
+        "mode": 33261,
+        "size": 1322,
+        "sha256": "d7488ecd26c70866929439b3c4937e42f104b708792f937195013ad5c5d916c9"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50plymouth",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50plymouth/module-setup.sh",
+        "mode": 33261,
+        "size": 1240,
+        "sha256": "c1f29ef918a3adc00abaa12f04a15206e520334bdc7b06eb15831e5dc93f1af5"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50plymouth/plymouth-emergency.sh",
+        "mode": 33261,
+        "size": 51,
+        "sha256": "068a6d7ffd97514b950c19882451252efe95ed09b4480d990233dc1b7d23497d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50plymouth/plymouth-newroot.sh",
+        "mode": 33261,
+        "size": 113,
+        "sha256": "e64a7fd39db017ff11eebe61abc75a50995fa641f3e64898cfc90c0b37ee198a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50plymouth/plymouth-populate-initrd.sh",
+        "mode": 33261,
+        "size": 1454,
+        "sha256": "7d98d410f12374263e0bdc1cb8f011a935682f9c125d27cae02ed61ad8d62daf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/50plymouth/plymouth-pretrigger.sh",
+        "mode": 33261,
+        "size": 1177,
+        "sha256": "33173643d0086dfc5d5f160972fbcaf25b94be02507fa28e1d27db2d1b4b4c5e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/80lvmmerge",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/80lvmmerge/README.md",
+        "mode": 33188,
+        "size": 2093,
+        "sha256": "a291d0fefe068fdef9892965fdbdbdae63da9781ed425e542753458074906252"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/80lvmmerge/lvmmerge.sh",
+        "mode": 33261,
+        "size": 3087,
+        "sha256": "0d7cf367dced801a4c1ed7acd6f4c948f058314f4c84bd6907b5786c4b5c4f5f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/80lvmmerge/module-setup.sh",
+        "mode": 33261,
+        "size": 424,
+        "sha256": "e004ad99fac4cdf0dce19162a9a3849397853df39c913d796195cf755ecccf0a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90btrfs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90btrfs/80-btrfs.rules",
+        "mode": 33188,
+        "size": 270,
+        "sha256": "7fb1c1a23de302d82623d960eb4201993f12061c63608ab8912f20c39882ac43"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90btrfs/btrfs_device_ready.sh",
+        "mode": 33261,
+        "size": 467,
+        "sha256": "5ecf194cc31161970b7af9c684c585b08141b060e889489aa39be2173dae0543"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90btrfs/btrfs_finished.sh",
+        "mode": 33261,
+        "size": 597,
+        "sha256": "9aeddb8df7021d5133a67a1ca77547119aed96a6b04b126e7c72baef0d4fabdf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90btrfs/btrfs_timeout.sh",
+        "mode": 33261,
+        "size": 142,
+        "sha256": "c2dfb621735e6bd7a5141c3a7e5baa080ba2946346a7a76d993616c5670fcd25"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90btrfs/module-setup.sh",
+        "mode": 33261,
+        "size": 1238,
+        "sha256": "61ee044731cd09fa98e684507c679050ac56c1eb83686a0d8db66926217b850f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/crypt-cleanup.sh",
+        "mode": 33261,
+        "size": 442,
+        "sha256": "f268ba9c0ee4aa392d76676e67d3cd054f4dfb6c3bbefa700de5beb368a8fdba"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/crypt-lib.sh",
+        "mode": 33261,
+        "size": 7651,
+        "sha256": "9c8b73cf73071e262d5325917d716ee30d9a100b12db183db393aea14b14ffbc"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/crypt-run-generator.sh",
+        "mode": 33261,
+        "size": 770,
+        "sha256": "7ff626b45e370aece5181a34ca21ad90a94f4648427a19dad75460b07c787ae4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/cryptroot-ask.sh",
+        "mode": 33261,
+        "size": 4870,
+        "sha256": "06fc60af8bc9e38c06d9bc7d2d8dfeabd368013912fd0aef26bd0d5360e2702c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/module-setup.sh",
+        "mode": 33261,
+        "size": 4431,
+        "sha256": "dffbe0ffd6843d9ec4582e3446c6860ed96b9bb25164921d5773146facbbb295"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/parse-crypt.sh",
+        "mode": 33261,
+        "size": 7137,
+        "sha256": "e31f359164fdabb5edc1c9cbe2fd68c1401a35ddfb2876e9220d87309b49c75d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/parse-keydev.sh",
+        "mode": 33261,
+        "size": 1377,
+        "sha256": "163a14e9a155e43a30a55125bbd1043bf4137fb6d3980eda0ba26499d8f63e61"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90crypt/probe-keydev.sh",
+        "mode": 33261,
+        "size": 382,
+        "sha256": "23cecbaa79f39ec1a13ad1570f06782114a3b803e963ce3c54b4037f638fd9cf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dm/11-dm.rules",
+        "mode": 33188,
+        "size": 142,
+        "sha256": "7a42ae0582bec603f18aa490e21550088680481f15206213718a6b8b84f610bf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dm/59-persistent-storage-dm.rules",
+        "mode": 33188,
+        "size": 669,
+        "sha256": "91d4f5c41e6191dd30cc851b154a41f871053bc0ab85992d0bae464ee2ed855f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dm/dm-pre-udev.sh",
+        "mode": 33261,
+        "size": 102,
+        "sha256": "23a5e0f5054afb84286cf319d58ee06cb9537619e705aadee47e56f79ac702fb"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dm/dm-shutdown.sh",
+        "mode": 33261,
+        "size": 1237,
+        "sha256": "4bbb54eb6d834f89ab4603631b2ca8328ae26ca0b9eda92124c42845a56bcffb"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dm/module-setup.sh",
+        "mode": 33261,
+        "size": 1005,
+        "sha256": "2b115b9ddf19aba446f0b34a999786907662108772e6a79edfe1ddd81f8fffb3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dmraid",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dmraid/61-dmraid-imsm.rules",
+        "mode": 33188,
+        "size": 921,
+        "sha256": "8c6381796208387904bb2f998328f0847e08ea7832d9ceff9314cd08ae3c1842"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dmraid/dmraid.sh",
+        "mode": 33261,
+        "size": 1206,
+        "sha256": "429642df7abdb1585b4e58fed265434f2fb722df070132bdb99bc41bdc23f807"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dmraid/module-setup.sh",
+        "mode": 33261,
+        "size": 2123,
+        "sha256": "b2165139e88fb8d5aca18643fdb3652d41901d8d1a006204e092ab861d46ddcf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90dmraid/parse-dm.sh",
+        "mode": 33261,
+        "size": 826,
+        "sha256": "240639e707371bb1e13bdac14e8f9724097b2596242af0b86d611f5ebd922d9d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90kernel-modules",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90kernel-modules-extra",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90kernel-modules-extra/module-setup.sh",
+        "mode": 33261,
+        "size": 5101,
+        "sha256": "878ac313c5d2058e486d69ddab7c20ec50e62c258d176d9638654d0b634762f3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90kernel-modules/insmodpost.sh",
+        "mode": 33261,
+        "size": 193,
+        "sha256": "25d5ca59bb50b7ec69432fc190999e33d68918960ec9d81c266b0d52f7829078"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90kernel-modules/module-setup.sh",
+        "mode": 33261,
+        "size": 3817,
+        "sha256": "97b44d5040d668d375e929d9fbc67134b385821b1c8cd89827603fb609dc4c81"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90kernel-modules/parse-kernel.sh",
+        "mode": 33261,
+        "size": 921,
+        "sha256": "1f801f74072ea53d9b24c0ad7a99fdfc25177ad57a26d63ac998eb93ddd30c5a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90lvm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90lvm/64-lvm.rules",
+        "mode": 33188,
+        "size": 775,
+        "sha256": "ff387389b1bb61e28f5e7e97db78d2ccf045bc4de4bc501f6915ae008de7a5cf"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90lvm/lvm_scan.sh",
+        "mode": 33261,
+        "size": 3527,
+        "sha256": "9dec15d8fde9402dd1fb78f905528c83dbf129c7d71bd5e466b7a64d41b02dd5"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90lvm/module-setup.sh",
+        "mode": 33261,
+        "size": 5307,
+        "sha256": "99cc8231691680a77f7567177fa45056ec19ba66ea6e3a0bd7f970cb1157c7e2"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90lvm/parse-lvm.sh",
+        "mode": 33261,
+        "size": 487,
+        "sha256": "288924e47a438cafd49b31271bf72a4136dbf035336b7e6d6f360e4715df013d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/59-persistent-storage-md.rules",
+        "mode": 33188,
+        "size": 842,
+        "sha256": "c754d8962754ed9d337605d5df02d17d07cd3312fcaeb5306b8508a59e29886e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/65-md-incremental-imsm.rules",
+        "mode": 33188,
+        "size": 1475,
+        "sha256": "5847cf3d0ac33d4db60abe8f1cffb27f39acfcf87ca0b5b6cb989f9a8df78873"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/md-noddf.sh",
+        "mode": 33261,
+        "size": 88,
+        "sha256": "6c8b3323154fcae13c7de77bb62ec87646d30ff90c0c47eb0d0dc21737abd67e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/md-noimsm.sh",
+        "mode": 33261,
+        "size": 90,
+        "sha256": "d190ae7149ec0f834561141e3036fda78738beda1a8a9458c4e22b0ad253fb02"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/md-shutdown.sh",
+        "mode": 33261,
+        "size": 563,
+        "sha256": "7e52969aaf37a0cf129c3810a22a3a5c67f71d9da8cd8316abd4a998e756ae62"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/mdmon-pre-shutdown.sh",
+        "mode": 33261,
+        "size": 229,
+        "sha256": "ea5a56d41ca70906607fd2b89e1cf0471200b31628a9d420eabe36ed7f0fe3c7"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/mdmon-pre-udev.sh",
+        "mode": 33261,
+        "size": 130,
+        "sha256": "efc21f5ed3d19f3489e659605e757fb40e94a70694dfc36c5c196f6a6fe8f5f3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/mdraid-cleanup.sh",
+        "mode": 33261,
+        "size": 598,
+        "sha256": "32701f39332ef0a0d77100fac88e6bd3e94160897cf4a52f20eff8d40320b2fd"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/mdraid-needshutdown.sh",
+        "mode": 33261,
+        "size": 155,
+        "sha256": "fdf1d0e3ba434cc1c323aef6a455bbb627042ede0ea6f5589229e754ba32d27a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/mdraid-waitclean.sh",
+        "mode": 33261,
+        "size": 800,
+        "sha256": "8f83128acd1964e79d6fd0b08b5df2ac6cac4b14e83be34ed882e372250dd331"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/mdraid_start.sh",
+        "mode": 33261,
+        "size": 1993,
+        "sha256": "967fadb9a863f29e80f3751ecb27cc9b3ef28769fef517e3e3f4beb5006d3c9c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/module-setup.sh",
+        "mode": 33261,
+        "size": 4493,
+        "sha256": "716388816abff8974b328bb7d44b338c96b1551f2fd1881aa8be005e2d81ba51"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90mdraid/parse-md.sh",
+        "mode": 33261,
+        "size": 2683,
+        "sha256": "17fdc2f8f13c0a6bbb4c3059eb5cb5d7c2f61afd65eb8133c34d7afaf46e203c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath/module-setup.sh",
+        "mode": 33261,
+        "size": 3352,
+        "sha256": "55403c828b2107bb8e8549bc8d2648f38406d0510d797c730435cfbaa915e57d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath/multipath-shutdown.sh",
+        "mode": 33261,
+        "size": 172,
+        "sha256": "9f87ddc35ab2f29a6c556af8ec1ccbe6f10684898e2cd1a3f224336eae9473eb"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath/multipathd-needshutdown.sh",
+        "mode": 33261,
+        "size": 162,
+        "sha256": "bf0debd877642edee3c836e3306c67b13108b7c62084a0378146972ea9bd4887"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath/multipathd-stop.sh",
+        "mode": 33261,
+        "size": 237,
+        "sha256": "c2c3e00ac95c6983452c9c2e429f5150ac2d96122a785716f1cf25b688fe8826"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath/multipathd.service",
+        "mode": 33188,
+        "size": 722,
+        "sha256": "9770d3e53522ad066cb4692d14cce39c215a7b4ca081d00aeb7362ee4b2c919f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90multipath/multipathd.sh",
+        "mode": 33261,
+        "size": 242,
+        "sha256": "aa3c410b1267a9a45ae2a7d9f9fe245739fc0a5801e717904da844b64ab297ff"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90qemu",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90qemu/module-setup.sh",
+        "mode": 33261,
+        "size": 1026,
+        "sha256": "dca9cdb7aa2b960d57bc6b26bc5e5ad0026260ce41035369d59b96a06de79e0a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90stratis",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90stratis/module-setup.sh",
+        "mode": 33261,
+        "size": 901,
+        "sha256": "fe8122978948f2fda3d3c82109ab5183d9575f4081139e94db8dbd1c56f3b340"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90stratis/stratisd-init.service",
+        "mode": 33188,
+        "size": 334,
+        "sha256": "4523df4f0fa4f38d9acc1303b7a7dfcac1601f9f92f11783f61a460793e384c5"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90stratis/stratisd-start.sh",
+        "mode": 33261,
+        "size": 51,
+        "sha256": "14301e58f2aee1af313a08d5967946140e4c9391db39d8784888b9a20c91ebff"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/90stratis/stratisd-stop.sh",
+        "mode": 33261,
+        "size": 118,
+        "sha256": "3fe47afe0d86eb96003176083d44e441aab06af93a5e936787cfc27e374e66b6"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-gpg",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-gpg/README",
+        "mode": 33188,
+        "size": 2595,
+        "sha256": "a0ad975623f32470e53a06d077ad4af10378b2827c0676154711fb55e1936df4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-gpg/crypt-gpg-lib.sh",
+        "mode": 33261,
+        "size": 2618,
+        "sha256": "fb42068328d50f4ed57e7a94d3024106b6102b0fb445b921d5fe502c114649bd"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-gpg/module-setup.sh",
+        "mode": 33261,
+        "size": 1509,
+        "sha256": "fc340df813a342cfe198bae3e78d71663100e992b9a8db1907e13667917d5e39"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-loop",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-loop/crypt-loop-lib.sh",
+        "mode": 33261,
+        "size": 1278,
+        "sha256": "b2465599538e05b0a58bbed5cfd19bcb21064c3f96c374d600606baaf18357d0"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/91crypt-loop/module-setup.sh",
+        "mode": 33261,
+        "size": 375,
+        "sha256": "adf4b89467fb3edb1a9b577b9de60545d728b81c0aad4bf3c30bdf7b18785b30"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95debug",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95debug/module-setup.sh",
+        "mode": 33261,
+        "size": 550,
+        "sha256": "fd35fcd68f3166357f68206be28f78c91fda95e36a9ff3c38eb6e789e8a0c80d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95fstab-sys",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95fstab-sys/module-setup.sh",
+        "mode": 33261,
+        "size": 305,
+        "sha256": "ced43c05074c82fa66161c2a8eebbca29990e456fcdbf1ab88284de1535ab162"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95fstab-sys/mount-sys.sh",
+        "mode": 33261,
+        "size": 1285,
+        "sha256": "94c390fad5bce771ac3eb7aec35f3fc5c82214e568e8bf8db500888fcdcb8ce6"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95lunmask",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95lunmask/fc_transport_scan_lun.sh",
+        "mode": 33261,
+        "size": 562,
+        "sha256": "63ae959ddf83bcf0f51224421c331748f05d325d3c664f1d8ca2a054dab47e69"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95lunmask/module-setup.sh",
+        "mode": 33261,
+        "size": 2254,
+        "sha256": "698730cfd3da0223f93ba994e036a42b55691547ee398c1628035dea132ff310"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95lunmask/parse-lunmask.sh",
+        "mode": 33261,
+        "size": 1227,
+        "sha256": "85389966c2af9330d5904c64fe44f34b35504a07aac8cc55d3972cfd56ee7add"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95lunmask/sas_transport_scan_lun.sh",
+        "mode": 33261,
+        "size": 568,
+        "sha256": "f972c64778ced3f6002a990f8ec39cfdf8f06d5e53b7ab0f983f442e3e71f1a8"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95resume",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95resume/module-setup.sh",
+        "mode": 33261,
+        "size": 1920,
+        "sha256": "99476ca9b74425b80fcc3140b6414070b58bcd96b616764b4a8f6a5463580e06"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95resume/parse-resume.sh",
+        "mode": 33261,
+        "size": 3623,
+        "sha256": "03058ec68c5c64820552d73b5dd1ae9d1c472a97c03a7fb3a78f56dd7731d820"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95resume/resume.sh",
+        "mode": 33261,
+        "size": 560,
+        "sha256": "23857edf2e0488b9b8fde15c80ca664602b1827ba453166f395b5d2ba248a0d0"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95rootfs-block",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95rootfs-block/block-genrules.sh",
+        "mode": 33261,
+        "size": 469,
+        "sha256": "fbd41278c7fe9e833b86686cd057921732bc45590dea6112fa244b6e3528f019"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95rootfs-block/module-setup.sh",
+        "mode": 33261,
+        "size": 2300,
+        "sha256": "e0d8e6b739be83302f316675a9b2adcf9f7832452f96b5d4498222cce5f0f537"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95rootfs-block/mount-root.sh",
+        "mode": 33261,
+        "size": 4422,
+        "sha256": "cb6d60ff4ef71bd8600ec70273290fbdf8df9b41fbdc2f32371f07665691193f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95rootfs-block/parse-block.sh",
+        "mode": 33261,
+        "size": 924,
+        "sha256": "7320f0af902ab760b530d44c4c4d6f028c370077a06f0a7058b33e1fd7f7ae89"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95rootfs-block/rootfallback.sh",
+        "mode": 33261,
+        "size": 1242,
+        "sha256": "cbdf7ad4cb06eb04bb4d7e45b48b42556cba0b93185c4088336833f66626af1a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95terminfo",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95terminfo/module-setup.sh",
+        "mode": 33261,
+        "size": 528,
+        "sha256": "d5927c26d3321289a5044d7f1ffa371550fa1e164296c7d0365150d8d7def519"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95udev-rules",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95udev-rules/59-persistent-storage.rules",
+        "mode": 33188,
+        "size": 275,
+        "sha256": "e5c736b763400c587499c0d64a908f8660a2e04987d82be72eee15433deea890"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95udev-rules/61-persistent-storage.rules",
+        "mode": 33188,
+        "size": 1019,
+        "sha256": "384a0a3291a6b71fb7f4957dead3061d1ac88d2fe14d386abab77825d595d4c7"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95udev-rules/load-modules.sh",
+        "mode": 33261,
+        "size": 78,
+        "sha256": "06d33a413f92cb14ab30030934e40be6cd828c02dc4b6b6f1e41b9aa024cb435"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95udev-rules/module-setup.sh",
+        "mode": 33261,
+        "size": 3333,
+        "sha256": "47f8aeb26f84c2c96de2e1d4a87c1d719c099b5a8ce52e46400b539ab52714c2"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95virtfs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95virtfs/module-setup.sh",
+        "mode": 33261,
+        "size": 970,
+        "sha256": "3d0418c1fb1b0a0e005c82ee2bb2454d682f70b0e3ac8893d775895785cfd92a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95virtfs/mount-virtfs.sh",
+        "mode": 33261,
+        "size": 1863,
+        "sha256": "39fc1bc8b3a9dcf8605c654788ef72989d89d13d4fc09d8532b5de5b0c3749f7"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/95virtfs/parse-virtfs.sh",
+        "mode": 33261,
+        "size": 93,
+        "sha256": "09304b2c81c40ea102aaa8770391afb47c777c085177929744abdfd1243052c3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/97biosdevname",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/97biosdevname/module-setup.sh",
+        "mode": 33261,
+        "size": 287,
+        "sha256": "64fff65984ee187f2959465731b8a41a20e9a3ade1d0f4c409106814d0ee2183"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/97biosdevname/parse-biosdevname.sh",
+        "mode": 33261,
+        "size": 309,
+        "sha256": "72136ca0c791dface5d01e3dc0e3d42bc1111e09a1b5429d9421ef503294c5f0"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-cmdline-ask.service",
+        "mode": 33188,
+        "size": 847,
+        "sha256": "b01a035992525fd3680310e4556503ca8f53249978018151bcdc857a7194adc4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-cmdline-ask.sh",
+        "mode": 33261,
+        "size": 418,
+        "sha256": "bc7bb84cb4de8fdebf055be3a772af5e5eee01a7409d6c1b33f15d305f0201f1"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-cmdline.service",
+        "mode": 33188,
+        "size": 904,
+        "sha256": "c9c806f6e7efc1b7933892cc4d86fb1318e5141a8cbd8e1b77590ea42e1b9855"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-cmdline.service.8",
+        "mode": 33188,
+        "size": 1555,
+        "sha256": "b503aa2ec458dfcb34cf23da89cff41996bc688de182ba241a7cc136ce1bd1ee"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-cmdline.service.8.asc",
+        "mode": 33188,
+        "size": 442,
+        "sha256": "ec1b78fdbb20f52a8e37a14eded89ddea853e5205d9378596a3c9da423bcfb6e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-cmdline.sh",
+        "mode": 33261,
+        "size": 2651,
+        "sha256": "0aa991247bead6a8c9553ba1f0bf888128f4d5eea7f7a34db6992be998d8ee4c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-emergency.service",
+        "mode": 33188,
+        "size": 681,
+        "sha256": "7d505421eee056a93a489764cd5f68083c83ec78f0ca5ec5035e42b39f0e6928"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-emergency.sh",
+        "mode": 33261,
+        "size": 1382,
+        "sha256": "2328393b82fa4b95a43bc3dd1052bb2ba03e06af676467ef6a92c7bbf5739e86"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-initqueue.service",
+        "mode": 33188,
+        "size": 821,
+        "sha256": "a1b9a5bf1b08c7e6fcb6621fe6b76fdb20ad127b1867849d127cd60bb49d1abc"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-initqueue.service.8",
+        "mode": 33188,
+        "size": 1550,
+        "sha256": "2cec3bc099befdf15508185dea553a528815a6e8abb9fc1fc9217d425f71d916"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-initqueue.service.8.asc",
+        "mode": 33188,
+        "size": 439,
+        "sha256": "38dee5101c13beeb40f39acd69b7fae683c3c417e5e52465ab8f625ddd4adb8c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-initqueue.sh",
+        "mode": 33261,
+        "size": 2147,
+        "sha256": "026d7583227eebc9872eb86483a6b99bea5c317741d5105b320d714d453ec5f6"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-mount.service",
+        "mode": 33188,
+        "size": 793,
+        "sha256": "05217fb2e241f23db679ca8d15422c60052e93e9412e45ac262ac61b523fe0ed"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-mount.service.8",
+        "mode": 33188,
+        "size": 1531,
+        "sha256": "cc9d2eaa0fe6a732a52607f509ff384188a9c8e45eb1c8b08425399b683f28ff"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-mount.service.8.asc",
+        "mode": 33188,
+        "size": 416,
+        "sha256": "0a7d49fb3a6afff1824819cbb2b2058005a8c82453e92dadc17178a86e966b5d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-mount.sh",
+        "mode": 33261,
+        "size": 1052,
+        "sha256": "4d767d543ed9333a2a44d5c9b021d465820b69dc9d27d2180b1691cc9e7c3912"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-mount.service",
+        "mode": 33188,
+        "size": 822,
+        "sha256": "4e8752b103851e60adf1f1c60620975c53c2a74a1e362c8450c353d3806d18d0"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-mount.service.8",
+        "mode": 33188,
+        "size": 1546,
+        "sha256": "cc43ddb477d3b9fb139bde89f6b9f5f1203f76494362177f59766254d79f5223"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-mount.service.8.asc",
+        "mode": 33188,
+        "size": 434,
+        "sha256": "e77ce2e56c82a6a1c76210843576ab3ff111854339123303274076f7d0330ad3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-mount.sh",
+        "mode": 33261,
+        "size": 502,
+        "sha256": "ca717bf5400fc9087bb9ceb6a7b90702e0d7278387db75ac32479225aff0c20a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-pivot.service",
+        "mode": 33188,
+        "size": 1125,
+        "sha256": "8b320d93a00beb019225664f3b9e6fa9df69d7bf642507602c33f9d8e0bb96a6"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-pivot.service.8",
+        "mode": 33188,
+        "size": 1541,
+        "sha256": "2b456d576624a748aeb11ff6bcae0b9b8817901a080c774a2a179e9889e61e4f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-pivot.service.8.asc",
+        "mode": 33188,
+        "size": 429,
+        "sha256": "68110572014f7ec86475081e4af371e2354fc2ff2920d42144d111455cef26bd"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-pivot.sh",
+        "mode": 33261,
+        "size": 895,
+        "sha256": "ca1d5408815b960c22fba50719269d4d434894477b9e1c6e8e894038af83807e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-trigger.service",
+        "mode": 33188,
+        "size": 914,
+        "sha256": "2516aa88cb92e69739af5f81a01466fc7874f09b806bbd2ae6c5e26621e2aa5f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-trigger.service.8",
+        "mode": 33188,
+        "size": 1550,
+        "sha256": "c366cc726eef5b80c795290692e36087a7f594eabe9e07483e9384559ea41f8e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-trigger.service.8.asc",
+        "mode": 33188,
+        "size": 440,
+        "sha256": "b0bb8a4b3745aa7afb00f5f4257d82aa8abc32ce076896526fbc3e8a768d85b1"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-trigger.sh",
+        "mode": 33261,
+        "size": 467,
+        "sha256": "dff83144cf4ba16c523ecd7bb5520a2e3ff1043205e93e88a81884ccd6afd25e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-udev.service",
+        "mode": 33188,
+        "size": 993,
+        "sha256": "46635578b0872a259e69a7d93ac56896bc08f938db83fd582f38506edd76902f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-udev.service.8",
+        "mode": 33188,
+        "size": 1537,
+        "sha256": "e9fd46198e0365ef0f93d45a1ae9ee6a1e47835f5e290695007929da12a76b2e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-udev.service.8.asc",
+        "mode": 33188,
+        "size": 424,
+        "sha256": "2ee85c29c1c70c50650d5d135edf23563e5210f6df6895a4dd69e1bec94bc161"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-pre-udev.sh",
+        "mode": 33261,
+        "size": 1413,
+        "sha256": "ccfe0d96219866993ce775da37f2367fab0e37a8c66434394d4d95a147a3b8ff"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-shutdown.service",
+        "mode": 33188,
+        "size": 459,
+        "sha256": "160766a970a0e6715aff9ff70f815c7131140f140bb383f002b71f6d4d5eaaee"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-shutdown.service.8",
+        "mode": 33188,
+        "size": 3609,
+        "sha256": "cae8c09e56330a36699174cfe1f9b647348a5ef87308a0e002f2d3491f41455e"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-shutdown.service.8.asc",
+        "mode": 33188,
+        "size": 1689,
+        "sha256": "97d85a9118750e95be31d008b08789c76d4dc2888bf1ceb96318424012c61e3b"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/dracut-tmpfiles.conf",
+        "mode": 33188,
+        "size": 135,
+        "sha256": "7a5a36daadea6cac469e69ba8005e7e153d49e46a6d53b0b33539d8eaaaaa717"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/emergency.service",
+        "mode": 33188,
+        "size": 692,
+        "sha256": "0ca89e1dd845a980fb568fa6b3b58c3866aab7475cd029cd405d9459f3f5fed7"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/module-setup.sh",
+        "mode": 33261,
+        "size": 2095,
+        "sha256": "4aaeec04c99fdcdb7cb915d8c131f32d1f9d441654deb1564e0746555eb446ab"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98dracut-systemd/rootfs-generator.sh",
+        "mode": 33261,
+        "size": 3746,
+        "sha256": "2c9cbabacd3adaf728e931752a7199fe10777141f78fca7e64ebedf8249f900d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98ecryptfs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98ecryptfs/README",
+        "mode": 33188,
+        "size": 2343,
+        "sha256": "ce490eaaab6431e41c4c83d937161f7c4dcf0856fcb202850c91779afc12c4d2"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98ecryptfs/ecryptfs-mount.sh",
+        "mode": 33261,
+        "size": 2742,
+        "sha256": "da2b75d317c6a048e8fe84928a65e40f9108067f202d591f57cc96304fb16768"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98ecryptfs/module-setup.sh",
+        "mode": 33261,
+        "size": 276,
+        "sha256": "c78dacc9f923cf4d742a8ace79b76af52eed6b1e8c8d58b1cefe11f610624cf3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98pollcdrom",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98pollcdrom/module-setup.sh",
+        "mode": 33261,
+        "size": 199,
+        "sha256": "7d081b60acf43f5c2b4fd52744bbab52f604a8801dccbcec46ac864ef7a02a9a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98pollcdrom/pollcdrom.sh",
+        "mode": 33261,
+        "size": 635,
+        "sha256": "d00c14c63eda3147e673e69e86381bb5809318a1d7f979c02b05e9ee8f53f09a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98selinux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98selinux/module-setup.sh",
+        "mode": 33261,
+        "size": 229,
+        "sha256": "852ca7d56ee022e99a9827127e8437c04dce0f1209044beec8e6c010bc4c23cc"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98selinux/selinux-loadpolicy.sh",
+        "mode": 33261,
+        "size": 2242,
+        "sha256": "b52b573f8e4853243829bacf9f185e6c6550049f100ee363911a1f548a49fead"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/README",
+        "mode": 33188,
+        "size": 832,
+        "sha256": "6eebfb036cb23b759d37f64dda2b3ab445a841d4a7fa0ab1580930504d14a514"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/module-setup.sh",
+        "mode": 33261,
+        "size": 1157,
+        "sha256": "e4a99e4bb53ef145510d7f178b4b67c5739421ae8c9baddba0a4000a7cc0c642"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/parse-syslog-opts.sh",
+        "mode": 33261,
+        "size": 1154,
+        "sha256": "d9ddab96dd02efe14c33c1778236cc2363da9dee7fd1d2bbf9febdd322745f33"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/rsyslog.conf",
+        "mode": 33188,
+        "size": 820,
+        "sha256": "2d15df129a18010f3b648850ef445c421ba21c64894dce6265305eac6aa23316"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/rsyslogd-start.sh",
+        "mode": 33261,
+        "size": 1233,
+        "sha256": "6e9dba6f15ad475b68553f0d6d3fc6bfa92f1a13234a6e89e3493027767eeef4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/rsyslogd-stop.sh",
+        "mode": 33261,
+        "size": 286,
+        "sha256": "28bbb4db434217b759d4e50cdb02a6df3a7978ad50862f667236c66f594c5421"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98syslog/syslog-cleanup.sh",
+        "mode": 33261,
+        "size": 407,
+        "sha256": "30545eb8371f689690c87a9eb80af1774310d8218289a3b316a75a84283490f1"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98usrmount",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98usrmount/module-setup.sh",
+        "mode": 33261,
+        "size": 294,
+        "sha256": "8f3fba52e54e4533c516377784da847b78d38ed826cf8d0a26913a8fb5061013"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/98usrmount/mount-usr.sh",
+        "mode": 33261,
+        "size": 3606,
+        "sha256": "12ccbbffa416f47882c2c32785bf7c61c02d5fcf4d9c03c256b85f3644d353dd"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/dracut-lib.sh",
+        "mode": 33261,
+        "size": 33752,
+        "sha256": "81b66c22614cc70bf5610e250abe7bf5b391c758e6398fd914d22fb09e217cea"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/init.sh",
+        "mode": 33261,
+        "size": 11797,
+        "sha256": "14d1ed2d145d37ba7fa8ad63a602cbef5de972a17786e4395c07c1153626c47f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/initqueue.sh",
+        "mode": 33261,
+        "size": 1163,
+        "sha256": "9c320e1b7a1d028ccf92e53aa3397f001802fa6b82fd119cf62bdf657c78ccd2"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/loginit.sh",
+        "mode": 33261,
+        "size": 492,
+        "sha256": "34551d9cf84930dfff9663eea1ea07bbe3aebc30ee6606ab98a76a3dd041c6b3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/module-setup.sh",
+        "mode": 33261,
+        "size": 4107,
+        "sha256": "dd8ebb66fc58f901e17bb85eae02f5b9ca5d7d71a1c91b0cb8aaad163d70ddf4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/parse-root-opts.sh",
+        "mode": 33261,
+        "size": 246,
+        "sha256": "4e07ef0a39226066a62a2ac32be79c242f90cb64641261b5f3d618f58f633c67"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99base/rdsosreport.sh",
+        "mode": 33261,
+        "size": 1346,
+        "sha256": "a2a2ad64b2a99f08472a6702f9a5d2712d98b6fa0394e526406117042d41e60a"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99fs-lib",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99fs-lib/fs-lib.sh",
+        "mode": 33261,
+        "size": 6381,
+        "sha256": "fb3c201f345507039b660fbd560f99005fc7115425ece6f8a212c8cd030a7fb3"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99fs-lib/module-setup.sh",
+        "mode": 33261,
+        "size": 1722,
+        "sha256": "af70bb601d4d163d71425fa813aad5054ed670e43d76ea63cbbaf4cba398b080"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99memstrack",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99memstrack/memstrack-report.sh",
+        "mode": 33261,
+        "size": 458,
+        "sha256": "fb5e7451df2930d9ffeb6c0660d56e275ab645b51dbd880f7ed68c940d81beaa"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99memstrack/memstrack-start.sh",
+        "mode": 33261,
+        "size": 1806,
+        "sha256": "a0868440b9cc18fffbaf27ee61bdcfafc513e1a781bc598cdbd56fbf2df83318"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99memstrack/memstrack.service",
+        "mode": 33188,
+        "size": 322,
+        "sha256": "81f99ce83010dd793080406db860f25bce57c4edab38f68d79a9504e05ad5f8c"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99memstrack/module-setup.sh",
+        "mode": 33261,
+        "size": 620,
+        "sha256": "18ba7b7b04092d0d15c10c9980796efbf2fe22086a28ce0ffda97121c33de10f"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99shutdown",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99shutdown/module-setup.sh",
+        "mode": 33261,
+        "size": 585,
+        "sha256": "ac5eacafcba7616290c3d0949abf1c7f76703978132d34c1afe8b3e1505bd511"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99shutdown/shutdown.sh",
+        "mode": 33261,
+        "size": 3126,
+        "sha256": "3cc5a1b5a144e4fb839f6085e1cc406da81139710ff63f4e347a1c7c36139b8a"
+      },
+      {
+        "path": "/usr/lib/dracut/skipcpio",
+        "mode": 33261,
+        "size": 12320,
+        "sha256": "9ac450e9bf3919aeb804f4a0807029327b457d81334477252f4aa0830c93e422"
+      },
+      {
+        "path": "/usr/lib/kernel/install.d/50-dracut.install",
+        "mode": 33261,
+        "size": 1657,
+        "sha256": "c1fcdbd02776560016a4e1bcd2b51959d670d62858cbae5ec4a848636a68b219"
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-cmdline.service",
+        "mode": 41471,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-initqueue.service",
+        "mode": 41471,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-mount.service",
+        "mode": 41471,
+        "size": 60,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-pre-mount.service",
+        "mode": 41471,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-pre-pivot.service",
+        "mode": 41471,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-pre-trigger.service",
+        "mode": 41471,
+        "size": 66,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-pre-udev.service",
+        "mode": 41471,
+        "size": 63,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dracut-shutdown.service",
+        "mode": 41471,
+        "size": 63,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-cmdline.service",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-initqueue.service",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-mount.service",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-pre-mount.service",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-pre-pivot.service",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-pre-trigger.service",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/initrd.target.wants/dracut-pre-udev.service",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/sysinit.target.wants/dracut-shutdown.service",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/dracut",
+        "mode": 33188,
+        "size": 3580,
+        "sha256": "5a5385685fed86fe13043d70a7f53a0b78a944203c660f3a90f0b33c766316f8"
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/lsinitrd",
+        "mode": 33188,
+        "size": 1983,
+        "sha256": "9f7904494ad7795d99caa2960ea2ace7f1422349c8a8d0ad55b962dd105fa05a"
+      },
+      {
+        "path": "/usr/share/licenses/dracut",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/dracut/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/dracut/lgpl-2.1.txt",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      },
+      {
+        "path": "/usr/share/pkgconfig",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pkgconfig/dracut.pc",
+        "mode": 33188,
+        "size": 196,
+        "sha256": "b598a4c9158fb49e265794a7401d3215040d91ab403c1472f091ac46015d002b"
+      },
+      {
+        "path": "/var/lib/initramfs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

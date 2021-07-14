@@ -1,0 +1,81 @@
+{
+  "name": "libattr",
+  "version": "2.4.48-3.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "attr_project",
+      "Product": "attr",
+      "Version": "2.4.48",
+      "Update": "3.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libattr@0:2.4.48-3.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libattr",
+    "version": "2.4.48",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8",
+    "sourceRpm": "attr-2.4.48-3.el8.src.rpm",
+    "size": 27346,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://savannah.nongnu.org/projects/attr",
+    "files": [
+      {
+        "path": "/etc/xattr.conf",
+        "mode": 33188,
+        "size": 642,
+        "sha256": "c1259ead36165a9477c9e1948500fb1ae58f33140d2c8b9fdf09ae54425d62b6"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/98",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/98/d8bc035ae86b81b4079f7d4ff0069311a34b23",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libattr.so.1",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libattr.so.1.1.2448",
+        "mode": 33261,
+        "size": 26704,
+        "sha256": "086f1aa3aef923c283b634549b38462508432ce39c4805b7846f7dc4a95bcc28"
+      }
+    ]
+  }
+}

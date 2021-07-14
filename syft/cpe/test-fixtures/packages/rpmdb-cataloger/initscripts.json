@@ -1,0 +1,919 @@
+{
+  "name": "initscripts",
+  "version": "9.49.53-1.0.1.el7_9.1",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/initscripts@0:9.49.53-1.0.1.el7_9.1?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "initscripts",
+    "version": "9.49.53",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.0.1.el7_9.1",
+    "sourceRpm": "initscripts-9.49.53-1.0.1.el7_9.1.src.rpm",
+    "size": 1527916,
+    "license": "GPLv2 and GPLv2+",
+    "vendor": "Oracle America",
+    "url": "https://github.com/fedora-sysv/initscripts",
+    "files": [
+      {
+        "path": "/etc/NetworkManager",
+        "mode": 16877,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/NetworkManager/dispatcher.d",
+        "mode": 16877,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/NetworkManager/dispatcher.d/00-netreport",
+        "mode": 33261,
+        "size": 175,
+        "sha256": "9c8307845b7f1c3e27816a7091872a56ae16d64d5729c5c0544808cbb31b6cc0"
+      },
+      {
+        "path": "/etc/adjtime",
+        "mode": 33188,
+        "size": 12,
+        "sha256": "6aa92cacc25f30a7caacd8cf772d3626f5bd5b3a75ab2dc3e74a5119f56d12df"
+      },
+      {
+        "path": "/etc/inittab",
+        "mode": 33188,
+        "size": 511,
+        "sha256": "675404a0cb65a17be9f160de74e33c66244f2ae7b05e398f3a6f362c2d449f52"
+      },
+      {
+        "path": "/etc/networks",
+        "mode": 33188,
+        "size": 58,
+        "sha256": "ae89ab2e35076a070ae7cf5b0edf600c3ea6999e15db9b543ef35dfc76d37cb1"
+      },
+      {
+        "path": "/etc/ppp",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/ppp/ip-down",
+        "mode": 33261,
+        "size": 386,
+        "sha256": "55900b8a91172a98f22043095f396d69dc7d403f1df3095005e179884cff5d12"
+      },
+      {
+        "path": "/etc/ppp/ip-down.ipv6to4",
+        "mode": 33261,
+        "size": 3214,
+        "sha256": "c4f685c132a5fe2732980ae9bc2f6b48fb89ab30296efcb496720b1bb9424bbb"
+      },
+      {
+        "path": "/etc/ppp/ip-up",
+        "mode": 33261,
+        "size": 430,
+        "sha256": "4e466f54cbef6c1543a0a1b6d2d519002b71702dacfd8fe1f62b1256a21f9c51"
+      },
+      {
+        "path": "/etc/ppp/ip-up.ipv6to4",
+        "mode": 33261,
+        "size": 6426,
+        "sha256": "dca868bbb6ff3365c4b524062a6303a1c603f6f9a7039904db0e5848ddcc4bf8"
+      },
+      {
+        "path": "/etc/ppp/ipv6-down",
+        "mode": 33261,
+        "size": 1687,
+        "sha256": "b1302a1c745a7165744bb48e69fee00f6a64a3b7a1c351c0990f9a82173d00a3"
+      },
+      {
+        "path": "/etc/ppp/ipv6-up",
+        "mode": 33261,
+        "size": 3182,
+        "sha256": "867cf3c5f2440479ed337156c0fbf06e20f1dfb45f82ab31d9f207002c680e83"
+      },
+      {
+        "path": "/etc/ppp/peers",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/profile.d/256term.csh",
+        "mode": 33188,
+        "size": 771,
+        "sha256": "9b4fdf0c9f59bf6141eb51d947cc0dab095b76239afabeeba42e812c0a3dc10e"
+      },
+      {
+        "path": "/etc/profile.d/256term.sh",
+        "mode": 33188,
+        "size": 841,
+        "sha256": "321c962d3f38e0aa8d4df2163e9e23608c7da57c5c1e5f4ae5f9442ee6f291a0"
+      },
+      {
+        "path": "/etc/profile.d/lang.csh",
+        "mode": 33188,
+        "size": 1706,
+        "sha256": "0388bdaf8903bcdc07b908d3f120210c8c0ef6a56ec009509ef1c0fad6a8fede"
+      },
+      {
+        "path": "/etc/profile.d/lang.sh",
+        "mode": 33188,
+        "size": 2703,
+        "sha256": "8fe9598bbd0dbefa312815ee87d13aa418f41c61b1ba3f4674d52d41dd38f083"
+      },
+      {
+        "path": "/etc/rc.d",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/init.d",
+        "mode": 16877,
+        "size": 56,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/init.d/functions",
+        "mode": 33188,
+        "size": 18281,
+        "sha256": "c0d0cf8fb3ee8cf15d356e39ce648e4ccac8db3bff1f04d7fbc37c26d2b6af78"
+      },
+      {
+        "path": "/etc/rc.d/init.d/netconsole",
+        "mode": 33261,
+        "size": 4569,
+        "sha256": "ce343de2aea756f5d988f596e23d535d1a33859f2ff832675999d9bef4d55b10"
+      },
+      {
+        "path": "/etc/rc.d/init.d/network",
+        "mode": 33261,
+        "size": 9198,
+        "sha256": "7049977ef2295939408962a0d24814ac9e1d0965acba6688dde35637ee09af87"
+      },
+      {
+        "path": "/etc/rc.d/rc0.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc1.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc2.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc3.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc4.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc5.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc6.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc0.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc1.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc2.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc3.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc4.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc5.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc6.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rwtab",
+        "mode": 33188,
+        "size": 1008,
+        "sha256": "6e1dc9f631858a0affe6a3e7e7aa612785dd3099c7da2b29bd7d9cc71b107993"
+      },
+      {
+        "path": "/etc/rwtab.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/statetab",
+        "mode": 33188,
+        "size": 212,
+        "sha256": "edbfc8e0b1a38a7835bca3cf102489a1fa5189defef5b7ed8d77a2b06a52a853"
+      },
+      {
+        "path": "/etc/statetab.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/console",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/init",
+        "mode": 33188,
+        "size": 798,
+        "sha256": "a92cd720304005e6c6e3173f2d6d521acbe0ac86c0c7fc5e1b92eaae11b036ec"
+      },
+      {
+        "path": "/etc/sysconfig/modules",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/netconsole",
+        "mode": 33188,
+        "size": 634,
+        "sha256": "b6fb23201ea66dfec5c7304e1aaa78c6050077bb5c041e4c7ac40eb4e0b3a1f2"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifcfg-lo",
+        "mode": 33188,
+        "size": 254,
+        "sha256": "37539e3a633b4272bd2fa329470d7d3c5d137e89eb0f6481186373c1f13dc6bd"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-bnep",
+        "mode": 33261,
+        "size": 654,
+        "sha256": "81eb8682d177eb53c850306717bba72ddb90a928af9459e9731bb679cfff7b13"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-eth",
+        "mode": 33261,
+        "size": 6532,
+        "sha256": "9b0e7ab352d0b75f71b29d317843849617c4d77e29050a1ac39d8a096e57efbf"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-ippp",
+        "mode": 33261,
+        "size": 781,
+        "sha256": "a87a4f1f1c8ffb0a27123d789478bd9ae117b37787017c9c9fccc3ac9b384756"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-ipv6",
+        "mode": 33261,
+        "size": 4540,
+        "sha256": "b55ae6a20961628b4497c4366c1c927fba334fca88c689b05e163cdda43f541f"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-isdn",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-post",
+        "mode": 33261,
+        "size": 2130,
+        "sha256": "31683295eb48876a9f17eeba746b1a92655f3dffb3730814bc9494e0c0787a4e"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-ppp",
+        "mode": 33261,
+        "size": 1068,
+        "sha256": "3bcc8105510009a2be074bebbecf766de2753d1dfcd50138bc19e5a4067b788d"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-routes",
+        "mode": 33261,
+        "size": 870,
+        "sha256": "979b3e349fb5f340864add39af617823c2ed5e2297e9eb409d978916eee0dfdd"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-sit",
+        "mode": 33261,
+        "size": 1456,
+        "sha256": "ec51ab7a7e4f85350b67418f7d7814aaa675e8f915beb438110d718eb576d602"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifdown-tunnel",
+        "mode": 33261,
+        "size": 1462,
+        "sha256": "cfc6356e9c091642e36a631472f9aac8d3185ea8e46d66707196e328eef2a305"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-aliases",
+        "mode": 33261,
+        "size": 12415,
+        "sha256": "d86bbc2dacfd90bf2f9da873fbd3bbd4ecaf9647539d44ea38739f35a820ea71"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-bnep",
+        "mode": 33261,
+        "size": 910,
+        "sha256": "7a6300f2f5076e6c421998361a36896a9ea4e726f13b837171bf92020ffefb11"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-eth",
+        "mode": 33261,
+        "size": 13939,
+        "sha256": "689dc1292247d7bcb501ab8f2716ccb92382ee7a7d12782213d940b99592fa83"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-ippp",
+        "mode": 33261,
+        "size": 12075,
+        "sha256": "5c384ac23f6044652fd0b06956af0d7070f85f074678d4ded14442c68f0de78f"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-ipv6",
+        "mode": 33261,
+        "size": 11893,
+        "sha256": "6cd3b87b0ad8249aa63a71131eb03c1d5a8e3be6e136a9ac45d2e9fb4dbfc40c"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-isdn",
+        "mode": 41471,
+        "size": 9,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-plip",
+        "mode": 33261,
+        "size": 650,
+        "sha256": "12106a9fe937dc694017bd00b8b866c805b93052946c952227d5936aba77dbdc"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-plusb",
+        "mode": 33261,
+        "size": 1064,
+        "sha256": "3a3cccee3547f20839da3cc8ecdb4709f4dc1d92077d91c31891ea302dcc5e6c"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-post",
+        "mode": 33261,
+        "size": 4997,
+        "sha256": "7e476aeb568604d2f5a978049db6408ec819a3713fda80432a01f9fe33679a0d"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-ppp",
+        "mode": 33261,
+        "size": 4154,
+        "sha256": "465e0d5eba59e47dbbfaadac1b0601b49dc5dd284f0a6217283c315452980f39"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-routes",
+        "mode": 33261,
+        "size": 2001,
+        "sha256": "94a0d9a05020488bdffe7c323c3bc75f78b7583cd9cabe0dd69fb86556329cdc"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-sit",
+        "mode": 33261,
+        "size": 3303,
+        "sha256": "570a7a434a07ed96d0ebb4e68fc5a4b98e014aa0357295d9e98be2cd21a22e05"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-tunnel",
+        "mode": 33261,
+        "size": 2780,
+        "sha256": "d4b4a1a49ea50d77def6c655ff3f35f7097a261ac90197d61097a0327a579158"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/ifup-wireless",
+        "mode": 33261,
+        "size": 1836,
+        "sha256": "94cef2d3109c0ce8a5bf5e05cb0442d403f1ce168fb3c7b9dfd1d63c0232756b"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/init.ipv6-global",
+        "mode": 33261,
+        "size": 5419,
+        "sha256": "63af9fe348fd6fdbc7c0a93b458c2afb7ccd17b6fee8f5457eaa43387ff97bb3"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/network-functions",
+        "mode": 33188,
+        "size": 20678,
+        "sha256": "7caa7837d077cd65b5243b33b7dc262988902290694cc6f04d3311b13b92aade"
+      },
+      {
+        "path": "/etc/sysconfig/network-scripts/network-functions-ipv6",
+        "mode": 33188,
+        "size": 30988,
+        "sha256": "c14e0a2afa7951f59eb82e56e719b008a0463ce29baa75b2ff141cf0461feb1f"
+      },
+      {
+        "path": "/etc/sysconfig/readonly-root",
+        "mode": 33188,
+        "size": 905,
+        "sha256": "d6e6a3dcca7e2ac24036cf156cfc51f474f23167a8de6a7c363684f1bdd151dd"
+      },
+      {
+        "path": "/etc/sysctl.conf",
+        "mode": 33188,
+        "size": 449,
+        "sha256": "51d16ee2e7eef12dd42e924af6b835861e8b79d11921ba0418d7d0aec7a2a93b"
+      },
+      {
+        "path": "/etc/sysctl.d/99-sysctl.conf",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/ipcalc",
+        "mode": 33261,
+        "size": 15416,
+        "sha256": "cb6447f85273b955e5e6ec09a9c7e9c4c30b1765472650d78d133256ae119cfb"
+      },
+      {
+        "path": "/usr/bin/usleep",
+        "mode": 33261,
+        "size": 11208,
+        "sha256": "c5ff40ff83ca0f636c5b114a2382c89b2a4c84a8fad8fd519132a152bf487034"
+      },
+      {
+        "path": "/usr/lib/sysctl.d/00-system.conf",
+        "mode": 33188,
+        "size": 293,
+        "sha256": "b3823caa69444a5d629675ae38f6a8dd3ad6205fb3d13521fc367f87a3af259a"
+      },
+      {
+        "path": "/usr/lib/systemd/ol-consolebaud",
+        "mode": 33261,
+        "size": 1072,
+        "sha256": "7171b7855f287e53a7258fb6743b9d5f68c2201e0478f41c56fe0ba42e9c9ded"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-autorelabel",
+        "mode": 33261,
+        "size": 2370,
+        "sha256": "821528da7d86c766948082e589068b2cd24d5822a43a6ebacdfd547cac468836"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-configure",
+        "mode": 33261,
+        "size": 399,
+        "sha256": "6d780e5834463843798e3e26200f2662f9791beceb2173089457fea06d205eef"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-dmesg",
+        "mode": 33261,
+        "size": 110,
+        "sha256": "66c95473aeec7a771acfebc41401b994550baea4f106b545e409a6ce9684f8ca"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-domainname",
+        "mode": 33261,
+        "size": 158,
+        "sha256": "f3cd8c2be92fd52d8a21f0aeb2ed5d19e6dc4017a5b1854e2f3aad47f5c632ef"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-import-state",
+        "mode": 33261,
+        "size": 1059,
+        "sha256": "4bde13ff5135703beb3a1c347c114282d52a8e5cd98f1991451f690787bc58cc"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-loadmodules",
+        "mode": 33261,
+        "size": 233,
+        "sha256": "73b4b0f6ce2d3647743d1ed2e36ee2316edfbc4ac11f5b22e54fb9a6b03aa97c"
+      },
+      {
+        "path": "/usr/lib/systemd/rhel-readonly",
+        "mode": 33261,
+        "size": 5912,
+        "sha256": "e2bf4e1540748a3ec8ec6a28ddfd9925aa44b330a451110bf75ae902e1aca361"
+      },
+      {
+        "path": "/usr/lib/systemd/system/brandbot.path",
+        "mode": 33188,
+        "size": 160,
+        "sha256": "3af4b883ec582e8fe08c048dad1619cb14d1dfd8bdf324f17c108134dd61dbed"
+      },
+      {
+        "path": "/usr/lib/systemd/system/brandbot.service",
+        "mode": 33188,
+        "size": 116,
+        "sha256": "2972fb63bc2d78c632160f9386385dde35a1349ea7a4d150b135a35f3e63b4f6"
+      },
+      {
+        "path": "/usr/lib/systemd/system/ol-consolebaud.service",
+        "mode": 33188,
+        "size": 375,
+        "sha256": "8172ce86741e55f88703508f7ecad6e930a33b3b8ad0825da056e48d29985792"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-autorelabel-mark.service",
+        "mode": 33188,
+        "size": 410,
+        "sha256": "b541ef2415e8c8895976fcac202c0698c8370ff598bdc4e1a1b7dd5630215c23"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-autorelabel.service",
+        "mode": 33188,
+        "size": 459,
+        "sha256": "530c84a415b227038726fbd2dcef531ad2b34de70be67928ec8dda45481dd855"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-configure.service",
+        "mode": 33188,
+        "size": 408,
+        "sha256": "12bbce1af7857cd09d7088b290ff8fff1eb104a060f92fb4ac18b93eed0a958f"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-dmesg.service",
+        "mode": 33188,
+        "size": 217,
+        "sha256": "547610bd106d143f9d59b10b8b53191d953d9f8d8d4df57f9158e41fcde77037"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-domainname.service",
+        "mode": 33188,
+        "size": 331,
+        "sha256": "cabd75755d900e5d97bae8d3dc6e73d662fe36dec7926e90e492edb5c7b7ec6e"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-import-state.service",
+        "mode": 33188,
+        "size": 450,
+        "sha256": "34f2ddd28c6e1e05f56744b18a2e723b0569ac3ee4d66289989da5e0354efad4"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-loadmodules.service",
+        "mode": 33188,
+        "size": 437,
+        "sha256": "d98d77f432202e5e4674e854460a4bb603bef764430a79e4fca1102606737e98"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rhel-readonly.service",
+        "mode": 33188,
+        "size": 401,
+        "sha256": "557f893b858aef57fdac6eecd1afe42bbc4e2891f8312a55f15c59e8260d4e17"
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d",
+        "mode": 16877,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d/initscripts.conf",
+        "mode": 33188,
+        "size": 39,
+        "sha256": "d662c888351d0a50556047effb71847765a481499294b91c2fb5f14aaa523b73"
+      },
+      {
+        "path": "/usr/lib/udev/detect_failover",
+        "mode": 33261,
+        "size": 1283,
+        "sha256": "ac1b6ae405179e43aa0c9c9f0fa813bc1c14b97268f2708565d582b378ddca29"
+      },
+      {
+        "path": "/usr/lib/udev/rename_device",
+        "mode": 33261,
+        "size": 15400,
+        "sha256": "ba4fecab9947db9956578478c1ce6f1d48ce94043eb36dc2a3684357e148176d"
+      },
+      {
+        "path": "/usr/lib/udev/rules.d/60-net.rules",
+        "mode": 33188,
+        "size": 269,
+        "sha256": "658d8de52f134894e52535e3ab873a5a186b9e3a44a91dbaa5f2aa55aabfac2f"
+      },
+      {
+        "path": "/usr/lib/udev/rules.d/81-kvm-rhel.rules",
+        "mode": 33188,
+        "size": 92,
+        "sha256": "94ba6572881a2fc142b6e45286f6061cebd027dcce34fe44d0d783bf65fa82f5"
+      },
+      {
+        "path": "/usr/lib/udev/udev-kvm-check",
+        "mode": 33261,
+        "size": 15480,
+        "sha256": "57ae8ab15b6015b3e3ea934ded2791f569d17afc60fdd0098901c2c3eb3eab69"
+      },
+      {
+        "path": "/usr/libexec/initscripts",
+        "mode": 16877,
+        "size": 44,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/initscripts/brandbot",
+        "mode": 33261,
+        "size": 15424,
+        "sha256": "4b192e0da021bb13761824efc8babad9123736eefdb118f25081c8952408b347"
+      },
+      {
+        "path": "/usr/libexec/initscripts/legacy-actions",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/consoletype",
+        "mode": 33261,
+        "size": 7112,
+        "sha256": "5228df3ea7ebf7f91e954d56b92bfa60aecafbc6a58965fa2e744281e9325f48"
+      },
+      {
+        "path": "/usr/sbin/genhostid",
+        "mode": 33261,
+        "size": 7104,
+        "sha256": "4e9c6493919791fb03d061ce0d8d900d2705d10c31e752b15105f9f03ae46421"
+      },
+      {
+        "path": "/usr/sbin/ifdown",
+        "mode": 33261,
+        "size": 1651,
+        "sha256": "69026ac688e78a6f54406fd4a4b92bb655fa9795cb043cafb1ebf7782985a38b"
+      },
+      {
+        "path": "/usr/sbin/ifup",
+        "mode": 33261,
+        "size": 5010,
+        "sha256": "f5ce9f5f014159aa479a88a4754b4a1980f307fac68863477341e62787f8e52c"
+      },
+      {
+        "path": "/usr/sbin/netreport",
+        "mode": 34285,
+        "size": 11224,
+        "sha256": "11f6d844300240699d75964e56507fa39df32ca4b6917bc0c7d46891bff31ad2"
+      },
+      {
+        "path": "/usr/sbin/ppp-watch",
+        "mode": 33261,
+        "size": 23752,
+        "sha256": "ecf4077b088ec097d72ebeebd77dcbec1fa483541015042ac978b0540ae33ff6"
+      },
+      {
+        "path": "/usr/sbin/service",
+        "mode": 33261,
+        "size": 3245,
+        "sha256": "3fabe507a3c7a111a55081fa92867dcab91f60508f4d96a1dfb553caaadf5c0d"
+      },
+      {
+        "path": "/usr/sbin/sushell",
+        "mode": 33261,
+        "size": 67,
+        "sha256": "525365460fe2a5b05fcffc0392ebe2852ab0d7b8d6ab33959e2bd691526f899a"
+      },
+      {
+        "path": "/usr/sbin/sys-unconfig",
+        "mode": 33261,
+        "size": 184,
+        "sha256": "4b723fa5a0854ccc0d985f26880dc85788247938b24eaca9e51e8672267b746f"
+      },
+      {
+        "path": "/usr/sbin/usernetctl",
+        "mode": 35309,
+        "size": 11296,
+        "sha256": "11465f87371c55a45e7d716301a01558abeb880e91d862c2dd114505e98730d8"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/COPYING",
+        "mode": 33188,
+        "size": 18013,
+        "sha256": "732f24b69a6c71cd8e01e4672bb8e12cc1cbb88a50a4665e6ca4fd95000a57ee"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/changes.ipv6",
+        "mode": 33188,
+        "size": 1996,
+        "sha256": "9ff44f5f73532c0c4c73339ccc0d9725185ea0c9ec7f6ed50a1a7616a0759224"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples",
+        "mode": 16877,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-bond-802.3ad",
+        "mode": 33188,
+        "size": 394,
+        "sha256": "27307c35aef86633b782a4c1ae792dcdde8f5c46d73fdbd4f78795aaa5ed0698"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-bond-activebackup-arpmon",
+        "mode": 33188,
+        "size": 475,
+        "sha256": "b556250288e67a5b899a1937b6aeb54e0b511970056aa1253d61058d2f251f90"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-bond-activebackup-miimon",
+        "mode": 33188,
+        "size": 393,
+        "sha256": "c98e7e93ff44019fab3f4d25cda10d24089caf231b349b59e61ed4f27a3a5954"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-bond-slave",
+        "mode": 33188,
+        "size": 242,
+        "sha256": "c8da3027dc6ac3e6c432f7853464e7ec3206db769c4e6e11e600397894cea544"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-bridge",
+        "mode": 33188,
+        "size": 259,
+        "sha256": "1fe4cc83a2a402deb8e8a02872638741a8ef424f1166f568b6a4a9c8769a3d52"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-bridge-port",
+        "mode": 33188,
+        "size": 220,
+        "sha256": "c0fc1dd8276c60e2e905d8ec7364059108ec2ee6c10c647fdffc221e815dbaae"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-eth-alias",
+        "mode": 33188,
+        "size": 248,
+        "sha256": "110f4d158a94f267d66c0b61200aef3e4c499dd9fd71530b27c7a0329d76a97d"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-eth-dhcp",
+        "mode": 33188,
+        "size": 378,
+        "sha256": "dc03c754d3d8b954a0fccc3acb08b24c4870dbaf8855be3deed790d4338aafc8"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/examples/networking/ifcfg-vlan",
+        "mode": 33188,
+        "size": 301,
+        "sha256": "f07159dd8f0aaf11a7d71cb1bae8af0b9db1d5bfa314c5c8d6ea93981b7c64b7"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/ipv6-6to4.howto",
+        "mode": 33188,
+        "size": 5110,
+        "sha256": "9d5ce180f71a6c172a6673ced3ffd7872f04660141ae992a7286ed0e7805a79f"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/ipv6-tunnel.howto",
+        "mode": 33188,
+        "size": 2874,
+        "sha256": "e94162f0c14d4d79c51e9e3d4b22fb6115034bb2440e76cbda4886b10522d079"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/static-routes-ipv6",
+        "mode": 33188,
+        "size": 708,
+        "sha256": "30248d571d1eda30152227f1b70b70f1f9c02bbb518f7df28662b1724523eb81"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/sysconfig.txt",
+        "mode": 33188,
+        "size": 41062,
+        "sha256": "cf83b48f914f0ef1c2c2779693a731be9828d2eb9278b9cdde735b10c396f0cc"
+      },
+      {
+        "path": "/usr/share/doc/initscripts-9.49.53/sysvinitfiles",
+        "mode": 33188,
+        "size": 6357,
+        "sha256": "791964d0e1bfa5f2d8febc01458fb8d4a7d6e1cb6698239e2da48b7296834018"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/initscripts.mo",
+        "mode": 33188,
+        "size": 16997,
+        "sha256": "a2c720995f2ecde47cedb5e7605ff364309ee6d9b7a45632b5e85b748e4768d6"
+      },
+      {
+        "path": "/var/lib/stateless",
+        "mode": 16877,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/stateless/state",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/stateless/writable",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/var/log/btmp",
+        "mode": 33152,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/var/log/wtmp",
+        "mode": 33204,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/var/run/netreport",
+        "mode": 16893,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/var/run/utmp",
+        "mode": 33204,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "name": "python3-libdnf",
+  "version": "0.48.0-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/python3-libdnf@0:0.48.0-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python3-libdnf",
+    "version": "0.48.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libdnf-0.48.0-5.el8.src.rpm",
+    "size": 3967489,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/libdnf",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/41",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/41/dc1d68665e32d4818949040ef39c3fe34e04cc",
+        "mode": 41471,
+        "size": 61,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/48",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/48/791af6bb5a334e7838e38178daa87a132ca86a",
+        "mode": 41471,
+        "size": 61,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6d/093ccd8231bf141bcc4d11821355c5933ac360",
+        "mode": 41471,
+        "size": 68,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/93/8ee8bf115b7e98e9b83a68d8a679cd4a7b0aac",
+        "mode": 41471,
+        "size": 63,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b1/a49925ab780329b13695ca430eadbb0a2ef198",
+        "mode": 41471,
+        "size": 66,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c1/75c0a6ef3a4c9db0aaeeff0e62d1a2da15a166",
+        "mode": 41471,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c8/1e5dd608fc1c8a9db46ca478aefcd24173b2e4",
+        "mode": 41471,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/da",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/da/c9e487b0dfe5d69bbaebb465b08e189fc53e03",
+        "mode": 41471,
+        "size": 69,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__init__.py",
+        "mode": 33188,
+        "size": 471,
+        "sha256": "2056198ec0b0878cbb81c5fedcc6189f168da60c4d7c5c0444f1a91a37aed838"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 480,
+        "sha256": "703fadb1fb716181544f1dbdfa69824e376cdd8102a81bc45b8abe55c5893af5"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 480,
+        "sha256": "703fadb1fb716181544f1dbdfa69824e376cdd8102a81bc45b8abe55c5893af5"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/common_types.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 49751,
+        "sha256": "e126d07baab17b335e30158f170ad25d72562aef1bba1b327ab6f2f728f41708"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/common_types.cpython-36.pyc",
+        "mode": 33188,
+        "size": 49751,
+        "sha256": "e126d07baab17b335e30158f170ad25d72562aef1bba1b327ab6f2f728f41708"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/conf.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 96694,
+        "sha256": "cc6c2b93cc8e05ee7a84848ece9faa48666c9ec10b6384e4ca7a3293340ed154"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/conf.cpython-36.pyc",
+        "mode": 33188,
+        "size": 96694,
+        "sha256": "cc6c2b93cc8e05ee7a84848ece9faa48666c9ec10b6384e4ca7a3293340ed154"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/error.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 2512,
+        "sha256": "506a536ff4447029fecd7cbb3e68c76552e7bef946e302002df0f86767782e64"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/error.cpython-36.pyc",
+        "mode": 33188,
+        "size": 2512,
+        "sha256": "506a536ff4447029fecd7cbb3e68c76552e7bef946e302002df0f86767782e64"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/module.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 78025,
+        "sha256": "8468a8023e35d44245ba5f24805695a97ee4ecd1762babb0ae2a191e2a50657b"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/module.cpython-36.pyc",
+        "mode": 33188,
+        "size": 78025,
+        "sha256": "8468a8023e35d44245ba5f24805695a97ee4ecd1762babb0ae2a191e2a50657b"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/repo.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 31226,
+        "sha256": "3dfb0599a79a40d917b886d232ca315f546511a991ea127232f78157bba11a6c"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/repo.cpython-36.pyc",
+        "mode": 33188,
+        "size": 31226,
+        "sha256": "3dfb0599a79a40d917b886d232ca315f546511a991ea127232f78157bba11a6c"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/smartcols.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 22066,
+        "sha256": "fc8c64b1931b9360377e91d5b6ce6eeb35f97905d1101511d62aaf63f1f93a3a"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/smartcols.cpython-36.pyc",
+        "mode": 33188,
+        "size": 22066,
+        "sha256": "fc8c64b1931b9360377e91d5b6ce6eeb35f97905d1101511d62aaf63f1f93a3a"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/transaction.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 52855,
+        "sha256": "717938479574b2ff6d6715c126d8d1097366378aa6e543aba9aebb4368f13c5f"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/transaction.cpython-36.pyc",
+        "mode": 33188,
+        "size": 52855,
+        "sha256": "717938479574b2ff6d6715c126d8d1097366378aa6e543aba9aebb4368f13c5f"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/utils.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 8631,
+        "sha256": "57054ba5ef489c95996666d8362e4ea71fef0fff7b31e00a8af79758a33a96a0"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/__pycache__/utils.cpython-36.pyc",
+        "mode": 33188,
+        "size": 8631,
+        "sha256": "57054ba5ef489c95996666d8362e4ea71fef0fff7b31e00a8af79758a33a96a0"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_common_types.so",
+        "mode": 33261,
+        "size": 531584,
+        "sha256": "065ec3b5e4ac6865063c7ef9bb3239bb31c8bb1924c4e4222577ffd7c0ac757d"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_conf.so",
+        "mode": 33261,
+        "size": 695760,
+        "sha256": "1a2d326375d660b490784771bd3c9987fca7813ad2cf79de8a3c9ec054eecaaa"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_error.so",
+        "mode": 33261,
+        "size": 25544,
+        "sha256": "3361da288afead0ebdc03358e32a524d3d0f9b3360c631efbe9090b436196d6d"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_module.so",
+        "mode": 33261,
+        "size": 965840,
+        "sha256": "3dd1bdbf9d56eb6f0cab138b2e68a577f8a9230770aa23bbf9812e4b99c7ed74"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_repo.so",
+        "mode": 33261,
+        "size": 332296,
+        "sha256": "d20664df8644c240436713d1eacd668ddabdd7cba7115855c81b6a515a907d5e"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_smartcols.so",
+        "mode": 33261,
+        "size": 248960,
+        "sha256": "41ca81853fee4dbaaca985c8df583373b982eb79c20d969ba614867f446f0079"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_transaction.so",
+        "mode": 33261,
+        "size": 485504,
+        "sha256": "a1fdd59a4898d5e1e2ba923b07002850a35094fe9bafe40f414bed7adf22fb9f"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/_utils.so",
+        "mode": 33261,
+        "size": 98720,
+        "sha256": "eeee1eac4bd195ef3972bda85f255fb832117808e42a63bc01d2098c5de74d18"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/common_types.py",
+        "mode": 33188,
+        "size": 34439,
+        "sha256": "577866136196ca5749f175856d1cd61ed1bcea49febb68c2adb831f09ce3cba5"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/conf.py",
+        "mode": 33188,
+        "size": 67528,
+        "sha256": "25dec53773dbf35514c9e70b0a671403e1f1cea06bafd825a98352e8beb39bc4"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/error.py",
+        "mode": 33188,
+        "size": 2952,
+        "sha256": "1943a554ba2db1296aae096df52a4648cf88928de4584c7ef20c179d653f648a"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/module.py",
+        "mode": 33188,
+        "size": 48712,
+        "sha256": "9e41871795be8a1c538ee30077a1da504d4165086a1c660d73f3bf38a72f2e03"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/repo.py",
+        "mode": 33188,
+        "size": 22633,
+        "sha256": "cb50d82070b7eca22cfbfc5424423d4c82a5d6805556206083f0672eab1ba4be"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/smartcols.py",
+        "mode": 33188,
+        "size": 15164,
+        "sha256": "d289a8eec2db70afa428cd2d9be286a4092a880446b781b03c44d6f3e3c3d6a8"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/transaction.py",
+        "mode": 33188,
+        "size": 41260,
+        "sha256": "17c504cdbfe08dbc51c8c811b57f11de2ead7a2ed480e68f6d9e707d375877f0"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libdnf/utils.py",
+        "mode": 33188,
+        "size": 7882,
+        "sha256": "6883e559c0b27183e7a6b282b393f26f7fe5b447b0d0e42b286fd9b12e8a75b1"
+      }
+    ]
+  }
+}

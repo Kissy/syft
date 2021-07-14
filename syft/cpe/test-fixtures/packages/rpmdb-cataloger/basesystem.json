@@ -1,0 +1,30 @@
+{
+  "name": "basesystem",
+  "version": "11-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/basesystem@0:11-5.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "basesystem",
+    "version": "11",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "5.el8",
+    "sourceRpm": "basesystem-11-5.el8.src.rpm",
+    "size": 0,
+    "license": "Public Domain",
+    "vendor": "CentOS",
+    "url": "",
+    "files": []
+  }
+}

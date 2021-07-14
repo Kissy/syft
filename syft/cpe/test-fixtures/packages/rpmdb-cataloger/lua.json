@@ -1,0 +1,171 @@
+{
+  "name": "lua",
+  "version": "5.1.4-15.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "lua",
+      "Product": "lua",
+      "Version": "5.1.4",
+      "Update": "15.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/lua@0:5.1.4-15.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "lua",
+    "version": "5.1.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "15.el7",
+    "sourceRpm": "lua-5.1.4-15.el7.src.rpm",
+    "size": 640311,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "http://www.lua.org/",
+    "files": [
+      {
+        "path": "/usr/bin/lua",
+        "mode": 33261,
+        "size": 15840,
+        "sha256": "3841999072dfde9386e195b750c862f79d4035763301bf9540ab44533137e28b"
+      },
+      {
+        "path": "/usr/bin/luac",
+        "mode": 33261,
+        "size": 121888,
+        "sha256": "ee4a75a8ef4fe1be1bfedadccc0e85194fa1dd6494530204a54bcd3596fa00b7"
+      },
+      {
+        "path": "/usr/lib64/liblua-5.1.so",
+        "mode": 33261,
+        "size": 193856,
+        "sha256": "2c799a6758017fe9b2d624c41d111abaf77aa5cb9ebc5b80dbe823fed9e62668"
+      },
+      {
+        "path": "/usr/lib64/lua",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/lua/5.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/COPYRIGHT",
+        "mode": 33188,
+        "size": 1528,
+        "sha256": "15c7579ae46d908816dd0ce6f41256a84c2e1862489eb731421626d7335f0db3"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/HISTORY",
+        "mode": 33188,
+        "size": 7907,
+        "sha256": "17e10094334619f60ec896eeea6e8fd80ec6879151d52c2ffc13a835672c9f03"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/README",
+        "mode": 33188,
+        "size": 1378,
+        "sha256": "eaf56b5de891e11632aa36f302e03d27acd1614944904e2b7cf7955bb0474086"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/amazon.gif",
+        "mode": 33188,
+        "size": 797,
+        "sha256": "84d4c6caec3307f9fdee0e511c8b5a38ca2f0ca839d742a67d307e9110a16d4d"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/contents.html",
+        "mode": 33188,
+        "size": 22254,
+        "sha256": "121258573e58177117cccc6cc9e3627e3a19ba3242f05b957a7c911dd2c34fb8"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/cover.png",
+        "mode": 33188,
+        "size": 3305,
+        "sha256": "67f42fceef5c247c6f5fb13dd3bb3879a2deffcced09620c509115434439bfc8"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/logo.gif",
+        "mode": 33188,
+        "size": 4232,
+        "sha256": "9c3a3208ef05e12110f9b7b491cef676e650e4ebf3d36c4414268666bcc95d8a"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/lua.css",
+        "mode": 33188,
+        "size": 588,
+        "sha256": "be15cc05559313e1ef002c6fc2a515bdce4c7666adfa0175376cca12a257c00d"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/lua.html",
+        "mode": 33188,
+        "size": 3951,
+        "sha256": "6bc6f4d79bd56e220c637af6a16e429a4d187944c4b15d8f36dbb097eded200b"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/luac.html",
+        "mode": 33188,
+        "size": 3896,
+        "sha256": "9e9fd008729a8c424e3caed3b8ca813742d64bc14af54efe0a26be31c2e63626"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/manual.css",
+        "mode": 33188,
+        "size": 120,
+        "sha256": "0e94ad00ac43dca79609d75ea1e83de9c857f2f1d5f8a765c80194992c2e53bf"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/manual.html",
+        "mode": 33188,
+        "size": 254624,
+        "sha256": "2c7090df0ffd05eb975b8dd92583a84c6b9bc5498c65ad682b141342cb2057b4"
+      },
+      {
+        "path": "/usr/share/doc/lua-5.1.4/readme.html",
+        "mode": 33188,
+        "size": 833,
+        "sha256": "cc75c29ad7c558184ec4941709ff0afc8f5688ea6701f08824a1577ffd8e1113"
+      },
+      {
+        "path": "/usr/share/lua",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/lua/5.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "name": "ca-certificates",
+  "version": "2020.2.41-80.0.el8_2",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/ca-certificates@0:2020.2.41-80.0.el8_2?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "ca-certificates",
+    "version": "2020.2.41",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "80.0.el8_2",
+    "sourceRpm": "ca-certificates-2020.2.41-80.0.el8_2.src.rpm",
+    "size": 949009,
+    "license": "Public Domain",
+    "vendor": "CentOS",
+    "url": "https://fedoraproject.org/wiki/CA-Certificates",
+    "files": [
+      {
+        "path": "/etc/pki/ca-trust",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/README",
+        "mode": 33188,
+        "size": 166,
+        "sha256": "6c7b9287c41c171c64b358fc7331b8a9ae969fc2d00d997d88bcbf4da0de598a"
+      },
+      {
+        "path": "/etc/pki/ca-trust/ca-legacy.conf",
+        "mode": 33188,
+        "size": 980,
+        "sha256": "400b96da374503fa6b6350a867347082d0c90e05ba4d02cc6b51b11229199c4d"
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/README",
+        "mode": 33188,
+        "size": 560,
+        "sha256": "146ff96c60a8ee32bbcf2da59d624d6ecfbab7ef7442529d46d8d63064d8ca58"
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/edk2/README",
+        "mode": 33188,
+        "size": 566,
+        "sha256": "757c28eddb0634b74e6482d16324193be27eee41864c1f96c447020dae14b44f"
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/edk2/cacerts.bin",
+        "mode": 33060,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/java",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/java/README",
+        "mode": 33188,
+        "size": 726,
+        "sha256": "7bb8781320fb3ff84e76c7e7e4a9c3813879c4f1943710a3b0140b31efacfd32"
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/java/cacerts",
+        "mode": 33060,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/openssl",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/openssl/README",
+        "mode": 33188,
+        "size": 787,
+        "sha256": "6c812d1ec8ce5bde2216cc42be33021d6345fbea05c14f50c52191a38c175ea9"
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt",
+        "mode": 33060,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/pem",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/pem/README",
+        "mode": 33188,
+        "size": 898,
+        "sha256": "27362e773c8b6bb065a455a66badb05e2652720bab8ade9ab91f0404cf827dab"
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem",
+        "mode": 33060,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem",
+        "mode": 33060,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem",
+        "mode": 33060,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/source",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/source/README",
+        "mode": 33188,
+        "size": 932,
+        "sha256": "86184318d451bec55d70c84e618cbfe10c8adb7dc893964ce4aaecff99d83433"
+      },
+      {
+        "path": "/etc/pki/ca-trust/source/anchors",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/source/blacklist",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/ca-trust/source/ca-bundle.legacy.crt",
+        "mode": 32768,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/java",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/java/cacerts",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/tls",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/tls/cert.pem",
+        "mode": 41471,
+        "size": 49,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/tls/certs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/tls/certs/ca-bundle.crt",
+        "mode": 41471,
+        "size": 49,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/tls/certs/ca-bundle.trust.crt",
+        "mode": 41471,
+        "size": 55,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/ssl",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/ssl/certs",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/ca-legacy",
+        "mode": 33261,
+        "size": 1644,
+        "sha256": "de73a03a0cde4aff31ce3d5e27eecd03284a637c102e46b9e47d4369b5152ae0"
+      },
+      {
+        "path": "/usr/bin/update-ca-trust",
+        "mode": 33261,
+        "size": 1268,
+        "sha256": "0c0c0600587db7f59ba5e399666152ea6de6059f37408f3946c43438d607efdd"
+      },
+      {
+        "path": "/usr/share/pki",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-legacy",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-legacy/ca-bundle.legacy.default.crt",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-legacy/ca-bundle.legacy.disable.crt",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-source",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-source/README",
+        "mode": 33188,
+        "size": 937,
+        "sha256": "0d2e90b6cf575678cd9d4f409d92258ef0d676995d4d733acdb2425309a38ff8"
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-source/anchors",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-source/blacklist",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pki/ca-trust-source/ca-bundle.trust.p11-kit",
+        "mode": 33188,
+        "size": 934263,
+        "sha256": "36d3c8f260aa0ab7065dae0a9343fdb3a1ec249ca62782aac0a30ef53e29c897"
+      }
+    ]
+  }
+}

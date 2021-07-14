@@ -1,0 +1,223 @@
+{
+  "name": "chkconfig",
+  "version": "1.13-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/chkconfig@0:1.13-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "chkconfig",
+    "version": "1.13",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "chkconfig-1.13-2.el8.src.rpm",
+    "size": 811094,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "https://github.com/fedora-sysv/chkconfig",
+    "files": [
+      {
+        "path": "/etc/alternatives",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/chkconfig.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/init.d",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/init.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc0.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc1.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc2.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc3.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc4.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc5.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc.d/rc6.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc0.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc1.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc2.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc3.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc4.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc5.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rc6.d",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/sbin/chkconfig",
+        "mode": 33261,
+        "size": 46240,
+        "sha256": "a27f280d01646d97525908880655f721af8c7fc3729b167f9dbb7ea3e971511d"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/63",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/63/1297615cf843fe266ebd66aabecda301606787",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/dd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/dd/75f33a9c1dd27af7c8e2b9277300551b16cc89",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/systemd-sysv-install",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/alternatives",
+        "mode": 33261,
+        "size": 37688,
+        "sha256": "76523cbcce71c21bf35fcdc830740ae6557e022dc20921ed12244356060d43dc"
+      },
+      {
+        "path": "/usr/sbin/update-alternatives",
+        "mode": 41471,
+        "size": 12,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/chkconfig",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/chkconfig/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/chkconfig.mo",
+        "mode": 33188,
+        "size": 8249,
+        "sha256": "965154894df31a9d230f27feef29bb4eaa72a4a00cbe07a8d6cf0ecf2d864969"
+      },
+      {
+        "path": "/var/lib/alternatives",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

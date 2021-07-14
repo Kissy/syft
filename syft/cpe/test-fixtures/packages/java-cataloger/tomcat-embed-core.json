@@ -1,0 +1,135 @@
+{
+  "name": "tomcat-embed-core",
+  "version": "9.0.38",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "apache_software_foundation",
+      "Product": "tomcat",
+      "Version": "9.0.38",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/tomcat-embed-core-9.0.38.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1599726150821",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "tomcat-embed-core",
+        "Bundle-SymbolicName": "org.apache.tomcat-embed-core",
+        "Bundle-Version": "9.0.38",
+        "Created-By": "1.8.0_252 (AdoptOpenJDK)",
+        "DSTAMP": "20200910",
+        "Export-Package": "javax.security.auth.message;version=\"1.1\";uses:=\"javax.security.auth,javax.security.auth.login\",javax.security.auth.message.callback;version=\"1.1\";uses:=\"javax.crypto,javax.security.auth,javax.security.auth.callback,javax.security.auth.x500\",javax.security.auth.message.config;version=\"1.1\";uses:=\"javax.security.auth,javax.security.auth.callback,javax.security.auth.message\",javax.security.auth.message.module;version=\"1.1\";uses:=\"javax.security.auth.callback,javax.security.auth.message\",javax.servlet;version=\"4.0\";uses:=\"javax.servlet.annotation,javax.servlet.descriptor\",javax.servlet.annotation;version=\"4.0\";uses:=\"javax.servlet\",javax.servlet.descriptor;version=\"4.0\",javax.servlet.http;version=\"4.0\";uses:=\"javax.servlet\",javax.servlet.resources;version=\"4.0\",org.apache.catalina;uses:=\"javax.management,javax.naming,javax.servlet,javax.servlet.descriptor,javax.servlet.http,org.apache.catalina.connector,org.apache.catalina.deploy,org.apache.catalina.mapper,org.apache.catalina.startup,org.apache.juli.logging,org.apache.tomcat,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.http,org.ietf.jgss\";version=\"9.0.38\",org.apache.catalina.authenticator;uses:=\"javax.security.auth.message.config,javax.servlet,javax.servlet.http,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.util,org.apache.catalina.valves,org.apache.tomcat.util.buf,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.res,org.ietf.jgss\";version=\"9.0.38\",org.apache.catalina.authenticator.jaspic;uses:=\"javax.security.auth,javax.security.auth.callback,javax.security.auth.message,javax.security.auth.message.config,javax.security.auth.message.module,javax.servlet.http,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.connector;uses:=\"javax.security.auth,javax.servlet,javax.servlet.http,org.apache.catalina,org.apache.catalina.core,org.apache.catalina.mapper,org.apache.catalina.util,org.apache.coyote,org.apache.tomcat.util.buf,org.apache.tomcat.util.http,org.apache.tomcat.util.net,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.core;uses:=\"javax.management,javax.naming,javax.servlet,javax.servlet.descriptor,javax.servlet.http,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.deploy,org.apache.catalina.mapper,org.apache.catalina.startup,org.apache.catalina.util,org.apache.coyote,org.apache.juli.logging,org.apache.naming,org.apache.tomcat,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.http,org.apache.tomcat.util.http.fileupload,org.apache.tomcat.util.res,org.apache.tomcat.util.threads\";version=\"9.0.38\",org.apache.catalina.deploy;uses:=\"org.apache.catalina,org.apache.catalina.util,org.apache.tomcat.util.descriptor.web\";version=\"9.0.38\",org.apache.catalina.filters;uses:=\"javax.servlet,javax.servlet.http,org.apache.juli.logging,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.loader;uses:=\"org.apache.catalina,org.apache.catalina.util,org.apache.juli,org.apache.tomcat,org.apache.tomcat.util.res,org.apache.tomcat.util.security\";version=\"9.0.38\",org.apache.catalina.manager;uses:=\"javax.management,javax.naming,javax.servlet,javax.servlet.http,org.apache.catalina,org.apache.catalina.util,org.apache.tomcat.util.modeler,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.manager.host;uses:=\"javax.servlet,javax.servlet.http,org.apache.catalina,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.manager.util;uses:=\"javax.servlet.http,org.apache.catalina\";version=\"9.0.38\",org.apache.catalina.mapper;uses:=\"javax.servlet.http,org.apache.catalina,org.apache.catalina.util,org.apache.tomcat.util.buf\";version=\"9.0.38\",org.apache.catalina.mbeans;uses:=\"javax.management,javax.management.remote,javax.naming,javax.net.ssl,javax.rmi.ssl,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.core,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.modeler,org.apache.tomcat.util.net,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.realm;uses:=\"javax.management,javax.naming,javax.naming.directory,javax.net.ssl,javax.security.auth,javax.security.auth.callback,javax.security.auth.login,javax.security.auth.spi,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.util,org.apache.juli.logging,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.digester,org.apache.tomcat.util.res,org.ietf.jgss\";version=\"9.0.38\",org.apache.catalina.security;uses:=\"javax.servlet,org.apache.catalina\";version=\"9.0.38\",org.apache.catalina.servlets;uses:=\"javax.servlet,javax.servlet.http,javax.xml.parsers,javax.xml.transform,org.apache.catalina,org.apache.tomcat.util.http,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.session;uses:=\"javax.servlet,javax.servlet.http,javax.sql,org.apache.catalina,org.apache.catalina.util,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.startup;uses:=\"javax.annotation,javax.management,javax.servlet,javax.servlet.descriptor,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.core,org.apache.catalina.deploy,org.apache.catalina.util,org.apache.juli.logging,org.apache.tomcat,org.apache.tomcat.util.bcel.classfile,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.digester,org.apache.tomcat.util.file,org.apache.tomcat.util.http,org.apache.tomcat.util.res,org.xml.sax\";version=\"9.0.38\",org.apache.catalina.users;uses:=\"javax.naming,javax.naming.spi,org.apache.catalina\";version=\"9.0.38\",org.apache.catalina.util;uses:=\"javax.management,javax.servlet.http,org.apache.catalina,org.apache.juli.logging,org.apache.tomcat.util.descriptor.web,org.w3c.dom\";version=\"9.0.38\",org.apache.catalina.valves;uses:=\"javax.servlet,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.util,org.apache.juli.logging,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.valves.rewrite;uses:=\"javax.servlet,org.apache.catalina,org.apache.catalina.connector,org.apache.catalina.valves,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.webresources;uses:=\"org.apache.catalina,org.apache.catalina.util,org.apache.juli.logging,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.webresources.war;version=\"9.0.38\",org.apache.coyote;uses:=\"javax.management,javax.servlet,javax.servlet.http,org.apache.coyote.http11.upgrade,org.apache.juli.logging,org.apache.tomcat,org.apache.tomcat.util.buf,org.apache.tomcat.util.collections,org.apache.tomcat.util.http,org.apache.tomcat.util.log,org.apache.tomcat.util.modeler,org.apache.tomcat.util.net\";version=\"9.0.38\",org.apache.coyote.ajp;uses:=\"org.apache.coyote,org.apache.juli.logging,org.apache.tomcat.util.buf,org.apache.tomcat.util.net,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.coyote.http11;uses:=\"org.apache.coyote,org.apache.juli.logging,org.apache.tomcat.util.buf,org.apache.tomcat.util.http.parser,org.apache.tomcat.util.net,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.coyote.http11.filters;uses:=\"org.apache.coyote,org.apache.coyote.http11,org.apache.juli.logging,org.apache.tomcat.util.buf,org.apache.tomcat.util.net\";version=\"9.0.38\",org.apache.coyote.http11.upgrade;uses:=\"javax.servlet,javax.servlet.http,org.apache.coyote,org.apache.juli.logging,org.apache.tomcat.util.net\";version=\"9.0.38\",org.apache.coyote.http2;uses:=\"javax.servlet.http,org.apache.coyote,org.apache.coyote.http11,org.apache.coyote.http11.upgrade,org.apache.tomcat.util.net,org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.juli;version=\"9.0.38\",org.apache.juli.logging;version=\"9.0.38\",org.apache.naming;uses:=\"javax.naming\";version=\"9.0.38\",org.apache.naming.factory;uses:=\"javax.naming,javax.naming.spi,javax.sql,org.apache.naming\";version=\"9.0.38\",org.apache.naming.java;uses:=\"javax.naming,javax.naming.spi\";version=\"9.0.38\",org.apache.tomcat;uses:=\"javax.naming,javax.servlet\";version=\"9.0.38\",org.apache.tomcat.jni;version=\"9.0.38\",org.apache.tomcat.util;uses:=\"org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.tomcat.util.bcel.classfile;version=\"9.0.38\",org.apache.tomcat.util.buf;uses:=\"org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.tomcat.util.codec.binary;uses:=\"org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.tomcat.util.collections;version=\"9.0.38\",org.apache.tomcat.util.compat;uses:=\"javax.net.ssl\";version=\"9.0.38\",org.apache.tomcat.util.descriptor;uses:=\"org.apache.juli.logging,org.apache.tomcat.util.digester,org.xml.sax,org.xml.sax.ext\";version=\"9.0.38\",org.apache.tomcat.util.descriptor.tagplugin;uses:=\"javax.servlet,org.xml.sax\";version=\"9.0.38\",org.apache.tomcat.util.descriptor.tld;uses:=\"javax.servlet.jsp.tagext,org.apache.tomcat,org.apache.tomcat.util.digester,org.xml.sax\";version=\"9.0.38\",org.apache.tomcat.util.descriptor.web;uses:=\"javax.servlet,javax.servlet.descriptor,org.apache.juli.logging,org.apache.tomcat,org.apache.tomcat.util.digester,org.apache.tomcat.util.res,org.xml.sax\";version=\"9.0.38\",org.apache.tomcat.util.digester;uses:=\"javax.xml.parsers,org.apache.juli.logging,org.apache.tomcat.util,org.apache.tomcat.util.res,org.xml.sax,org.xml.sax.ext\";version=\"9.0.38\",org.apache.tomcat.util.file;version=\"9.0.38\",org.apache.tomcat.util.http;uses:=\"javax.servlet.http,org.apache.tomcat.util.buf\";version=\"9.0.38\",org.apache.tomcat.util.http.fileupload;uses:=\"org.apache.tomcat.util.http.fileupload.util\";version=\"9.0.38\",org.apache.tomcat.util.http.fileupload.disk;uses:=\"org.apache.tomcat.util.http.fileupload\";version=\"9.0.38\",org.apache.tomcat.util.http.fileupload.servlet;uses:=\"javax.servlet.http,org.apache.tomcat.util.http.fileupload\";version=\"9.0.38\",org.apache.tomcat.util.http.fileupload.util;uses:=\"org.apache.tomcat.util.http.fileupload\";version=\"9.0.38\",org.apache.tomcat.util.http.parser;uses:=\"org.apache.tomcat.util.buf,org.apache.tomcat.util.http\";version=\"9.0.38\",org.apache.tomcat.util.log;uses:=\"org.apache.juli.logging\";version=\"9.0.38\",org.apache.tomcat.util.modeler;uses:=\"javax.management,javax.management.modelmbean\";version=\"9.0.38\",org.apache.tomcat.util.net;uses:=\"javax.management,javax.net.ssl,org.apache.juli.logging,org.apache.tomcat.jni,org.apache.tomcat.util.collections,org.apache.tomcat.util.net.openssl,org.apache.tomcat.util.net.openssl.ciphers,org.apache.tomcat.util.res,org.apache.tomcat.util.threads\";version=\"9.0.38\",org.apache.tomcat.util.net.openssl;uses:=\"javax.net.ssl,org.apache.juli.logging,org.apache.tomcat.util.net\";version=\"9.0.38\",org.apache.tomcat.util.net.openssl.ciphers;version=\"9.0.38\",org.apache.tomcat.util.res;version=\"9.0.38\",org.apache.tomcat.util.scan;uses:=\"javax.servlet,org.apache.tomcat\";version=\"9.0.38\",org.apache.tomcat.util.security;version=\"9.0.38\",org.apache.tomcat.util.threads;uses:=\"org.apache.tomcat.util.res\";version=\"9.0.38\",org.apache.catalina.ssi;version=\"9.0.38\"",
+        "Implementation-Title": "Apache Tomcat",
+        "Implementation-Vendor": "Apache Software Foundation",
+        "Implementation-Version": "9.0.38",
+        "Import-Package": "javax.annotation,javax.annotation.security,javax.crypto,javax.crypto.spec,javax.ejb,javax.imageio,javax.mail,javax.mail.internet,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.openmbean,javax.management.remote,javax.management.remote.rmi,javax.naming,javax.naming.directory,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.persistence,javax.rmi.ssl,javax.security.auth,javax.security.auth.callback,javax.security.auth.login,javax.security.auth.message;version=\"[1.1,2)\",javax.security.auth.message.callback;version=\"[1.1,2)\",javax.security.auth.message.config;version=\"[1.1,2)\",javax.security.auth.message.module;version=\"[1.1,2)\",javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.servlet;version=\"[4.0,5)\",javax.servlet.annotation;version=\"[4.0,5)\",javax.servlet.descriptor;version=\"[4.0,5)\",javax.servlet.http;version=\"[4.0,5)\",javax.servlet.jsp.tagext,javax.sql,javax.wsdl,javax.wsdl.extensions,javax.wsdl.extensions.soap,javax.wsdl.factory,javax.wsdl.xml,javax.xml.namespace,javax.xml.parsers,javax.xml.rpc,javax.xml.rpc.handler,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.stream,javax.xml.ws,org.apache.catalina,org.apache.catalina.authenticator,org.apache.catalina.authenticator.jaspic,org.apache.catalina.core,org.apache.catalina.deploy,org.apache.catalina.filters,org.apache.catalina.loader,org.apache.catalina.manager,org.apache.catalina.manager.util,org.apache.catalina.mapper,org.apache.catalina.realm,org.apache.catalina.security,org.apache.catalina.session,org.apache.catalina.startup,org.apache.catalina.tribes.util,org.apache.catalina.util,org.apache.catalina.valves,org.apache.catalina.webresources,org.apache.catalina.webresources.war,org.apache.coyote,org.apache.coyote.ajp,org.apache.coyote.http11,org.apache.coyote.http11.filters,org.apache.coyote.http11.upgrade,org.apache.juli,org.apache.juli.logging,org.apache.naming,org.apache.naming.factory,org.apache.tomcat,org.apache.tomcat.jni,org.apache.tomcat.util,org.apache.tomcat.util.buf,org.apache.tomcat.util.codec.binary,org.apache.tomcat.util.collections,org.apache.tomcat.util.compat,org.apache.tomcat.util.descriptor,org.apache.tomcat.util.descriptor.web,org.apache.tomcat.util.digester,org.apache.tomcat.util.file,org.apache.tomcat.util.http,org.apache.tomcat.util.http.fileupload.disk,org.apache.tomcat.util.http.fileupload.servlet,org.apache.tomcat.util.http.fileupload.util,org.apache.tomcat.util.http.parser,org.apache.tomcat.util.log,org.apache.tomcat.util.net.openssl.ciphers,org.apache.tomcat.util.res,org.apache.tomcat.util.scan,org.apache.tomcat.util.security,org.apache.tomcat.util.threads,org.ietf.jgss,org.w3c.dom,org.w3c.dom.ls,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers,sun.rmi.registry",
+        "Manifest-Version": "1.0",
+        "Private-Package": "org.apache.naming.factory.webservices,org.apache.tomcat.util.bcel,org.apache.tomcat.util.http.fileupload.impl,org.apache.tomcat.util.http.fileupload.util.mime,org.apache.tomcat.util.json,org.apache.tomcat.util.modeler.modules,org.apache.tomcat.util.net.jsse,org.apache.tomcat.util.threads.res",
+        "Provide-Capability": "osgi.contract;osgi.contract=JavaJASPIC;version:List<Version>=\"1.1,1\";uses:=\"javax.security.auth.message,javax.security.auth.message.callback,javax.security.auth.message.config,javax.security.auth.message.module\",osgi.contract;osgi.contract=JavaServlet;version:List<Version>=\"4.0,3.1,3,2.5\";uses:=\"javax.servlet,javax.servlet.annotation,javax.servlet.descriptor,javax.servlet.http,javax.servlet.resources\"",
+        "Require-Capability": "osgi.contract;osgi.contract=JavaAnnotation;filter:=\"(&(osgi.contract=JavaAnnotation)(version=1.3.0))\",osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Specification-Title": "Apache Tomcat",
+        "Specification-Vendor": "Apache Software Foundation",
+        "Specification-Version": "9.0",
+        "TODAY": "September 10 2020",
+        "TSTAMP": "0920",
+        "Tool": "Bnd-5.1.1.202006162103",
+        "X-Compile-Source-JDK": "8",
+        "X-Compile-Target-JDK": "8"
+      },
+      "namedSections": {
+        "javax/security/auth/message/": {
+          "Implementation-Title": "javax.security.auth.message",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "1.1.FR",
+          "Specification-Title": "Java Authentication SPI for Containers",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "1.1"
+        },
+        "javax/security/auth/message/callback/": {
+          "Implementation-Title": "javax.security.auth.message",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "1.1.FR",
+          "Specification-Title": "Java Authentication SPI for Containers",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "1.1"
+        },
+        "javax/security/auth/message/config/": {
+          "Implementation-Title": "javax.security.auth.message",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "1.1.FR",
+          "Specification-Title": "Java Authentication SPI for Containers",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "1.1"
+        },
+        "javax/security/auth/message/module/": {
+          "Implementation-Title": "javax.security.auth.message",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "1.1.FR",
+          "Specification-Title": "Java Authentication SPI for Containers",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "1.1"
+        },
+        "javax/servlet/": {
+          "Implementation-Title": "javax.servlet",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "4.0.FR",
+          "Specification-Title": "Java API for Servlets",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "4.0"
+        },
+        "javax/servlet/annotation/": {
+          "Implementation-Title": "javax.servlet",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "4.0.FR",
+          "Specification-Title": "Java API for Servlets",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "4.0"
+        },
+        "javax/servlet/descriptor/": {
+          "Implementation-Title": "javax.servlet",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "4.0.FR",
+          "Specification-Title": "Java API for Servlets",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "4.0"
+        },
+        "javax/servlet/http/": {
+          "Implementation-Title": "javax.servlet",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "4.0.FR",
+          "Specification-Title": "Java API for Servlets",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "4.0"
+        },
+        "javax/servlet/resources/": {
+          "Implementation-Title": "javax.servlet",
+          "Implementation-Vendor": "Apache Software Foundation",
+          "Implementation-Version": "4.0.FR",
+          "Specification-Title": "Java API for Servlets",
+          "Specification-Vendor": "Sun Microsystems, Inc.",
+          "Specification-Version": "4.0"
+        }
+      }
+    }
+  }
+}

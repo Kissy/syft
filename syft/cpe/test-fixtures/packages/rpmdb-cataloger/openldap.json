@@ -1,0 +1,189 @@
+{
+  "name": "openldap",
+  "version": "2.4.46-15.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "openldap",
+      "Product": "openldap",
+      "Version": "2.4.46",
+      "Update": "15.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/openldap@0:2.4.46-15.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "openldap",
+    "version": "2.4.46",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "15.el8",
+    "sourceRpm": "openldap-2.4.46-15.el8.src.rpm",
+    "size": 998172,
+    "license": "OpenLDAP",
+    "vendor": "CentOS",
+    "url": "http://www.openldap.org/",
+    "files": [
+      {
+        "path": "/etc/openldap",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/openldap/certs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/openldap/ldap.conf",
+        "mode": 33188,
+        "size": 900,
+        "sha256": "3bea281bbd267ed31c02249d9ce4c7659d764c6c36b0f0c81a39e4c810236eb2"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/15",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/15/e0fd0fa1c9a9ee001a0e6f7377a6f4c3074571",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/92",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/92/cf4098649f22355a17f16c6952caead8ff271a",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e3/e560a88fdc8e0a4ea0ed45e197083965281e48",
+        "mode": 41471,
+        "size": 44,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ef",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ef/e93bf87aaf56f860418ce5d97e29ea0e070927",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblber-2.4.so.2",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblber-2.4.so.2.10.9",
+        "mode": 33261,
+        "size": 67120,
+        "sha256": "8cdfe32836843c9e4686e500a5d7f815c4bf23f08af4ccb2f47510b69e3bfa27"
+      },
+      {
+        "path": "/usr/lib64/libldap-2.4.so.2",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libldap-2.4.so.2.10.9",
+        "mode": 33261,
+        "size": 325176,
+        "sha256": "e3f3741e4630faa0bc5871a0d76f652f2d86c3a7bbb0efc15b16838643c4603e"
+      },
+      {
+        "path": "/usr/lib64/libldap_r-2.4.so.2",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libldap_r-2.4.so.2.10.9",
+        "mode": 33261,
+        "size": 354032,
+        "sha256": "977b305462d28b09fa8a83eb57777871ac5dc604022f8a01ac94761deee90c24"
+      },
+      {
+        "path": "/usr/lib64/libslapi-2.4.so.2",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libslapi-2.4.so.2.10.9",
+        "mode": 33261,
+        "size": 137080,
+        "sha256": "02cbf2758f47128b77da081c72997a4e4d08a047c8bfb2a341049552a096e398"
+      },
+      {
+        "path": "/usr/libexec/openldap",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/openldap",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/openldap/COPYRIGHT",
+        "mode": 33188,
+        "size": 2345,
+        "sha256": "a207b1dd64d275e3cbe0bed9ae5e8b05f410318984c4c84ca07c992808da4379"
+      },
+      {
+        "path": "/usr/share/licenses/openldap/LICENSE",
+        "mode": 33188,
+        "size": 2214,
+        "sha256": "310fe25c858a9515fc8c8d7d1f24a67c9496f84a91e0a0e41ea9975b1371e569"
+      }
+    ]
+  }
+}

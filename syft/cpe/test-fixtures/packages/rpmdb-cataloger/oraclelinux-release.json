@@ -1,0 +1,145 @@
+{
+  "name": "oraclelinux-release",
+  "version": "7.9-1.0.9.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/oraclelinux-release@7:7.9-1.0.9.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "oraclelinux-release",
+    "version": "7.9",
+    "epoch": 7,
+    "architecture": "x86_64",
+    "release": "1.0.9.el7",
+    "sourceRpm": "oraclelinux-release-7.9-1.0.9.el7.src.rpm",
+    "size": 565069,
+    "license": "GPL",
+    "vendor": "Oracle America",
+    "url": "",
+    "files": [
+      {
+        "path": "/etc/issue",
+        "mode": 33188,
+        "size": 23,
+        "sha256": "188029a4a5fc320b6157195899bf6d424610d385949a857a811d992602fa48c9"
+      },
+      {
+        "path": "/etc/issue.net",
+        "mode": 33188,
+        "size": 22,
+        "sha256": "17657f4ee63966a9c7687e97028b9ca514f6e9bcbefec4b7f4e81ac861eb3483"
+      },
+      {
+        "path": "/etc/oracle-release",
+        "mode": 33188,
+        "size": 32,
+        "sha256": "9350212b1218e7f2c38bac4c18cdb7c6e42e0dc9034e7dd39bf44d4cfe0743de"
+      },
+      {
+        "path": "/etc/os-release",
+        "mode": 33188,
+        "size": 452,
+        "sha256": "585e9fdcc50c58ff5597f9232e2f03f3c03e90e7d5e2771e1b7268dd3f1582e1"
+      },
+      {
+        "path": "/etc/pki/rpm-gpg",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/rpm-gpg/RPM-GPG-KEY",
+        "mode": 33188,
+        "size": 1011,
+        "sha256": "e9280ce2eae9b06ae3d7aa3601b113d38f379c837221ee07908fe8dd20fedb86"
+      },
+      {
+        "path": "/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora",
+        "mode": 33188,
+        "size": 1519,
+        "sha256": "407056e7104a1c06aae82b979c9a71689466ae5f183de4efbbd847744704ec71"
+      },
+      {
+        "path": "/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-test",
+        "mode": 33188,
+        "size": 1076,
+        "sha256": "de00ed7fa4ec57ac9fa959f3cd9027bf0929ed308d5d645363a2b47f83dbad06"
+      },
+      {
+        "path": "/etc/pki/rpm-gpg/RPM-GPG-KEY-oracle",
+        "mode": 33188,
+        "size": 1011,
+        "sha256": "e9280ce2eae9b06ae3d7aa3601b113d38f379c837221ee07908fe8dd20fedb86"
+      },
+      {
+        "path": "/etc/redhat-release",
+        "mode": 33188,
+        "size": 52,
+        "sha256": "546db80d0dc32aacb2180653bc064d9669b246a621d8a304b6a7f39b5cc43bcd"
+      },
+      {
+        "path": "/etc/rpm/macros.dist",
+        "mode": 33188,
+        "size": 64,
+        "sha256": "43d203eaa40071210abe142795f5f3dc37c4808425482e8dda33c6d27d009509"
+      },
+      {
+        "path": "/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/etc/system-release",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/system-release-cpe",
+        "mode": 33188,
+        "size": 31,
+        "sha256": "91c85c9a4df7efb8bfb9809989532f212b8eba0973a4bb71e842e5d00f8ee528"
+      },
+      {
+        "path": "/usr/share/doc/oraclelinux-release/GPL",
+        "mode": 33188,
+        "size": 18390,
+        "sha256": "940a85c0e1ebf05faa4394c1d730d20c2984a911f279e8d0dcd66ed3b74ecad3"
+      },
+      {
+        "path": "/usr/share/doc/oraclelinux-release/releasenotes.html",
+        "mode": 33188,
+        "size": 523672,
+        "sha256": "dd501f860fb94a99f60a2a108b09f82e137d5939c78d04d44c603af1fcf0f2f3"
+      },
+      {
+        "path": "/usr/share/eula/eula.en_US",
+        "mode": 33188,
+        "size": 8806,
+        "sha256": "23c6c819e2ae70af827de3436a80ecf4569bad3efb7944a4b2bf1e3c48cceeac"
+      },
+      {
+        "path": "/usr/share/oraclelinux-release/EULA",
+        "mode": 33188,
+        "size": 8806,
+        "sha256": "23c6c819e2ae70af827de3436a80ecf4569bad3efb7944a4b2bf1e3c48cceeac"
+      },
+      {
+        "path": "/var/lib/supportinfo",
+        "mode": 33188,
+        "size": 102,
+        "sha256": "fbaab8c3f18d96e1b90fdf2715d567b6a2e3de1eb6fa34d36e820c14a57f64c0"
+      }
+    ]
+  }
+}

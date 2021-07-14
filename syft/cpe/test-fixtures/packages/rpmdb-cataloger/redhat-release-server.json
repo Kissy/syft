@@ -1,0 +1,43 @@
+{
+  "name": "redhat-release-server",
+  "version": "7.9-3.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/redhat-release-server@1:7.9-3.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "redhat-release-server",
+    "version": "7.9",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "3.0.1.el7",
+    "sourceRpm": "redhat-release-server-7.9-3.0.1.el7.src.rpm",
+    "size": 3853,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "",
+    "files": [
+      {
+        "path": "/usr/lib/systemd/system-preset/85-display-manager.preset",
+        "mode": 33188,
+        "size": 264,
+        "sha256": "ac3e811c49cac013f48b46a20a514b1dbc1a55831498dd4d211bf111a0faa3a9"
+      },
+      {
+        "path": "/usr/lib/systemd/system-preset/90-default.preset",
+        "mode": 33188,
+        "size": 3589,
+        "sha256": "a1e974ba7e37c7dbc1c1472e190f749bf97942abb73ac8ca9941a90a68595621"
+      }
+    ]
+  }
+}

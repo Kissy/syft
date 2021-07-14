@@ -1,0 +1,61 @@
+{
+  "name": "hibernate-jpamodelgen",
+  "version": "5.4.22.Final",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "hibernate",
+      "Product": "hibernate_orm",
+      "Version": "5.4.22",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/hibernate-jpamodelgen-5.4.22.Final.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "org.hibernate.orm.jpamodelgen",
+        "Bnd-LastModified": "1601487659994",
+        "Bundle-DocURL": "http://www.hibernate.org/orm/5.4",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "hibernate-jpamodelgen",
+        "Bundle-SymbolicName": "org.hibernate.orm.jpamodelgen",
+        "Bundle-Vendor": "Hibernate.org",
+        "Bundle-Version": "5.4.22.Final",
+        "Created-By": "1.8.0_242 (AdoptOpenJDK)",
+        "Export-Package": "org.hibernate.jpamodelgen;version=\"5.4.22.Final\";uses:=\"javax.annotation.processing,javax.lang.model,javax.lang.model.element,javax.lang.model.util,javax.tools,org.hibernate.jpamodelgen.model,org.hibernate.jpamodelgen.util\",org.hibernate.jpamodelgen.annotation;version=\"5.4.22.Final\";uses:=\"javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,org.hibernate.jpamodelgen,org.hibernate.jpamodelgen.model,org.hibernate.jpamodelgen.util\",org.hibernate.jpamodelgen.model;version=\"5.4.22.Final\";uses:=\"javax.lang.model.element\",org.hibernate.jpamodelgen.util;version=\"5.4.22.Final\";uses:=\"javax.lang.model.element,javax.lang.model.type,org.hibernate.jpamodelgen\",org.hibernate.jpamodelgen.util.xml;version=\"5.4.22.Final\";uses:=\"javax.xml.bind,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.validation,org.hibernate.jpamodelgen\",org.hibernate.jpamodelgen.xml;version=\"5.4.22.Final\";uses:=\"javax.lang.model.element,org.hibernate.jpamodelgen,org.hibernate.jpamodelgen.model\",org.hibernate.jpamodelgen.xml.jaxb;version=\"5.4.22.Final\";uses:=\"javax.xml.bind.annotation,javax.xml.bind.annotation.adapters\"",
+        "Hibernate-JpaVersion": "2.2",
+        "Hibernate-VersionFamily": "5.4",
+        "Implementation-Title": "hibernate-jpamodelgen",
+        "Implementation-Url": "http://hibernate.org/orm",
+        "Implementation-Vendor": "Hibernate.org",
+        "Implementation-Vendor-Id": "org.hibernate",
+        "Implementation-Version": "5.4.22.Final",
+        "Import-Package": "javax.annotation.processing,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.tools,javax.xml.bind;version=\"[2.3,3)\",javax.xml.bind.annotation;version=\"[2.3,3)\",javax.xml.bind.annotation.adapters;version=\"[2.3,3)\",javax.xml.namespace,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.validation,org.hibernate.jpamodelgen;version=\"[5.4,6)\",org.hibernate.jpamodelgen.annotation;version=\"[5.4,6)\",org.hibernate.jpamodelgen.model;version=\"[5.4,6)\",org.hibernate.jpamodelgen.util;version=\"[5.4,6)\",org.hibernate.jpamodelgen.util.xml;version=\"[5.4,6)\",org.hibernate.jpamodelgen.xml;version=\"[5.4,6)\",org.hibernate.jpamodelgen.xml.jaxb;version=\"[5.4,6)\",org.xml.sax,javax.transaction;version=\"[1.1,2)\"",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Specification-Title": "hibernate-jpamodelgen",
+        "Specification-Vendor": "Hibernate.org",
+        "Specification-Version": "5.4.22.Final",
+        "Tool": "Bnd-5.1.1.202006162103"
+      }
+    }
+  }
+}

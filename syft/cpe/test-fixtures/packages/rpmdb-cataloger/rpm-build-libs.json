@@ -1,0 +1,99 @@
+{
+  "name": "rpm-build-libs",
+  "version": "4.14.3-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "rpm",
+      "Version": "4.14.3",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/rpm-build-libs@0:4.14.3-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rpm-build-libs",
+    "version": "4.14.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "rpm-4.14.3-4.el8.src.rpm",
+    "size": 215848,
+    "license": "GPLv2+ and LGPLv2+ with exceptions",
+    "vendor": "CentOS",
+    "url": "http://www.rpm.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/21",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/21/9dd6fe9389a47280b44db48516655e964c6923",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65/7c6a95fc5cdce5657e7bd2e9ac2d64d33a0706",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librpmbuild.so.8",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librpmbuild.so.8.2.0",
+        "mode": 33261,
+        "size": 187688,
+        "sha256": "105f14324b0215bb7a91cb100f81db3413f9c9c6c04b41b1b9e0af45f4496534"
+      },
+      {
+        "path": "/usr/lib64/librpmsign.so.8",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librpmsign.so.8.2.0",
+        "mode": 33261,
+        "size": 28160,
+        "sha256": "2ee7f13760b95ccd00dfb6f6960c79c46e4ee626d01afd6aab4c598226076545"
+      }
+    ]
+  }
+}

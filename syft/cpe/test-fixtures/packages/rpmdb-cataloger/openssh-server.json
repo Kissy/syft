@@ -1,0 +1,117 @@
+{
+  "name": "openssh-server",
+  "version": "7.4p1-21.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "openbsd",
+      "Product": "openssh",
+      "Version": "7.4p1",
+      "Update": "21.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/openssh-server@0:7.4p1-21.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "openssh-server",
+    "version": "7.4p1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "21.0.1.el7",
+    "sourceRpm": "openssh-7.4p1-21.0.1.el7.src.rpm",
+    "size": 993730,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://www.openssh.com/portable.html",
+    "files": [
+      {
+        "path": "/etc/pam.d/sshd",
+        "mode": 33188,
+        "size": 904,
+        "sha256": "358ca9f060a5c7a129688401236b745f4acf3e411e0b920f2f91dceb11764622"
+      },
+      {
+        "path": "/etc/ssh/sshd_config",
+        "mode": 33152,
+        "size": 3907,
+        "sha256": "86eb7bfb84dfe487161ac349fbea02a9c2c80de4e7bb9ca4148568924723a4b5"
+      },
+      {
+        "path": "/etc/sysconfig/sshd",
+        "mode": 33184,
+        "size": 506,
+        "sha256": "1e3326ae54d5ed44a20637ebf32c1fc5fb7aa48916f2e9647f6f81c5f0987167"
+      },
+      {
+        "path": "/usr/lib/systemd/system/sshd-keygen.service",
+        "mode": 33188,
+        "size": 313,
+        "sha256": "6b0d76aa181e0aa276f87d441b4e450a59076f589f99ec0f46e829b458baa9c9"
+      },
+      {
+        "path": "/usr/lib/systemd/system/sshd.service",
+        "mode": 33188,
+        "size": 373,
+        "sha256": "c9bdf8fa855fab5e413feea742c0be04b6b66841d5dcc5416cf1c90bb2acb5a8"
+      },
+      {
+        "path": "/usr/lib/systemd/system/sshd.socket",
+        "mode": 33188,
+        "size": 181,
+        "sha256": "daf2c99ec9a55d7d56c2550da46207c41120c0ed473025795bd5c773d94a2602"
+      },
+      {
+        "path": "/usr/lib/systemd/system/sshd@.service",
+        "mode": 33188,
+        "size": 260,
+        "sha256": "7ee1fa714c6af534a5c926a814ccc6f19ee7703ae281a2495b2a19c43dd802b9"
+      },
+      {
+        "path": "/usr/lib64/fipscheck/sshd.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "6921271a0a8938ab207a9d192e962c69879e0070d4e4772c6c3fabbad0c1051e"
+      },
+      {
+        "path": "/usr/libexec/openssh/sftp-server",
+        "mode": 33261,
+        "size": 100776,
+        "sha256": "7e8cada77b814e75b59de619fe28c3f6411b86b6c0e0068261e452d56f1f5cc7"
+      },
+      {
+        "path": "/usr/sbin/sshd",
+        "mode": 33261,
+        "size": 853008,
+        "sha256": "22d587e1e93b2ccf4e3b60d3168578a723d97f0026e8add486a5c527a293654d"
+      },
+      {
+        "path": "/usr/sbin/sshd-keygen",
+        "mode": 33261,
+        "size": 3613,
+        "sha256": "531e2147b90ba2ae4946e94f75a959aef60970eb44503be107f7569e3b6d48b5"
+      },
+      {
+        "path": "/var/empty/sshd",
+        "mode": 16841,
+        "size": 6,
+        "sha256": ""
+      }
+    ]
+  }
+}

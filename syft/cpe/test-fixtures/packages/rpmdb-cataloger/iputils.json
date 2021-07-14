@@ -1,0 +1,207 @@
+{
+  "name": "iputils",
+  "version": "20180629-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "iputils_project",
+      "Product": "iputils",
+      "Version": "20180629",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/iputils@0:20180629-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "iputils",
+    "version": "20180629",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "iputils-20180629-2.el8.src.rpm",
+    "size": 351665,
+    "license": "BSD and GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/iputils/iputils",
+    "files": [
+      {
+        "path": "/usr/bin/ping",
+        "mode": 33261,
+        "size": 77216,
+        "sha256": "eff2160fb18102431ff6e508949f3b46cbf3d22eb363f7d1ea923248b03dd431"
+      },
+      {
+        "path": "/usr/bin/tracepath",
+        "mode": 33261,
+        "size": 19368,
+        "sha256": "32f1f35242730182a4cc1b1211e748d91a38ed3a28e6d2b4935aead66deaf6c9"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/01",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/01/bdf58f5f97056e9e4ed4d7c5bc94e96b634399",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/35",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/35/8b125089e86b0809e6c194c17bf3870eacf45f",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/37",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/37/f3ae50e499d4bbc4a3c18da527263fd400a7e2",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4a/ca05f4af354dde3c7a41b113d128af0a1e0587",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bf/66b49c73c98c5b6ca551c270776e50174647ca",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fb",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fb/8fe003a40daa1bb0b29f442dae417b84db0c28",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/rdisc.service",
+        "mode": 33188,
+        "size": 208,
+        "sha256": "0295537a7d19875c30a322b3bbe5bc0e35c5e2465c2dd2183a2dc5ff31cc26be"
+      },
+      {
+        "path": "/usr/sbin/arping",
+        "mode": 33261,
+        "size": 32944,
+        "sha256": "2f1569aa027445051c1dbbb4c52125f672458ec85b35df1144ba6022f46f56b0"
+      },
+      {
+        "path": "/usr/sbin/clockdiff",
+        "mode": 33261,
+        "size": 23464,
+        "sha256": "2cc5b3b1ab400b32962c5c650fb1e5314e428bb4a5099961cbb6ba2ffb8c479e"
+      },
+      {
+        "path": "/usr/sbin/ifenslave",
+        "mode": 33261,
+        "size": 28288,
+        "sha256": "7b5aadd22031249f005f8c784b2efe4348da214eabb37f72018e817f518b0fca"
+      },
+      {
+        "path": "/usr/sbin/ping",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/ping6",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/rdisc",
+        "mode": 33261,
+        "size": 28392,
+        "sha256": "28ad98b4e95ddf3dc5ae74337789e17d04b0ed1675fe4b300090544aa49e2309"
+      },
+      {
+        "path": "/usr/sbin/tracepath",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/tracepath6",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/iputils",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/iputils/bsd.txt",
+        "mode": 33188,
+        "size": 1908,
+        "sha256": "83b81ef928f3de9179105e58bd79516bdcc61b925660f549696dfb406baf637c"
+      },
+      {
+        "path": "/usr/share/licenses/iputils/gpl-2.0.txt",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

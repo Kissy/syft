@@ -1,0 +1,381 @@
+{
+  "name": "python-pycurl",
+  "version": "7.19.0-19.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "7.19.0",
+      "Update": "19.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-pycurl@0:7.19.0-19.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-pycurl",
+    "version": "7.19.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "19.el7",
+    "sourceRpm": "python-pycurl-7.19.0-19.el7.src.rpm",
+    "size": 241481,
+    "license": "LGPLv2+ or MIT",
+    "vendor": "Oracle America",
+    "url": "http://pycurl.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/curl",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/curl/__init__.py",
+        "mode": 33188,
+        "size": 6813,
+        "sha256": "cae69b6d02d210acab811d251eb415684b3d7228fd302af3403ace97fb25444a"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/curl/__init__.pyc",
+        "mode": 33188,
+        "size": 7941,
+        "sha256": "38e9f9ffa81fa64daadff12d524712f30b7e13e3d0812329d68c4e06d118316c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/curl/__init__.pyo",
+        "mode": 33188,
+        "size": 7941,
+        "sha256": "38e9f9ffa81fa64daadff12d524712f30b7e13e3d0812329d68c4e06d118316c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pycurl-7.19.0-py2.7.egg-info",
+        "mode": 33188,
+        "size": 366,
+        "sha256": "6ed48ff3b16e339cf39f914f2e4383865226241b724478a0f04b2278a5ad872b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pycurl.so",
+        "mode": 33261,
+        "size": 70712,
+        "sha256": "4f09cd78f1b71dd8eced39a4b3665b4a0e470ebf82b3b96bfcfcf03d17f8b1ec"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/COPYING",
+        "mode": 33188,
+        "size": 26526,
+        "sha256": "a15655754554d6a822cd6301a70f85a9cf1d53a4a55a1ee6f320adecc56ca149"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/COPYING2",
+        "mode": 33188,
+        "size": 1126,
+        "sha256": "a698573f05a30eaa5fc0c1af2b12f10b92c9b1830fcbf597990e753ec468c729"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/ChangeLog",
+        "mode": 33188,
+        "size": 29346,
+        "sha256": "6313be8ea1def88ca1d2d22435b39b65fb4e9a7e8d30c530c955b269224aae47"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/README",
+        "mode": 33188,
+        "size": 512,
+        "sha256": "66d2cce39d42907a8c8277f8ae2678df5633f791fa001400d6ee09029fe6bf96"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/TODO",
+        "mode": 33188,
+        "size": 628,
+        "sha256": "9b293c46ec9107501118a41ddc9d1a737b327845ff871fb69220179ba56221fd"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/doc",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/doc/callbacks.html",
+        "mode": 33188,
+        "size": 5331,
+        "sha256": "6c58a0a7dcd6222d64bf9dd6dca9b6ebdf5b92318f8b67bb2fd5d58bb07fcebd"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/doc/curlmultiobject.html",
+        "mode": 33188,
+        "size": 4672,
+        "sha256": "4f9e113951ce72cb6d4fb7081e33f45a679b65783559034ddea1afa710875613"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/doc/curlobject.html",
+        "mode": 33188,
+        "size": 3333,
+        "sha256": "a0d07770bf6d321f2d52cdc3bda6e20f6865d3d4cb1dac9b1a966ea258589373"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/doc/curlshareobject.html",
+        "mode": 33188,
+        "size": 1583,
+        "sha256": "f1e8fbd5b97db24aa5e2963abb0d623de9104b650569579c37090bf4b345b940"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/doc/pycurl.html",
+        "mode": 33188,
+        "size": 4591,
+        "sha256": "d042d1dbb5f9d5f8ebba907538f24b7202d09046af17a4b55c2d1dd05deb878e"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/basicfirst.py",
+        "mode": 33188,
+        "size": 495,
+        "sha256": "0a804485fcd7dc74701b66e18a2a9a4331790890dc89735a6dcbed815650d853"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/file_upload.py",
+        "mode": 33188,
+        "size": 1239,
+        "sha256": "36ee6044b1699588438aec56c94156ab4d5d26b8dab3212b8aac9b1138c758ae"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/linksys.py",
+        "mode": 33188,
+        "size": 21628,
+        "sha256": "ef044c1d445b483e79827c2732cf8de1b0c1578041e9f83aa3dd50f892920e00"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/retriever-multi.py",
+        "mode": 33188,
+        "size": 3429,
+        "sha256": "31052fc7c605b8e21664cf8f7ded5057a7da273932b721a08fdf601bb3ce8803"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/retriever.py",
+        "mode": 33188,
+        "size": 2671,
+        "sha256": "58c4bed3be49a15158af1ed2f0ec6003bf33884d56b765d8bd2cd5d09655058b"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/sfquery.py",
+        "mode": 33188,
+        "size": 2465,
+        "sha256": "3d8ebebd64dcb72f2b635f2ea928fac96dc57ef6693a507bea0b3e0868281141"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/examples/xmlrpc_curl.py",
+        "mode": 33188,
+        "size": 1963,
+        "sha256": "ffc5c146e935f3937b6db45caf2bae7c97fc9beedf16248b5bd62035161b4801"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test.py",
+        "mode": 33188,
+        "size": 1953,
+        "sha256": "ca09884df9b5d4f6fbde0e4e232872a815484d623cde5956e108925c21a0c687"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_cb.py",
+        "mode": 33188,
+        "size": 693,
+        "sha256": "e86aa47ee6370dd425ffed3b23540611dcaf0caef11714199fa8d14d3f37bc04"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_debug.py",
+        "mode": 33188,
+        "size": 340,
+        "sha256": "b130187c9974c421c443db4950de42526af6b8b238d3f315843a98b711be833a"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_ftp.py",
+        "mode": 33188,
+        "size": 289,
+        "sha256": "32dfc5c94a0231ae22fca664a763e80e3a3da148a77bc109bf790fc1633ea600"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_getinfo.py",
+        "mode": 33188,
+        "size": 1419,
+        "sha256": "6d4c37ba86ab1ea14db6e814027fc0521f1a6a980f9df76c9001cc3724043769"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_gtk.py",
+        "mode": 33188,
+        "size": 2733,
+        "sha256": "b99b87d3f448c83ad882fa35f98874a33fa4b4c4a77fd60a72ade21d492f8a44"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_internals.py",
+        "mode": 33188,
+        "size": 5609,
+        "sha256": "b49e7709188ae9160ffbc295c066232838919aeb4ff747a0d44344bd23c9a8ff"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_memleak.py",
+        "mode": 33188,
+        "size": 1126,
+        "sha256": "7cf1f4f3af66ef8b752905e1485644f2e5041ba04910fb2b2f61e9be5fead297"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi.py",
+        "mode": 33188,
+        "size": 676,
+        "sha256": "17f843c1ba4a0145826a932ae0437f37bcfc0cb6c0dd6d907841d5b6a215915e"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi2.py",
+        "mode": 33188,
+        "size": 1746,
+        "sha256": "eb2f78f9b7f7ee3c2ae5635e0c3d6b299a698465d3f42af9bcc81ad52f1e2bbd"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi3.py",
+        "mode": 33188,
+        "size": 2068,
+        "sha256": "4c724cdd180316bfe413f572685437162d2b8a005615359cfcdafddbf0d35627"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi4.py",
+        "mode": 33188,
+        "size": 1400,
+        "sha256": "8f519b3373f9de25c9b19895ed3c6b36b6ef3897efa4d235f5e287468ae16371"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi5.py",
+        "mode": 33188,
+        "size": 1472,
+        "sha256": "c420d6a3c9dfbd2e16a4388313b388286e6c5b44139ffc3b5baf24b28923768a"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi6.py",
+        "mode": 33188,
+        "size": 1536,
+        "sha256": "11902e2a961bcb91baa6ff385649d511a2ad5311f3ffd8162eb29f1d5e68c004"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi_socket.py",
+        "mode": 33188,
+        "size": 1924,
+        "sha256": "1532b39b93dc46a08ddbac7f318a605fd494f2b89fab566df1c97d53a6ec8946"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi_socket_select.py",
+        "mode": 33188,
+        "size": 2447,
+        "sha256": "f9181ac926c88100525cafb69c6a943449278b4deef12c5d463522ecb66a94f2"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi_timer.py",
+        "mode": 33188,
+        "size": 1749,
+        "sha256": "a2c92740125279736d656554588093d81b6eeb88cccc3c096bf0d0940448ff04"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_multi_vs_thread.py",
+        "mode": 33188,
+        "size": 5773,
+        "sha256": "19428f1bf3e13972284bb1094a86d36fba84a9f149ddbbcaf028781f5297b162"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_post.py",
+        "mode": 33188,
+        "size": 589,
+        "sha256": "3423d4c81ff4fbcc8bf2901285a02140445e5bf2d2e9ca8262888a177d7e83f6"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_post2.py",
+        "mode": 33188,
+        "size": 535,
+        "sha256": "c6617480dd583e812d28a113904f0978384475efb8315bd0f78c97b6e103dfbf"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_post3.py",
+        "mode": 33188,
+        "size": 804,
+        "sha256": "b072b4eb9bbda0c1b3cf3cf2746cf36c43fc2f98973e2af2b92a59a92696e307"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_reset.py",
+        "mode": 33188,
+        "size": 2243,
+        "sha256": "b1f483c1bb73eff76e51dc270cd998c1f0906e798eb1764231224c0beee84a2d"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_share.py",
+        "mode": 33188,
+        "size": 714,
+        "sha256": "5adcbff1062315fc694c1d7c821e31e6b1e956925d5e0e2e6b2b3fc57fc43c22"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_socketopen.py",
+        "mode": 33188,
+        "size": 440,
+        "sha256": "34a45aefe1ba626ae08ee1527d0113590b293e206754e15c911d588c761746ec"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_stringio.py",
+        "mode": 33188,
+        "size": 473,
+        "sha256": "be36d6c36682bd4f0ea38db7efe73941a889850594f0eca78725223d24c457ca"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_write_abort.py",
+        "mode": 33188,
+        "size": 663,
+        "sha256": "aab9a14e9c39c8298ae4ce32ae0ee81b55b9dbb641d31ed945111ea54bc7ee64"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/test_xmlrpc.py",
+        "mode": 33188,
+        "size": 744,
+        "sha256": "ac067293306577c64ef73d50a1ad3c6f819564281d2c59bbe7a698b205b511bd"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/util.py",
+        "mode": 33188,
+        "size": 949,
+        "sha256": "be48aefadc99481e25c0cadf96244ef5bc93317e829913e33435c157bc2ec823"
+      },
+      {
+        "path": "/usr/share/doc/python-pycurl-7.19.0/tests/util.pyc",
+        "mode": 33188,
+        "size": 1004,
+        "sha256": "7171d9721a296c39b9b33f3533efaf09558ed36a3b1ae15d90c5a12724c3352a"
+      }
+    ]
+  }
+}

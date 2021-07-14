@@ -1,0 +1,67 @@
+{
+  "name": "ipcalc",
+  "version": "0.2.4-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/ipcalc@0:0.2.4-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "ipcalc",
+    "version": "0.2.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "ipcalc-0.2.4-4.el8.src.rpm",
+    "size": 67705,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://gitlab.com/ipcalc/ipcalc",
+    "files": [
+      {
+        "path": "/usr/bin/ipcalc",
+        "mode": 33261,
+        "size": 45560,
+        "sha256": "b1d7e7eb1ad306fe02a1009893b8769bc6cc2d096aa01f61e84b176f257bca9e"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c0/be6f3d4ebd6a80c26fce2936e576b7e48f2203",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/ipcalc",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/ipcalc/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

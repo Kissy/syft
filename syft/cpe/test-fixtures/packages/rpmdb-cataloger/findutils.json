@@ -1,0 +1,99 @@
+{
+  "name": "findutils",
+  "version": "4.6.0-20.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "findutils",
+      "Version": "4.6.0",
+      "Update": "20.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/findutils@1:4.6.0-20.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "findutils",
+    "version": "4.6.0",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "20.el8",
+    "sourceRpm": "findutils-4.6.0-20.el8.src.rpm",
+    "size": 1816673,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/findutils/",
+    "files": [
+      {
+        "path": "/usr/bin/find",
+        "mode": 33261,
+        "size": 261992,
+        "sha256": "75726e4ef1e7dd185e7dfd675fe6490fd4e5973babbff89a8927c46137638cb9"
+      },
+      {
+        "path": "/usr/bin/xargs",
+        "mode": 33261,
+        "size": 90312,
+        "sha256": "d1be79ae6da65e0094ce30ca4a43ddeb0a6f9784aa323241349dc0a70b76c69d"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5a/f2fc2eb5f08b1a8f9e87053d29edf7e3a4eaa3",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/95",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/95/cd66d3860a56011de9f9c4120d9b7ae34a7155",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/findutils",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/findutils/COPYING",
+        "mode": 33188,
+        "size": 35068,
+        "sha256": "fc82ca8b6fdb18d4e3e85cfd8ab58d1bcd3f1b29abe782895abd91d64763f8e7"
+      }
+    ]
+  }
+}

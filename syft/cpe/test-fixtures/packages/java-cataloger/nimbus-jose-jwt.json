@@ -1,0 +1,74 @@
+{
+  "name": "nimbus-jose-jwt",
+  "version": "9.0.1",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "connect2id",
+      "Product": "nimbus_jose\\+jwt",
+      "Version": "9.0.1",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.0.1",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/nimbus-jose-jwt-9.0.1.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "com.nimbusds.jose.jwt",
+        "Bnd-LastModified": "1600106647978",
+        "Build-Date": "${timestamp}",
+        "Build-Jdk": "1.8.0_265",
+        "Build-Number": "${buildNumber}",
+        "Build-Tag": "9.0.1",
+        "Built-By": "vd",
+        "Bundle-Description": "Java library for Javascript Object Signing and Encryption (JOSE) and        JSON Web Tokens (JWT)",
+        "Bundle-DocURL": "http://connect2id.com",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Nimbus JOSE+JWT",
+        "Bundle-SymbolicName": "com.nimbusds.nimbus-jose-jwt",
+        "Bundle-Vendor": "Connect2id Ltd.",
+        "Bundle-Version": "9.0.1",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "com.nimbusds.jose;uses:=\"com.nimbusds.jose.jca,com.nimbusds.jose.jwk,com.nimbusds.jose.util,com.nimbusds.jwt,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jose.crypto;uses:=\"com.nimbusds.jose,com.nimbusds.jose.crypto.impl,com.nimbusds.jose.jwk,com.nimbusds.jose.util,javax.crypto,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jose.crypto.bc;uses:=\"org.bouncycastle.jce.provider\";version=\"9.0.1\",com.nimbusds.jose.crypto.factories;uses:=\"com.nimbusds.jose,com.nimbusds.jose.jca,com.nimbusds.jose.jwk,com.nimbusds.jose.proc,com.nimbusds.jose.produce,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jose.crypto.impl;uses:=\"com.nimbusds.jose,com.nimbusds.jose.jca,com.nimbusds.jose.jwk,com.nimbusds.jose.util,javax.crypto,net.jcip.annotations,org.bouncycastle.crypto.engines\";version=\"9.0.1\",com.nimbusds.jose.crypto.utils;version=\"9.0.1\",com.nimbusds.jose.jca;uses:=\"com.nimbusds.jose\";version=\"9.0.1\",com.nimbusds.jose.jwk;uses:=\"com.nimbusds.jose,com.nimbusds.jose.util,javax.crypto,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jose.jwk.gen;uses:=\"com.nimbusds.jose,com.nimbusds.jose.jwk\";version=\"9.0.1\",com.nimbusds.jose.jwk.source;uses:=\"com.nimbusds.jose,com.nimbusds.jose.jwk,com.nimbusds.jose.proc,com.nimbusds.jose.util,javax.crypto,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jose.proc;uses:=\"com.nimbusds.jose,com.nimbusds.jose.jwk,com.nimbusds.jose.jwk.source,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jose.produce;uses:=\"com.nimbusds.jose,com.nimbusds.jose.jwk\";version=\"9.0.1\",com.nimbusds.jose.util;uses:=\"com.nimbusds.jose,javax.crypto,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jwt;uses:=\"com.nimbusds.jose,com.nimbusds.jose.util,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jwt.proc;uses:=\"com.nimbusds.jose,com.nimbusds.jose.proc,com.nimbusds.jwt,net.jcip.annotations\";version=\"9.0.1\",com.nimbusds.jwt.util;version=\"9.0.1\"",
+        "Implementation-Title": "Nimbus JOSE+JWT",
+        "Implementation-URL": "https://bitbucket.org/connect2id/nimbus-jose-jwt",
+        "Implementation-Vendor": "Connect2id Ltd.",
+        "Implementation-Vendor-Id": "com.nimbusds",
+        "Implementation-Version": "9.0.1",
+        "Import-Package": "com.google.crypto.tink.subtle;resolution:=optional,javax.crypto,javax.crypto.spec,net.jcip.annotations,net.minidev.json;version=\"[1.3,2)\",net.minidev.json.parser;version=\"[1.3,2)\",org.bouncycastle.asn1;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.asn1.pkcs;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.asn1.x509;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.cert;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.cert.jcajce;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.crypto;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.crypto.engines;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.crypto.modes;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.crypto.params;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.jce.provider;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.openssl;version=\"[1.66,2)\";resolution:=optional,org.bouncycastle.openssl.jcajce;version=\"[1.66,2)\";resolution:=optional",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Specification-Title": "Nimbus JOSE+JWT",
+        "Specification-Vendor": "Connect2id Ltd.",
+        "Specification-Version": "9.0.1",
+        "Tool": "Bnd-2.3.0.201405100607"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.nimbusds/nimbus-jose-jwt/pom.properties",
+      "name": "",
+      "groupId": "com.nimbusds",
+      "artifactId": "nimbus-jose-jwt",
+      "version": "9.0.1",
+      "extraFields": {}
+    }
+  }
+}

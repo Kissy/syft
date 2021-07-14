@@ -1,0 +1,68 @@
+{
+  "name": "jakarta.xml.bind-api",
+  "version": "2.3.2",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "isc",
+      "Product": "bind",
+      "Version": "2.3.2",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jakarta.xml.bind-api-2.3.2.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1545924628258",
+        "Build-Jdk": "11",
+        "Built-By": "default",
+        "Bundle-Description": "JAXB (JSR 222) API",
+        "Bundle-DocURL": "https://www.eclipse.org",
+        "Bundle-License": "http://www.eclipse.org/org/documents/edl-v10.php",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "jakarta.xml.bind-api",
+        "Bundle-SymbolicName": "jakarta.xml.bind-api",
+        "Bundle-Vendor": "Eclipse Foundation",
+        "Bundle-Version": "2.3.2",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "DynamicImport-Package": "org.glassfish.hk2.osgiresourcelocator",
+        "Export-Package": "javax.xml.bind;version=\"2.3.2\";uses:=\"javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax\",javax.xml.bind.annotation;version=\"2.3.2\";uses:=\"javax.xml.bind,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom\",javax.xml.bind.annotation.adapters;version=\"2.3.2\",javax.xml.bind.attachment;version=\"2.3.2\";uses:=\"javax.activation\",javax.xml.bind.helpers;version=\"2.3.2\";uses:=\"javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax\",javax.xml.bind.util;version=\"2.3.2\";uses:=\"javax.xml.bind,javax.xml.transform.sax\"",
+        "Extension-Name": "jakarta.xml.bind",
+        "Implementation-Build-Id": "UNKNOWN-18b5002, 2018-12-27T15:29:49+0000",
+        "Implementation-Version": "2.3.2",
+        "Import-Package": "javax.activation,javax.xml.bind;version=\"[2.3,3)\",javax.xml.bind.annotation;version=\"[2.3,3)\",javax.xml.bind.annotation.adapters;version=\"[2.3,3)\",javax.xml.bind.attachment;version=\"[2.3,3)\",javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,javax.xml.validation,org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers,javax.xml.bind.helpers;version=\"[2.3,3)\",javax.xml.bind.util;version=\"[2.3,3)\"",
+        "Manifest-Version": "1.0",
+        "Multi-Release": "true",
+        "Specification-Vendor": "Oracle Corporation",
+        "Specification-Version": "2.3",
+        "Tool": "Bnd-3.5.0.201709291849"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/jakarta.xml.bind/jakarta.xml.bind-api/pom.properties",
+      "name": "",
+      "groupId": "jakarta.xml.bind",
+      "artifactId": "jakarta.xml.bind-api",
+      "version": "2.3.2",
+      "extraFields": {}
+    }
+  }
+}

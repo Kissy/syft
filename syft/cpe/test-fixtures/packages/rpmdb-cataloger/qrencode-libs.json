@@ -1,0 +1,79 @@
+{
+  "name": "qrencode-libs",
+  "version": "3.4.1-3.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/qrencode-libs@0:3.4.1-3.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "qrencode-libs",
+    "version": "3.4.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el7",
+    "sourceRpm": "qrencode-3.4.1-3.el7.src.rpm",
+    "size": 126172,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://megaui.net/fukuchi/works/qrencode/index.en.html",
+    "files": [
+      {
+        "path": "/usr/lib64/libqrencode.so.3",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libqrencode.so.3.4.1",
+        "mode": 33261,
+        "size": 53128,
+        "sha256": "196a2ea7871255a1dae70d57857ffd445d4b3d9c59bba0de85d0e4bb179d1c60"
+      },
+      {
+        "path": "/usr/share/doc/qrencode-libs-3.4.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/qrencode-libs-3.4.1/COPYING",
+        "mode": 33188,
+        "size": 26527,
+        "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+      },
+      {
+        "path": "/usr/share/doc/qrencode-libs-3.4.1/ChangeLog",
+        "mode": 33188,
+        "size": 32233,
+        "sha256": "b0d626d0be74d5bdc63906c3f71e2d88649b08b276478aef7232f0a4a55c0d10"
+      },
+      {
+        "path": "/usr/share/doc/qrencode-libs-3.4.1/NEWS",
+        "mode": 33188,
+        "size": 9355,
+        "sha256": "aaf80119f209d83745e522b1f4e3469e985699a9d4b1618a9c58b39bd69ffe2e"
+      },
+      {
+        "path": "/usr/share/doc/qrencode-libs-3.4.1/README",
+        "mode": 33188,
+        "size": 4689,
+        "sha256": "14ecebf89ac856ff61190c22e12b3f654293133747d702b4702d2eb468a3e250"
+      },
+      {
+        "path": "/usr/share/doc/qrencode-libs-3.4.1/TODO",
+        "mode": 33188,
+        "size": 240,
+        "sha256": "3523e9fab88fbb694ea6015e429154dfd14375eb5f9fe82a323cec78af83c307"
+      }
+    ]
+  }
+}

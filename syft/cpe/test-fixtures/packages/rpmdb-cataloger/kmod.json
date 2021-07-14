@@ -1,0 +1,153 @@
+{
+  "name": "kmod",
+  "version": "25-16.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "kernel",
+      "Product": "kmod",
+      "Version": "25",
+      "Update": "16.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/kmod@0:25-16.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "kmod",
+    "version": "25",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "16.el8",
+    "sourceRpm": "kmod-25-16.el8.src.rpm",
+    "size": 243998,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary",
+    "files": [
+      {
+        "path": "/etc/depmod.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/depmod.d/dist.conf",
+        "mode": 33188,
+        "size": 116,
+        "sha256": "ea02e4313278315e15acc3276a0d87ca5d151faafdb77a6379ca643316ed9f43"
+      },
+      {
+        "path": "/etc/modprobe.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/kmod",
+        "mode": 33261,
+        "size": 163640,
+        "sha256": "0c62ea4fe6bdbd406accd278ee03138bfb692534e3e1d8593c27468118897de5"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e7",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e7/6c9d3a88b7b530dc45f068ef64e0949d47710f",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/modprobe.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/depmod",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/insmod",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/lsmod",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/modinfo",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/modprobe",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/rmmod",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/weak-modules",
+        "mode": 33261,
+        "size": 34310,
+        "sha256": "3ae7d9f3a5b6bb37435dba6272b90538964bad17fc31db5b05425c3ae13708b0"
+      },
+      {
+        "path": "/usr/share/bash-completion",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/kmod",
+        "mode": 33188,
+        "size": 3235,
+        "sha256": "b6fcd713807c9a4eacc3100b58b5e89e7d6cbe1253da41f0c8dd1b1f0efbab7e"
+      }
+    ]
+  }
+}

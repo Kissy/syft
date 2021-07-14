@@ -1,0 +1,1597 @@
+{
+  "name": "oracle-logos",
+  "version": "70.7.0-1.0.7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/oracle-logos@0:70.7.0-1.0.7.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "oracle-logos",
+    "version": "70.7.0",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "1.0.7.el7",
+    "sourceRpm": "oracle-logos-70.7.0-1.0.7.el7.src.rpm",
+    "size": 6614430,
+    "license": "Licensed only for approved usage, see COPYING for details.",
+    "vendor": "Oracle America",
+    "url": "http://linux.oracle.com",
+    "files": [
+      {
+        "path": "/etc/favicon.png",
+        "mode": 41471,
+        "size": 56,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/anaconda",
+        "mode": 16877,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/anaconda/boot",
+        "mode": 16877,
+        "size": 51,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/anaconda/boot/splash.lss",
+        "mode": 33188,
+        "size": 2936,
+        "sha256": "0f059610daf0ae0437afc8533ed42cf8aa784fcc87cbd4bce64050783c584082"
+      },
+      {
+        "path": "/usr/share/anaconda/boot/syslinux-splash.png",
+        "mode": 33188,
+        "size": 21372,
+        "sha256": "6b4f00057272984f2975a9f7d7abca1ef4e7daa1342f34afa3a7ade14fbb12ed"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps",
+        "mode": 16877,
+        "size": 87,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes",
+        "mode": 16877,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_cld_cmptng_750x120.png",
+        "mode": 33188,
+        "size": 27686,
+        "sha256": "abc0420ca3c7c033837dda4978e146e5be47d06aabac521059b972f1f244463a"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_dtrace_750x120.png",
+        "mode": 33188,
+        "size": 23618,
+        "sha256": "a73f7eea957724e64a583fbf23c6c208a31f1299ad82eeb199f6e1ca39f212a1"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_em_750x120.png",
+        "mode": 33188,
+        "size": 23839,
+        "sha256": "8c3cbdfe07ea36b5bd2394438d0efb5501044b66fa79d525eead083a9d1af6dc"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_high_av_750x120.png",
+        "mode": 33188,
+        "size": 22406,
+        "sha256": "cebdc86eec11bf36eccda037191dc72906852644ab108f242c82543a0860413f"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_join_converstn_750x120.png",
+        "mode": 33188,
+        "size": 22091,
+        "sha256": "c7106bb9cb44b3513ff23a152306ba59d0abb19a4e48605d9616cb924093deaa"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_ksplice_750x120.png",
+        "mode": 33188,
+        "size": 23949,
+        "sha256": "83ba958f064af692fa373a75fce046b55b12cd6c3e6f3e472a395bb551232451"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_linux1_750x120.png",
+        "mode": 33188,
+        "size": 23350,
+        "sha256": "a7b90cd5553f5463c7f81c88070989eb9bf8cc3b015d76c45a74810165c478eb"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_sbscrptn_750x120.png",
+        "mode": 33188,
+        "size": 25407,
+        "sha256": "e4bc2dd782e40a0afb1e725ea9efcc222e9c9a72342c8ba556a6136ad8856f57"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/rnotes/en/orcl_linux_support_750x120.png",
+        "mode": 33188,
+        "size": 27601,
+        "sha256": "06d2053aeb71e395a4b2cb22726b11a3395bb4a092ffa06cc3fcb7efe98d0f3b"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/sidebar-bg.png",
+        "mode": 33188,
+        "size": 64084,
+        "sha256": "2126d8e8a1a5af44a5bb37db549fe2fc35c47d8a9d35d50f505ad4cc14156163"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/sidebar-logo.png",
+        "mode": 33188,
+        "size": 4031,
+        "sha256": "fd5d641cc2d8d8ff226a46e3731488d5152a9d3f92a16800972085c92710295b"
+      },
+      {
+        "path": "/usr/share/anaconda/pixmaps/topbar-bg.png",
+        "mode": 33188,
+        "size": 40419,
+        "sha256": "ea2e61bffdbc401b1fdf115a948d735e187783c0ce0df2c0c7785740fb2e6bd3"
+      },
+      {
+        "path": "/usr/share/backgrounds/2560x1600.jpg",
+        "mode": 33188,
+        "size": 729778,
+        "sha256": "8f4cc2885dac8964a92f51ab6f091e277d0eacf032b65fa449923111dd87991e"
+      },
+      {
+        "path": "/usr/share/backgrounds/background.jpg",
+        "mode": 33188,
+        "size": 729778,
+        "sha256": "8f4cc2885dac8964a92f51ab6f091e277d0eacf032b65fa449923111dd87991e"
+      },
+      {
+        "path": "/usr/share/backgrounds/day.jpg",
+        "mode": 33188,
+        "size": 606127,
+        "sha256": "0a52e0cc37bea908edb7d35afd61c4b5bebdd6ee4148d676dac7c464cb5c56fa"
+      },
+      {
+        "path": "/usr/share/backgrounds/default.xml",
+        "mode": 33188,
+        "size": 667,
+        "sha256": "ec3ef9619d31daec4d2cb2b0acf7cbb7b0c837d2a81a5d1a480be695a367d8c6"
+      },
+      {
+        "path": "/usr/share/backgrounds/morning.jpg",
+        "mode": 33188,
+        "size": 729778,
+        "sha256": "8f4cc2885dac8964a92f51ab6f091e277d0eacf032b65fa449923111dd87991e"
+      },
+      {
+        "path": "/usr/share/backgrounds/night.jpg",
+        "mode": 33188,
+        "size": 570454,
+        "sha256": "e0d68e156c63d3e96057418487d95390329981a17ed19b33b848d82183dc0024"
+      },
+      {
+        "path": "/usr/share/backgrounds/oraclelinux-blue.xml",
+        "mode": 33188,
+        "size": 282,
+        "sha256": "b34f90f9a701b0b564d9a815c8682d39a38da5a537b3290e4d399f01cc198751"
+      },
+      {
+        "path": "/usr/share/backgrounds/oraclelinux-dark.xml",
+        "mode": 33188,
+        "size": 284,
+        "sha256": "f95176f58b255bfd523c510ad20ba80a8eb9bc99889e0198416921f8c976bed4"
+      },
+      {
+        "path": "/usr/share/backgrounds/oraclelinux-green.xml",
+        "mode": 33188,
+        "size": 286,
+        "sha256": "eccfccd0c123398a9cc98f65c2d42218a713c34c1516afe28318a4739f3f14c1"
+      },
+      {
+        "path": "/usr/share/doc/oracle-logos-70.7.0",
+        "mode": 16877,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/oracle-logos-70.7.0/COPYING",
+        "mode": 33261,
+        "size": 1534,
+        "sha256": "4715e1ea82c462250d86cee54535355cc0e662ff02edf2c9548ef375bc9dd5df"
+      },
+      {
+        "path": "/usr/share/firstboot",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/firstboot/themes",
+        "mode": 16877,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/firstboot/themes/fedora-verne",
+        "mode": 16877,
+        "size": 55,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/firstboot/themes/fedora-verne/firstboot-left.png",
+        "mode": 33188,
+        "size": 87259,
+        "sha256": "7f5f67535f3bf0ddcd6812eb87ff47b5909a799dabd5f66287d1da5b97759673"
+      },
+      {
+        "path": "/usr/share/firstboot/themes/fedora-verne/workstation.png",
+        "mode": 33188,
+        "size": 3353,
+        "sha256": "b214426c840f4e314dc2fe74630e3b8f16e0502a67be527d884c71da8373eb67"
+      },
+      {
+        "path": "/usr/share/glib-2.0/schemas/10_org.gnome.desktop.background.default.gschema.override",
+        "mode": 33188,
+        "size": 88,
+        "sha256": "e4bfc0cad230ef5333ec71e74ca0644c43614f3a7482607e588306fb346de608"
+      },
+      {
+        "path": "/usr/share/glib-2.0/schemas/10_org.gnome.desktop.screensaver.default.gschema.override",
+        "mode": 33188,
+        "size": 89,
+        "sha256": "97422eaa71aa1ed238bdeeaf8666fb6e58d78aea0689c9957c3c69d1555686db"
+      },
+      {
+        "path": "/usr/share/gnome-background-properties/desktop-backgrounds-default.xml",
+        "mode": 33188,
+        "size": 926,
+        "sha256": "81bf95112bdf630a8f7793be6e53a2192b897da08c246002f0a59b6c7bc724c5"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/16x16",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/16x16/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/16x16/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/16x16/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/16x16/apps/kmenu.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/16x16/apps/start-here.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/22x22",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/22x22/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/22x22/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/22x22/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/22x22/apps/kmenu.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/22x22/apps/start-here.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/24x24",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/24x24/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/24x24/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/24x24/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/24x24/apps/kmenu.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/24x24/apps/start-here.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/256x256",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/256x256/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/256x256/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/256x256/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/256x256/apps/kmenu.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/256x256/apps/start-here.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/32x32",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/32x32/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/32x32/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/32x32/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/32x32/apps/kmenu.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/32x32/apps/start-here.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/36x36",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/36x36/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/36x36/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "46935b696f62fd4fbc868ee80d05503036efd1234548c2deca05966e4de4b744"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/36x36/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "46935b696f62fd4fbc868ee80d05503036efd1234548c2deca05966e4de4b744"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/36x36/apps/kmenu.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "46935b696f62fd4fbc868ee80d05503036efd1234548c2deca05966e4de4b744"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/36x36/apps/start-here.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "46935b696f62fd4fbc868ee80d05503036efd1234548c2deca05966e4de4b744"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/48x48",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/48x48/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/48x48/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/48x48/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/48x48/apps/kmenu.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/48x48/apps/start-here.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/96x96",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/96x96/apps",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/96x96/apps/gnome-main-menu.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/96x96/apps/icon-panel-menu.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/96x96/apps/kmenu.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/icons/Bluecurve/96x96/apps/start-here.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/icons/hicolor",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/16x16",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/16x16/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/16x16/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/16x16/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/22x22",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/22x22/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/22x22/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/22x22/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/24x24",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/24x24/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/24x24/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/24x24/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/256x256",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/256x256/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/256x256/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/256x256/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/32x32",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/32x32/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/32x32/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/32x32/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/36x36",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/36x36/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/36x36/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "46935b696f62fd4fbc868ee80d05503036efd1234548c2deca05966e4de4b744"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/36x36/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "4320aad24724fd3f959caebbe24cc20cd1aef79c23fb9713a5289c464d5ff52a"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/48x48",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/48x48/apps",
+        "mode": 16877,
+        "size": 82,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/48x48/apps/anaconda.png",
+        "mode": 33188,
+        "size": 5065,
+        "sha256": "2bb4985719d1c26dc8171060d9566bab4f9da1f7e291f9b78647954164f18ef3"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/48x48/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/48x48/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/96x96",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/96x96/apps",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/96x96/apps/fedora-logo-icon.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/96x96/apps/system-logo-icon.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/scalable",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/scalable/apps",
+        "mode": 16877,
+        "size": 52,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/hicolor/scalable/apps/start-here.svg",
+        "mode": 33188,
+        "size": 573781,
+        "sha256": "e1f2d1a5b0130f04b57f2a199f6e99191b36c0c20db7a826c27afc8700357ead"
+      },
+      {
+        "path": "/usr/share/icons/hicolor/scalable/apps/xfce4_xicon1.svg",
+        "mode": 33188,
+        "size": 573781,
+        "sha256": "e1f2d1a5b0130f04b57f2a199f6e99191b36c0c20db7a826c27afc8700357ead"
+      },
+      {
+        "path": "/usr/share/icons/oxygen",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/16x16",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/16x16/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/16x16/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "d85f92fa86128e2b517feeb2118997340bc4c196cb8b51aaad957de3f19fe22f"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/22x22",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/22x22/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/22x22/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 1614,
+        "sha256": "c1f418b634cac8c8a0eb8efe7358dd5cb6d094140068d247530db55bed9281e5"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/24x24",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/24x24/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/24x24/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 2301,
+        "sha256": "7bba26a2b3828180d127609dbc054a40bb40ed9c37492fab278d6b7fbd2e78b8"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/256x256",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/256x256/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/256x256/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 61387,
+        "sha256": "f44e70837391764f56b5b4b788fe710a99ab526a4a178b8650fd714087242d97"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/32x32",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/32x32/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/32x32/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 2565,
+        "sha256": "94ad2ef54dbabd8b35b4ce5ea49f04986eb906386c9cd796b23dfa1bdc8ba936"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/36x36",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/36x36/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/36x36/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 3425,
+        "sha256": "46935b696f62fd4fbc868ee80d05503036efd1234548c2deca05966e4de4b744"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/48x48",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/48x48/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/48x48/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 4449,
+        "sha256": "7aef5ca2c843ac73b2fbfdc729dcbfecde52bfeac8cb391958acd6e7a28b0100"
+      },
+      {
+        "path": "/usr/share/icons/oxygen/96x96",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/96x96/places",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/icons/oxygen/96x96/places/start-here-kde-fedora.png",
+        "mode": 33188,
+        "size": 10759,
+        "sha256": "a234518d8aae4c8605c6f89df609e3284dbd9dcaafed9f4f50e383dfa674bb68"
+      },
+      {
+        "path": "/usr/share/kde4",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps",
+        "mode": 16877,
+        "size": 52,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/desktoptheme/RHEL7",
+        "mode": 16877,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/desktoptheme/RHEL7/metadata.desktop",
+        "mode": 33188,
+        "size": 291,
+        "sha256": "9883f5a2e522fed38bb906a85e45db81edc6cf09bc51b8c5053c620c66cc1463"
+      },
+      {
+        "path": "/usr/share/kde4/apps/desktoptheme/RHEL7/widgets",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/.colorlsCZ1",
+        "mode": 33188,
+        "size": 2328,
+        "sha256": "7e28f7bae1d06161274213c3c43181d274816c66d0cf7a7323743fca3098c04f"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/.directory",
+        "mode": 33188,
+        "size": 68,
+        "sha256": "01d20166cecb099010300f865206230c90a5d705690772aa3e02062e0e044b24"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/KdmGreeterTheme.desktop",
+        "mode": 33188,
+        "size": 161,
+        "sha256": "9875cf8990e06b5b2b821f2423df9e8baa8ebc68e70ac80e21f7fd3c4accceea"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/box.png",
+        "mode": 33188,
+        "size": 203,
+        "sha256": "725f653e5804b8b198a0f8421f6327424dfa92eb9cf88bff30027b6f34f49ccd"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/rhel7.xml",
+        "mode": 33188,
+        "size": 4553,
+        "sha256": "a411c83939723243a0ceeea2bb706f8dee0626c22b5a2f7702c54c784b2ff5f4"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/screenshot.png",
+        "mode": 33188,
+        "size": 73803,
+        "sha256": "ed6f63a758720ae8ba9448826d49f6d66a35ed8c05626d04908c2b8ae916bc53"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/session_button-li.png",
+        "mode": 33188,
+        "size": 1296,
+        "sha256": "485340e5036bc7d5a68f12726dd520b80fef9099a17193f2c92e554f9f09cee7"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/session_button.png",
+        "mode": 33188,
+        "size": 1236,
+        "sha256": "ef8482bc278e0c2cf2c84bf91130e24df3a69c45b64e3504c97309e8e7c9ba09"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/system-logo-white.png",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/system_button-li.png",
+        "mode": 33188,
+        "size": 710,
+        "sha256": "fd1eaee0624c2e648ac0aea21186ae102dfcfe5af537b81a740f85ef78a2900c"
+      },
+      {
+        "path": "/usr/share/kde4/apps/kdm/themes/RHEL7/system_button.png",
+        "mode": 33188,
+        "size": 670,
+        "sha256": "a40cf9cc0d52cfa134f77e3e0d2e6e555dfa932be646cf8a3057cff939da9717"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes",
+        "mode": 16877,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7",
+        "mode": 16877,
+        "size": 76,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/.directory",
+        "mode": 33188,
+        "size": 68,
+        "sha256": "bedfcc96dd3e9b5299eb825116d79d1c2fcf965b8408582d44facf9fd75632ff"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/background.jpg",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/description.txt",
+        "mode": 33188,
+        "size": 769,
+        "sha256": "4584fd5f9ec1d48c0ee5fb0942d9077e8548b372ca6b2b24f5e2df3af302eab0"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon1.png",
+        "mode": 33188,
+        "size": 4748,
+        "sha256": "203c04cecb72ebe16625fe5d534652013434d88dd5f879977427e0fe9b351c8d"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon1_anim.png",
+        "mode": 33188,
+        "size": 172105,
+        "sha256": "1115326ef07b7f396cc5dfd3b492d8e4001db6dfd837e4b367b87d7e55d06cdb"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon2.png",
+        "mode": 33188,
+        "size": 8531,
+        "sha256": "8366f76a1f14a9cb4db9b98d0f02cf4005faa2a8d191943f8e52601d61ffcfdc"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon2_anim.png",
+        "mode": 33188,
+        "size": 246882,
+        "sha256": "90bc4efee2d95ef9c83186c481119441b07f62e042803faa4e399040e43e0a5f"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon3.png",
+        "mode": 33188,
+        "size": 9428,
+        "sha256": "d9b39117961b9ae9589c75e7319edc0abb881b4638a1b2fa3660aee946709072"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon3_anim.png",
+        "mode": 33188,
+        "size": 279063,
+        "sha256": "ca1cd76d204ca46e437561b1ab7827b8006e63a877c48dc5ebf91e121d0af76e"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon4.png",
+        "mode": 33188,
+        "size": 5468,
+        "sha256": "271cae44d083d7a30728e66b55cef52757905385d5bc139b122e852c50314956"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon4_anim.png",
+        "mode": 33188,
+        "size": 232671,
+        "sha256": "a6b74d9a0ea620a042c9e6da00a3495135b9a0efcd8a335d6784a2f2a898b247"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon5.png",
+        "mode": 33188,
+        "size": 20953,
+        "sha256": "911418bff37068f38e489dba14873252d950bfed0c205fe2005eaf2e840a3d32"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/icon5_anim.png",
+        "mode": 33188,
+        "size": 589217,
+        "sha256": "182572131b1856333b1d2596568eea654d4e55510a9a3db751b94f084ea605f7"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/leaf-big-1.png",
+        "mode": 33188,
+        "size": 328,
+        "sha256": "1fe4f26f9e2d2fd4ba3f6ca306d524b6d77c43db9171989b1c758bc035a68dd9"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/leaf-big-2.png",
+        "mode": 33188,
+        "size": 366,
+        "sha256": "700a24decbe3b6701682839f84028f16bf53074f36aa4272262b5724b92d8b75"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/leaf-small-1.png",
+        "mode": 33188,
+        "size": 247,
+        "sha256": "47ea880fd6803bd0586700274ff5b98bc482592f8fc5ff50ad36afc8b45fffbf"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/leaf-small-2.png",
+        "mode": 33188,
+        "size": 261,
+        "sha256": "7139d4ad8b00feb49973d32b611b13b7b04e1e363cf6c50d558a04aa46df042e"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/2560x1600/logo.png",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/Preview.png",
+        "mode": 33188,
+        "size": 21713,
+        "sha256": "4e6dd31efc0dff9783d412a85ec07452392a691d2079f74ffcf52ea5bae3c666"
+      },
+      {
+        "path": "/usr/share/kde4/apps/ksplash/Themes/RHEL7/Theme.rc",
+        "mode": 33188,
+        "size": 173,
+        "sha256": "7aedff9cd6c5e3721c3554c3854c82e504d7ef48a007b77f24372e4a4bf3bc32"
+      },
+      {
+        "path": "/usr/share/oracle-logos",
+        "mode": 16877,
+        "size": 67,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/oracle-logos/fedora_logo.svg",
+        "mode": 33188,
+        "size": 87010,
+        "sha256": "f40ca84c64e60627b39108ee3ee6f8ec77f5e6e5d47ecf3d05f79cb9d5d675ac"
+      },
+      {
+        "path": "/usr/share/oracle-logos/fedora_logo_darkbackground.svg",
+        "mode": 33188,
+        "size": 87026,
+        "sha256": "1a41f184f4adcdd45a435f391eb7fb41ea7ce1c11c8d3525c464899471979080"
+      },
+      {
+        "path": "/usr/share/pixmaps/fedora-gdm-logo.png",
+        "mode": 33188,
+        "size": 19317,
+        "sha256": "1db94953f5f713b726fa4f5e798b88f9900f9cf913e88df6e5de3a630c93d5f3"
+      },
+      {
+        "path": "/usr/share/pixmaps/fedora-logo-small.png",
+        "mode": 33188,
+        "size": 4842,
+        "sha256": "831dc9fdec9bcde341bf3a1e30aeb294ee1dbb09ab1e3844d12fac4588bb11fb"
+      },
+      {
+        "path": "/usr/share/pixmaps/fedora-logo-sprite.png",
+        "mode": 33188,
+        "size": 18808,
+        "sha256": "d8be0780040f99c6c89a6d6180e0221be8d24eb6c24dc1551ac4d9c03b282141"
+      },
+      {
+        "path": "/usr/share/pixmaps/fedora-logo-sprite.svg",
+        "mode": 33188,
+        "size": 859576,
+        "sha256": "34ac85d2b7404dc5e25e54fecb8684cf841f482ae52e225809c08977d3a7b2aa"
+      },
+      {
+        "path": "/usr/share/pixmaps/fedora-logo.png",
+        "mode": 33188,
+        "size": 19317,
+        "sha256": "1db94953f5f713b726fa4f5e798b88f9900f9cf913e88df6e5de3a630c93d5f3"
+      },
+      {
+        "path": "/usr/share/pixmaps/poweredby.png",
+        "mode": 33188,
+        "size": 3188,
+        "sha256": "8cb1e4690e4f2c6de0a184f61516da2045a63b29fc23bacc62e17cc432030a65"
+      },
+      {
+        "path": "/usr/share/pixmaps/system-logo-white.png",
+        "mode": 33188,
+        "size": 8793,
+        "sha256": "a4ca867992943c46b5cad10009dc0183d8e58dbf044df4b488bbbc1b825b83be"
+      },
+      {
+        "path": "/usr/share/plymouth",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/plymouth/themes",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0001.png",
+        "mode": 33188,
+        "size": 1001,
+        "sha256": "5b6d52ea181bc36c2b196bff0336827d3da3416b6e02f983828aa23fd32dc989"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0002.png",
+        "mode": 33188,
+        "size": 1008,
+        "sha256": "c26c100e12f00bba81111253136e5161bf5adabb2f48302a404721f5562a11b8"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0003.png",
+        "mode": 33188,
+        "size": 1004,
+        "sha256": "f12f8dec657cff61c032e421fcd44c8d4bed6f072225ca38e1380704885e2535"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0004.png",
+        "mode": 33188,
+        "size": 1012,
+        "sha256": "c0c07d3f2c0943084f818046ec61771ec811157acfb3f524bad3e5d7a85828f2"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0005.png",
+        "mode": 33188,
+        "size": 1023,
+        "sha256": "e50cd508eec90b5f362174cc61dfc4d1ddf5975dbb15fafa7dd285ab4c567929"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0006.png",
+        "mode": 33188,
+        "size": 1037,
+        "sha256": "9bfabe4476790caaa243b83bc41c9d3866c40fe9951ce541859f28130c2b789e"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0007.png",
+        "mode": 33188,
+        "size": 1006,
+        "sha256": "8c9f83b8e85e1170c17613f42bc02a118e8fb1ffc8bb76ae78a3f8a489373b27"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0008.png",
+        "mode": 33188,
+        "size": 1003,
+        "sha256": "798844d58b16bb2723d374a2709662ae44ce0497bde5f0caf591dec333e1d0db"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0009.png",
+        "mode": 33188,
+        "size": 1007,
+        "sha256": "6bda5c278669ae83461d8e42b807b7bf1eb675c783d75f15dfffc19ec1f2e678"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0010.png",
+        "mode": 33188,
+        "size": 982,
+        "sha256": "e76432f6a874f0b836921ce0a56fe37aed2d44dee57ccac36806f5ad5893998d"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0011.png",
+        "mode": 33188,
+        "size": 988,
+        "sha256": "7fb5bb95e11eb0eedba9184eb5490b61e9f9fc568e0b39cf20eb147148993e81"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0012.png",
+        "mode": 33188,
+        "size": 995,
+        "sha256": "7065db91efa3980b7bee354ea8b2f8eba626ffb2e83b13a9d4415f5fb84b4b12"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0013.png",
+        "mode": 33188,
+        "size": 968,
+        "sha256": "8a34795ea266c4713549dff4e13f656f24247efe55151adfb331e30f02703f55"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0014.png",
+        "mode": 33188,
+        "size": 980,
+        "sha256": "1441da81aa0046a8709286e5590838e442f6ebb73824f5a0d117efcebf424a49"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0015.png",
+        "mode": 33188,
+        "size": 973,
+        "sha256": "bd8b51c80068db01b70ba7ddc6b05c883457a5ecefd62c7761d80a8589dd924c"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0016.png",
+        "mode": 33188,
+        "size": 948,
+        "sha256": "d8b0c82f0ce236cf890372384f593cdb2cdd3fabe9dc945cac7eaed9e21bbdb4"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0017.png",
+        "mode": 33188,
+        "size": 950,
+        "sha256": "a8cdbdfe4496f2eeb5096f7940a56744c3cc55de1fdf8999538f79fc22c66a54"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0018.png",
+        "mode": 33188,
+        "size": 948,
+        "sha256": "f4b3d68e61076d17ed7fe1b95bd0a129faabf7205eb5d5b2cd089778d9752f19"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0019.png",
+        "mode": 33188,
+        "size": 911,
+        "sha256": "ce3f8aec70bb1374a87cc717476e14e102a0de121b29329bb39e9761d88c934e"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0020.png",
+        "mode": 33188,
+        "size": 911,
+        "sha256": "939483c5d30ecac5475b69e7114eae33664e279de5762268615591e89be0061a"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0021.png",
+        "mode": 33188,
+        "size": 879,
+        "sha256": "2718dd9d76ece0e245d5f9996682af0bd53477e21894117b59f7daf74b2be7a6"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0022.png",
+        "mode": 33188,
+        "size": 841,
+        "sha256": "8e69b0683c3b37a9a0a93add8b71967840f7003edbe6426f4b9b895dd7a82384"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0023.png",
+        "mode": 33188,
+        "size": 825,
+        "sha256": "9d9ed1c4ad267872ddbb784f337fd5bf90a275e6ffa139743ab046a458fb4a6e"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0024.png",
+        "mode": 33188,
+        "size": 806,
+        "sha256": "03cbaf964fe2b62dce8a2e958eedf05b4c31ef47f0037e45d47f0eebf9ddd44f"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0025.png",
+        "mode": 33188,
+        "size": 784,
+        "sha256": "b3d955748aece436ffb85b286394bbbfd86f406c5f85437577172e8e4d9b8496"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0026.png",
+        "mode": 33188,
+        "size": 749,
+        "sha256": "a5a5ea691c0268ec9cccd4d14986ae1ab48b6ba1b7cd0f9699140f818e277bb2"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0027.png",
+        "mode": 33188,
+        "size": 752,
+        "sha256": "0c1d1e201d865f9c84550c1357b4978de7ba4fee44c911ce3e786b3af8e66e75"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0028.png",
+        "mode": 33188,
+        "size": 685,
+        "sha256": "e8c8220b0aa93d7818dffc1a557527e68cc067a3fa987c0b72dbefa0babd3959"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0029.png",
+        "mode": 33188,
+        "size": 668,
+        "sha256": "e6a86bf8476296ddffbdb7a3c1c6d31110de5fbb4be17daa10112176a6c88a88"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0030.png",
+        "mode": 33188,
+        "size": 621,
+        "sha256": "637d9940d9056178624efac70213457f5bb3faf084e2bd1dc50d188ed4645df3"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0031.png",
+        "mode": 33188,
+        "size": 560,
+        "sha256": "e07b450be997a36a88d9f4be5f27c9f04fdd9ed5b7d67d1449b096f5dfe091b9"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0032.png",
+        "mode": 33188,
+        "size": 541,
+        "sha256": "d928c83fab7a3f5f295c88660bcdb63f290ea9bc55431019494df5d711ce638e"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0033.png",
+        "mode": 33188,
+        "size": 443,
+        "sha256": "fbdf79f8ec02ccb2b9704ef3c5010fd281192f8b4f4fdf6c14423893f49a7232"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0034.png",
+        "mode": 33188,
+        "size": 349,
+        "sha256": "3b8419c53af8fb29e121613d749a808efcd64c9953ca932ad8bb7a1d83968db0"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0035.png",
+        "mode": 33188,
+        "size": 299,
+        "sha256": "c034da0bf8c307215815d18cfa7b8dcc11313398775468671469377a09b4c413"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/animation-0036.png",
+        "mode": 33188,
+        "size": 83,
+        "sha256": "36e10c1f70cbc992f98a0e75950e29f3de9b7fd21becd41a3fcba3751c9423b9"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/background-tile.png",
+        "mode": 33188,
+        "size": 79464,
+        "sha256": "509ab5bd76d7f9279de47e0f3ed4420237cf115c8fa3deaaab769b328038f04f"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0001.png",
+        "mode": 33188,
+        "size": 1001,
+        "sha256": "5b6d52ea181bc36c2b196bff0336827d3da3416b6e02f983828aa23fd32dc989"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0002.png",
+        "mode": 33188,
+        "size": 1011,
+        "sha256": "f8ecfda736788c896a7f399929c338ea668000364eabf40f2d0056f814bd5738"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0003.png",
+        "mode": 33188,
+        "size": 1016,
+        "sha256": "01d0742b744c0dafff6cafb80928ec2d2281a21de232b57944606ee5303dfdd8"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0004.png",
+        "mode": 33188,
+        "size": 1019,
+        "sha256": "cf497702cadea6179d3e63f7f565122359b35129a10ae9492746ba51da000297"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0005.png",
+        "mode": 33188,
+        "size": 1034,
+        "sha256": "674a87f31ba8d5288de6571b7de1fddfa8558ba4af7bc18a4b889b78c2ffb2ba"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0006.png",
+        "mode": 33188,
+        "size": 1028,
+        "sha256": "50058455e2eab6c06f08cbd36aa565772910865504b91c14b3a7c85e2c9fe056"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0007.png",
+        "mode": 33188,
+        "size": 1006,
+        "sha256": "a7cca0ff903fdb74438c4f9250fa8f730840561e8e85101199b2d72b83da4dcb"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0008.png",
+        "mode": 33188,
+        "size": 1032,
+        "sha256": "c29aaef4f007e307276a40b4ed8dd93b74d346bd5c1d34684dd690c0dab63366"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0009.png",
+        "mode": 33188,
+        "size": 1015,
+        "sha256": "49a5b3c5738aab7758d0d943629cfc0b7e7d3df99eb6bc7dd73b85e01f1dc5b4"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0010.png",
+        "mode": 33188,
+        "size": 1001,
+        "sha256": "88da2d4c4342c6f02481bf66fd44e22de9fe6df9679ca830d4e6f90165f1550e"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0011.png",
+        "mode": 33188,
+        "size": 1018,
+        "sha256": "6eeed963f32e63b29cf81749d246805bc3faf3faddcb02d8cade8a9818e0a5b2"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/throbber-0012.png",
+        "mode": 33188,
+        "size": 1004,
+        "sha256": "a64983b0aa76b58c511c68aac1164364608b176527ad177c996fe881d2b1cd25"
+      },
+      {
+        "path": "/usr/share/plymouth/themes/charge/watermark.png",
+        "mode": 33188,
+        "size": 42565,
+        "sha256": "b4e84d1364cba939d525a0740e816d0648a2b39ffc65e1cec804a8156768a77e"
+      },
+      {
+        "path": "/usr/share/wallpapers/RHEL7",
+        "mode": 16877,
+        "size": 46,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/wallpapers/RHEL7/contents",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/wallpapers/RHEL7/contents/images",
+        "mode": 16877,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/wallpapers/RHEL7/contents/images/2560x1600.jpg",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/wallpapers/RHEL7/metadata.desktop",
+        "mode": 33188,
+        "size": 119,
+        "sha256": "28039b3bd7c89c9c5737a7ed3d2c5d6a5363bc3f2a09ffe6718bc2cc4a6da3af"
+      },
+      {
+        "path": "/usr/share/wallpapers/backgrounds",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "librepo",
+  "version": "1.12.0-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "redhat",
+      "Product": "librepo",
+      "Version": "1.12.0",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/librepo@0:1.12.0-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "librepo",
+    "version": "1.12.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "librepo-1.12.0-2.el8.src.rpm",
+    "size": 213168,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/librepo",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b1/f12d3be6c1836dae77429e23c042023fd5f7b7",
+        "mode": 41471,
+        "size": 34,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/librepo.so.0",
+        "mode": 33261,
+        "size": 182640,
+        "sha256": "0db1610a16f1eb66fa2d7777e10b53a178cbdad8731bd8c132fc8d1978c2fb80"
+      },
+      {
+        "path": "/usr/share/licenses/librepo",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/librepo/COPYING",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

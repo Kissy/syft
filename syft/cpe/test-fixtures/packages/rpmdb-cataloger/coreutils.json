@@ -1,0 +1,813 @@
+{
+  "name": "coreutils",
+  "version": "8.22-24.0.1.el7_9.2",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "coreutils",
+      "Version": "8.22",
+      "Update": "24.0.1.el7_9.2",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/coreutils@0:8.22-24.0.1.el7_9.2?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "coreutils",
+    "version": "8.22",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "24.0.1.el7_9.2",
+    "sourceRpm": "coreutils-8.22-24.0.1.el7_9.2.src.rpm",
+    "size": 14594170,
+    "license": "GPLv3+",
+    "vendor": "Oracle America",
+    "url": "http://www.gnu.org/software/coreutils/",
+    "files": [
+      {
+        "path": "/etc/DIR_COLORS",
+        "mode": 33188,
+        "size": 5090,
+        "sha256": "3e53eb27f1a6e4efdb51a477145db312d0cdb2542abfa00624549d13a14eea17"
+      },
+      {
+        "path": "/etc/DIR_COLORS.256color",
+        "mode": 33188,
+        "size": 5725,
+        "sha256": "727769496271db7cafd43e58ac854db716679b14abb701cdbcdf0aaa0e4f26b3"
+      },
+      {
+        "path": "/etc/DIR_COLORS.lightbgcolor",
+        "mode": 33188,
+        "size": 4669,
+        "sha256": "0bd0587582f3fa7d53cadcde58f06f5f56339b0465abe131fe1b01b93e451742"
+      },
+      {
+        "path": "/etc/profile.d/colorls.csh",
+        "mode": 33188,
+        "size": 1741,
+        "sha256": "4160b0617d2bd5f04c492b8563f9571e6142db895ce2d8095952c30fd0f840ec"
+      },
+      {
+        "path": "/etc/profile.d/colorls.sh",
+        "mode": 33188,
+        "size": 1606,
+        "sha256": "e11541f9844babdccebb2c5e14dc29eeb17ada3603b0a9632ce67fbe0db1ffa9"
+      },
+      {
+        "path": "/usr/bin/[",
+        "mode": 33261,
+        "size": 41488,
+        "sha256": "8d2c95c2deeb0e30a43c7850f0b5e01e74a378aecebcb7427a4d0d1bf16ab208"
+      },
+      {
+        "path": "/usr/bin/arch",
+        "mode": 33261,
+        "size": 33080,
+        "sha256": "43b5725258ccf11c2d8c7dfa095e6448fe562b40f9963de397b3ed0d8f18e1f6"
+      },
+      {
+        "path": "/usr/bin/base64",
+        "mode": 33261,
+        "size": 37360,
+        "sha256": "89ee4c51c04a4a9a15bed805ae98433164671e054261bf4bdb32cd9009d99f13"
+      },
+      {
+        "path": "/usr/bin/basename",
+        "mode": 33261,
+        "size": 29032,
+        "sha256": "a0b36dd8413ac4dad3c098c3cfc9723d1d7e1168ee886865ff8317c9a8dfd24f"
+      },
+      {
+        "path": "/usr/bin/cat",
+        "mode": 33261,
+        "size": 54080,
+        "sha256": "6dfe6dfb6dbaaaee335fad512a3b0e3d1c921e059277101c3d3ebee34105aebb"
+      },
+      {
+        "path": "/usr/bin/chcon",
+        "mode": 33261,
+        "size": 62936,
+        "sha256": "76f580b1f94270aa67e9b22efeddf79291903044bac8467c749b7292e13e121b"
+      },
+      {
+        "path": "/usr/bin/chgrp",
+        "mode": 33261,
+        "size": 62792,
+        "sha256": "ef430fa3ef9fa0365d0d238db4b3fae2c3ef448ff9b88610f98844efd1a71d20"
+      },
+      {
+        "path": "/usr/bin/chmod",
+        "mode": 33261,
+        "size": 58584,
+        "sha256": "68f78a97c039c1aca13f323a4d24da79e5d0a97a784840cdbce065f4158f0328"
+      },
+      {
+        "path": "/usr/bin/chown",
+        "mode": 33261,
+        "size": 62832,
+        "sha256": "72b7568b5d25954324be539c7be734555b15abfd3a0a0b7e312152a565c36d2a"
+      },
+      {
+        "path": "/usr/bin/cksum",
+        "mode": 33261,
+        "size": 33152,
+        "sha256": "56bc851ca7e7236c290b5f29dd22c812e9bfec9cab4dcb19e7b019b1f70dd8fb"
+      },
+      {
+        "path": "/usr/bin/comm",
+        "mode": 33261,
+        "size": 37424,
+        "sha256": "ec7daa055af88fb9b7bce01fc583ee8598bd56c7e875182ff8c34594a580d764"
+      },
+      {
+        "path": "/usr/bin/cp",
+        "mode": 33261,
+        "size": 155184,
+        "sha256": "c553b2d373f79dd2a4c9fc881f3f5c4e49be9b54291d47da49040f376f1f4290"
+      },
+      {
+        "path": "/usr/bin/csplit",
+        "mode": 33261,
+        "size": 49992,
+        "sha256": "ac86ac6b071c89c48ea4d67a04712c4492f72423bc222c3450eeca7b8773df1c"
+      },
+      {
+        "path": "/usr/bin/cut",
+        "mode": 33261,
+        "size": 41584,
+        "sha256": "c2562e1e434bc6a6492b3dd7caf3b0ce912b3cb3fddbeaadf64d446bb304253d"
+      },
+      {
+        "path": "/usr/bin/date",
+        "mode": 33261,
+        "size": 62200,
+        "sha256": "5d301b4b5de9a541d4b5b778ed795c22bddc1c453930ca9ccc5f77897bb98783"
+      },
+      {
+        "path": "/usr/bin/dd",
+        "mode": 33261,
+        "size": 74888,
+        "sha256": "7d92198eb42853ba4195a7b054e29d4c6cdef5bbf51b305b9cd4946b7c23404b"
+      },
+      {
+        "path": "/usr/bin/df",
+        "mode": 33261,
+        "size": 105024,
+        "sha256": "5696ce649362de1984f69213a569e1311de1ad0e7fe5c74e25cbe6eb29435722"
+      },
+      {
+        "path": "/usr/bin/dir",
+        "mode": 33261,
+        "size": 117608,
+        "sha256": "745062792a20a6e997ef25c7153ac8f416a64441087899e30daad5b8e24d513e"
+      },
+      {
+        "path": "/usr/bin/dircolors",
+        "mode": 33261,
+        "size": 41408,
+        "sha256": "342b59907c662dd230e536d211bba343017fbc93002412d80f8d5f7f3c17aee3"
+      },
+      {
+        "path": "/usr/bin/dirname",
+        "mode": 33261,
+        "size": 28992,
+        "sha256": "d41da1371b8aa319a62de788253a3ab2e1fc455cab8e44caf40b8d6e39e85ec8"
+      },
+      {
+        "path": "/usr/bin/du",
+        "mode": 33261,
+        "size": 112984,
+        "sha256": "c34fad330112ebaa535bca1ddfcf52398d9aeb084460d3a18c984f5fcd4b2945"
+      },
+      {
+        "path": "/usr/bin/echo",
+        "mode": 33261,
+        "size": 33088,
+        "sha256": "362ab389c8372518149356b061e6f40f0d5e35ad57299b69c2256c16340e5431"
+      },
+      {
+        "path": "/usr/bin/env",
+        "mode": 33261,
+        "size": 29008,
+        "sha256": "f06d13410e2df79a2b56f765784db28e1dae0f7f2efbe1972571d87e3292985c"
+      },
+      {
+        "path": "/usr/bin/expand",
+        "mode": 33261,
+        "size": 33264,
+        "sha256": "e5151312f00b91d94c85c8c6d79c058a4a7e8a98dccdd8101180a0d38a9f77c9"
+      },
+      {
+        "path": "/usr/bin/expr",
+        "mode": 33261,
+        "size": 37408,
+        "sha256": "393ad7c8be57b48c1f214647591327f18c73c018ae462d6f0bed282d1edf5d01"
+      },
+      {
+        "path": "/usr/bin/factor",
+        "mode": 33261,
+        "size": 95528,
+        "sha256": "bb8c2167af5f58ed0a56cb71fe6e7f5b22cff36f402bbf5fa8e00f4d775bab64"
+      },
+      {
+        "path": "/usr/bin/false",
+        "mode": 33261,
+        "size": 28936,
+        "sha256": "fd0dbe48f0d9113b48d1e654744f5e6bdcd694e1ef7ea7543ea02cbeca8a71b2"
+      },
+      {
+        "path": "/usr/bin/fmt",
+        "mode": 33261,
+        "size": 37352,
+        "sha256": "209c30ab2f653e19b194672ec91aa27ea406ed25304933ec288dda69e9ec09f5"
+      },
+      {
+        "path": "/usr/bin/fold",
+        "mode": 33261,
+        "size": 37336,
+        "sha256": "655579be4a0b4eae0ae187e51c23b87547ca757e56318eff53296911f8716434"
+      },
+      {
+        "path": "/usr/bin/groups",
+        "mode": 33261,
+        "size": 33192,
+        "sha256": "a774c7e830a06ea29213f426b50b78986b299894ef8310edc311b39bfbd9a67b"
+      },
+      {
+        "path": "/usr/bin/head",
+        "mode": 33261,
+        "size": 41472,
+        "sha256": "375196403cf2af761d99b19dc7b928ed2947b70187683e7220e56c15047689c2"
+      },
+      {
+        "path": "/usr/bin/hostid",
+        "mode": 33261,
+        "size": 28984,
+        "sha256": "c19f5f24919b979e6b62b727481cff34cd3a35364e2beba104dc608e7a5d2252"
+      },
+      {
+        "path": "/usr/bin/id",
+        "mode": 33261,
+        "size": 37400,
+        "sha256": "1ad722f0c3502637fc7fea378d67ee229086cc21941b3eecc563df491fbd4f82"
+      },
+      {
+        "path": "/usr/bin/install",
+        "mode": 33261,
+        "size": 142944,
+        "sha256": "27d4ef38515ee4319bf9924dff0c20bd4c3da4cd400189ef360a517a464e9432"
+      },
+      {
+        "path": "/usr/bin/join",
+        "mode": 33261,
+        "size": 49920,
+        "sha256": "3e49c844e95e020a67249cdda1c73c0237b81d6c811e180ced94df843d871e85"
+      },
+      {
+        "path": "/usr/bin/link",
+        "mode": 33261,
+        "size": 28984,
+        "sha256": "3c30fc9ac6403a31b533519c878c2c300c128caf4be60049d474a0c3804349e7"
+      },
+      {
+        "path": "/usr/bin/ln",
+        "mode": 33261,
+        "size": 58592,
+        "sha256": "264377d6a1e44c6f1732d7ce78533b17bcfd07671aafc8037dffe4f212be42c2"
+      },
+      {
+        "path": "/usr/bin/logname",
+        "mode": 33261,
+        "size": 28984,
+        "sha256": "64cb8befb4585702c16a14f418673980d1a45c6ac32ca6124d9448dddb2cb365"
+      },
+      {
+        "path": "/usr/bin/ls",
+        "mode": 33261,
+        "size": 117608,
+        "sha256": "7eaa6e2254d920c89d40ea3368b58427c95a4ee22d0f5104cc4097c9cef159ec"
+      },
+      {
+        "path": "/usr/bin/md5sum",
+        "mode": 33261,
+        "size": 41504,
+        "sha256": "0f3123f8046b8b244911cf3c88082a8921a4ec9254c7e208de36a57bc8cc1ebd"
+      },
+      {
+        "path": "/usr/bin/mkdir",
+        "mode": 33261,
+        "size": 79768,
+        "sha256": "744fe048ac6a67fd178475f4f2054444e64af797a73789fa2bbc38aae191be6a"
+      },
+      {
+        "path": "/usr/bin/mkfifo",
+        "mode": 33261,
+        "size": 63064,
+        "sha256": "f2c1ef280551bb0b0e83980447e99323b28dac5a4b1b49eebcd3d768dbc7d39a"
+      },
+      {
+        "path": "/usr/bin/mknod",
+        "mode": 33261,
+        "size": 67184,
+        "sha256": "f7e07fb446d22e3d6355ae0827a2002a97b49376df9ea6843b9704e0e0f5f652"
+      },
+      {
+        "path": "/usr/bin/mktemp",
+        "mode": 33261,
+        "size": 41632,
+        "sha256": "cbcabd70c3baf280475d81a1d8a3fda1254a063a119044f89c47e8cc171170de"
+      },
+      {
+        "path": "/usr/bin/mv",
+        "mode": 33261,
+        "size": 130352,
+        "sha256": "257784e4672984613a64118ec91cd34ea7de88ae07bd10ee888f475776721431"
+      },
+      {
+        "path": "/usr/bin/nice",
+        "mode": 33261,
+        "size": 33096,
+        "sha256": "ef015a1134035986cfd271584e0f25fdbd3f02ee61436e89f0e178bb4762075b"
+      },
+      {
+        "path": "/usr/bin/nl",
+        "mode": 33261,
+        "size": 41568,
+        "sha256": "41f38ac778e7362d274a77114fac0b913454f87788436e14cbc1fa204cd57be6"
+      },
+      {
+        "path": "/usr/bin/nohup",
+        "mode": 33261,
+        "size": 33200,
+        "sha256": "ec352835655d3912486846ad3e4a7063b602b73d69cbad4c06a52fff2b54c86e"
+      },
+      {
+        "path": "/usr/bin/nproc",
+        "mode": 33261,
+        "size": 33144,
+        "sha256": "8f928823c4ed92849c0359aa7d75a3384edb66d167c3e9272b9c612c6a6679f8"
+      },
+      {
+        "path": "/usr/bin/numfmt",
+        "mode": 33261,
+        "size": 66264,
+        "sha256": "1f94f61de94aeb6456cffc030661d8fc1161a0e6ed8d4b50577932500a723668"
+      },
+      {
+        "path": "/usr/bin/od",
+        "mode": 33261,
+        "size": 66368,
+        "sha256": "bc37f50598d0a9b8851e251c9ac79034c921defb76a3ec62305f132e4944d6ed"
+      },
+      {
+        "path": "/usr/bin/paste",
+        "mode": 33261,
+        "size": 33120,
+        "sha256": "41f7e6e17b61bd07a40b9666a114c177cef7c62597bd7abd65f238f45696dd48"
+      },
+      {
+        "path": "/usr/bin/pathchk",
+        "mode": 33261,
+        "size": 33088,
+        "sha256": "a669474145b93ff9ca9d180d191982b415ec750ff26c0613698eb23ea3f5e561"
+      },
+      {
+        "path": "/usr/bin/pinky",
+        "mode": 33261,
+        "size": 37448,
+        "sha256": "db69f3306743097b85cfcd9711732d74715922e8c5078eda4ac0c906b9a5e7ab"
+      },
+      {
+        "path": "/usr/bin/pr",
+        "mode": 33261,
+        "size": 66672,
+        "sha256": "70469a49454629225d26ad262a09ad6c14ea4b68c81221986e0d3f7f229d9878"
+      },
+      {
+        "path": "/usr/bin/printenv",
+        "mode": 33261,
+        "size": 28960,
+        "sha256": "704ca35c99f4506201e05bffbc1ef178ed2a74f8f026b54d1b5e763215c5a4ce"
+      },
+      {
+        "path": "/usr/bin/printf",
+        "mode": 33261,
+        "size": 49776,
+        "sha256": "047719e4af4d59c31115f578a7cf580b66d72ec15b9838a8acb26716a323b54d"
+      },
+      {
+        "path": "/usr/bin/ptx",
+        "mode": 33261,
+        "size": 66648,
+        "sha256": "c5c7c419e9829768fe221aa2af3c96bfd3bd9007eb967f01e6e550487bb87ca5"
+      },
+      {
+        "path": "/usr/bin/pwd",
+        "mode": 33261,
+        "size": 33232,
+        "sha256": "3cfecaa7519d486ba541994114686a7483ec0b5bb6b3082a62ac89674d7cf402"
+      },
+      {
+        "path": "/usr/bin/readlink",
+        "mode": 33261,
+        "size": 41800,
+        "sha256": "09d6dd730d199e08112d716c4bcb153b52cb362d5abbd298df1cbcd926e8bc5c"
+      },
+      {
+        "path": "/usr/bin/realpath",
+        "mode": 33261,
+        "size": 62696,
+        "sha256": "bed895d06f1c661600fcc465068ae52fbb32cfb0305dab2d1a2ee2810e575526"
+      },
+      {
+        "path": "/usr/bin/rm",
+        "mode": 33261,
+        "size": 62872,
+        "sha256": "c674cfa5b9688a827a92628d76a32f5b6f80f73bb92276aa299887bf981d7820"
+      },
+      {
+        "path": "/usr/bin/rmdir",
+        "mode": 33261,
+        "size": 45528,
+        "sha256": "b946c41843153124cc99e5d02934176087768c081a4e3eb639ce594957dded2a"
+      },
+      {
+        "path": "/usr/bin/runcon",
+        "mode": 33261,
+        "size": 33248,
+        "sha256": "901d565a9b86dfcd0bd6dbee39be0a11634107dff3a316780ac67e42b2ff8380"
+      },
+      {
+        "path": "/usr/bin/seq",
+        "mode": 33261,
+        "size": 49640,
+        "sha256": "d1261ad201bf3565bdd1d9bc9cd09ff1afcc2056a0b6c158c9a8f468b9364deb"
+      },
+      {
+        "path": "/usr/bin/sha1sum",
+        "mode": 33261,
+        "size": 37448,
+        "sha256": "14a271cebccadd0ad5ccb22e0fc90910984609dd80df1b73ba56b6791abcd630"
+      },
+      {
+        "path": "/usr/bin/sha224sum",
+        "mode": 33261,
+        "size": 41608,
+        "sha256": "cf13e6cfd718f3c575807016bf76978bcfe76baf0c9498a7e4ccce5837ac18f3"
+      },
+      {
+        "path": "/usr/bin/sha256sum",
+        "mode": 33261,
+        "size": 41608,
+        "sha256": "612885a582694cfb6f452d3645bb7b4a4f8a4e9f73fce99fd00207902a954e47"
+      },
+      {
+        "path": "/usr/bin/sha384sum",
+        "mode": 33261,
+        "size": 41624,
+        "sha256": "f36db8b2ff81058d11a52b04c46c3fe85ae1df5dd8e0131f52b0d2a5320892ff"
+      },
+      {
+        "path": "/usr/bin/sha512sum",
+        "mode": 33261,
+        "size": 41624,
+        "sha256": "a252c9a8c774f47ed6ac354c3feb2d2a9de4684ae33e329640a502b1eaac5bec"
+      },
+      {
+        "path": "/usr/bin/shred",
+        "mode": 33261,
+        "size": 54208,
+        "sha256": "d20fb9f3aed8f67ea9c1495c81491df035a31d65334c6f447e1c90e66f1141d8"
+      },
+      {
+        "path": "/usr/bin/shuf",
+        "mode": 33261,
+        "size": 50312,
+        "sha256": "07fad48498d031381edcda88483dd75ca6ee9a0a23252a2d361a53bb272c03b6"
+      },
+      {
+        "path": "/usr/bin/sleep",
+        "mode": 33261,
+        "size": 33128,
+        "sha256": "90f2a8b1bc3f369eb85145d543a67564ece6f639cedd8f3a7a91092587944248"
+      },
+      {
+        "path": "/usr/bin/sort",
+        "mode": 33261,
+        "size": 117704,
+        "sha256": "c81941221755503b8bd6b5be286ddd5f5df8aaa25ff153d1be7c9c509e19a648"
+      },
+      {
+        "path": "/usr/bin/split",
+        "mode": 33261,
+        "size": 71128,
+        "sha256": "ec137efe6ea550eb96ac2e6f7fdd481ed210ae5b66341d953fb7ba570fc0b8f6"
+      },
+      {
+        "path": "/usr/bin/stat",
+        "mode": 33261,
+        "size": 79040,
+        "sha256": "5c026285b7de90413da89094846347fe4634f5b9e4419fd1e2816ba43146b983"
+      },
+      {
+        "path": "/usr/bin/stdbuf",
+        "mode": 33261,
+        "size": 66440,
+        "sha256": "745e76ada3098fba69e61a17fe4a7ed7218202d18da05c67a8233bd515053331"
+      },
+      {
+        "path": "/usr/bin/stty",
+        "mode": 33261,
+        "size": 70256,
+        "sha256": "9d6852958e5800b90dff64bf3c8ef8940c2cfe3d876f26a838b6d1b2d937bd86"
+      },
+      {
+        "path": "/usr/bin/sum",
+        "mode": 33261,
+        "size": 37432,
+        "sha256": "7cf43ecacaa1489688b5acf16ee48bc0b3503b3a643cee6089a0ab72c7f37d90"
+      },
+      {
+        "path": "/usr/bin/sync",
+        "mode": 33261,
+        "size": 29008,
+        "sha256": "b02a224417776890542c4211fd1af331f6a881c2aeea691d386200fc9a76d23f"
+      },
+      {
+        "path": "/usr/bin/tac",
+        "mode": 33261,
+        "size": 33264,
+        "sha256": "61bfbe561417fd3b7287d0c6455831afbf6ee2a65d87e0b374746160a5c8eafc"
+      },
+      {
+        "path": "/usr/bin/tail",
+        "mode": 33261,
+        "size": 66824,
+        "sha256": "2e65727d1e1427ed49e3f6c8448ef604fb0301ff03bc7e8006ae0368279b9499"
+      },
+      {
+        "path": "/usr/bin/tee",
+        "mode": 33261,
+        "size": 33160,
+        "sha256": "f240f4414423f61dc9e1a2c760d344dca8c3adc7bb52751606fc6501b90bf066"
+      },
+      {
+        "path": "/usr/bin/test",
+        "mode": 33261,
+        "size": 37336,
+        "sha256": "7cfc240aa974ebbce3504d9fe954fca59aad1fea52c153e707a9c5e56debeb81"
+      },
+      {
+        "path": "/usr/bin/timeout",
+        "mode": 33261,
+        "size": 54592,
+        "sha256": "58824932d9fdbdd21a8ab99406c6ec38fe6396f08c282289322381f6bf0a7ffd"
+      },
+      {
+        "path": "/usr/bin/touch",
+        "mode": 33261,
+        "size": 62480,
+        "sha256": "b577137d64eb823d2ea6652e1ede837d6ebd967655a3290019e570e1169d8f39"
+      },
+      {
+        "path": "/usr/bin/tr",
+        "mode": 33261,
+        "size": 45680,
+        "sha256": "24a2acb9245b8636e32c71e470254ae2fd0ba8fd609019feaa46a088ac64ff55"
+      },
+      {
+        "path": "/usr/bin/true",
+        "mode": 33261,
+        "size": 28936,
+        "sha256": "d0590b623e5b15192099cbb394b398ecab2f49d0ecab74549fcae46537c98115"
+      },
+      {
+        "path": "/usr/bin/truncate",
+        "mode": 33261,
+        "size": 53936,
+        "sha256": "73cb78151c02d0a817878c7bc8de2c2e8b579cff63cd0e0813b18bceea983a02"
+      },
+      {
+        "path": "/usr/bin/tsort",
+        "mode": 33261,
+        "size": 37344,
+        "sha256": "de999b3d06d0d03aaf28072cba147278bf9e7283f98b0f2d1c24dcd09bc05bf8"
+      },
+      {
+        "path": "/usr/bin/tty",
+        "mode": 33261,
+        "size": 28968,
+        "sha256": "1f28ca006409baa3f6890a359cea7925076ab41f075070f6bf584caeefca6363"
+      },
+      {
+        "path": "/usr/bin/uname",
+        "mode": 33261,
+        "size": 33080,
+        "sha256": "064e9821552e11c305ee092e4820ce1be2f08721895eb6d9b9d466bfae1bc67c"
+      },
+      {
+        "path": "/usr/bin/unexpand",
+        "mode": 33261,
+        "size": 33232,
+        "sha256": "97710df03f930881d0e10790577fb73913c05e6eb9b448ff66aae44637571a7e"
+      },
+      {
+        "path": "/usr/bin/uniq",
+        "mode": 33261,
+        "size": 45784,
+        "sha256": "5a32c1993009eac963fd3a97276197239d53bcff4db58f412f7e5b0f0a179233"
+      },
+      {
+        "path": "/usr/bin/unlink",
+        "mode": 33261,
+        "size": 28984,
+        "sha256": "d322a9f131a481b46d1e2fb654d534674f7e91b41c183b3d77186c942de8fb1a"
+      },
+      {
+        "path": "/usr/bin/users",
+        "mode": 33261,
+        "size": 33200,
+        "sha256": "eccae6f1b10d45bb1c6a01dabdb62e360aa892d758f43d63487920ff6917f3bf"
+      },
+      {
+        "path": "/usr/bin/vdir",
+        "mode": 33261,
+        "size": 117608,
+        "sha256": "cd7fec7782d2955931cb3efa10b48a559a94886125f95b90d316f4af8ff1a82c"
+      },
+      {
+        "path": "/usr/bin/wc",
+        "mode": 33261,
+        "size": 41648,
+        "sha256": "79ffd5bcffdfff52e1e0ad843a261d396bc484f43843696d292afdd0bcb876e1"
+      },
+      {
+        "path": "/usr/bin/who",
+        "mode": 33261,
+        "size": 49872,
+        "sha256": "7020c88f44480641f59331045502fa8fb4ff32ce18fca1e11deafad4dfb45f39"
+      },
+      {
+        "path": "/usr/bin/whoami",
+        "mode": 33261,
+        "size": 28984,
+        "sha256": "5c3b915f31ba809e8b8601dabe95be529e2976705e1c9bec45d87989b5d1abc1"
+      },
+      {
+        "path": "/usr/bin/yes",
+        "mode": 33261,
+        "size": 28984,
+        "sha256": "44d5a54a0a3fc6c88375ae29189c578600b700561879cf8de9c26514f551e51a"
+      },
+      {
+        "path": "/usr/libexec/coreutils",
+        "mode": 16877,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/coreutils/libstdbuf.so",
+        "mode": 33261,
+        "size": 7008,
+        "sha256": "fd68e21088839be891beef0c95c579ee506e6106ec9e258a09dfd82d2bdbd43b"
+      },
+      {
+        "path": "/usr/sbin/chroot",
+        "mode": 33261,
+        "size": 33256,
+        "sha256": "53128fe31c055ee393b74ba861f04230c42d49d60d3d48868e711c499e5637d1"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/ABOUT-NLS",
+        "mode": 33188,
+        "size": 93787,
+        "sha256": "e97b73baef31710d510598584f5c0f5018cb0847770defa1347966909b7c1f5d"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/ChangeLog.bz2",
+        "mode": 33188,
+        "size": 244769,
+        "sha256": "4ad5c2d6a13e13404dbd1e8b16f8b512497c3843d474486c3687fc1dac8eeba6"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/NEWS",
+        "mode": 33188,
+        "size": 169442,
+        "sha256": "18f39dbfb2204a62104e0143571f42920bbfcb075070633da30356ea51538eaa"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/README",
+        "mode": 33188,
+        "size": 11242,
+        "sha256": "b4e8ecaa73e805e5a25ce734221de908b824b9c69cd02ad1fe71682cbb63d94f"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/THANKS",
+        "mode": 33188,
+        "size": 45249,
+        "sha256": "23f2c5160bbc87ec4f1ba7461b699ab8cc5ea5fd7aff8b58ef8e57c9bcc916a8"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/TODO",
+        "mode": 33188,
+        "size": 6972,
+        "sha256": "d2eed56f1a80bb4b115c32d78912ef2bc28fda3448be3055c14fc524bde13b61"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/fileutils",
+        "mode": 16877,
+        "size": 65,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/fileutils/ChangeLog-1997.bz2",
+        "mode": 33188,
+        "size": 54116,
+        "sha256": "b1431aa315bfb0e5e87536e7a4b416b821a1c76bb3931846c2ec7dac051df257"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/fileutils/ChangeLog.bz2",
+        "mode": 33188,
+        "size": 67874,
+        "sha256": "72e867b8a5f9157e09789bef91e529ee5a41a76797b9635689adcb0ff7cdf334"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/fileutils/NEWS",
+        "mode": 33188,
+        "size": 38973,
+        "sha256": "61da66162f447feff05b039750ed40bab08acf68d41efab8ddd8a858cbb2b8f1"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/sh-utils",
+        "mode": 16877,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/sh-utils/ChangeLog.0.bz2",
+        "mode": 33188,
+        "size": 18292,
+        "sha256": "384c246c1ba0db114ebef06d921946a777dc26b68ad97c4063cb1552755c0cd6"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/sh-utils/ChangeLog.bz2",
+        "mode": 33188,
+        "size": 39498,
+        "sha256": "eada4bbbbec79d0221c65874484bb4d2d8e73589dce4d8c54db060d6a928923e"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/sh-utils/NEWS",
+        "mode": 33188,
+        "size": 13242,
+        "sha256": "ca4a932a5698dd9d77837faa2f464bead89f434d2820f961260e49d0dc503465"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/textutils",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/textutils/ChangeLog.bz2",
+        "mode": 33188,
+        "size": 71565,
+        "sha256": "ac1c54e52593e2c8e7cddac6f79042a650d8d69922b2d580c5e9672a35fee56d"
+      },
+      {
+        "path": "/usr/share/doc/coreutils-8.22/textutils/NEWS",
+        "mode": 33188,
+        "size": 22552,
+        "sha256": "9aa370b6b759280f6965435f6b3d9f35036b4fb30fca7351777e6f2aeb19d9f3"
+      }
+    ]
+  }
+}

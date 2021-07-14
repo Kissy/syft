@@ -1,0 +1,87 @@
+{
+  "name": "libestr",
+  "version": "0.1.9-2.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "adiscon",
+      "Product": "libestr",
+      "Version": "0.1.9",
+      "Update": "2.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libestr@0:0.1.9-2.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libestr",
+    "version": "0.1.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el7",
+    "sourceRpm": "libestr-0.1.9-2.el7.src.rpm",
+    "size": 44098,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://libestr.adiscon.com/",
+    "files": [
+      {
+        "path": "/usr/lib64/libestr.so.0",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libestr.so.0.0.0",
+        "mode": 33261,
+        "size": 15200,
+        "sha256": "28a6059985264025aee205f729e211d9c80f4d5c8708e6cb5dd019e89554582a"
+      },
+      {
+        "path": "/usr/share/doc/libestr-0.1.9",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libestr-0.1.9/AUTHORS",
+        "mode": 33188,
+        "size": 54,
+        "sha256": "6fa4fd848619b764b9505afab190e7c950628113c552fc7d8bc83aff8d344ecf"
+      },
+      {
+        "path": "/usr/share/doc/libestr-0.1.9/COPYING",
+        "mode": 33188,
+        "size": 26157,
+        "sha256": "835b4793da5cbb8965fbd63905b55a4cb4310b7d1b882077d23066b08f901ff8"
+      },
+      {
+        "path": "/usr/share/doc/libestr-0.1.9/ChangeLog",
+        "mode": 33188,
+        "size": 2675,
+        "sha256": "58820fd1304710d1f32d712b68a8400659bb62173d0dfaec7f45db4513cf7f52"
+      },
+      {
+        "path": "/usr/share/doc/libestr-0.1.9/README",
+        "mode": 33188,
+        "size": 12,
+        "sha256": "d0bf46c860bdf4cf6936f9d37aa6fee0e3750757b43a64e3f3c1846262dc0ddc"
+      }
+    ]
+  }
+}

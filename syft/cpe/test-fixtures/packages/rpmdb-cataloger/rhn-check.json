@@ -1,0 +1,169 @@
+{
+  "name": "rhn-check",
+  "version": "2.0.2-24.0.7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/rhn-check@0:2.0.2-24.0.7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rhn-check",
+    "version": "2.0.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "24.0.7.el7",
+    "sourceRpm": "rhn-client-tools-2.0.2-24.0.7.el7.src.rpm",
+    "size": 40938,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "http://linux.oracle.com",
+    "files": [
+      {
+        "path": "/usr/sbin/rhn_check",
+        "mode": 33261,
+        "size": 15807,
+        "sha256": "0f193a8e014258942de3866c81bfdc742463bca4d502c9d5a6607a385b7607ad"
+      },
+      {
+        "path": "/usr/share/rhn/actions",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/rhn/actions/__init__.py",
+        "mode": 33261,
+        "size": 18,
+        "sha256": "362b51bf5ae5601a17408a85a03f9b9dbc515ac437e942738d974d9dc45a5d83"
+      },
+      {
+        "path": "/usr/share/rhn/actions/__init__.pyc",
+        "mode": 33261,
+        "size": 121,
+        "sha256": "bcc57449348ccb414dabf63ca7a1747a2b0da7c1a73cd818f0727c85dea00e01"
+      },
+      {
+        "path": "/usr/share/rhn/actions/__init__.pyo",
+        "mode": 33261,
+        "size": 121,
+        "sha256": "bcc57449348ccb414dabf63ca7a1747a2b0da7c1a73cd818f0727c85dea00e01"
+      },
+      {
+        "path": "/usr/share/rhn/actions/hardware.py",
+        "mode": 33261,
+        "size": 1125,
+        "sha256": "d54493f41abe940bab4cfa26b76af61605cae709b2256792aa4ac83a84684e65"
+      },
+      {
+        "path": "/usr/share/rhn/actions/hardware.pyc",
+        "mode": 33261,
+        "size": 1229,
+        "sha256": "f9c6d6c8babaca13d4993aa0495ceea77598b9735b22073f33a7478a067079c0"
+      },
+      {
+        "path": "/usr/share/rhn/actions/hardware.pyo",
+        "mode": 33261,
+        "size": 1229,
+        "sha256": "f9c6d6c8babaca13d4993aa0495ceea77598b9735b22073f33a7478a067079c0"
+      },
+      {
+        "path": "/usr/share/rhn/actions/reboot.py",
+        "mode": 33261,
+        "size": 1273,
+        "sha256": "f99b5ada04c76dcea35ee79b24f934f83bf6c07dc44111460edcba47f78ca883"
+      },
+      {
+        "path": "/usr/share/rhn/actions/reboot.pyc",
+        "mode": 33261,
+        "size": 1445,
+        "sha256": "91f770a42f61edf6c71231965e3c8c1bdd15be6e7fcb771e46b1e6e8d334a313"
+      },
+      {
+        "path": "/usr/share/rhn/actions/reboot.pyo",
+        "mode": 33261,
+        "size": 1445,
+        "sha256": "91f770a42f61edf6c71231965e3c8c1bdd15be6e7fcb771e46b1e6e8d334a313"
+      },
+      {
+        "path": "/usr/share/rhn/actions/rhnsd.py",
+        "mode": 33261,
+        "size": 1661,
+        "sha256": "5a7c14b89f8800ef94260e6cc10198a4ae19a6b78b9445820bd1cf7265ce0f64"
+      },
+      {
+        "path": "/usr/share/rhn/actions/rhnsd.pyc",
+        "mode": 33261,
+        "size": 1655,
+        "sha256": "73bf7f565ef37d066cdb02396f6a6effad639e7509ee9c02f6caf64b4edb34a7"
+      },
+      {
+        "path": "/usr/share/rhn/actions/rhnsd.pyo",
+        "mode": 33261,
+        "size": 1655,
+        "sha256": "73bf7f565ef37d066cdb02396f6a6effad639e7509ee9c02f6caf64b4edb34a7"
+      },
+      {
+        "path": "/usr/share/rhn/actions/systemid.py",
+        "mode": 33261,
+        "size": 744,
+        "sha256": "eb661686ed4de7b452a9b1a6e70163cb1f8c603d0ff5c4a80afaf4f1cfb3859e"
+      },
+      {
+        "path": "/usr/share/rhn/actions/systemid.pyc",
+        "mode": 33261,
+        "size": 762,
+        "sha256": "d11d2ce878a371cd79beef5db5e3ab42c643fc66c51f5d932b0ce465370bd3f9"
+      },
+      {
+        "path": "/usr/share/rhn/actions/systemid.pyo",
+        "mode": 33261,
+        "size": 762,
+        "sha256": "d11d2ce878a371cd79beef5db5e3ab42c643fc66c51f5d932b0ce465370bd3f9"
+      },
+      {
+        "path": "/usr/share/rhn/actions/up2date_config.py",
+        "mode": 33261,
+        "size": 2998,
+        "sha256": "3d4e3873aafa489b73bee1efdc5bdf144275d331a331d4c7cba225df759b3f7b"
+      },
+      {
+        "path": "/usr/share/rhn/actions/up2date_config.pyc",
+        "mode": 33261,
+        "size": 3159,
+        "sha256": "3d6aea38a340a1afa6d6e2b3be35a3165e6ccf7a494597af8dfa7f87d52556db"
+      },
+      {
+        "path": "/usr/share/rhn/actions/up2date_config.pyo",
+        "mode": 33261,
+        "size": 3159,
+        "sha256": "3d6aea38a340a1afa6d6e2b3be35a3165e6ccf7a494597af8dfa7f87d52556db"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/getMethod.py",
+        "mode": 33188,
+        "size": 4692,
+        "sha256": "58c8ac5a04c564370be4f9c930e93e8d17c7bde2f9968efd9212d4c6a167e349"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/getMethod.pyc",
+        "mode": 33188,
+        "size": 3009,
+        "sha256": "f10b0e87b59917486806d121f441ee9627a410d500c731c7514b4d44073f2db0"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/getMethod.pyo",
+        "mode": 33188,
+        "size": 3009,
+        "sha256": "f10b0e87b59917486806d121f441ee9627a410d500c731c7514b4d44073f2db0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "libnghttp2",
+  "version": "1.33.0-3.el8_2.1",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "nghttp2",
+      "Product": "nghttp2",
+      "Version": "1.33.0",
+      "Update": "3.el8_2.1",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libnghttp2@0:1.33.0-3.el8_2.1?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libnghttp2",
+    "version": "1.33.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8_2.1",
+    "sourceRpm": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
+    "size": 168044,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "https://nghttp2.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9b/cc5a47e90ea7c2136dd31a473c38e211c52822",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnghttp2.so.14",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnghttp2.so.14.17.0",
+        "mode": 33261,
+        "size": 166888,
+        "sha256": "fa6766b2d4ffe41abbc476028a79c3f51857624959032f876228fe64ad1aebc8"
+      },
+      {
+        "path": "/usr/share/licenses/libnghttp2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libnghttp2/COPYING",
+        "mode": 33188,
+        "size": 1156,
+        "sha256": "6b94f3abc1aabd0c72a7c7d92a77f79dda7c8a0cb3df839a97890b4116a2de2a"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "fipscheck",
+  "version": "1.4.1-6.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/fipscheck@0:1.4.1-6.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "fipscheck",
+    "version": "1.4.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el7",
+    "sourceRpm": "fipscheck-1.4.1-6.el7.src.rpm",
+    "size": 38839,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://fedorahosted.org/fipscheck/",
+    "files": [
+      {
+        "path": "/usr/bin/fipscheck",
+        "mode": 33261,
+        "size": 15736,
+        "sha256": "005b6e2d0ba978eea310470534fa6c490c4d3197edd799d33f88769fedfbd1e9"
+      },
+      {
+        "path": "/usr/bin/fipshmac",
+        "mode": 33261,
+        "size": 11576,
+        "sha256": "822df0d01ddac7d3a7c88cd4cf104d7aa228479d87361e957248bcf7d17815f1"
+      },
+      {
+        "path": "/usr/lib64/fipscheck/fipscheck.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "4fcdad26ebebc60e0f042b5fd869e5d95350c94e888264aa1ab32135356b3906"
+      },
+      {
+        "path": "/usr/share/doc/fipscheck-1.4.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/fipscheck-1.4.1/AUTHORS",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "f750a15438b4e6f3a81f3ccf14c9f0e7af38289ba3a80f4ba8c3c3bfb831bc3d"
+      },
+      {
+        "path": "/usr/share/doc/fipscheck-1.4.1/COPYING",
+        "mode": 33188,
+        "size": 1474,
+        "sha256": "d84158671dffe027851d0736657ec3b7fcfaa79ac4f369446c2a255f35e63b0b"
+      },
+      {
+        "path": "/usr/share/doc/fipscheck-1.4.1/ChangeLog",
+        "mode": 33188,
+        "size": 4122,
+        "sha256": "96ee45272df6e5e7e7fa7921d9e1fd1d2c718781a13fe9b65ddaf2b58be9ef2a"
+      },
+      {
+        "path": "/usr/share/doc/fipscheck-1.4.1/README",
+        "mode": 33188,
+        "size": 2761,
+        "sha256": "a133d4763572892aff8d44a11b2852e99a569d665d935f0abe97b545762eb114"
+      }
+    ]
+  }
+}

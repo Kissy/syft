@@ -1,0 +1,50 @@
+{
+  "name": "annotations",
+  "version": "13.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "doctrine-project",
+      "Product": "annotations",
+      "Version": "13.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.jetbrains/annotations@13.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/annotations-13.0.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Build-Jdk": "1.6.0_65",
+        "Built-By": "jetbrains",
+        "Created-By": "Apache Maven",
+        "Manifest-Version": "1.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.jetbrains/annotations/pom.properties",
+      "name": "",
+      "groupId": "org.jetbrains",
+      "artifactId": "annotations",
+      "version": "13.0",
+      "extraFields": {}
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "libdnf",
+  "version": "0.48.0-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libdnf@0:0.48.0-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libdnf",
+    "version": "0.48.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libdnf-0.48.0-5.el8.src.rpm",
+    "size": 2223407,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/libdnf",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/93",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/93/3d0af94867550a158ee84bb04b643e158b763b",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdnf.so.2",
+        "mode": 33261,
+        "size": 1909768,
+        "sha256": "584c02ec55ad1ed877addcf55443c97c74f9eb3364505232c388c77c5e14898f"
+      },
+      {
+        "path": "/usr/lib64/libdnf/plugins",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdnf/plugins/README",
+        "mode": 33188,
+        "size": 194,
+        "sha256": "73532ee155af95978529b5d896ed657ac8823a3ab32959bdde9719b35e6a7ae6"
+      },
+      {
+        "path": "/usr/share/licenses/libdnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libdnf/COPYING",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "libcom_err",
+  "version": "1.45.6-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "e2fsprogs_project",
+      "Product": "e2fsprogs",
+      "Version": "1.45.6",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libcom_err@0:1.45.6-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libcom_err",
+    "version": "1.45.6",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "e2fsprogs-1.45.6-1.el8.src.rpm",
+    "size": 61921,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "http://e2fsprogs.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2d/c59303757f98bdb27e76f2fbe3c4ae22bdd36b",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcom_err.so.2",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcom_err.so.2.1",
+        "mode": 33261,
+        "size": 17336,
+        "sha256": "88c206e3bbd7f746694153c1177ab58da3c177c363ecaa9f0abb3be8e083d4bf"
+      },
+      {
+        "path": "/usr/share/licenses/libcom_err",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libcom_err/NOTICE",
+        "mode": 33188,
+        "size": 44585,
+        "sha256": "5da5ef153e559c1d990d4c3eedbedd4442db892d37eae1f35fff069de8ec9020"
+      }
+    ]
+  }
+}

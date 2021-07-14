@@ -1,0 +1,99 @@
+{
+  "name": "yum-metadata-parser",
+  "version": "1.1.4-10.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "baseurl",
+      "Product": "yum",
+      "Version": "1.1.4",
+      "Update": "10.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/yum-metadata-parser@0:1.1.4-10.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "yum-metadata-parser",
+    "version": "1.1.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "10.el7",
+    "sourceRpm": "yum-metadata-parser-1.1.4-10.el7.src.rpm",
+    "size": 54517,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "http://linux.duke.edu/projects/yum/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/_sqlitecache.so",
+        "mode": 33261,
+        "size": 45936,
+        "sha256": "6820722133f3864567fc024a1d3436cf68abeb60f760f960741f66f88529b0cf"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/sqlitecachec.py",
+        "mode": 33188,
+        "size": 2510,
+        "sha256": "d5860810f4daa2b887a91b1601db48a6c8fa1224143179c99e82f7d844dc75b3"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/sqlitecachec.pyc",
+        "mode": 33188,
+        "size": 2170,
+        "sha256": "3bc4116691860ee12274afbd9e90184fe984ac421cb3bb6a90480edd51215943"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/sqlitecachec.pyo",
+        "mode": 33188,
+        "size": 2170,
+        "sha256": "3bc4116691860ee12274afbd9e90184fe984ac421cb3bb6a90480edd51215943"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/yum_metadata_parser-1.1.4-py2.7.egg-info",
+        "mode": 33188,
+        "size": 213,
+        "sha256": "ccccb438afbb5db60c3db36a344c061d0b522f5c707b62658c97ff83a78c3db8"
+      },
+      {
+        "path": "/usr/share/doc/yum-metadata-parser-1.1.4",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/yum-metadata-parser-1.1.4/AUTHORS",
+        "mode": 33188,
+        "size": 96,
+        "sha256": "24e35a9c3e4d369cc56f234dd0b94295512892bd982174f151f71c07e8717aa8"
+      },
+      {
+        "path": "/usr/share/doc/yum-metadata-parser-1.1.4/ChangeLog",
+        "mode": 33188,
+        "size": 2934,
+        "sha256": "bcd47f26bfe8ffba721bfac2ab16f9a751cdb78aa7acb37dd6b3f48984109dc4"
+      },
+      {
+        "path": "/usr/share/doc/yum-metadata-parser-1.1.4/README",
+        "mode": 33188,
+        "size": 658,
+        "sha256": "dc4844555c1255aecf4dda39a800f51473a2cfb89b16a640af3051b23a0b4e1b"
+      }
+    ]
+  }
+}

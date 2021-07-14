@@ -1,0 +1,129 @@
+{
+  "name": "bc",
+  "version": "1.06.95-13.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "bc",
+      "Version": "1.06.95",
+      "Update": "13.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/bc@0:1.06.95-13.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "bc",
+    "version": "1.06.95",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "13.el7",
+    "sourceRpm": "bc-1.06.95-13.el7.src.rpm",
+    "size": 219894,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.gnu.org/software/bc/",
+    "files": [
+      {
+        "path": "/usr/bin/bc",
+        "mode": 33261,
+        "size": 83440,
+        "sha256": "c6865d5293c69f78c656236dc22fe0fdaa29fcb9aae35b60d5f55894a2702787"
+      },
+      {
+        "path": "/usr/bin/dc",
+        "mode": 33261,
+        "size": 45440,
+        "sha256": "e00c5bd926b149cec736db9ff1b337fde3192fb221d1021d019d777ac02beb56"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/AUTHORS",
+        "mode": 33188,
+        "size": 241,
+        "sha256": "743516881d5e0f02cfb60830b46e04156d2a58ebc3c5fa00a8cb63a4293a6dcd"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/COPYING",
+        "mode": 33188,
+        "size": 17997,
+        "sha256": "987f3e261f0fcf6eecb7831a3b7c19824c07b59fbafa168fbac7938f9b23704e"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/COPYING.LIB",
+        "mode": 33188,
+        "size": 26545,
+        "sha256": "43c7e548f3c26f855c72e8c8fff8dfa760d03561a9de2152734d92b4d1b9b0a4"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/Examples",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/Examples/ckbook.b",
+        "mode": 33188,
+        "size": 330,
+        "sha256": "ddbdfd16d8ab5470b9638528c498d2e06e7f8af9c8996f71b025d622045b127f"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/Examples/pi.b",
+        "mode": 33188,
+        "size": 1188,
+        "sha256": "5d5e1c14d038d925876f34aabe10b643cbc47a3984c225e16b6862c9ed4ad9ad"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/Examples/primes.b",
+        "mode": 33188,
+        "size": 633,
+        "sha256": "1cf587f63308502c8564cb22ae2a87cebdee8e8aa9102d9b601a3181ace37681"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/Examples/twins.b",
+        "mode": 33188,
+        "size": 710,
+        "sha256": "ab19243153467903f4d6ba53aa27f64609a6a69743ff379022662525f04c977e"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/FAQ",
+        "mode": 33188,
+        "size": 1335,
+        "sha256": "af86afc8c1e85a7128ae1b2663cafda4d545922972a0eb2cddc00e995006de1a"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/NEWS",
+        "mode": 33188,
+        "size": 2627,
+        "sha256": "aa75832376b573b78af1655c0fbded14d51ad257f84f358d127f1740c970ebb6"
+      },
+      {
+        "path": "/usr/share/doc/bc-1.06.95/README",
+        "mode": 33188,
+        "size": 3522,
+        "sha256": "c4b01fb884c75344cd60b59c05d534cbb42a9af6252894cb4df51bd79b0aca92"
+      }
+    ]
+  }
+}

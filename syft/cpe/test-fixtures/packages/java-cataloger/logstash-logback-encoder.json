@@ -1,0 +1,63 @@
+{
+  "name": "logstash-logback-encoder",
+  "version": "6.4",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "logback",
+      "Product": "logback",
+      "Version": "6.4",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/net.logstash.logback/logstash-logback-encoder@6.4",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/logstash-logback-encoder-6.4.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "logstash.logback.encoder",
+        "Bnd-LastModified": "1590878951781",
+        "Build-Jdk": "1.8.0_252",
+        "Build-Jdk-Spec": "1.8",
+        "Built-By": "runner",
+        "Bundle-Description": "Logback encoder which will output events as Logstash-compatible JSON",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0, http://www.slf4j.org/license.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Logstash Logback Encoder",
+        "Bundle-SymbolicName": "net.logstash.logback.logstash-logback-encoder",
+        "Bundle-Version": "6.4.0",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "net.logstash.logback;uses:=\"ch.qos.logback.access.spi,com.fasterxml.jackson.databind,net.logstash.logback.composite,net.logstash.logback.composite.accessevent,net.logstash.logback.composite.loggingevent,net.logstash.logback.fieldnames\";version=\"6.4.0\",net.logstash.logback.appender;uses:=\"ch.qos.logback.access.spi,javax.net,net.logstash.logback,net.logstash.logback.appender.destination,net.logstash.logback.appender.listener,net.logstash.logback.composite,net.logstash.logback.decorate,net.logstash.logback.fieldnames,net.logstash.logback.layout\";version=\"6.4.0\",net.logstash.logback.appender.destination;version=\"6.4.0\",net.logstash.logback.appender.listener;uses:=\"ch.qos.logback.access.spi\";version=\"6.4.0\",net.logstash.logback.argument;uses:=\"com.fasterxml.jackson.core\";version=\"6.4.0\",net.logstash.logback.composite;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind,net.logstash.logback.decorate,net.logstash.logback.fieldnames,net.logstash.logback.pattern\";version=\"6.4.0\",net.logstash.logback.composite.accessevent;uses:=\"ch.qos.logback.access.spi,com.fasterxml.jackson.core,net.logstash.logback.composite,net.logstash.logback.fieldnames,net.logstash.logback.pattern\";version=\"6.4.0\",net.logstash.logback.composite.loggingevent;uses:=\"com.fasterxml.jackson.core,net.logstash.logback.composite,net.logstash.logback.fieldnames,net.logstash.logback.pattern\";version=\"6.4.0\",net.logstash.logback.decorate;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind\";version=\"6.4.0\",net.logstash.logback.decorate.cbor;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.dataformat.cbor,net.logstash.logback.decorate\";version=\"6.4.0\",net.logstash.logback.decorate.smile;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.dataformat.smile,net.logstash.logback.decorate\";version=\"6.4.0\",net.logstash.logback.decorate.yaml;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.dataformat.yaml,net.logstash.logback.decorate\";version=\"6.4.0\",net.logstash.logback.encoder;uses:=\"ch.qos.logback.access.spi,net.logstash.logback,net.logstash.logback.composite,net.logstash.logback.composite.accessevent,net.logstash.logback.composite.loggingevent,net.logstash.logback.decorate,net.logstash.logback.fieldnames\";version=\"6.4.0\",net.logstash.logback.fieldnames;version=\"6.4.0\",net.logstash.logback.layout;uses:=\"ch.qos.logback.access.spi,net.logstash.logback,net.logstash.logback.composite,net.logstash.logback.composite.accessevent,net.logstash.logback.composite.loggingevent,net.logstash.logback.decorate,net.logstash.logback.fieldnames\";version=\"6.4.0\",net.logstash.logback.marker;uses:=\"com.fasterxml.jackson.core,net.logstash.logback.argument\";version=\"6.4.0\",net.logstash.logback.mask;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.core.util,net.logstash.logback.decorate\";version=\"6.4.0\",net.logstash.logback.pattern;uses:=\"ch.qos.logback.access.spi,com.fasterxml.jackson.core,com.fasterxml.jackson.databind\";version=\"6.4.0\",net.logstash.logback.stacktrace;version=\"6.4.0\",net.logstash.logback.status;version=\"6.4.0\"",
+        "Fragment-Host": "ch.qos.logback.classic",
+        "Import-Package": "ch.qos.logback.access;version=\"[1.2,2)\";resolution:=optional,ch.qos.logback.access.spi;version=\"[1.2,2)\";resolution:=optional,com.fasterxml.jackson.core;version=\"[2.11,3)\",com.fasterxml.jackson.core.io;version=\"[2.11,3)\",com.fasterxml.jackson.core.util;version=\"[2.11,3)\",com.fasterxml.jackson.databind;version=\"[2.11,3)\",com.fasterxml.jackson.databind.node;version=\"[2.11,3)\",com.fasterxml.jackson.databind.ser;version=\"[2.11,3)\",com.fasterxml.jackson.databind.util;version=\"[2.11,3)\",com.fasterxml.jackson.dataformat.cbor;version=\"[2.11,3)\";resolution:=optional,com.fasterxml.jackson.dataformat.smile;version=\"[2.11,3)\";resolution:=optional,com.fasterxml.jackson.dataformat.yaml;version=\"[2.11,3)\";resolution:=optional,com.fasterxml.uuid;version=\"[4.0,5)\";resolution:=optional,com.fasterxml.uuid.impl;version=\"[4.0,5)\";resolution:=optional,javax.net,javax.net.ssl,net.logstash.logback,net.logstash.logback.appender.destination,net.logstash.logback.appender.listener,net.logstash.logback.argument,net.logstash.logback.composite,net.logstash.logback.composite.accessevent,net.logstash.logback.composite.loggingevent,net.logstash.logback.decorate,net.logstash.logback.encoder,net.logstash.logback.fieldnames,net.logstash.logback.layout,net.logstash.logback.marker,net.logstash.logback.pattern,net.logstash.logback.stacktrace,net.logstash.logback.status",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-4.2.0.201903051501"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/net.logstash.logback/logstash-logback-encoder/pom.properties",
+      "name": "",
+      "groupId": "net.logstash.logback",
+      "artifactId": "logstash-logback-encoder",
+      "version": "6.4",
+      "extraFields": {}
+    }
+  }
+}

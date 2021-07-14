@@ -1,0 +1,67 @@
+{
+  "name": "libedit",
+  "version": "3.0-12.20121213cvs.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/libedit@0:3.0-12.20121213cvs.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libedit",
+    "version": "3.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "12.20121213cvs.el7",
+    "sourceRpm": "libedit-3.0-12.20121213cvs.el7.src.rpm",
+    "size": 240921,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://www.thrysoee.dk/editline/",
+    "files": [
+      {
+        "path": "/usr/lib64/libedit.so.0",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libedit.so.0.0.42",
+        "mode": 33261,
+        "size": 231728,
+        "sha256": "2fc0410455764429a7d6f9ff55b5407555dd3868df6c7adf66690b231747716b"
+      },
+      {
+        "path": "/usr/share/doc/libedit-3.0",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libedit-3.0/COPYING",
+        "mode": 33188,
+        "size": 1615,
+        "sha256": "9da6c9c74987a36c84302982799d17d2f748ba1c1c0c471425716173c1d07649"
+      },
+      {
+        "path": "/usr/share/doc/libedit-3.0/ChangeLog",
+        "mode": 33188,
+        "size": 7525,
+        "sha256": "7805119e9e97b42799127ec9937c0ae3161bce23a3e8099dbe109d673e48c299"
+      },
+      {
+        "path": "/usr/share/doc/libedit-3.0/THANKS",
+        "mode": 33188,
+        "size": 53,
+        "sha256": "0c93d8d904768a007e8d1a2e72c3e8da0877edc9d86e7f8f5cb255b4faa0f7eb"
+      }
+    ]
+  }
+}

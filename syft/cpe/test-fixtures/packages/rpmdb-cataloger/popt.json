@@ -1,0 +1,93 @@
+{
+  "name": "popt",
+  "version": "1.16-14.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "popt_project",
+      "Product": "popt",
+      "Version": "1.16",
+      "Update": "14.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/popt@0:1.16-14.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "popt",
+    "version": "1.16",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.el8",
+    "sourceRpm": "popt-1.16-14.el8.src.rpm",
+    "size": 128374,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "http://www.rpm5.org/",
+    "files": [
+      {
+        "path": "/etc/popt.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/84",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/84/9c7ba88f28eebc110436dc7683766f044ab4a8",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpopt.so.0",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpopt.so.0.0.0",
+        "mode": 33261,
+        "size": 56112,
+        "sha256": "d724c14290609379289e9e59973a53368a24fe3be08b071fd93c35cba39ba114"
+      },
+      {
+        "path": "/usr/share/licenses/popt",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/popt/COPYING",
+        "mode": 33188,
+        "size": 1277,
+        "sha256": "518d4f2a05064cb9a8ec0ea02e86408af4feed6916f78ef42171465db8b383c5"
+      }
+    ]
+  }
+}

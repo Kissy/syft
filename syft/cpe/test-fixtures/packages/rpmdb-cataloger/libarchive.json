@@ -1,0 +1,87 @@
+{
+  "name": "libarchive",
+  "version": "3.3.2-9.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libarchive",
+      "Product": "libarchive",
+      "Version": "3.3.2",
+      "Update": "9.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libarchive@0:3.3.2-9.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libarchive",
+    "version": "3.3.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.el8",
+    "sourceRpm": "libarchive-3.3.2-9.el8.src.rpm",
+    "size": 829818,
+    "license": "BSD",
+    "vendor": "CentOS",
+    "url": "http://www.libarchive.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2a/9ffe6a9426d35924098e3ca443e76a732e4bfa",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libarchive.so.13",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libarchive.so.13.3.2",
+        "mode": 33261,
+        "size": 767480,
+        "sha256": "5347df1a229f7f76792edb0d230e710162b0ce73e35b498ee35481a4c4e7ce33"
+      },
+      {
+        "path": "/usr/share/licenses/libarchive",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libarchive/COPYING",
+        "mode": 33188,
+        "size": 2841,
+        "sha256": "ae6f35cc1979beb316e4d6431fc34c6fc59f0dd126b425c8552bb41c86e4825d"
+      }
+    ]
+  }
+}

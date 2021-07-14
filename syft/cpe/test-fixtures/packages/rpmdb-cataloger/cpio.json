@@ -1,0 +1,81 @@
+{
+  "name": "cpio",
+  "version": "2.12-8.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "cpio",
+      "Version": "2.12",
+      "Update": "8.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/cpio@0:2.12-8.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "cpio",
+    "version": "2.12",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "8.el8",
+    "sourceRpm": "cpio-2.12-8.el8.src.rpm",
+    "size": 989536,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/cpio/",
+    "files": [
+      {
+        "path": "/usr/bin/cpio",
+        "mode": 33261,
+        "size": 185320,
+        "sha256": "581886abeb293212c9c27705f5363969939f232b0d0bb71ae3854a2a306a3a51"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90/89581371e22960dbec4479efad9042e5fc150e",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/cpio",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/cpio/COPYING",
+        "mode": 33188,
+        "size": 35068,
+        "sha256": "fc82ca8b6fdb18d4e3e85cfd8ab58d1bcd3f1b29abe782895abd91d64763f8e7"
+      }
+    ]
+  }
+}

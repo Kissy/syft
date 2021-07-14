@@ -1,0 +1,73 @@
+{
+  "name": "device-mapper-libs",
+  "version": "1.02.171-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/device-mapper-libs@8:1.02.171-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "device-mapper-libs",
+    "version": "1.02.171",
+    "epoch": 8,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "lvm2-2.03.09-5.el8.src.rpm",
+    "size": 416127,
+    "license": "LGPLv2",
+    "vendor": "CentOS",
+    "url": "http://sourceware.org/lvm2",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ae",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ae/44e28124790563151699dc8005973a1b2852c1",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdevmapper.so.1.02",
+        "mode": 33133,
+        "size": 371696,
+        "sha256": "02547fcd6afa4b1451dbe7f50414e4195f8ba04a4ef9da8a5b595cecb8d76c9b"
+      },
+      {
+        "path": "/usr/share/licenses/device-mapper-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/device-mapper-libs/COPYING",
+        "mode": 33188,
+        "size": 17995,
+        "sha256": "e76fbcd2fb97cf202da330301327754d2db5c58b5b4bebd3a8a749393e7603d1"
+      },
+      {
+        "path": "/usr/share/licenses/device-mapper-libs/COPYING.LIB",
+        "mode": 33188,
+        "size": 26436,
+        "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a"
+      }
+    ]
+  }
+}

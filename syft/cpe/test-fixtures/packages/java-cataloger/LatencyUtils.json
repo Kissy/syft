@@ -1,0 +1,36 @@
+{
+  "name": "LatencyUtils",
+  "version": "2.0.3",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/LatencyUtils-2.0.3.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Build-Jdk": "1.8.0_45",
+        "Built-By": "gil",
+        "Created-By": "Apache Maven 3.2.3",
+        "Manifest-Version": "1.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.latencyutils/LatencyUtils/pom.properties",
+      "name": "",
+      "groupId": "org.latencyutils",
+      "artifactId": "LatencyUtils",
+      "version": "2.0.3",
+      "extraFields": {}
+    }
+  }
+}

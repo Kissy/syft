@@ -1,0 +1,177 @@
+{
+  "name": "libcap",
+  "version": "2.26-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libcap_project",
+      "Product": "libcap",
+      "Version": "2.26",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libcap@0:2.26-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libcap",
+    "version": "2.26",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libcap-2.26-4.el8.src.rpm",
+    "size": 129682,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "https://sites.google.com/site/fullycapable/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1e/afc6de66a4d8b3cae908bcc411f5798ee08064",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/42",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/42/cc49a14c55e33786d67ac9c9e12ffc3d08d136",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b/ad93fec931cc406a9ba43f5a4a06e2c7592857",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/62",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/62/0741396ed371b7c97efdb7db0bbe883b2bbf1a",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/76",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/76/5e70cb9bb1d46ad2671dfd85eb6b0a57386d8a",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/81",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/81/d56a693c3ec23375bf44d6d54de57f8c45b000",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcap.so.2",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcap.so.2.26",
+        "mode": 33261,
+        "size": 24976,
+        "sha256": "90ca4799c3df344a0031137f8cf36bcc596b252a96252eaf5dbaf627198284b0"
+      },
+      {
+        "path": "/usr/lib64/security/pam_cap.so",
+        "mode": 33261,
+        "size": 15680,
+        "sha256": "6c72cf485ae1187116ae5dd8b60d91633220051971b1da469145960b1dee3a84"
+      },
+      {
+        "path": "/usr/sbin/capsh",
+        "mode": 33261,
+        "size": 25080,
+        "sha256": "6cebcf4457643e04ce2725f6c7cc6db8b171d8e3683fe8a76a4abed23fcf5d64"
+      },
+      {
+        "path": "/usr/sbin/getcap",
+        "mode": 33261,
+        "size": 12760,
+        "sha256": "2305604086552974ebbd115b328e99529d720c9b7071c60b004f5d86d2175391"
+      },
+      {
+        "path": "/usr/sbin/getpcaps",
+        "mode": 33261,
+        "size": 12312,
+        "sha256": "ee038b9b2bd5661d966822be1f871238e8a99f143c7678b71f1cffd04335af29"
+      },
+      {
+        "path": "/usr/sbin/setcap",
+        "mode": 33261,
+        "size": 12384,
+        "sha256": "945ef1287e739e08b890388f0d62b9ce145ec0a701af34b6169a4fd5a3a6deb4"
+      },
+      {
+        "path": "/usr/share/licenses/libcap",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libcap/License",
+        "mode": 33188,
+        "size": 20240,
+        "sha256": "088cabde4662b4121258d298b0b2967bc1abffa134457ed9bc4a359685ab92bc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "tar",
+  "version": "1.30-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "tar_project",
+      "Product": "tar",
+      "Version": "1.30",
+      "Update": "5.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/tar@2:1.30-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "tar",
+    "version": "1.30",
+    "epoch": 2,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "tar-1.30-5.el8.src.rpm",
+    "size": 2876727,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/tar/",
+    "files": [
+      {
+        "path": "/usr/bin/gtar",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/tar",
+        "mode": 33261,
+        "size": 459928,
+        "sha256": "7642954ec2d8cd43ac345eca0b4a20fc5d44811a309e62fa78340cce8cff10cc"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9b/25e81ba8d838de94d97e4ade418726d8f8d739",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/tar",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/tar/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  }
+}

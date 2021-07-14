@@ -1,0 +1,42 @@
+{
+  "name": "spring-test",
+  "version": "5.2.9.RELEASE",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "pivotal_software",
+      "Product": "spring_framework",
+      "Version": "5.2.9",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/spring-test-5.2.9.RELEASE.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "spring.test",
+        "Created-By": "1.8.0_232 (Oracle Corporation)",
+        "Implementation-Title": "spring-test",
+        "Implementation-Version": "5.2.9.RELEASE",
+        "Manifest-Version": "1.0"
+      }
+    }
+  }
+}

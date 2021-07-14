@@ -1,0 +1,73 @@
+{
+  "name": "jaxb-api",
+  "version": "2.3.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "karotz",
+      "Product": "api",
+      "Version": "2.3.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jaxb-api-2.3.0.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Bnd-LastModified": "1501500436975",
+        "Build-Jdk": "9-ea",
+        "Built-By": "build",
+        "Bundle-Description": "JAXB (JSR 222) API",
+        "Bundle-DocURL": "http://www.oracle.com/",
+        "Bundle-License": "https://oss.oracle.com/licenses/CDDL+GPL-1.1, https://oss.oracle.com/licenses/CDDL+GPL-1.1",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "jaxb-api",
+        "Bundle-SymbolicName": "jaxb-api",
+        "Bundle-Vendor": "Oracle Corporation",
+        "Bundle-Version": "2.3.0",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "DynamicImport-Package": "org.glassfish.hk2.osgiresourcelocator",
+        "Export-Package": "javax.xml.bind;version=\"2.3\";uses:=\"javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax\",javax.xml.bind.annotation;version=\"2.3\";uses:=\"javax.xml.bind,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom\",javax.xml.bind.annotation.adapters;version=\"2.3\",javax.xml.bind.attachment;version=\"2.3\";uses:=\"javax.activation\",javax.xml.bind.helpers;version=\"2.3\";uses:=\"javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax\",javax.xml.bind.util;version=\"2.3\";uses:=\"javax.xml.bind,javax.xml.transform.sax\"",
+        "Extension-Name": "javax.xml.bind",
+        "Implementation-Build-Id": "UNKNOWN-3fe234d268b9b70c95ef0ea736ff66135487a2d8, 2017-07-31T13:27:12+0200",
+        "Implementation-Vendor": "Oracle Corporation",
+        "Implementation-Vendor-Id": "org.glassfish",
+        "Implementation-Version": "2.3.0",
+        "Import-Package": "javax.activation,javax.xml.bind;version=\"[2.3,3)\",javax.xml.bind.annotation;version=\"[2.3,3)\",javax.xml.bind.annotation.adapters;version=\"[2.3,3)\",javax.xml.bind.attachment;version=\"[2.3,3)\",javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,javax.xml.validation,org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers,javax.xml.bind.helpers;version=\"[2.3,3)\",javax.xml.bind.util;version=\"[2.3,3)\"",
+        "Manifest-Version": "1.0",
+        "Multi-Release": "true",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Specification-Title": "jaxb-api",
+        "Specification-Vendor": "Oracle Corporation",
+        "Specification-Version": "2.3.0",
+        "Tool": "Bnd-3.3.0.201609221906"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/javax.xml.bind/jaxb-api/pom.properties",
+      "name": "",
+      "groupId": "javax.xml.bind",
+      "artifactId": "jaxb-api",
+      "version": "2.3.0",
+      "extraFields": {}
+    }
+  }
+}

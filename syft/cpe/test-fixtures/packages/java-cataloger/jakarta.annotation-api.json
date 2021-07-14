@@ -1,0 +1,54 @@
+{
+  "name": "jakarta.annotation-api",
+  "version": "1.3.5",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jakarta.annotation-api-1.3.5.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "java.annotation",
+        "Bnd-LastModified": "1564744140223",
+        "Build-Jdk": "1.8.0_202",
+        "Built-By": "default",
+        "Bundle-Description": "Jakarta Annotations API",
+        "Bundle-DocURL": "https://www.eclipse.org",
+        "Bundle-License": "http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Jakarta Annotations API",
+        "Bundle-SymbolicName": "jakarta.annotation-api",
+        "Bundle-Vendor": "Eclipse Foundation",
+        "Bundle-Version": "1.3.5",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "javax.annotation.security;version=\"1.3.5\",javax.annotation.sql;version=\"1.3.5\",javax.annotation;version=\"1.3.5\"",
+        "Extension-Name": "jakarta.annotation",
+        "Implementation-Vendor": "Eclipse Foundation",
+        "Implementation-Vendor-Id": "org.glassfish",
+        "Implementation-Version": "1.3.5",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Specification-Vendor": "Eclipse Foundation",
+        "Specification-Version": "1.3",
+        "Tool": "Bnd-4.2.0.201903051501"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/jakarta.annotation/jakarta.annotation-api/pom.properties",
+      "name": "",
+      "groupId": "jakarta.annotation",
+      "artifactId": "jakarta.annotation-api",
+      "version": "1.3.5",
+      "extraFields": {}
+    }
+  }
+}

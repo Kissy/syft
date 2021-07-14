@@ -1,0 +1,67 @@
+{
+  "name": "javax.el-api",
+  "version": "3.0.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "karotz",
+      "Product": "api",
+      "Version": "3.0.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/javax.el/javax.el-api@3.0.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/javax.el-api-3.0.0.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Bnd-LastModified": "1366930357939",
+        "Build-Jdk": "1.7.0_09",
+        "Built-By": "kichung",
+        "Bundle-Description": "Expression Language 3.0 API",
+        "Bundle-DocURL": "http://glassfish.org",
+        "Bundle-License": "https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Expression Language 3.0 API",
+        "Bundle-SymbolicName": "javax.el-api",
+        "Bundle-Vendor": "GlassFish Community",
+        "Bundle-Version": "3.0.0",
+        "Created-By": "1.7.0_09 (Oracle Corporation)",
+        "Export-Package": "javax.el;version=\"3.0.0\"",
+        "Extension-Name": "javax.el",
+        "Implementation-Vendor": "Oracle Corporation",
+        "Implementation-Version": "3.0.0",
+        "Import-Package": "javax.el;version=\"3.0.0\"",
+        "Manifest-Version": "1.0",
+        "Specification-Vendor": "Oracle Corporation",
+        "Specification-Version": "3.0",
+        "Tool": "Bnd-0.0.255"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/javax.el/javax.el-api/pom.properties",
+      "name": "",
+      "groupId": "javax.el",
+      "artifactId": "javax.el-api",
+      "version": "3.0.0",
+      "extraFields": {}
+    }
+  }
+}

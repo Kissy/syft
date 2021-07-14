@@ -1,0 +1,37 @@
+{
+  "name": "langpacks-en",
+  "version": "1.0-12.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/langpacks-en@0:1.0-12.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "langpacks-en",
+    "version": "1.0",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "12.el8",
+    "sourceRpm": "langpacks-1.0-12.el8.src.rpm",
+    "size": 400,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "",
+    "files": [
+      {
+        "path": "/usr/share/metainfo/org.fedoraproject.LangPack-en.metainfo.xml",
+        "mode": 33188,
+        "size": 400,
+        "sha256": "3d8d5f74443d23b5a2d5f36ffa1937389d8960cdc748a1a1a88d061fd0e6e13b"
+      }
+    ]
+  }
+}

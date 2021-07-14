@@ -1,0 +1,121 @@
+{
+  "name": "device-mapper",
+  "version": "1.02.171-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/device-mapper@8:1.02.171-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "device-mapper",
+    "version": "1.02.171",
+    "epoch": 8,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "lvm2-2.03.09-5.el8.src.rpm",
+    "size": 357089,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "http://sources.redhat.com/dm",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65/410dd32177506e7e28f1008cf45f352572a421",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f9",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f9/41ab023e31c02e48e4b8a5a015db9d03bd28c6",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/udev/rules.d/10-dm.rules",
+        "mode": 33060,
+        "size": 7266,
+        "sha256": "eb329854ebc0478ffe54d53954c360ba90859a786eeb011df35302dcddb06d2d"
+      },
+      {
+        "path": "/usr/lib/udev/rules.d/13-dm-disk.rules",
+        "mode": 33060,
+        "size": 1794,
+        "sha256": "4f29624db81570ade0ab633c68eadf84eccd7136421b1effa70ed0484f16825e"
+      },
+      {
+        "path": "/usr/lib/udev/rules.d/95-dm-notify.rules",
+        "mode": 33060,
+        "size": 483,
+        "sha256": "d24e725fc78306ff2355eb91e4eebcc7dc9388d54dc27d20d6fe6f695054d536"
+      },
+      {
+        "path": "/usr/sbin/blkdeactivate",
+        "mode": 33133,
+        "size": 16351,
+        "sha256": "69fb612902af791697f154f9fb1e4be11793175cd61a02c214ead06eba0c4e39"
+      },
+      {
+        "path": "/usr/sbin/dmfilemapd",
+        "mode": 33133,
+        "size": 25280,
+        "sha256": "08067ecbc5a3231607ca017a27a59c0dde5b542c9a312d49736a8385ed551f01"
+      },
+      {
+        "path": "/usr/sbin/dmsetup",
+        "mode": 33133,
+        "size": 162536,
+        "sha256": "f9c5d7c618ddf25378b9b5831915742a705c22dd63491cbdccf0f5422e25c07c"
+      },
+      {
+        "path": "/usr/sbin/dmstats",
+        "mode": 41471,
+        "size": 7,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/device-mapper",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/device-mapper/COPYING",
+        "mode": 33188,
+        "size": 17995,
+        "sha256": "e76fbcd2fb97cf202da330301327754d2db5c58b5b4bebd3a8a749393e7603d1"
+      },
+      {
+        "path": "/usr/share/licenses/device-mapper/COPYING.LIB",
+        "mode": 33188,
+        "size": 26436,
+        "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a"
+      }
+    ]
+  }
+}

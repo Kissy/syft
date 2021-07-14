@@ -1,0 +1,93 @@
+{
+  "name": "libfastjson",
+  "version": "0.99.4-3.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rsyslog",
+      "Product": "libfastjson",
+      "Version": "0.99.4",
+      "Update": "3.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libfastjson@0:0.99.4-3.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libfastjson",
+    "version": "0.99.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el7",
+    "sourceRpm": "libfastjson-0.99.4-3.el7.src.rpm",
+    "size": 57273,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "https://github.com/rsyslog/libfastjson",
+    "files": [
+      {
+        "path": "/usr/lib64/libfastjson.so.4",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libfastjson.so.4.0.0",
+        "mode": 33261,
+        "size": 40896,
+        "sha256": "9f9bed74cf49c3ea4e7e6b874a16ece81061cbfbd7354fc373c04ac4f63ed3ae"
+      },
+      {
+        "path": "/usr/share/doc/libfastjson-0.99.4",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libfastjson-0.99.4/AUTHORS",
+        "mode": 33188,
+        "size": 259,
+        "sha256": "13814d6e824c15017df9e7c08deeb27db444baacf81a5197983b483839d61aef"
+      },
+      {
+        "path": "/usr/share/doc/libfastjson-0.99.4/ChangeLog",
+        "mode": 33188,
+        "size": 11351,
+        "sha256": "ec30e180c14e686e1cc1106fda7d806cf83ed6f3c6e9f2598d6772f858c1db6e"
+      },
+      {
+        "path": "/usr/share/doc/libfastjson-0.99.4/README.html",
+        "mode": 33188,
+        "size": 1436,
+        "sha256": "39beaa79a27a0b67238b051a8dde01f20f9f1f228dbfe0dca0390b5f53bc8efb"
+      },
+      {
+        "path": "/usr/share/licenses/libfastjson-0.99.4",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libfastjson-0.99.4/COPYING",
+        "mode": 33188,
+        "size": 3331,
+        "sha256": "b29370bbfa98816e1fca0901f18149d920736771bfd68b4ee0eb00c78b38d245"
+      }
+    ]
+  }
+}

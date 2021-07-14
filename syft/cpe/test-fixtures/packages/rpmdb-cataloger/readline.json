@@ -1,0 +1,117 @@
+{
+  "name": "readline",
+  "version": "7.0-10.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "readline",
+      "Version": "7.0",
+      "Update": "10.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/readline@0:7.0-10.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "readline",
+    "version": "7.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "10.el8",
+    "sourceRpm": "readline-7.0-10.el8.src.rpm",
+    "size": 466321,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cd/1bc007ec2e558d662585bf8c5bbcd2b9526faa",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d8/81f0a1b2a891e387f02769db50c350d505b888",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libhistory.so.7",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libhistory.so.7.0",
+        "mode": 33261,
+        "size": 48304,
+        "sha256": "70b02eea19da0311c6a53aac3e73c65fe167c8520ace5f623aa25c03978be1f8"
+      },
+      {
+        "path": "/usr/lib64/libreadline.so.7",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libreadline.so.7.0",
+        "mode": 33261,
+        "size": 338648,
+        "sha256": "69c5979f31f86a1bf7ff92f1b10cac34034a7edf69dc0c59597029aac9a269ee"
+      },
+      {
+        "path": "/usr/share/licenses/readline",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/readline/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/licenses/readline/USAGE",
+        "mode": 33188,
+        "size": 2025,
+        "sha256": "0759c74d61889b687f33cb03899630d8ecc09c5ebe7cedd2dd2e17eeef193f93"
+      }
+    ]
+  }
+}

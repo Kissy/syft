@@ -1,0 +1,49 @@
+{
+  "name": "jakarta.validation-api",
+  "version": "2.0.2",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jakarta.validation-api-2.0.2.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "java.validation",
+        "Bnd-LastModified": "1565473508715",
+        "Build-Jdk": "1.8.0_202",
+        "Built-By": "default",
+        "Bundle-Description": "Jakarta Bean Validation API",
+        "Bundle-DocURL": "https://www.eclipse.org",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Jakarta Bean Validation API",
+        "Bundle-SymbolicName": "jakarta.validation.jakarta.validation-api",
+        "Bundle-Vendor": "Eclipse Foundation",
+        "Bundle-Version": "2.0.2",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "javax.validation;version=\"2.0.2\";uses:=\"javax.validation.bootstrap,javax.validation.executable,javax.validation.metadata,javax.validation.spi,javax.validation.valueextraction\",javax.validation.bootstrap;version=\"2.0.2\";uses:=\"javax.validation\",javax.validation.constraints;version=\"2.0.2\";uses:=\"javax.validation\",javax.validation.constraintvalidation;version=\"2.0.2\",javax.validation.executable;version=\"2.0.2\";uses:=\"javax.validation\",javax.validation.groups;version=\"2.0.2\",javax.validation.metadata;version=\"2.0.2\";uses:=\"javax.validation\",javax.validation.spi;version=\"2.0.2\";uses:=\"javax.validation,javax.validation.valueextraction\",javax.validation.valueextraction;version=\"2.0.2\";uses:=\"javax.validation\"",
+        "Import-Package": "javax.validation;version=\"[2.0,3)\",javax.validation.bootstrap;version=\"[2.0,3)\",javax.validation.executable;version=\"[2.0,3)\",javax.validation.metadata;version=\"[2.0,3)\",javax.validation.spi;version=\"[2.0,3)\",javax.validation.valueextraction;version=\"[2.0,3)\"",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-3.2.0.201605172007"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/jakarta.validation/jakarta.validation-api/pom.properties",
+      "name": "",
+      "groupId": "jakarta.validation",
+      "artifactId": "jakarta.validation-api",
+      "version": "2.0.2",
+      "extraFields": {}
+    }
+  }
+}

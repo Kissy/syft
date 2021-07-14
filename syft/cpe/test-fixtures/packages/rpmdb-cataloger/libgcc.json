@@ -1,0 +1,111 @@
+{
+  "name": "libgcc",
+  "version": "8.3.1-5.1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "gcc",
+      "Version": "8.3.1",
+      "Update": "5.1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libgcc@0:8.3.1-5.1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libgcc",
+    "version": "8.3.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.1.el8",
+    "sourceRpm": "gcc-8.3.1-5.1.el8.src.rpm",
+    "size": 190208,
+    "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+    "vendor": "CentOS",
+    "url": "http://gcc.gnu.org",
+    "files": [
+      {
+        "path": "/lib64/libgcc_s-8-20191121.so.1",
+        "mode": 33261,
+        "size": 99656,
+        "sha256": "8598bf239cea83aa4a6d3f30162b34702322f50c6d20c7d49886e58fc617a2bb"
+      },
+      {
+        "path": "/lib64/libgcc_s.so.1",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a8/eb2df066410c61ce9b8a9aa23bf354edbbbbd7",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libgcc",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libgcc/COPYING",
+        "mode": 33188,
+        "size": 18002,
+        "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+      },
+      {
+        "path": "/usr/share/licenses/libgcc/COPYING.LIB",
+        "mode": 33188,
+        "size": 26440,
+        "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+      },
+      {
+        "path": "/usr/share/licenses/libgcc/COPYING.RUNTIME",
+        "mode": 33188,
+        "size": 3324,
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+      },
+      {
+        "path": "/usr/share/licenses/libgcc/COPYING3",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/licenses/libgcc/COPYING3.LIB",
+        "mode": 33188,
+        "size": 7639,
+        "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+      }
+    ]
+  }
+}

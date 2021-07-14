@@ -1,0 +1,187 @@
+{
+  "name": "rhn-setup",
+  "version": "2.0.2-24.0.7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/rhn-setup@0:2.0.2-24.0.7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rhn-setup",
+    "version": "2.0.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "24.0.7.el7",
+    "sourceRpm": "rhn-client-tools-2.0.2-24.0.7.el7.src.rpm",
+    "size": 227582,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "http://linux.oracle.com",
+    "files": [
+      {
+        "path": "/etc/pam.d/rhn_register",
+        "mode": 33188,
+        "size": 97,
+        "sha256": "e9a3ecb7b3c93380225a72f850e77ee52b94fbd7a9cf695e79eb58d9234627e0"
+      },
+      {
+        "path": "/etc/pam.d/uln_register",
+        "mode": 41471,
+        "size": 12,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/security/console.apps/rhn_register",
+        "mode": 33188,
+        "size": 95,
+        "sha256": "25b1d0e8acd6fbf935844d847ee9bd2572c7e1972b909f5b55af07ae6d426650"
+      },
+      {
+        "path": "/etc/security/console.apps/uln_register",
+        "mode": 33188,
+        "size": 95,
+        "sha256": "25b1d0e8acd6fbf935844d847ee9bd2572c7e1972b909f5b55af07ae6d426650"
+      },
+      {
+        "path": "/usr/bin/rhn_register",
+        "mode": 41471,
+        "size": 13,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/uln_register",
+        "mode": 41471,
+        "size": 12,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/rhn-channel",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/rhn_register",
+        "mode": 33261,
+        "size": 2159,
+        "sha256": "c3ce4eb1e0e731aa571606e6d5e15d597b1578a8495a8252aa94b5d065e74955"
+      },
+      {
+        "path": "/usr/sbin/rhnreg_ks",
+        "mode": 33261,
+        "size": 8875,
+        "sha256": "1cb1b2ad7d0bffbb79365b7ce74c0368c2fc27f6581cb6ff489f625a0be3e242"
+      },
+      {
+        "path": "/usr/sbin/spacewalk-channel",
+        "mode": 33261,
+        "size": 8951,
+        "sha256": "b7d747822e595cfaafc993bb554c952ecd8843979638c0d6402a1f00c1677f20"
+      },
+      {
+        "path": "/usr/sbin/uln-channel",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/uln_register",
+        "mode": 41471,
+        "size": 12,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/ulnreg_ks",
+        "mode": 41471,
+        "size": 9,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnreg.py",
+        "mode": 33188,
+        "size": 23073,
+        "sha256": "7afbd24c9c18fd40d75ad055b5ede0df083c0502d4ff0db25b3778e0626b1a61"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnreg.pyc",
+        "mode": 33188,
+        "size": 22764,
+        "sha256": "9f30e7760d1a8524aab8ea0ed2b8305d517d8f4cfe6b958dc391c0037d6f1181"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnreg.pyo",
+        "mode": 33188,
+        "size": 22526,
+        "sha256": "1d780381621e080839718b56c58d229652ebd7a58fb51615af65a7231c467566"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnreg_constants.py",
+        "mode": 33188,
+        "size": 19162,
+        "sha256": "4ee2687ec75fa368068cf44eed8cc3d56368293ceedb1a92e3677d32284d4a4c"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnreg_constants.pyc",
+        "mode": 33188,
+        "size": 15898,
+        "sha256": "6a70d2a11695330b22538f99ae6fa7fc3a2dae798630a0f836391713728bcfc2"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnreg_constants.pyo",
+        "mode": 33188,
+        "size": 15898,
+        "sha256": "6a70d2a11695330b22538f99ae6fa7fc3a2dae798630a0f836391713728bcfc2"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/tui.py",
+        "mode": 33188,
+        "size": 50218,
+        "sha256": "06cc97bc5db6c6b23ec1340b59a19eae42811ef1ce573d5fedc878ba5ff7434b"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/tui.pyc",
+        "mode": 33188,
+        "size": 43201,
+        "sha256": "6df152023ea6461ec595026e7032ae1a6beb666bddc687871542d91fbbab3111"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/tui.pyo",
+        "mode": 33188,
+        "size": 43201,
+        "sha256": "6df152023ea6461ec595026e7032ae1a6beb666bddc687871542d91fbbab3111"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/yumPlugin.py",
+        "mode": 33188,
+        "size": 2797,
+        "sha256": "bdb72ec00fb81c9212c71c7b6acc9ff23f22712f643dec7105430c5c8ec348f3"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/yumPlugin.pyc",
+        "mode": 33188,
+        "size": 3114,
+        "sha256": "087787bd92f80c8bccf0cbd961a571571b4154bd62efcd090e0692691e79be90"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/yumPlugin.pyo",
+        "mode": 33188,
+        "size": 3114,
+        "sha256": "087787bd92f80c8bccf0cbd961a571571b4154bd62efcd090e0692691e79be90"
+      },
+      {
+        "path": "/usr/share/setuptool/setuptool.d/99rhn_register",
+        "mode": 33188,
+        "size": 42,
+        "sha256": "0d05a668802329d888ded713c481acd93adb8c3b3808b8b487a9ba537b568e48"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "libusbx",
+  "version": "1.0.23-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libusb",
+      "Product": "libusb",
+      "Version": "1.0.23",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libusbx@0:1.0.23-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libusbx",
+    "version": "1.0.23",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libusbx-1.0.23-4.el8.src.rpm",
+    "size": 154147,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://libusb.info",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/59",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/59/34d4362ab18eaa09913782a34f9e85f60c7f03",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libusb-1.0.so.0",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libusb-1.0.so.0.2.0",
+        "mode": 33261,
+        "size": 112112,
+        "sha256": "1b307d355a8f111d48bb5741f0d8256ba5530ccd89b35f4123f03acd98bd0999"
+      },
+      {
+        "path": "/usr/share/licenses/libusbx",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libusbx/COPYING",
+        "mode": 33188,
+        "size": 26436,
+        "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a"
+      }
+    ]
+  }
+}

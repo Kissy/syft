@@ -1,0 +1,99 @@
+{
+  "name": "nss-softokn-freebl",
+  "version": "3.53.1-6.0.1.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "nss",
+      "Version": "3.53.1",
+      "Update": "6.0.1.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nss-softokn-freebl@0:3.53.1-6.0.1.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nss-softokn-freebl",
+    "version": "3.53.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.0.1.el7_9",
+    "sourceRpm": "nss-softokn-3.53.1-6.0.1.el7_9.src.rpm",
+    "size": 754652,
+    "license": "MPLv2.0",
+    "vendor": "Oracle America",
+    "url": "http://www.mozilla.org/projects/security/pki/nss/",
+    "files": [
+      {
+        "path": "/etc/prelink.conf.d",
+        "mode": 16877,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/prelink.conf.d/nss-softokn-prelink.conf",
+        "mode": 33188,
+        "size": 184,
+        "sha256": "516268ce1899461b160953aeb84aa1dde674942a85b697e4c53c37d07462697b"
+      },
+      {
+        "path": "/usr/lib/dracut/dracut.conf.d/50-nss-softokn.conf",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "83a365e6d8ee4d328853f3ff6814712cd0f8f85110c3954e5b4afa35ffecf039"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/05nss-softokn",
+        "mode": 16877,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/05nss-softokn/module-setup.sh",
+        "mode": 33261,
+        "size": 293,
+        "sha256": "d89948a11c34b77af9604e414cbc555ba5d343e8aad3a65038972f1c05193863"
+      },
+      {
+        "path": "/usr/lib64/libfreebl3.chk",
+        "mode": 33188,
+        "size": 899,
+        "sha256": "15235763008610165b624d3d54129dc1e5f813733e25b2456404ed762e82270b"
+      },
+      {
+        "path": "/usr/lib64/libfreebl3.so",
+        "mode": 33261,
+        "size": 11392,
+        "sha256": "6ad726a23b15a43f417a8cccc33d0e931bf28e144f5b578677ecdffad207cd9a"
+      },
+      {
+        "path": "/usr/lib64/libfreeblpriv3.chk",
+        "mode": 33188,
+        "size": 899,
+        "sha256": "50d7ea9555a04a8d05ac8b28c62676f55ca8cb7315d5c25dfd295447c9108e8b"
+      },
+      {
+        "path": "/usr/lib64/libfreeblpriv3.so",
+        "mode": 33261,
+        "size": 740920,
+        "sha256": "fda09f0d8a943789fec7814e1849bc42aa2c93add57a55a83b111180488b0b67"
+      }
+    ]
+  }
+}

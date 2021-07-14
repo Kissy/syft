@@ -1,0 +1,103 @@
+{
+  "name": "libmodulemd",
+  "version": "2.9.4-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libmodulemd@0:2.9.4-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libmodulemd",
+    "version": "2.9.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "libmodulemd-2.9.4-2.el8.src.rpm",
+    "size": 571697,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "https://github.com/fedora-modularity/libmodulemd",
+    "files": [
+      {
+        "path": "/usr/bin/modulemd-validator",
+        "mode": 33261,
+        "size": 17424,
+        "sha256": "b4a6996d8edcd84e347a6e084ec2144915da52eccc08aebc5c39f58b4f217220"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/60",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/60/ced9c20e181cddb16bb561522c27a5ebace366",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ae",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ae/f989a1cc463b5728aa32db7abf63636828640f",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/girepository-1.0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/girepository-1.0/Modulemd-2.0.typelib",
+        "mode": 33188,
+        "size": 41676,
+        "sha256": "8c436b301fe5d3eeee428529edeb2cabe06e964aebabcabf6aa5d30eb2de9894"
+      },
+      {
+        "path": "/usr/lib64/libmodulemd.so.2",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmodulemd.so.2.9.4",
+        "mode": 33261,
+        "size": 499056,
+        "sha256": "26d33f4a995b8be9cfd54f186f673a68492a0a8751670f136cd1e5784647eb6a"
+      },
+      {
+        "path": "/usr/share/licenses/libmodulemd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libmodulemd/COPYING",
+        "mode": 33188,
+        "size": 1101,
+        "sha256": "40afccd95484d483800c17dd18a734518ba36e832841579a1f21dc94fb73bbdf"
+      }
+    ]
+  }
+}

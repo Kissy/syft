@@ -1,0 +1,105 @@
+{
+  "name": "nss-softokn",
+  "version": "3.53.1-6.0.1.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "nss",
+      "Version": "3.53.1",
+      "Update": "6.0.1.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nss-softokn@0:3.53.1-6.0.1.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nss-softokn",
+    "version": "3.53.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.0.1.el7_9",
+    "sourceRpm": "nss-softokn-3.53.1-6.0.1.el7_9.src.rpm",
+    "size": 1342894,
+    "license": "MPLv2.0",
+    "vendor": "Oracle America",
+    "url": "http://www.mozilla.org/projects/security/pki/nss/",
+    "files": [
+      {
+        "path": "/usr/lib64/libnssdbm3.chk",
+        "mode": 33188,
+        "size": 899,
+        "sha256": "d8c50a3231aa54f617f5ace89f72b6022461673bef0b7e062d638f41aebee039"
+      },
+      {
+        "path": "/usr/lib64/libnssdbm3.so",
+        "mode": 33261,
+        "size": 138432,
+        "sha256": "cd4d98be3ab714e17f552fc942557ca93d987eec9af591236dc1701aa078511c"
+      },
+      {
+        "path": "/usr/lib64/libsoftokn3.chk",
+        "mode": 33188,
+        "size": 899,
+        "sha256": "7a87d763c0a8e1c9ce82cc50f4a0b97e25111ae69ca288e23c21a00b185ba64a"
+      },
+      {
+        "path": "/usr/lib64/libsoftokn3.so",
+        "mode": 33261,
+        "size": 330984,
+        "sha256": "fa165e4832354faf31c7af271c445cbff11585ff4a5e08b702f3d3a05e6a926a"
+      },
+      {
+        "path": "/usr/lib64/nss",
+        "mode": 16877,
+        "size": 44,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/nss/saved",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools",
+        "mode": 16877,
+        "size": 53,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/bltest",
+        "mode": 33261,
+        "size": 412240,
+        "sha256": "754d81e056b26d255f707d0af37fcc74f5fc72d648d4e99492246c4be9a1b3ca"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/fipstest",
+        "mode": 33261,
+        "size": 431288,
+        "sha256": "2e54e0d903bba5e50a018bdaf6ebf7b059a8df2182b99d2ee33d59a2930848cd"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/shlibsign",
+        "mode": 33261,
+        "size": 28152,
+        "sha256": "c896780eed5a2d4f9234e66a8fc1afa2bcb22dba124d5c56cfca57487d3ddaae"
+      }
+    ]
+  }
+}

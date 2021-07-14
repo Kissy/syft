@@ -1,0 +1,123 @@
+{
+  "name": "libxml2",
+  "version": "2.9.7-8.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "xmlsoft",
+      "Product": "libxml2",
+      "Version": "2.9.7",
+      "Update": "8.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libxml2@0:2.9.7-8.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libxml2",
+    "version": "2.9.7",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "8.el8",
+    "sourceRpm": "libxml2-2.9.7-8.el8.src.rpm",
+    "size": 1753362,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "http://xmlsoft.org/",
+    "files": [
+      {
+        "path": "/usr/bin/xmlcatalog",
+        "mode": 33261,
+        "size": 20976,
+        "sha256": "bad0130f6c5e315d7d9052df4b21dfb39fb27dee041af1a6a1ab85b2b01e0aac"
+      },
+      {
+        "path": "/usr/bin/xmllint",
+        "mode": 33261,
+        "size": 75352,
+        "sha256": "a3f71cc901e5cdef2d05ca23a5632def6dfbfbed61911dfd45b67f2365193551"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1d/3b971ffa3b84f3332a6bae7ca4500c698315ef",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/25",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/25/c6a7d61cc18595f16934c51c372c9fd5330eac",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a7",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a7/ef6a0d784d8fdacd3f65ffd07d07e5359cafb4",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libxml2.so.2",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libxml2.so.2.9.7",
+        "mode": 33261,
+        "size": 1503384,
+        "sha256": "9284a58979ec3996f98fe9938333579704a4b2d72925407ff6e1f5887e9ebd48"
+      },
+      {
+        "path": "/usr/share/licenses/libxml2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libxml2/Copyright",
+        "mode": 33188,
+        "size": 1289,
+        "sha256": "c5c63674f8a83c4d2e385d96d1c670a03cb871ba2927755467017317878574bd"
+      }
+    ]
+  }
+}

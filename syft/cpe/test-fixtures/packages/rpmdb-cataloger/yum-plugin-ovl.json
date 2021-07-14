@@ -1,0 +1,81 @@
+{
+  "name": "yum-plugin-ovl",
+  "version": "1.1.31-54.0.1.el7_8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "baseurl",
+      "Product": "yum",
+      "Version": "1.1.31",
+      "Update": "54.0.1.el7_8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/yum-plugin-ovl@0:1.1.31-54.0.1.el7_8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "yum-plugin-ovl",
+    "version": "1.1.31",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "54.0.1.el7_8",
+    "sourceRpm": "yum-utils-1.1.31-54.0.1.el7_8.src.rpm",
+    "size": 22399,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://yum.baseurl.org/download/yum-utils/",
+    "files": [
+      {
+        "path": "/etc/yum/pluginconf.d/ovl.conf",
+        "mode": 33188,
+        "size": 17,
+        "sha256": "84c1c0c956a492cadbfd2cec581ef678c190e3e245f0d61665eb0f66b8b34fd6"
+      },
+      {
+        "path": "/usr/lib/yum-plugins/ovl.py",
+        "mode": 33188,
+        "size": 1470,
+        "sha256": "cedf6ce1db86b89ba861d39e8777e9bf507da1c1fc6c23f31ad0ba38b04ca657"
+      },
+      {
+        "path": "/usr/lib/yum-plugins/ovl.pyc",
+        "mode": 33188,
+        "size": 2186,
+        "sha256": "e151e52af5b53c3465562c69aaa730ac5b2a9ef400a7528bacbc483bcba61187"
+      },
+      {
+        "path": "/usr/lib/yum-plugins/ovl.pyo",
+        "mode": 33188,
+        "size": 2186,
+        "sha256": "e151e52af5b53c3465562c69aaa730ac5b2a9ef400a7528bacbc483bcba61187"
+      },
+      {
+        "path": "/usr/share/doc/yum-plugin-ovl-1.1.31",
+        "mode": 16877,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/yum-plugin-ovl-1.1.31/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

@@ -1,0 +1,901 @@
+{
+  "name": "crypto-policies",
+  "version": "20200713-1.git51d1222.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/crypto-policies@0:20200713-1.git51d1222.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "crypto-policies",
+    "version": "20200713",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "1.git51d1222.el8",
+    "sourceRpm": "crypto-policies-20200713-1.git51d1222.el8.src.rpm",
+    "size": 71861,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://gitlab.com/redhat-crypto/fedora-crypto-policies",
+    "files": [
+      {
+        "path": "/etc/crypto-policies",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/bind.config",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/gnutls.config",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/java.config",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/krb5.config",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/libreswan.config",
+        "mode": 41471,
+        "size": 48,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/libssh.config",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/nss.config",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/openssh.config",
+        "mode": 41471,
+        "size": 46,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/opensshserver.config",
+        "mode": 41471,
+        "size": 52,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/openssl.config",
+        "mode": 41471,
+        "size": 46,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/back-ends/opensslcnf.config",
+        "mode": 41471,
+        "size": 49,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/config",
+        "mode": 33188,
+        "size": 688,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/local.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/policies",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/policies/modules",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/state",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/crypto-policies/state/current",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/bind.txt",
+        "mode": 33188,
+        "size": 75,
+        "sha256": "07b5c0a6dfe62dd10878e05a15137d10f74580c352fb213bb0e0eedb930c5d99"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/gnutls.txt",
+        "mode": 33188,
+        "size": 437,
+        "sha256": "ec2027bc5c04968e7205a8035047be021fa22ea92fb9dbb2f02a0eed24faee65"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/java.txt",
+        "mode": 33188,
+        "size": 389,
+        "sha256": "d7879dfd9e853f8239cf883ab3a53e425bb72ef2270539a7fea1d77a49e671cc"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/krb5.txt",
+        "mode": 33188,
+        "size": 179,
+        "sha256": "49800062b22a59de7b2dd2e8ab272de57670dc65fba73b6db66a90a629e3bfdc"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/libreswan.txt",
+        "mode": 33188,
+        "size": 448,
+        "sha256": "6e6764cdbe50f15dd04226fa815d7e31dffeb555e5393fb48778f75ef411acb3"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/libssh.txt",
+        "mode": 33188,
+        "size": 1294,
+        "sha256": "9dd0b68dc387958e0888b17c3d19a6c4b86ec5321e60889749038e33780563ec"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/nss.txt",
+        "mode": 33188,
+        "size": 383,
+        "sha256": "730e688abe235f4f4c513fccdb899080918023631103ea57cd2a1362686118c5"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/openssh.txt",
+        "mode": 33188,
+        "size": 1257,
+        "sha256": "3d3c6acdc4f04733dc586be2b3ac59d695c9d81232b9a77ac0f4f5db1715b2b6"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/opensshserver.txt",
+        "mode": 33188,
+        "size": 1663,
+        "sha256": "2e987e5e2de34104ac58fc808941041d6f1ee09f5266440fbc5275208a75c3bb"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/openssl.txt",
+        "mode": 33188,
+        "size": 142,
+        "sha256": "04794651f763a547d662f93bf5080d8e8577fe5f0c417643611f4404ef49891d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/DEFAULT/opensslcnf.txt",
+        "mode": 33188,
+        "size": 583,
+        "sha256": "ef8a6e507b36246783fb78932b3eecc9618b7ccf95f3d8f56bcc81f5db145b1d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/bind.txt",
+        "mode": 33188,
+        "size": 123,
+        "sha256": "d2625e9228258edc2e53da32845d06dbc584a7bcbdef590e821fb88a66feb071"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/gnutls.txt",
+        "mode": 33188,
+        "size": 42,
+        "sha256": "ebdecc00b137b3d663a15c1a3b51c4bcf564146bbcf56c31dbc6d62eaa023ad0"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/java.txt",
+        "mode": 33188,
+        "size": 789,
+        "sha256": "e469e892431a4044d296fc9059b909a1921a9a4658fdea25bf1fa8b29978f3f3"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/krb5.txt",
+        "mode": 33188,
+        "size": 36,
+        "sha256": "f13c7ed127764aab9e626e84b99061a0c6a6a71ecee3dfe821eefd2f4d970679"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/libreswan.txt",
+        "mode": 33188,
+        "size": 23,
+        "sha256": "17c9621cbd4a12bd0c548a16ae61f858284de1472326996e12140985c6d28636"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/libssh.txt",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/nss.txt",
+        "mode": 33188,
+        "size": 147,
+        "sha256": "ffa3482faff8b9c39e8f4496aab37e93c694c758c67876eb4d6e3dbefb9f3ed5"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/openssh.txt",
+        "mode": 33188,
+        "size": 21,
+        "sha256": "3297ada25f072eafff0a6b217030d100875107296af6fe20ec4f33025e672ead"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/opensshserver.txt",
+        "mode": 33188,
+        "size": 38,
+        "sha256": "e0495c3620a57e37e9e2a11ef1e8a3872dc90f1ac8c08723782b4907f51bc2b5"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/openssl.txt",
+        "mode": 33188,
+        "size": 205,
+        "sha256": "ba970b74c7720192a216e8d5a051a1f5f84a75b615c86172a8cd4396aaf4e025"
+      },
+      {
+        "path": "/usr/share/crypto-policies/EMPTY/opensslcnf.txt",
+        "mode": 33188,
+        "size": 274,
+        "sha256": "2b238b5482ab787eae7343bd1359eb8608d8fe76abfc4f83802dfea1d4e1be10"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/bind.txt",
+        "mode": 33188,
+        "size": 105,
+        "sha256": "49f1bb6234b52eefda267dc53f937458633362c2e285679101eb400db2cf14ea"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/gnutls.txt",
+        "mode": 33188,
+        "size": 503,
+        "sha256": "aacf4835f474859e8900e0c6f9c3876ec693aaa3746f0e095b55af0bbce35a66"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/java.txt",
+        "mode": 33188,
+        "size": 587,
+        "sha256": "eb8befa366552ac59e3e036e22dc1d9d609aeb589d06cca5f4c34bb51e29b1ed"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/krb5.txt",
+        "mode": 33188,
+        "size": 137,
+        "sha256": "18ca0b8c4856e18c4af73db1852021d862ea64aaa9595bc17f8bfa918c53f839"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/libreswan.txt",
+        "mode": 33188,
+        "size": 359,
+        "sha256": "8aa799cdf385605ea5fdaf0403aa38c961c5e2447d15e40ac0e45f4fede0bfef"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/libssh.txt",
+        "mode": 33188,
+        "size": 990,
+        "sha256": "543a2be58f003dacddb10257a4d3e1bd90dd9555e8e515107a24fd0bb96c8d1c"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/nss.txt",
+        "mode": 33188,
+        "size": 345,
+        "sha256": "77ce70c3137b8282c9aee4509ffce1e7c3419e04aa36ac95aa6b625b95c70f0c"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/openssh.txt",
+        "mode": 33188,
+        "size": 854,
+        "sha256": "1c9b17757243c929f310d96a9e2290060aa7eef033f2e8313ae4e2fd9622d3f7"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/opensshserver.txt",
+        "mode": 33188,
+        "size": 1178,
+        "sha256": "f52c655a21e1ec3d5808d93e1291891ae7973452d1de9480a5282c02ad07bc7f"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/openssl.txt",
+        "mode": 33188,
+        "size": 162,
+        "sha256": "b32ee82d524b28abb8bd5b7263560cd3e0a5ae01dc1ccb93825722eaeff454fd"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FIPS/opensslcnf.txt",
+        "mode": 33188,
+        "size": 540,
+        "sha256": "c34771496014499ca66235b4433c19a57bd7b80629987256a3302aeff4a9c7ce"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/bind.txt",
+        "mode": 33188,
+        "size": 105,
+        "sha256": "49f1bb6234b52eefda267dc53f937458633362c2e285679101eb400db2cf14ea"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/gnutls.txt",
+        "mode": 33188,
+        "size": 529,
+        "sha256": "424f33891d98f2445efcee2e2d4919d8c8c5b6293d442752e9d3ff8305605b15"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/java.txt",
+        "mode": 33188,
+        "size": 657,
+        "sha256": "864d29685f292b7f4f3b7a29c9ba917aa469dcb1d8a9700c441aa7be59333614"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/krb5.txt",
+        "mode": 33188,
+        "size": 131,
+        "sha256": "ae21711a4138a99de04797f2057e7c0e730229ebb807f19d7696006159282582"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/libreswan.txt",
+        "mode": 33188,
+        "size": 281,
+        "sha256": "aa21f8da5381b4812b62c6f16a3d8aecb11260cc9414a72b4d8a7e25381834d4"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/libssh.txt",
+        "mode": 33188,
+        "size": 1076,
+        "sha256": "b15e99b4a54cf30a856d8d808e015cb8584d8336d6ea87da65cc57a4d01824fe"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/nss.txt",
+        "mode": 33188,
+        "size": 324,
+        "sha256": "3d34c34d5ba273acd91c648b0276572a698c0d2002b2eac07c51192c0855fb74"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/openssh.txt",
+        "mode": 33188,
+        "size": 986,
+        "sha256": "b83dad7da4e110ca351fa5ea43040138f2a4e1043ac2f0406accddd3d3632fdb"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/opensshserver.txt",
+        "mode": 33188,
+        "size": 1355,
+        "sha256": "3d7c232a6ddc8ea718448332d5bf868eccb94b560a3887d1d70dde0c1019a445"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/openssl.txt",
+        "mode": 33188,
+        "size": 165,
+        "sha256": "588fecc57cd07a6e1260e7a6f44236d35a14b1275f746d7d4d609b2389a10270"
+      },
+      {
+        "path": "/usr/share/crypto-policies/FUTURE/opensslcnf.txt",
+        "mode": 33188,
+        "size": 516,
+        "sha256": "fc062167358a653c11ade88c4a468f96bb1c9a3e6ef70d95566849ff186c4b51"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/bind.txt",
+        "mode": 33188,
+        "size": 70,
+        "sha256": "07cbda37a6b3b6757625622e6ea6c00047d10459370bdf222ce9d9e5ab466f13"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/gnutls.txt",
+        "mode": 33188,
+        "size": 335,
+        "sha256": "fe33108d69c3e21b0b44f017f5c24698fb81b21a1d0faa61b465368c3fc19aa6"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/java.txt",
+        "mode": 33188,
+        "size": 357,
+        "sha256": "3591e27fb622b0519684f10e9ac435968dc22101282fa35ec92dca058e78f19b"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/krb5.txt",
+        "mode": 33188,
+        "size": 196,
+        "sha256": "1f8b1787acc0c901c223db1ba3d733e65c8488b795fd767f68b8df87b1df1731"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/libreswan.txt",
+        "mode": 33188,
+        "size": 468,
+        "sha256": "d3e55a1d7b74de21924b426062ff18e15422ce5c23db3f960daa4f485ff92e58"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/libssh.txt",
+        "mode": 33188,
+        "size": 1404,
+        "sha256": "c0f3c51a3681dcfb746f5edfcb555f654030551cf824ae6a7af34aaa8c21204f"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/nss.txt",
+        "mode": 33188,
+        "size": 412,
+        "sha256": "f0292fda73672a9f4c85c5d56176bfc3b69b3af39c895f295a68a2d5ae761a12"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/openssh.txt",
+        "mode": 33188,
+        "size": 1355,
+        "sha256": "8e230fadfa6ef25bb3f732cbb15fa4b38503e9f4c3ba9a700e6fec5e8540987d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/opensshserver.txt",
+        "mode": 33188,
+        "size": 1754,
+        "sha256": "0cb6cb8d52d825175f9511ea5a218668f74063b49ea45efa6d083d7d14c82a7d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/openssl.txt",
+        "mode": 33188,
+        "size": 125,
+        "sha256": "50e7761e50638529444b61710ec27a564278bc79bf238c7e719e198ca99a99d3"
+      },
+      {
+        "path": "/usr/share/crypto-policies/LEGACY/opensslcnf.txt",
+        "mode": 33188,
+        "size": 617,
+        "sha256": "88b6ad317b424dcbd9ecfaf2aefc12132effac58ec8a6743d0adc6b586ce097e"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/bind.config",
+        "mode": 33188,
+        "size": 75,
+        "sha256": "07b5c0a6dfe62dd10878e05a15137d10f74580c352fb213bb0e0eedb930c5d99"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/gnutls.config",
+        "mode": 33188,
+        "size": 437,
+        "sha256": "ec2027bc5c04968e7205a8035047be021fa22ea92fb9dbb2f02a0eed24faee65"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/java.config",
+        "mode": 33188,
+        "size": 389,
+        "sha256": "d7879dfd9e853f8239cf883ab3a53e425bb72ef2270539a7fea1d77a49e671cc"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/krb5.config",
+        "mode": 33188,
+        "size": 179,
+        "sha256": "49800062b22a59de7b2dd2e8ab272de57670dc65fba73b6db66a90a629e3bfdc"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/libreswan.config",
+        "mode": 33188,
+        "size": 448,
+        "sha256": "6e6764cdbe50f15dd04226fa815d7e31dffeb555e5393fb48778f75ef411acb3"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/libssh.config",
+        "mode": 33188,
+        "size": 1294,
+        "sha256": "9dd0b68dc387958e0888b17c3d19a6c4b86ec5321e60889749038e33780563ec"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/nss.config",
+        "mode": 33188,
+        "size": 383,
+        "sha256": "730e688abe235f4f4c513fccdb899080918023631103ea57cd2a1362686118c5"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/openssh.config",
+        "mode": 33188,
+        "size": 1257,
+        "sha256": "3d3c6acdc4f04733dc586be2b3ac59d695c9d81232b9a77ac0f4f5db1715b2b6"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/opensshserver.config",
+        "mode": 33188,
+        "size": 1663,
+        "sha256": "2e987e5e2de34104ac58fc808941041d6f1ee09f5266440fbc5275208a75c3bb"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/openssl.config",
+        "mode": 33188,
+        "size": 142,
+        "sha256": "04794651f763a547d662f93bf5080d8e8577fe5f0c417643611f4404ef49891d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/DEFAULT/opensslcnf.config",
+        "mode": 33188,
+        "size": 583,
+        "sha256": "ef8a6e507b36246783fb78932b3eecc9618b7ccf95f3d8f56bcc81f5db145b1d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/bind.config",
+        "mode": 33188,
+        "size": 105,
+        "sha256": "49f1bb6234b52eefda267dc53f937458633362c2e285679101eb400db2cf14ea"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/gnutls.config",
+        "mode": 33188,
+        "size": 503,
+        "sha256": "aacf4835f474859e8900e0c6f9c3876ec693aaa3746f0e095b55af0bbce35a66"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/java.config",
+        "mode": 33188,
+        "size": 587,
+        "sha256": "eb8befa366552ac59e3e036e22dc1d9d609aeb589d06cca5f4c34bb51e29b1ed"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/krb5.config",
+        "mode": 33188,
+        "size": 137,
+        "sha256": "18ca0b8c4856e18c4af73db1852021d862ea64aaa9595bc17f8bfa918c53f839"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/libreswan.config",
+        "mode": 33188,
+        "size": 359,
+        "sha256": "8aa799cdf385605ea5fdaf0403aa38c961c5e2447d15e40ac0e45f4fede0bfef"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/libssh.config",
+        "mode": 33188,
+        "size": 990,
+        "sha256": "543a2be58f003dacddb10257a4d3e1bd90dd9555e8e515107a24fd0bb96c8d1c"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/nss.config",
+        "mode": 33188,
+        "size": 345,
+        "sha256": "77ce70c3137b8282c9aee4509ffce1e7c3419e04aa36ac95aa6b625b95c70f0c"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/openssh.config",
+        "mode": 33188,
+        "size": 854,
+        "sha256": "1c9b17757243c929f310d96a9e2290060aa7eef033f2e8313ae4e2fd9622d3f7"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/opensshserver.config",
+        "mode": 33188,
+        "size": 1178,
+        "sha256": "f52c655a21e1ec3d5808d93e1291891ae7973452d1de9480a5282c02ad07bc7f"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/openssl.config",
+        "mode": 33188,
+        "size": 162,
+        "sha256": "b32ee82d524b28abb8bd5b7263560cd3e0a5ae01dc1ccb93825722eaeff454fd"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FIPS/opensslcnf.config",
+        "mode": 33188,
+        "size": 540,
+        "sha256": "c34771496014499ca66235b4433c19a57bd7b80629987256a3302aeff4a9c7ce"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/bind.config",
+        "mode": 33188,
+        "size": 105,
+        "sha256": "49f1bb6234b52eefda267dc53f937458633362c2e285679101eb400db2cf14ea"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/gnutls.config",
+        "mode": 33188,
+        "size": 529,
+        "sha256": "424f33891d98f2445efcee2e2d4919d8c8c5b6293d442752e9d3ff8305605b15"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/java.config",
+        "mode": 33188,
+        "size": 657,
+        "sha256": "864d29685f292b7f4f3b7a29c9ba917aa469dcb1d8a9700c441aa7be59333614"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/krb5.config",
+        "mode": 33188,
+        "size": 131,
+        "sha256": "ae21711a4138a99de04797f2057e7c0e730229ebb807f19d7696006159282582"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/libreswan.config",
+        "mode": 33188,
+        "size": 281,
+        "sha256": "aa21f8da5381b4812b62c6f16a3d8aecb11260cc9414a72b4d8a7e25381834d4"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/libssh.config",
+        "mode": 33188,
+        "size": 1076,
+        "sha256": "b15e99b4a54cf30a856d8d808e015cb8584d8336d6ea87da65cc57a4d01824fe"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/nss.config",
+        "mode": 33188,
+        "size": 324,
+        "sha256": "3d34c34d5ba273acd91c648b0276572a698c0d2002b2eac07c51192c0855fb74"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/openssh.config",
+        "mode": 33188,
+        "size": 986,
+        "sha256": "b83dad7da4e110ca351fa5ea43040138f2a4e1043ac2f0406accddd3d3632fdb"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/opensshserver.config",
+        "mode": 33188,
+        "size": 1355,
+        "sha256": "3d7c232a6ddc8ea718448332d5bf868eccb94b560a3887d1d70dde0c1019a445"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/openssl.config",
+        "mode": 33188,
+        "size": 165,
+        "sha256": "588fecc57cd07a6e1260e7a6f44236d35a14b1275f746d7d4d609b2389a10270"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/FUTURE/opensslcnf.config",
+        "mode": 33188,
+        "size": 516,
+        "sha256": "fc062167358a653c11ade88c4a468f96bb1c9a3e6ef70d95566849ff186c4b51"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/bind.config",
+        "mode": 33188,
+        "size": 70,
+        "sha256": "07cbda37a6b3b6757625622e6ea6c00047d10459370bdf222ce9d9e5ab466f13"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/gnutls.config",
+        "mode": 33188,
+        "size": 335,
+        "sha256": "fe33108d69c3e21b0b44f017f5c24698fb81b21a1d0faa61b465368c3fc19aa6"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/java.config",
+        "mode": 33188,
+        "size": 357,
+        "sha256": "3591e27fb622b0519684f10e9ac435968dc22101282fa35ec92dca058e78f19b"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/krb5.config",
+        "mode": 33188,
+        "size": 196,
+        "sha256": "1f8b1787acc0c901c223db1ba3d733e65c8488b795fd767f68b8df87b1df1731"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/libreswan.config",
+        "mode": 33188,
+        "size": 468,
+        "sha256": "d3e55a1d7b74de21924b426062ff18e15422ce5c23db3f960daa4f485ff92e58"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/libssh.config",
+        "mode": 33188,
+        "size": 1404,
+        "sha256": "c0f3c51a3681dcfb746f5edfcb555f654030551cf824ae6a7af34aaa8c21204f"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/nss.config",
+        "mode": 33188,
+        "size": 412,
+        "sha256": "f0292fda73672a9f4c85c5d56176bfc3b69b3af39c895f295a68a2d5ae761a12"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/openssh.config",
+        "mode": 33188,
+        "size": 1355,
+        "sha256": "8e230fadfa6ef25bb3f732cbb15fa4b38503e9f4c3ba9a700e6fec5e8540987d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/opensshserver.config",
+        "mode": 33188,
+        "size": 1754,
+        "sha256": "0cb6cb8d52d825175f9511ea5a218668f74063b49ea45efa6d083d7d14c82a7d"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/openssl.config",
+        "mode": 33188,
+        "size": 125,
+        "sha256": "50e7761e50638529444b61710ec27a564278bc79bf238c7e719e198ca99a99d3"
+      },
+      {
+        "path": "/usr/share/crypto-policies/back-ends/LEGACY/opensslcnf.config",
+        "mode": 33188,
+        "size": 617,
+        "sha256": "88b6ad317b424dcbd9ecfaf2aefc12132effac58ec8a6743d0adc6b586ce097e"
+      },
+      {
+        "path": "/usr/share/crypto-policies/default-config",
+        "mode": 33188,
+        "size": 688,
+        "sha256": "f3efd2462de1d6408d2de1d48b4fc0fecc9609254222fccc6cc82cae32303281"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/DEFAULT.pol",
+        "mode": 33188,
+        "size": 2121,
+        "sha256": "6cc8b8f244d3299eaaf0728cde0b53152adcf1b3124ef1917abd6c4c26e68611"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/EMPTY.pol",
+        "mode": 33188,
+        "size": 364,
+        "sha256": "65e19a3cfa3e4eb86c6546a6c076053bdad4b6e7a65cb5b1e17415ff58691101"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/FIPS.pol",
+        "mode": 33188,
+        "size": 1680,
+        "sha256": "131084e187369ed8e8c5da08c0a37946f6c25a1959e7abac08cd018629de721a"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/FUTURE.pol",
+        "mode": 33188,
+        "size": 2029,
+        "sha256": "b9d0a515fe8c4a8f89cd4902853c627ad36f65d3b74f61d5404fa9c5da5acb95"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/LEGACY.pol",
+        "mode": 33188,
+        "size": 2543,
+        "sha256": "15762d36b6d30622d587316b8c11e14808057b35eca62b1874a7f44e252bb7bf"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/modules",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/modules/AD-SUPPORT.pmod",
+        "mode": 33188,
+        "size": 288,
+        "sha256": "5e66e93117d381af17d576ca9fbce67493e8de9a3723ef536b0163d6d6820962"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/modules/ECDHE-ONLY.pmod",
+        "mode": 33188,
+        "size": 118,
+        "sha256": "ef556185eac099f06175533f848247f9ebc662017cb4a810b7b9221943babfba"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/modules/NO-CAMELLIA.pmod",
+        "mode": 33188,
+        "size": 246,
+        "sha256": "99f0729c2ec3b141b237006a0e4121e31a95b707239b8499d0580934f522cf11"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/modules/NO-SHA1.pmod",
+        "mode": 33188,
+        "size": 150,
+        "sha256": "49092b78efdbb641b6b342c43f61343dbb2e5efaf1d77154535f1ff52d5516e9"
+      },
+      {
+        "path": "/usr/share/crypto-policies/policies/modules/OSPP.pmod",
+        "mode": 33188,
+        "size": 838,
+        "sha256": "97fb9d2295b3b68c0cea8ff253529b66d9184350b7c1154329e29def6ddb69fc"
+      },
+      {
+        "path": "/usr/share/crypto-policies/reload-cmds.sh",
+        "mode": 33188,
+        "size": 167,
+        "sha256": "69121b6719a4a96cb77bf2372cb58a389b08726e4448b1037b70ec9950af1048"
+      },
+      {
+        "path": "/usr/share/licenses/crypto-policies",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/crypto-policies/COPYING.LESSER",
+        "mode": 33188,
+        "size": 26432,
+        "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+      }
+    ]
+  }
+}

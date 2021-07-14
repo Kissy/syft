@@ -1,0 +1,99 @@
+{
+  "name": "sysvinit-tools",
+  "version": "2.88-14.dsf.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "sysvinit_project",
+      "Product": "sysvinit",
+      "Version": "2.88",
+      "Update": "14.dsf.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/sysvinit-tools@0:2.88-14.dsf.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "sysvinit-tools",
+    "version": "2.88",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.dsf.el7",
+    "sourceRpm": "sysvinit-2.88-14.dsf.el7.src.rpm",
+    "size": 109302,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://savannah.nongnu.org/projects/sysvinit/",
+    "files": [
+      {
+        "path": "/usr/bin/last",
+        "mode": 33261,
+        "size": 19616,
+        "sha256": "dce0ffe72ead2f85f20a49caf847d440955422aa6bd7cb418562ed079aacb0ec"
+      },
+      {
+        "path": "/usr/bin/lastb",
+        "mode": 41471,
+        "size": 4,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/mesg",
+        "mode": 33261,
+        "size": 11280,
+        "sha256": "b40cf2856fc870d4f6f46eedc0d1dc86255b9a9f83f98ce53fe1d9a98deb3429"
+      },
+      {
+        "path": "/usr/bin/wall",
+        "mode": 34157,
+        "size": 15392,
+        "sha256": "b7eab8d28c4d5c48932502f1495c3ec3861a18d688c9033b66b37fd0341a5530"
+      },
+      {
+        "path": "/usr/sbin/killall5",
+        "mode": 33261,
+        "size": 23776,
+        "sha256": "0dd246b54cb7b67bcfa38f64775c480b2afa655f2b5b80b74ed1f3a3b88ac927"
+      },
+      {
+        "path": "/usr/sbin/pidof",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/sysvinit-tools-2.88",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/sysvinit-tools-2.88/COPYRIGHT",
+        "mode": 33188,
+        "size": 1217,
+        "sha256": "a9dc24b5fafc309acd883198ebce7a85c5335cdf5a623b478bddf482ab2e64f4"
+      },
+      {
+        "path": "/usr/share/doc/sysvinit-tools-2.88/Changelog",
+        "mode": 33188,
+        "size": 31254,
+        "sha256": "4230468e924bd996150ac0b3395b572b534df3b675cbe76093f44d785e90ac7c"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "dbus-libs",
+  "version": "1.12.8-11.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "libdbus",
+      "Version": "1.12.8",
+      "Update": "11.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dbus-libs@1:1.12.8-11.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dbus-libs",
+    "version": "1.12.8",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "11.el8",
+    "sourceRpm": "dbus-1.12.8-11.el8.src.rpm",
+    "size": 380568,
+    "license": "(GPLv2+ or AFL) and GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.freedesktop.org/Software/dbus/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/73",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/73/3fc919ab5595ba81a1eb3358b4004fd2cf058e",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdbus-1.so.3",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdbus-1.so.3.19.7",
+        "mode": 33261,
+        "size": 351392,
+        "sha256": "80f91dcbe83713644ce8ecb4840bd10ca19f3a173688da581e506c34dbf8f0a3"
+      },
+      {
+        "path": "/usr/share/licenses/dbus-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/dbus-libs/COPYING",
+        "mode": 33188,
+        "size": 29176,
+        "sha256": "0e46f54efb12d04ab5c33713bacd0e140c9a35b57ae29e03c853203266e8f3a1"
+      }
+    ]
+  }
+}

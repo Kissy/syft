@@ -1,0 +1,129 @@
+{
+  "name": "platform-python",
+  "version": "3.6.8-31.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "3.6.8",
+      "Update": "31.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/platform-python@0:3.6.8-31.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "platform-python",
+    "version": "3.6.8",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "31.el8",
+    "sourceRpm": "python3-3.6.8-31.el8.src.rpm",
+    "size": 41094,
+    "license": "Python",
+    "vendor": "CentOS",
+    "url": "https://www.python.org/",
+    "files": [
+      {
+        "path": "/usr/bin/pydoc3.6",
+        "mode": 33261,
+        "size": 89,
+        "sha256": "cae2571c9656ca78109f8d561405625f4fa9a2d531cb725c161d19f5db187eac"
+      },
+      {
+        "path": "/usr/bin/pyvenv-3.6",
+        "mode": 33261,
+        "size": 446,
+        "sha256": "c3131184975ef2015c4a19aaab679e9e884dfdd768e14fd9af0503f151396584"
+      },
+      {
+        "path": "/usr/bin/unversioned-python",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14/dfa243b83b00fe88af33147183348b7839c9c5",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14/dfa243b83b00fe88af33147183348b7839c9c5.1",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/no-python",
+        "mode": 33261,
+        "size": 157,
+        "sha256": "81f6ba91a7968c981a35d6f072b6ffebf86be5396c0cf5aad8179c6e45c7fdad"
+      },
+      {
+        "path": "/usr/libexec/platform-python",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/platform-python3.6",
+        "mode": 33261,
+        "size": 11744,
+        "sha256": "33093341d63462e899499c51091f152c14e98f1200842217500858ef9265a278"
+      },
+      {
+        "path": "/usr/libexec/platform-python3.6m",
+        "mode": 33261,
+        "size": 11744,
+        "sha256": "33093341d63462e899499c51091f152c14e98f1200842217500858ef9265a278"
+      },
+      {
+        "path": "/usr/share/licenses/platform-python",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/platform-python/LICENSE",
+        "mode": 33188,
+        "size": 12763,
+        "sha256": "b9a6d9320b8f2693e8d41e496ce56caadacaddcca9be2a64a61749278f425cf2"
+      },
+      {
+        "path": "/usr/share/man/man1/python.1.gz",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "name": "procps-ng",
+  "version": "3.3.15-3.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "procps-ng_project",
+      "Product": "procps-ng",
+      "Version": "3.3.15",
+      "Update": "3.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/procps-ng@0:3.3.15-3.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "procps-ng",
+    "version": "3.3.15",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8",
+    "sourceRpm": "procps-ng-3.3.15-3.el8.src.rpm",
+    "size": 904158,
+    "license": "GPL+ and GPLv2 and GPLv2+ and GPLv3+ and LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://sourceforge.net/projects/procps-ng/",
+    "files": [
+      {
+        "path": "/usr/bin/free",
+        "mode": 33261,
+        "size": 21320,
+        "sha256": "b2f9b19aa0997598eba8b7e6be156afa6c13af6162fbbee4101c3cf61bebd628"
+      },
+      {
+        "path": "/usr/bin/pgrep",
+        "mode": 33261,
+        "size": 29576,
+        "sha256": "dbb7f674056d95eaeec266d535457b70890b39f7135a86efd3004c38f6212574"
+      },
+      {
+        "path": "/usr/bin/pidof",
+        "mode": 33261,
+        "size": 17136,
+        "sha256": "01efe232d198d64ae7c7efed1489e26c14ec19ea5dded4d3aa746882e2bcf8bd"
+      },
+      {
+        "path": "/usr/bin/pkill",
+        "mode": 33261,
+        "size": 29576,
+        "sha256": "4fb7f228af53157c634a6d87177b7803fcf9ad120616ca4365a339b94eb42e7a"
+      },
+      {
+        "path": "/usr/bin/pmap",
+        "mode": 33261,
+        "size": 33624,
+        "sha256": "1bb65c332665cfee42c3d87e3bab4e032089fc0503bf8d978e498a95795cfe11"
+      },
+      {
+        "path": "/usr/bin/ps",
+        "mode": 33261,
+        "size": 138024,
+        "sha256": "dcaca9a3107394999de67bd804a808ff873461e7e1fec5ca4f28583e423fdd7e"
+      },
+      {
+        "path": "/usr/bin/pwdx",
+        "mode": 33261,
+        "size": 13032,
+        "sha256": "41d5d09dd5aa4b5b9b1d0e14dcfc63d7cb97f789cc0fef9322041843cc87fcde"
+      },
+      {
+        "path": "/usr/bin/skill",
+        "mode": 33261,
+        "size": 29528,
+        "sha256": "001fcd1a4556677287da8bd4e6f089f3e8e7b45c04d332d464ea74ebd2d93fab"
+      },
+      {
+        "path": "/usr/bin/slabtop",
+        "mode": 33261,
+        "size": 21384,
+        "sha256": "1665e834438686390a9a8ddc37c4ea491590d290e7ee8b2fa1bc4deadf9bcaac"
+      },
+      {
+        "path": "/usr/bin/snice",
+        "mode": 33261,
+        "size": 29528,
+        "sha256": "b27a166223e6fe4a7dd3eedba5c8ed60e9aa8282447d2c733463e4facf71d7d4"
+      },
+      {
+        "path": "/usr/bin/tload",
+        "mode": 33261,
+        "size": 17200,
+        "sha256": "8151f5eabbd7b58f5cb0de348fd97870f8c138bcc4b5aab9a0171726282fbdb6"
+      },
+      {
+        "path": "/usr/bin/top",
+        "mode": 33261,
+        "size": 124736,
+        "sha256": "026ce526e768c61620af1be1a1afe5adc6f88e004a7ef25f42c7684474787b3a"
+      },
+      {
+        "path": "/usr/bin/uptime",
+        "mode": 33261,
+        "size": 13016,
+        "sha256": "4860283520b4ba98fceb2a79cd3a6f17df31dd6184743dcb073908ec277c3a2f"
+      },
+      {
+        "path": "/usr/bin/vmstat",
+        "mode": 33261,
+        "size": 37728,
+        "sha256": "ab486ea4686c76779b1314e14b533a1386e5c63534e3355bc382033d70364da6"
+      },
+      {
+        "path": "/usr/bin/w",
+        "mode": 33261,
+        "size": 21288,
+        "sha256": "6f026940df4a27f7565e96ab1f7bdd7ecd2640098f0a2ae18ace3251dc02ead9"
+      },
+      {
+        "path": "/usr/bin/watch",
+        "mode": 33261,
+        "size": 29928,
+        "sha256": "edb23253800094a2c1ef59bd26bc508e65e9632c00596cb9bef2dc06140ad12b"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/22",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/22/868e23863833f6e70579d5b91ec0457a3b1789",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3e/5aa137f73eebf3ae7dbb1e99a6491c5194f596",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/55",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/55/e2c36fd33cb232e58642c962aac3eeac1168be",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5d/3ed649cd47ef0d596d265152c5cdc45f9f65f3",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5f/3218354b6f5c319e7c0b4a6df0778c4cd24b43",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5f/3218354b6f5c319e7c0b4a6df0778c4cd24b43.1",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/83",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/83/7069767b53fce74ccd79535fe7893a87bea16a",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/83/7069767b53fce74ccd79535fe7893a87bea16a.1",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/85",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/85/c4adbb82900e1b2b79ea337dc44fa62052817a",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/86",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/86/9c6b2e2c30f27f645b29510c880ef21d976504",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/92",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/92/9ab1acf8701ba017380ab972dfbcd368a1e0b6",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a4",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a4/e7efc6811ebc98a3083259b73b1756a9a4204b",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/af",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/af/080c1f0af5d597b0c942a862567faad63e814d",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b6/193397a529e69d785d42e8ff7a05a5fe7436c7",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ca",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ca/e96d07362912cafc9a65c920fb5a9ff70e768a",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d3/2f12216d93d7863c5c057131ee9daada1faabe",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f8/aa1ebe1ccbab3a9748beebdd50fd840b6c7452",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fa",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fa/a606328c6d5727e30c63469cc624c141e0fac8",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libprocps.so.7",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libprocps.so.7.1.0",
+        "mode": 33261,
+        "size": 83280,
+        "sha256": "8e662999f5898fad7734db683c65ce6eadb14d77a10257145fc68da1ccc801f3"
+      },
+      {
+        "path": "/usr/sbin/pidof",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/sysctl",
+        "mode": 33261,
+        "size": 29608,
+        "sha256": "aea76939da57a60f3bfddb6b0a650c249e5747126ab263c4d9090ddc0a4b4e69"
+      },
+      {
+        "path": "/usr/share/licenses/procps-ng",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/procps-ng/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/procps-ng/COPYING.LIB",
+        "mode": 33188,
+        "size": 25381,
+        "sha256": "681e386e44a19d7d0674b4320272c90e66b6610b741e7e6305f8219c42e85366"
+      }
+    ]
+  }
+}

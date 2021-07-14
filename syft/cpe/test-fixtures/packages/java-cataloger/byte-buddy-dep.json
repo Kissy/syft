@@ -1,0 +1,60 @@
+{
+  "name": "byte-buddy-dep",
+  "version": "1.10.15",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "golang",
+      "Product": "net",
+      "Version": "1.10.15",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/net.bytebuddy/byte-buddy-dep@1.10.15",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/byte-buddy-1.10.15.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1600467348287",
+        "Build-Jdk": "1.8.0_265",
+        "Built-By": "runner",
+        "Bundle-Description": "Byte Buddy is a Java library for creating Java classes at run time.        This artifact is a build of Byte Buddy withall ASM dependencies repackaged into its own name space.",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Byte Buddy (without dependencies)",
+        "Bundle-SymbolicName": "net.bytebuddy.byte-buddy",
+        "Bundle-Version": "1.10.15",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "net.bytebuddy;version=\"1.10.15\",net.bytebuddy.agent.builder;version=\"1.10.15\",net.bytebuddy.asm;version=\"1.10.15\",net.bytebuddy.build;version=\"1.10.15\",net.bytebuddy.description;version=\"1.10.15\",net.bytebuddy.description.annotation;version=\"1.10.15\",net.bytebuddy.description.enumeration;version=\"1.10.15\",net.bytebuddy.description.field;version=\"1.10.15\",net.bytebuddy.description.method;version=\"1.10.15\",net.bytebuddy.description.modifier;version=\"1.10.15\",net.bytebuddy.description.type;version=\"1.10.15\",net.bytebuddy.dynamic;version=\"1.10.15\",net.bytebuddy.dynamic.loading;version=\"1.10.15\",net.bytebuddy.dynamic.scaffold;version=\"1.10.15\",net.bytebuddy.dynamic.scaffold.inline;version=\"1.10.15\",net.bytebuddy.dynamic.scaffold.subclass;version=\"1.10.15\",net.bytebuddy.implementation;version=\"1.10.15\",net.bytebuddy.implementation.attribute;version=\"1.10.15\",net.bytebuddy.implementation.auxiliary;version=\"1.10.15\",net.bytebuddy.implementation.bind;version=\"1.10.15\",net.bytebuddy.implementation.bind.annotation;version=\"1.10.15\",net.bytebuddy.implementation.bytecode;version=\"1.10.15\",net.bytebuddy.implementation.bytecode.assign;version=\"1.10.15\",net.bytebuddy.implementation.bytecode.assign.primitive;version=\"1.10.15\",net.bytebuddy.implementation.bytecode.assign.reference;version=\"1.10.15\",net.bytebuddy.implementation.bytecode.collection;version=\"1.10.15\",net.bytebuddy.implementation.bytecode.constant;version=\"1.10.15\",net.bytebuddy.implementation.bytecode.member;version=\"1.10.15\",net.bytebuddy.matcher;version=\"1.10.15\",net.bytebuddy.pool;version=\"1.10.15\",net.bytebuddy.utility;version=\"1.10.15\",net.bytebuddy.utility.privilege;version=\"1.10.15\",net.bytebuddy.utility.visitor;version=\"1.10.15\",net.bytebuddy.jar.asm;version=\"1.10.15\",net.bytebuddy.jar.asm.signature;version=\"1.10.15\",net.bytebuddy.jar.asm.commons;version=\"1.10.15\"",
+        "Main-Class": "net.bytebuddy.build.Plugin$Engine$Default",
+        "Manifest-Version": "1.0",
+        "Multi-Release": "true",
+        "Tool": "Bnd-3.5.0.201709291849"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.properties",
+      "name": "",
+      "groupId": "net.bytebuddy",
+      "artifactId": "byte-buddy-dep",
+      "version": "1.10.15",
+      "extraFields": {}
+    }
+  }
+}

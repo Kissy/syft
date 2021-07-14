@@ -1,0 +1,133 @@
+{
+  "name": "python3-hawkey",
+  "version": "0.48.0-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/python3-hawkey@0:0.48.0-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python3-hawkey",
+    "version": "0.48.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libdnf-0.48.0-5.el8.src.rpm",
+    "size": 292784,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/libdnf",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/82",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/82/06f9aa9b3f025cc4fe35a389f6ec3babb42cb1",
+        "mode": 41471,
+        "size": 73,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bd/5a274d4b21d05222b026d02bb5108d4d0a6463",
+        "mode": 41471,
+        "size": 63,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/__init__.py",
+        "mode": 33188,
+        "size": 12765,
+        "sha256": "4db58f1346ace07a53151fac87ebf2ea47f4cd776aed3b7fca33ac9258788db3"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 10252,
+        "sha256": "2f185f3411dd94e18806db972f58d0e53a4582336a6a77f4d3c8ad68bb899973"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 10252,
+        "sha256": "2f185f3411dd94e18806db972f58d0e53a4582336a6a77f4d3c8ad68bb899973"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/_hawkey.so",
+        "mode": 33261,
+        "size": 237512,
+        "sha256": "1dbe8012a2676fc0ba6238b6044ca97e17d5d9d7cc244fb02eb3f102c4391e04"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/test",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/test/__init__.py",
+        "mode": 33188,
+        "size": 1801,
+        "sha256": "62001423a5078d8689a5b3ab568444b920ea4ec677f13e3a7b269df34e554130"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/test/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/test/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 1254,
+        "sha256": "3f6a73f548d5e8afe1d15d442f2de59d341ae9b788c5cebf4c6d7f71b2d85926"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/test/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 1254,
+        "sha256": "3f6a73f548d5e8afe1d15d442f2de59d341ae9b788c5cebf4c6d7f71b2d85926"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/hawkey/test/_hawkey_test.so",
+        "mode": 33261,
+        "size": 29200,
+        "sha256": "07196f2cc613f3ae72492edae148a8ef62b29d306edce621fb3f7e3ca747ed52"
+      }
+    ]
+  }
+}

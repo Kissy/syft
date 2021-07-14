@@ -1,0 +1,87 @@
+{
+  "name": "lzo",
+  "version": "2.08-14.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "lzo_project",
+      "Product": "lzo",
+      "Version": "2.08",
+      "Update": "14.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/lzo@0:2.08-14.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "lzo",
+    "version": "2.08",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.el8",
+    "sourceRpm": "lzo-2.08-14.el8.src.rpm",
+    "size": 198757,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.oberhumer.com/opensource/lzo/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4d/e08a272aca34817d8bfe88ccd9223415a7a599",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblzo2.so.2",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblzo2.so.2.0.0",
+        "mode": 33261,
+        "size": 167584,
+        "sha256": "c67ce7e96089af7390f3228c4922adcb88fa7fb5b81899b02126497a46374540"
+      },
+      {
+        "path": "/usr/share/licenses/lzo",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/lzo/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

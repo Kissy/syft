@@ -1,0 +1,103 @@
+{
+  "name": "tcp_wrappers-libs",
+  "version": "7.6-77.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/tcp_wrappers-libs@0:7.6-77.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "tcp_wrappers-libs",
+    "version": "7.6",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "77.el7",
+    "sourceRpm": "tcp_wrappers-7.6-77.el7.src.rpm",
+    "size": 134250,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "ftp://ftp.porcupine.org/pub/security/index.html",
+    "files": [
+      {
+        "path": "/usr/lib64/libwrap.so.0",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libwrap.so.0.7.6",
+        "mode": 33261,
+        "size": 42168,
+        "sha256": "305eb4cf1ca7dae5bb3051362eaa92f5836a20f4f1dfc65c662e64125c3d4e62"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/BLURB",
+        "mode": 33188,
+        "size": 1736,
+        "sha256": "ba6ca8ba9ee13ef06fd505b3d9e5b285d454a0e72b86349ac550c1bf7bb075cc"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/Banners.Makefile",
+        "mode": 33188,
+        "size": 2225,
+        "sha256": "fb72e2ed8672343cb559c943298ed0ccf6d0e01e3de001326a45d2b05e7d2a4c"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/CHANGES",
+        "mode": 33188,
+        "size": 19195,
+        "sha256": "534018d32b10870dbd1dbfbddb6e0b70337aac62a2589306eacf7611916e442b"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/DISCLAIMER",
+        "mode": 33188,
+        "size": 792,
+        "sha256": "2f358f3b311ce6c3a45da82f7ffddeff522d80ed8f10e511dfcfeb60da3452c3"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/README",
+        "mode": 33188,
+        "size": 48215,
+        "sha256": "dd6d7333a48de967de52f892531dc8a320ef3e29f81fcfbea41808d46c819098"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/README.IRIX",
+        "mode": 33188,
+        "size": 2634,
+        "sha256": "e098858c27241cce171de145f067a1adf82d894a9d486450958c3941db60241d"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/README.NIS",
+        "mode": 33188,
+        "size": 6680,
+        "sha256": "dd4b0185b3ffd62f9f5362f3be33bffc0e1413bc6d6f837a3cea441da64c74fa"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/README.ipv6",
+        "mode": 33188,
+        "size": 1146,
+        "sha256": "82628d3b900e8502f3311bbf36ae33c43994709d3c945d10980d5690d407674f"
+      },
+      {
+        "path": "/usr/share/doc/tcp_wrappers-libs-7.6/README.ipv6.2",
+        "mode": 33188,
+        "size": 231,
+        "sha256": "8448a31bf8cc640a6abc9b5991150441695b916a87707e9a6e88d829daf7223c"
+      }
+    ]
+  }
+}

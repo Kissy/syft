@@ -1,0 +1,75 @@
+{
+  "name": "lz4-libs",
+  "version": "1.8.3-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "lz4_project",
+      "Product": "lz4",
+      "Version": "1.8.3",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/lz4-libs@0:1.8.3-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "lz4-libs",
+    "version": "1.8.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "lz4-1.8.3-2.el8.src.rpm",
+    "size": 120991,
+    "license": "GPLv2+ and BSD",
+    "vendor": "CentOS",
+    "url": "https://lz4.github.io/lz4/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/79",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/79/4ce331f5669bfefbe162937eb8aa5ac512357f",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblz4.so.1",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblz4.so.1.8.3",
+        "mode": 33261,
+        "size": 119680,
+        "sha256": "7984bf41749dfa0db98cd986152d16fd4567d041965d9962f68a09d00a9682d1"
+      }
+    ]
+  }
+}

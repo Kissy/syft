@@ -1,0 +1,117 @@
+{
+  "name": "elfutils-libs",
+  "version": "0.180-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "elfutils_project",
+      "Product": "elfutils",
+      "Version": "0.180",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/elfutils-libs@0:0.180-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "elfutils-libs",
+    "version": "0.180",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "elfutils-0.180-1.el8.src.rpm",
+    "size": 717591,
+    "license": "GPLv2+ or LGPLv3+",
+    "vendor": "CentOS",
+    "url": "http://elfutils.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d3/0ff19e8b86d31d5c8d9e7b23d2c52f49f8555d",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f8/2d90366a27d79b5c10c79aeee251936060e3d3",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libasm-0.180.so",
+        "mode": 33261,
+        "size": 33480,
+        "sha256": "cf26aa238b1bf2e237b71322fd95561a29ca0233413eca73eb3a34c7eb76ff54"
+      },
+      {
+        "path": "/usr/lib64/libasm.so.1",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdw-0.180.so",
+        "mode": 33261,
+        "size": 658368,
+        "sha256": "c470162dfd437b2df7c39dc3c054a619ad0b22236d243cf8396943b73ab7b7e4"
+      },
+      {
+        "path": "/usr/lib64/libdw.so.1",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/elfutils-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/elfutils-libs/COPYING-GPLV2",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/elfutils-libs/COPYING-LGPLV3",
+        "mode": 33188,
+        "size": 7651,
+        "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+      }
+    ]
+  }
+}

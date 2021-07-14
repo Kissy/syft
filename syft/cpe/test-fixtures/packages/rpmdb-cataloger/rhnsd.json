@@ -1,0 +1,87 @@
+{
+  "name": "rhnsd",
+  "version": "5.0.13-10.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "redhat",
+      "Product": "rhnsd",
+      "Version": "5.0.13",
+      "Update": "10.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/rhnsd@0:5.0.13-10.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rhnsd",
+    "version": "5.0.13",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "10.0.1.el7",
+    "sourceRpm": "rhnsd-5.0.13-10.0.1.el7.src.rpm",
+    "size": 103988,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "https://github.com/spacewalkproject/spacewalk",
+    "files": [
+      {
+        "path": "/etc/rc.d/init.d/rhnsd",
+        "mode": 33261,
+        "size": 2437,
+        "sha256": "d41b6bd17941744687fc3773a11e0b1c44adbf2f176cd04d3ae20e75a0a6166b"
+      },
+      {
+        "path": "/etc/sysconfig/rhn",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rhn/rhnsd",
+        "mode": 33188,
+        "size": 13,
+        "sha256": "cc419bbddd8307039add2b31f1b855a96b429743da0d14ab4cebf33d665a8b6f"
+      },
+      {
+        "path": "/usr/sbin/rhnsd",
+        "mode": 33261,
+        "size": 19720,
+        "sha256": "5a01961a852512d5d5ccdf8a352875ac9027bb0f9dc8366d4785cec446d31632"
+      },
+      {
+        "path": "/usr/share/doc/rhnsd-5.0.13",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/rhnsd-5.0.13/LICENSE",
+        "mode": 33188,
+        "size": 17987,
+        "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/rhnsd.mo",
+        "mode": 33188,
+        "size": 485,
+        "sha256": "f14d463d872a518c0fbc50571594ea2379c3858f62d4d9e19d67e0e38c1f4e2d"
+      }
+    ]
+  }
+}

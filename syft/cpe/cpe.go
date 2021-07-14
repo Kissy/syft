@@ -42,6 +42,8 @@ func candidateTargetSoftwareAttrs(p pkg.Package) []string {
 		targetSw = append(targetSw, "ruby", "rails")
 	case pkg.Python:
 		targetSw = append(targetSw, "python")
+	default:
+		targetSw = append(targetSw, any)
 	}
 	return targetSw
 }

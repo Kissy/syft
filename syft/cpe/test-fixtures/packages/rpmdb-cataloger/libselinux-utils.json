@@ -1,0 +1,129 @@
+{
+  "name": "libselinux-utils",
+  "version": "2.5-15.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "selinuxproject",
+      "Product": "libselinux",
+      "Version": "2.5",
+      "Update": "15.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libselinux-utils@0:2.5-15.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libselinux-utils",
+    "version": "2.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "15.el7",
+    "sourceRpm": "libselinux-2.5-15.el7.src.rpm",
+    "size": 175701,
+    "license": "Public Domain",
+    "vendor": "Oracle America",
+    "url": "https://github.com/SELinuxProject/selinux/wiki",
+    "files": [
+      {
+        "path": "/usr/sbin/avcstat",
+        "mode": 33261,
+        "size": 11520,
+        "sha256": "d9a33cc041cd6ec0bd8da8222c52bfbad8a80c9023db80153ff607bf2239ffc5"
+      },
+      {
+        "path": "/usr/sbin/getenforce",
+        "mode": 33261,
+        "size": 7176,
+        "sha256": "ea69630a82b79501a64d60b1dd6544280dab32cc6d1f5df5c89a455d0e415309"
+      },
+      {
+        "path": "/usr/sbin/getsebool",
+        "mode": 33261,
+        "size": 11400,
+        "sha256": "d7abcae954c8d851e02f20598a867ca8af1a6a2e61e709c3517417d533b00edb"
+      },
+      {
+        "path": "/usr/sbin/matchpathcon",
+        "mode": 33261,
+        "size": 11456,
+        "sha256": "2c478646bdfa156b1c6057275447b0911443866d4335e2530adf867a5c6e12af"
+      },
+      {
+        "path": "/usr/sbin/selabel_digest",
+        "mode": 33261,
+        "size": 11440,
+        "sha256": "cd83386ea3665b1f635fb89985554eb0a4800ba09fe2b4534c9b8ff33dc37964"
+      },
+      {
+        "path": "/usr/sbin/selabel_lookup",
+        "mode": 33261,
+        "size": 11408,
+        "sha256": "a99eab48b6d86d0b530413f7fb8c410c59d8f2bc5b5a5737c776a48fa48c77f0"
+      },
+      {
+        "path": "/usr/sbin/selabel_lookup_best_match",
+        "mode": 33261,
+        "size": 11424,
+        "sha256": "a60a0e5e3b474711f865bb060f7bf0ade8c677dc5f1194cac8871315c25e9adb"
+      },
+      {
+        "path": "/usr/sbin/selabel_partial_match",
+        "mode": 33261,
+        "size": 11344,
+        "sha256": "a661876e43c2c79f8454020cb70b99f743cdb721425c4a4bf0df690d3574ddbc"
+      },
+      {
+        "path": "/usr/sbin/selinux_restorecon",
+        "mode": 33261,
+        "size": 15576,
+        "sha256": "8b42764ee587a9bfe606cdf3f5222ce6ff9845e44a44cf940801db573721ca3e"
+      },
+      {
+        "path": "/usr/sbin/selinuxconlist",
+        "mode": 33261,
+        "size": 11368,
+        "sha256": "dd4983ef4d9b713eac98fb00dc22d88e2c30e5f2560ff4212b1158da3d2d5af8"
+      },
+      {
+        "path": "/usr/sbin/selinuxdefcon",
+        "mode": 33261,
+        "size": 11384,
+        "sha256": "5d2a3d17a04da3b9a10609e5ddbce23032d6094f45edb6f43fa68b2b4e24bbff"
+      },
+      {
+        "path": "/usr/sbin/selinuxenabled",
+        "mode": 33261,
+        "size": 7152,
+        "sha256": "cf7a12433dfa1bb21b55aa32a014bdc5518591b47c33474e38701f368dade3f2"
+      },
+      {
+        "path": "/usr/sbin/selinuxexeccon",
+        "mode": 33261,
+        "size": 7256,
+        "sha256": "ed3e1c4bb2e773c196e115b23e8794efb446fa8b0f45d294132c337f2efc27d2"
+      },
+      {
+        "path": "/usr/sbin/setenforce",
+        "mode": 33261,
+        "size": 7216,
+        "sha256": "44235e9a16a8e7f358cc770ab30e6a56c32c659259ea8a26858ab505db119135"
+      }
+    ]
+  }
+}

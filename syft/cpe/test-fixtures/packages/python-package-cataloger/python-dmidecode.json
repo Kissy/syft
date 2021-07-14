@@ -1,0 +1,42 @@
+{
+  "name": "python-dmidecode",
+  "version": "3.10.13",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/python_dmidecode-3.10.13-py2.7.egg-info",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "GPL-2"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "3.10.13",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "python",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:pypi/python-dmidecode@3.10.13",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "python-dmidecode",
+    "version": "3.10.13",
+    "license": "GPL-2",
+    "author": "Nima Talebi & David Sommerseth",
+    "authorEmail": "nima@it.net.au, davids@redhat.com",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages"
+  }
+}

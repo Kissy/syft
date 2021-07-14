@@ -1,0 +1,61 @@
+{
+  "name": "snakeyaml",
+  "version": "1.26",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "snakeyaml_project",
+      "Product": "snakeyaml",
+      "Version": "1.26",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.yaml/snakeyaml@1.26",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/snakeyaml-1.26.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "org.yaml.snakeyaml",
+        "Bnd-LastModified": "1582880835589",
+        "Build-Jdk": "1.8.0_201",
+        "Built-By": "somov",
+        "Bundle-Description": "YAML 1.1 parser and emitter for Java",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "SnakeYAML",
+        "Bundle-SymbolicName": "org.yaml.snakeyaml",
+        "Bundle-Version": "1.26.0",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "org.yaml.snakeyaml;version=\"1.26\",org.yaml.snakeyaml.composer;version=\"1.26\",org.yaml.snakeyaml.constructor;version=\"1.26\",org.yaml.snakeyaml.emitter;version=\"1.26\",org.yaml.snakeyaml.env;version=\"1.26\",org.yaml.snakeyaml.error;version=\"1.26\",org.yaml.snakeyaml.events;version=\"1.26\",org.yaml.snakeyaml.extensions.compactnotation;version=\"1.26\",org.yaml.snakeyaml.introspector;version=\"1.26\",org.yaml.snakeyaml.nodes;version=\"1.26\",org.yaml.snakeyaml.parser;version=\"1.26\",org.yaml.snakeyaml.reader;version=\"1.26\",org.yaml.snakeyaml.representer;version=\"1.26\",org.yaml.snakeyaml.resolver;version=\"1.26\",org.yaml.snakeyaml.scanner;version=\"1.26\",org.yaml.snakeyaml.serializer;version=\"1.26\",org.yaml.snakeyaml.tokens;version=\"1.26\",org.yaml.snakeyaml.util;version=\"1.26\"",
+        "Import-Package": "org.yaml.snakeyaml;version=\"[1.26,2)\",org.yaml.snakeyaml.composer;version=\"[1.26,2)\",org.yaml.snakeyaml.emitter;version=\"[1.26,2)\",org.yaml.snakeyaml.error;version=\"[1.26,2)\",org.yaml.snakeyaml.events;version=\"[1.26,2)\",org.yaml.snakeyaml.introspector;version=\"[1.26,2)\",org.yaml.snakeyaml.nodes;version=\"[1.26,2)\",org.yaml.snakeyaml.parser;version=\"[1.26,2)\",org.yaml.snakeyaml.reader;version=\"[1.26,2)\",org.yaml.snakeyaml.resolver;version=\"[1.26,2)\",org.yaml.snakeyaml.scanner;version=\"[1.26,2)\",org.yaml.snakeyaml.serializer;version=\"[1.26,2)\",org.yaml.snakeyaml.tokens;version=\"[1.26,2)\"",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Tool": "Bnd-3.5.0.201709291849"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.yaml/snakeyaml/pom.properties",
+      "name": "",
+      "groupId": "org.yaml",
+      "artifactId": "snakeyaml",
+      "version": "1.26",
+      "extraFields": {}
+    }
+  }
+}

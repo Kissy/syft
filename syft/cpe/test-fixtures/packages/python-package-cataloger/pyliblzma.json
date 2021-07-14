@@ -1,0 +1,36 @@
+{
+  "name": "pyliblzma",
+  "version": "0.5.3",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info/PKG-INFO",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    },
+    {
+      "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info/top_level.txt",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "LGPL 3"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/pyliblzma@0.5.3",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "pyliblzma",
+    "version": "0.5.3",
+    "license": "LGPL 3",
+    "author": "Per Øyvind Karlsen",
+    "authorEmail": "peroyvind@mandriva.org",
+    "platform": "linux2",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages",
+    "topLevelPackages": [
+      "lzma",
+      "liblzma"
+    ]
+  }
+}

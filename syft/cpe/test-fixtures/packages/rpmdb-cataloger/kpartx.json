@@ -1,0 +1,37 @@
+{
+  "name": "kpartx",
+  "version": "0.4.9-134.0.1.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/kpartx@0:0.4.9-134.0.1.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "kpartx",
+    "version": "0.4.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "134.0.1.el7_9",
+    "sourceRpm": "device-mapper-multipath-0.4.9-134.0.1.el7_9.src.rpm",
+    "size": 41267,
+    "license": "GPL+",
+    "vendor": "Oracle America",
+    "url": "http://christophe.varoqui.free.fr/",
+    "files": [
+      {
+        "path": "/usr/sbin/kpartx",
+        "mode": 33261,
+        "size": 40416,
+        "sha256": "0bc8bba08497f215e6dca0721bd903db11897d71b64e1ca362f426e54575d327"
+      }
+    ]
+  }
+}

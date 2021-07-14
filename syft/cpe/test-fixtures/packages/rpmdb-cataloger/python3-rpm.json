@@ -1,0 +1,213 @@
+{
+  "name": "python3-rpm",
+  "version": "4.14.3-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "rpm",
+      "Version": "4.14.3",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/python3-rpm@0:4.14.3-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python3-rpm",
+    "version": "4.14.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "rpm-4.14.3-4.el8.src.rpm",
+    "size": 430929,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.rpm.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/32",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/32/f8c2eed2a54a9b9ddddbd76c38e224e60afb60",
+        "mode": 41471,
+        "size": 58,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/51",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/51/541380d80d7a1f455c8e31c173e53572a47e35",
+        "mode": 41471,
+        "size": 86,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/61",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/61/dc3871c464083ca63bdbb6742603ca2c442dd3",
+        "mode": 41471,
+        "size": 87,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c/c50634fd50e90203e09cbc9bef6f111b33edab",
+        "mode": 41471,
+        "size": 87,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b2/d6939b961bf6408457a3b25e796a85ee07cb3c",
+        "mode": 41471,
+        "size": 57,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ef",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ef/d11220261ae43c4f2ecc797fe1699b23b0a560",
+        "mode": 41471,
+        "size": 58,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm-4.14.3-py3.6.egg-info",
+        "mode": 33188,
+        "size": 222,
+        "sha256": "de0962719fe9684c938d371b6e8e93e5ad05c36c85405dd0dcca586d8d0ebfdf"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/__init__.py",
+        "mode": 33188,
+        "size": 3508,
+        "sha256": "25ea3697bcb624a4142f101cf88f37432b4f0e3bc8accb2e1e433e5ef0ad1c01"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 3619,
+        "sha256": "befcfdf28f5ba4b58c3004cb0a9406950b38de03bb0b4ed2ce38beed643a2802"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 3619,
+        "sha256": "befcfdf28f5ba4b58c3004cb0a9406950b38de03bb0b4ed2ce38beed643a2802"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/__pycache__/transaction.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 5616,
+        "sha256": "81817917f9a8bdfa7c3d0983d16dd2300542f280aacc8a49d51b6641f32a2955"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/__pycache__/transaction.cpython-36.pyc",
+        "mode": 33188,
+        "size": 5616,
+        "sha256": "81817917f9a8bdfa7c3d0983d16dd2300542f280aacc8a49d51b6641f32a2955"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/_rpm.cpython-36m-x86_64-linux-gnu.so",
+        "mode": 33261,
+        "size": 173800,
+        "sha256": "bcea10d16ad9c6914417905f75823899ec2a2c6304d6197ea2941b418d1dfad9"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/_rpm.so",
+        "mode": 33261,
+        "size": 173792,
+        "sha256": "fd0fccd57d96023320b01ef037abc492a52b96295c2f11dcf07581e92b37afce"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/_rpmb.cpython-36m-x86_64-linux-gnu.so",
+        "mode": 33261,
+        "size": 22328,
+        "sha256": "0bbb29489d12fc4c2bec2a004ff587fb23f5f2934b505cda14482e5538956d6c"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/_rpmb.so",
+        "mode": 33261,
+        "size": 22304,
+        "sha256": "ae0d4455e0c42c6d61dab7b3daf136d33823b41942a0c2f58c93d3baf2fd0edc"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/_rpms.cpython-36m-x86_64-linux-gnu.so",
+        "mode": 33261,
+        "size": 7888,
+        "sha256": "b220d5afbfb31ce6b17f572c2d830761925e6039a68e2598ba2452e212ebec5a"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/_rpms.so",
+        "mode": 33261,
+        "size": 11960,
+        "sha256": "ccf63b4b06d06613eb6d6fa465b90b32bce6ed7253389034405c6a31f1a311a3"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/rpm/transaction.py",
+        "mode": 33188,
+        "size": 5892,
+        "sha256": "c75eed6b47c141c7f5d25e73fbf2c9b15345234f3c346ffbd6c3ca2a490c1c82"
+      }
+    ]
+  }
+}

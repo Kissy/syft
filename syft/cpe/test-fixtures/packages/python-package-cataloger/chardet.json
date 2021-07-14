@@ -1,0 +1,35 @@
+{
+  "name": "chardet",
+  "version": "2.2.1",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib/python2.7/site-packages/chardet-2.2.1-py2.7.egg-info/PKG-INFO",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    },
+    {
+      "path": "/usr/lib/python2.7/site-packages/chardet-2.2.1-py2.7.egg-info/top_level.txt",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "LGPL"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/chardet@2.2.1",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "chardet",
+    "version": "2.2.1",
+    "license": "LGPL",
+    "author": "Ian Cordasco",
+    "authorEmail": "graffatcolmingov@gmail.com",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib/python2.7/site-packages",
+    "topLevelPackages": [
+      "chardet"
+    ]
+  }
+}

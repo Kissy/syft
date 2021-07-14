@@ -1,0 +1,541 @@
+{
+  "name": "gawk",
+  "version": "4.2.1-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/gawk@0:4.2.1-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "gawk",
+    "version": "4.2.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "gawk-4.2.1-1.el8.src.rpm",
+    "size": 2717614,
+    "license": "GPLv3+ and GPLv2+ and LGPLv2+ and BSD",
+    "vendor": "CentOS",
+    "url": "https://www.gnu.org/software/gawk/",
+    "files": [
+      {
+        "path": "/etc/profile.d/gawk.csh",
+        "mode": 33188,
+        "size": 1107,
+        "sha256": "9ba2af9853121df6dd5edff9254a2946e39eab8dc6513348fea28f739ee96648"
+      },
+      {
+        "path": "/etc/profile.d/gawk.sh",
+        "mode": 33188,
+        "size": 757,
+        "sha256": "70621a3b586d3d523b020e76977633b444a70013ba50e1ea901a3a07a676f15f"
+      },
+      {
+        "path": "/usr/bin/awk",
+        "mode": 41471,
+        "size": 4,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/gawk",
+        "mode": 33261,
+        "size": 698520,
+        "sha256": "183d91837e301bcf25334f2cf2391cd50f0e321292824e87629a0fa554c7993a"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0b/a0aadde8b03d936b13026fd0029e2fa466ba80",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1e/15252a044652c8305b77f690ab115e731c0ded",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2f/2340a2716026197ac9c9a6a6e0b3c74f34cbe0",
+        "mode": 41471,
+        "size": 34,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/47",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/47/fbaf9efbdba767db824eb231a2ac20e86a49c7",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/54",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/54/d69c320dd947da89103ba9111b791af9dc36b5",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/68",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/68/912c6fc6c41ec7ebbc7c992542c4667e3c32df",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c/5fcdecb7208a7a68ef8e02e3556fcc08e6343c",
+        "mode": 41471,
+        "size": 34,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6d/fbd280b53a39d5f82939218fd8a2b7db9960e1",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7b/e45ea783bf16162d246c27f23d8c0534963901",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/88",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/88/091476f27478e9069caf0fe1996c2c32dfa212",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a0/5b3881857608dd071939f2bc016fbd7e31911c",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/aa",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/aa/4be5f83c4742f365157065f4439dbbd9ec5763",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d6/2cb11d3f784ba870fa05b38011f9b965b92946",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e1/5863441619e5e347477679aa10352825b1d8e5",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/eb",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/eb/f71cd1e2aa8306fac4d0072943edbd3de8bf81",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/gawk",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/gawk/filefuncs.so",
+        "mode": 33261,
+        "size": 34632,
+        "sha256": "23777c04e5a16d5a23e8055a33cda76d71aa621a8540a65c68299450a31001ba"
+      },
+      {
+        "path": "/usr/lib64/gawk/fnmatch.so",
+        "mode": 33261,
+        "size": 12016,
+        "sha256": "01363bf7ec81b7a73f193425ef4ad4939f7e8d48725a6b2adfd6d0cc031464ea"
+      },
+      {
+        "path": "/usr/lib64/gawk/fork.so",
+        "mode": 33261,
+        "size": 12128,
+        "sha256": "17c6a86f775b64e143d4fff368dee1054bf5ff6272ae45292c2ac68fd2ac56ea"
+      },
+      {
+        "path": "/usr/lib64/gawk/inplace.so",
+        "mode": 33261,
+        "size": 16224,
+        "sha256": "b41b556f31587afe1e25ce480726ab1c8f251c579a6fd34866267e9f1230ffe0"
+      },
+      {
+        "path": "/usr/lib64/gawk/intdiv.so",
+        "mode": 33261,
+        "size": 12048,
+        "sha256": "8e414832facdb6fec68924957b52680bc52a6cb48c0c051686a22c0649c29d6c"
+      },
+      {
+        "path": "/usr/lib64/gawk/ordchr.so",
+        "mode": 33261,
+        "size": 12048,
+        "sha256": "432ae6cc0c6720485b046825cd2fcf3ce98f35f2a98dd67690fd48173ccb1658"
+      },
+      {
+        "path": "/usr/lib64/gawk/readdir.so",
+        "mode": 33261,
+        "size": 12032,
+        "sha256": "74bbcb55017f33564b393786d5ff76271e90594eed7f211a0fb5bc43cb71677d"
+      },
+      {
+        "path": "/usr/lib64/gawk/readfile.so",
+        "mode": 33261,
+        "size": 12128,
+        "sha256": "ee9b1761e4b544fd07ebe28c11a68aad63bcf0c8eb7f84902a03f3125331d19e"
+      },
+      {
+        "path": "/usr/lib64/gawk/revoutput.so",
+        "mode": 33261,
+        "size": 12032,
+        "sha256": "df3fd3ef680f398b64961b74832a05eca4c6dc7d5418630424046356daf14ae0"
+      },
+      {
+        "path": "/usr/lib64/gawk/revtwoway.so",
+        "mode": 33261,
+        "size": 12112,
+        "sha256": "a86260ac2d637ba7f43d63c4e2a9c715cd7ca5a5052e0ff9cffe53800c6bfc82"
+      },
+      {
+        "path": "/usr/lib64/gawk/rwarray.so",
+        "mode": 33261,
+        "size": 16168,
+        "sha256": "81be38b3ab864a3154ef572c7ef5fe222dfc81d5fbbf43b39369f6bc173e709e"
+      },
+      {
+        "path": "/usr/lib64/gawk/time.so",
+        "mode": 33261,
+        "size": 12056,
+        "sha256": "c0df353f79ed5b2281ee6c2dd75359101d57aeff890bf9b383e6057a8f1695e1"
+      },
+      {
+        "path": "/usr/libexec/awk",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/awk/grcat",
+        "mode": 33261,
+        "size": 9240,
+        "sha256": "5fe45c08c28eb8490067d039c2c1cb137b8666c2e559e27a3e6fbdd9fabf6b51"
+      },
+      {
+        "path": "/usr/libexec/awk/pwcat",
+        "mode": 33261,
+        "size": 9224,
+        "sha256": "a6568386a4a5d560995e22119b32542f07545ae8c76f69ab6b4f4e9665ada450"
+      },
+      {
+        "path": "/usr/libexec/gawk",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/awk",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/awk/assert.awk",
+        "mode": 33188,
+        "size": 383,
+        "sha256": "07f9e0362956d40ea6a92bedd4f292666185d038885387cb00adb5ade1582d93"
+      },
+      {
+        "path": "/usr/share/awk/bits2str.awk",
+        "mode": 33188,
+        "size": 334,
+        "sha256": "d7529387edb12e4054b384e96bc4911cb3b0e544602fb1e9de8a983f5fd46c5a"
+      },
+      {
+        "path": "/usr/share/awk/cliff_rand.awk",
+        "mode": 33188,
+        "size": 307,
+        "sha256": "41b20eba1d788cdc7d64c3860315b3bb8613f80b5f7d8f04774c31caef64dd42"
+      },
+      {
+        "path": "/usr/share/awk/ctime.awk",
+        "mode": 33188,
+        "size": 234,
+        "sha256": "cf1b816f600516ec0a4f84901e12c48f44c5309bd6bd7b32f9a17abd026f2b86"
+      },
+      {
+        "path": "/usr/share/awk/ftrans.awk",
+        "mode": 33188,
+        "size": 315,
+        "sha256": "9957afaddfec5f2c6bc4f9cb12c576e6c367c1b681a472e91ced9caff5292722"
+      },
+      {
+        "path": "/usr/share/awk/getopt.awk",
+        "mode": 33188,
+        "size": 2202,
+        "sha256": "990d764228a3ae5f919dd0e585661fd14bf217617e7fcf33e4c40124d6969287"
+      },
+      {
+        "path": "/usr/share/awk/gettime.awk",
+        "mode": 33188,
+        "size": 2491,
+        "sha256": "7baacb670919547d1fc2ec186d6ad937c6f7cc2d03e0b2e8f6802742dc7c6023"
+      },
+      {
+        "path": "/usr/share/awk/group.awk",
+        "mode": 33188,
+        "size": 1765,
+        "sha256": "dcabe4d2e2f93972471e7eade26a7779e0c160c23570d3b32509433756083073"
+      },
+      {
+        "path": "/usr/share/awk/have_mpfr.awk",
+        "mode": 33188,
+        "size": 221,
+        "sha256": "40d45f7e243e4f7faa1335852c5839fa80c60d70eccd94918cee7edbc58fd9a4"
+      },
+      {
+        "path": "/usr/share/awk/inplace.awk",
+        "mode": 33188,
+        "size": 1996,
+        "sha256": "05bbddbdd78282e495d971a9473b761875f8b11f07963312bb515e0121d7f5e3"
+      },
+      {
+        "path": "/usr/share/awk/intdiv0.awk",
+        "mode": 33188,
+        "size": 462,
+        "sha256": "c184f8a175c7226e9c567a8bb91e5e67ed8e239769012ad16f93c48f8e328bfd"
+      },
+      {
+        "path": "/usr/share/awk/join.awk",
+        "mode": 33188,
+        "size": 378,
+        "sha256": "9af26157a40c1e1c09dfa73152e07cbff4c4f4b31b7bf8132572270da6dfc052"
+      },
+      {
+        "path": "/usr/share/awk/libintl.awk",
+        "mode": 33188,
+        "size": 238,
+        "sha256": "2b3a65b9053d2f4f08733870ef2cf1b5ee8aeba74dc6b9b1d1610fc0d9ac0eee"
+      },
+      {
+        "path": "/usr/share/awk/noassign.awk",
+        "mode": 33188,
+        "size": 422,
+        "sha256": "7ffc84e6d111aaf56cb0d3756bbcbd73e2510069ee6fc05bc1ea0e412884663e"
+      },
+      {
+        "path": "/usr/share/awk/ord.awk",
+        "mode": 33188,
+        "size": 937,
+        "sha256": "e7d37acc67a101dd2e23c19ed3f9dfd5d01ea93af63b2ebc8679976e1ef051ce"
+      },
+      {
+        "path": "/usr/share/awk/passwd.awk",
+        "mode": 33188,
+        "size": 1199,
+        "sha256": "bdaf71595b473e0cfffaa426f451e1cbeae6d8a9047c5e78cf254b33586ac5eb"
+      },
+      {
+        "path": "/usr/share/awk/processarray.awk",
+        "mode": 33188,
+        "size": 355,
+        "sha256": "ac1e8e8dee8105c5c1ab2a1b87fcb668885473b7e90b7b0c137275742c704166"
+      },
+      {
+        "path": "/usr/share/awk/quicksort.awk",
+        "mode": 33188,
+        "size": 1031,
+        "sha256": "b769b7a892acedcdb98d18c3cf05544d4d85488a0378aaacba0c6e2ddb71bf35"
+      },
+      {
+        "path": "/usr/share/awk/readable.awk",
+        "mode": 33188,
+        "size": 489,
+        "sha256": "06e27abeb78eff929cb1f44256f195fe2d86ebb62814f731f420df286c8f1094"
+      },
+      {
+        "path": "/usr/share/awk/readfile.awk",
+        "mode": 33188,
+        "size": 267,
+        "sha256": "751d619465eb57c9d6314eb2a97e783ff84ff108cd1c4efeff8f62400dd77609"
+      },
+      {
+        "path": "/usr/share/awk/rewind.awk",
+        "mode": 33188,
+        "size": 404,
+        "sha256": "878279434b70956b26eca128a0939c1a14da97b1626fe402eb76d44485fbc268"
+      },
+      {
+        "path": "/usr/share/awk/round.awk",
+        "mode": 33188,
+        "size": 661,
+        "sha256": "28b705d2e2b01cc3ed450cc42e2ff99b058b55ef5a49cbc483aded7bdfa58aff"
+      },
+      {
+        "path": "/usr/share/awk/shellquote.awk",
+        "mode": 33188,
+        "size": 472,
+        "sha256": "78e7df6e31f55536a4c3853f6d54644877aa892ed7fc6e1d4dc9080284d78565"
+      },
+      {
+        "path": "/usr/share/awk/strtonum.awk",
+        "mode": 33188,
+        "size": 1454,
+        "sha256": "abd27d285278e83655617efbd8e09b5f5271dd6ede37847b0ebd6632be2dde74"
+      },
+      {
+        "path": "/usr/share/awk/walkarray.awk",
+        "mode": 33188,
+        "size": 214,
+        "sha256": "3a7f02f135e91bbf1c1cd498ea0e1489802d58c83bb4d112c0a407593db31dd8"
+      },
+      {
+        "path": "/usr/share/awk/zerofile.awk",
+        "mode": 33188,
+        "size": 424,
+        "sha256": "c20a5e00b43fbfb9ea420da93f64422ce13d4aebb3b725e2ac3ba0102f169bee"
+      },
+      {
+        "path": "/usr/share/gawk",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/gawk",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/gawk/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/licenses/gawk/LICENSE.BSD",
+        "mode": 33188,
+        "size": 1508,
+        "sha256": "fea62a56afb45d77d33fd57599d5936d01bdda60d738e869df795a7392b1b320"
+      },
+      {
+        "path": "/usr/share/licenses/gawk/LICENSE.GPLv2",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/gawk/LICENSE.LGPLv2",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

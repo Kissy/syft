@@ -1,0 +1,65 @@
+{
+  "name": "swagger-core",
+  "version": "2.1.4",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "api-platform",
+      "Product": "core",
+      "Version": "2.1.4",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/io.swagger.core.v3/swagger-core@2.1.4",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/swagger-core-2.1.4.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "io.swagger.v3.core",
+        "Bnd-LastModified": "1595657155809",
+        "Build-Jdk": "1.8.0_262",
+        "Built-By": "runner",
+        "Bundle-Description": "swagger-core",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "swagger-core",
+        "Bundle-SymbolicName": "io.swagger.core.v3.swagger-core",
+        "Bundle-Version": "2.1.4",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "io.swagger.v3.core.jackson;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.module,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.util,io.swagger.v3.core.converter,io.swagger.v3.oas.annotations,io.swagger.v3.oas.annotations.media,io.swagger.v3.oas.models,io.swagger.v3.oas.models.callbacks,io.swagger.v3.oas.models.media,io.swagger.v3.oas.models.responses,javax.xml.bind.annotation\";version=\"2.1.4\",io.swagger.v3.core.jackson.mixin;uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.annotation,io.swagger.v3.core.jackson,io.swagger.v3.oas.models,io.swagger.v3.oas.models.callbacks,io.swagger.v3.oas.models.responses\";version=\"2.1.4\",io.swagger.v3.core.converter;uses:=\"com.fasterxml.jackson.annotation,io.swagger.v3.oas.models.media\";version=\"2.1.4\",io.swagger.v3.core.model;version=\"2.1.4\",io.swagger.v3.core.util;uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.module,io.swagger.v3.core.converter,io.swagger.v3.oas.annotations,io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.headers,io.swagger.v3.oas.annotations.info,io.swagger.v3.oas.annotations.links,io.swagger.v3.oas.annotations.media,io.swagger.v3.oas.annotations.servers,io.swagger.v3.oas.annotations.tags,io.swagger.v3.oas.models,io.swagger.v3.oas.models.callbacks,io.swagger.v3.oas.models.examples,io.swagger.v3.oas.models.headers,io.swagger.v3.oas.models.info,io.swagger.v3.oas.models.links,io.swagger.v3.oas.models.media,io.swagger.v3.oas.models.parameters,io.swagger.v3.oas.models.responses,io.swagger.v3.oas.models.security,io.swagger.v3.oas.models.servers,io.swagger.v3.oas.models.tags,org.apache.commons.lang3.tuple\";version=\"2.1.4\",io.swagger.v3.core.filter;uses:=\"io.swagger.v3.core.model,io.swagger.v3.oas.models,io.swagger.v3.oas.models.media,io.swagger.v3.oas.models.parameters,io.swagger.v3.oas.models.responses\";version=\"2.1.4\"",
+        "Import-Package": "javax.validation.constraints;version=\"[1.1,3)\",com.fasterxml.jackson.annotation;version=\"[2.11,3)\",com.fasterxml.jackson.core;version=\"[2.11,3)\",com.fasterxml.jackson.core.type;version=\"[2.11,3)\",com.fasterxml.jackson.core.util;version=\"[2.11,3)\",com.fasterxml.jackson.databind;version=\"[2.11,3)\",com.fasterxml.jackson.databind.annotation;version=\"[2.11,3)\",com.fasterxml.jackson.databind.introspect;version=\"[2.11,3)\",com.fasterxml.jackson.databind.jsontype;version=\"[2.11,3)\",com.fasterxml.jackson.databind.module;version=\"[2.11,3)\",com.fasterxml.jackson.databind.node;version=\"[2.11,3)\",com.fasterxml.jackson.databind.ser;version=\"[2.11,3)\",com.fasterxml.jackson.databind.type;version=\"[2.11,3)\",com.fasterxml.jackson.databind.util;version=\"[2.11,3)\",com.fasterxml.jackson.dataformat.yaml;version=\"[2.11,3)\",com.fasterxml.jackson.datatype.jsr310;version=\"[2.11,3)\",io.swagger.v3.core.converter,io.swagger.v3.core.jackson,io.swagger.v3.core.jackson.mixin,io.swagger.v3.core.model,io.swagger.v3.core.util,io.swagger.v3.oas.annotations;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.enums;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.extensions;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.headers;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.info;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.links;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.media;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.servers;version=\"[2.1,3)\",io.swagger.v3.oas.annotations.tags;version=\"[2.1,3)\",io.swagger.v3.oas.models;version=\"[2.1,3)\",io.swagger.v3.oas.models.callbacks;version=\"[2.1,3)\",io.swagger.v3.oas.models.examples;version=\"[2.1,3)\",io.swagger.v3.oas.models.headers;version=\"[2.1,3)\",io.swagger.v3.oas.models.info;version=\"[2.1,3)\",io.swagger.v3.oas.models.links;version=\"[2.1,3)\",io.swagger.v3.oas.models.media;version=\"[2.1,3)\",io.swagger.v3.oas.models.parameters;version=\"[2.1,3)\",io.swagger.v3.oas.models.responses;version=\"[2.1,3)\",io.swagger.v3.oas.models.security;version=\"[2.1,3)\",io.swagger.v3.oas.models.servers;version=\"[2.1,3)\",io.swagger.v3.oas.models.tags;version=\"[2.1,3)\",javax.xml.bind.annotation;version=\"[2.3,3)\",org.apache.commons.lang3;version=\"[3.7,4)\",org.apache.commons.lang3.math;version=\"[3.7,4)\",org.apache.commons.lang3.text;version=\"[3.7,4)\",org.apache.commons.lang3.tuple;version=\"[3.7,4)\",org.slf4j;version=\"[1.7,2)\"",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-4.2.0.201903051501",
+        "implementation-version": "2.1.4",
+        "mode": "development",
+        "package": "io.swagger",
+        "url": "https://github.com/swagger-api/swagger-core/modules/swagger-core"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/io.swagger.core.v3/swagger-core/pom.properties",
+      "name": "",
+      "groupId": "io.swagger.core.v3",
+      "artifactId": "swagger-core",
+      "version": "2.1.4",
+      "extraFields": {}
+    }
+  }
+}

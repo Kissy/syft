@@ -1,0 +1,41 @@
+{
+  "name": "flyway-core",
+  "version": "5.1.4",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "api-platform",
+      "Product": "core",
+      "Version": "5.1.4",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.flywaydb/flyway-core@5.1.4",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/flyway-migrate-spring-boot-2020.12.jar:flyway-core",
+    "pomProperties": {
+      "path": "META-INF/maven/org.flywaydb/flyway-core/pom.properties",
+      "name": "",
+      "groupId": "org.flywaydb",
+      "artifactId": "flyway-core",
+      "version": "5.1.4",
+      "extraFields": {}
+    }
+  }
+}

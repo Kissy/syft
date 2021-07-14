@@ -244,7 +244,7 @@ func setNonCliDefaultValues(v *viper.Viper) {
 	v.SetDefault("cpe-dictionary.update-url", internal.CPEDictionaryUpdateURL)
 	v.SetDefault("cpe-dictionary.auto-update", true)
 	v.SetDefault("cpe-dictionary.validate-by-hash-on-start", false)
-	v.SetDefault("cpe-dictionary.minimum-score", 4)
+	v.SetDefault("cpe-dictionary.minimum-score", 0)
 	v.SetDefault("cpe-dictionary.specific-vendors", specificVendorsDefaultValues())
 	v.SetDefault("cpe-dictionary.specific-products", specificProductsDefaultValues())
 	v.SetDefault("dev.profile-cpu", false)
@@ -263,5 +263,6 @@ func specificProductsDefaultValues() []SpecificMatch {
 		{"^spring-boot.*$", "boot", 4},
 		{"^spring-.*$", "framework", 4},
 		{"^bcprov-.*$", "legion-of-the-bouncy-castle", 4},
+		{"^mpfr$", "gnu", 4},
 	}
 }

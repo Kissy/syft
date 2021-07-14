@@ -1,0 +1,139 @@
+{
+  "name": "libpwquality",
+  "version": "1.4.0-9.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libpwquality@0:1.4.0-9.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libpwquality",
+    "version": "1.4.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.el8",
+    "sourceRpm": "libpwquality-1.4.0-9.el8.src.rpm",
+    "size": 384791,
+    "license": "BSD or GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/libpwquality/libpwquality/",
+    "files": [
+      {
+        "path": "/etc/security/pwquality.conf",
+        "mode": 33188,
+        "size": 2151,
+        "sha256": "77976ab8c2b73c5951600cb43526076c28a650677988df1c9a8e981ea9d65c9f"
+      },
+      {
+        "path": "/etc/security/pwquality.conf.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/pwmake",
+        "mode": 33261,
+        "size": 13360,
+        "sha256": "c621cff46db52738a61af46cf12ccc503573417e8b99869f890bb70d75fd8087"
+      },
+      {
+        "path": "/usr/bin/pwscore",
+        "mode": 33261,
+        "size": 13368,
+        "sha256": "facc9b2befd0a41f7dd39877334e021545b3316970cf22373ee326470be65a24"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2e/3e19c2522d09d77928b110730996df9d4c1860",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5e/951b94daa8a1f9473fd97068fe5c544fcb28ae",
+        "mode": 41471,
+        "size": 47,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/73",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/73/a538ca2adb7862597777fb8e88102ab4e195ab",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/79",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/79/8f0b3114f6c1a476869de90b9a445764322605",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpwquality.so.1",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpwquality.so.1.0.2",
+        "mode": 33261,
+        "size": 25728,
+        "sha256": "959c4dcc3f02dd5a6626690f588b407f8adb715a6bd492336bea475cb3a22b8d"
+      },
+      {
+        "path": "/usr/lib64/security/pam_pwquality.so",
+        "mode": 33261,
+        "size": 11896,
+        "sha256": "6b1846d9b7b079cb1ef23b4f2369ec2ecfe1191135c51a6ea1e8499632e8201e"
+      },
+      {
+        "path": "/usr/share/licenses/libpwquality",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libpwquality/COPYING",
+        "mode": 33188,
+        "size": 20019,
+        "sha256": "aa44d09f651bf99b56253187c7778a240740c767d28453ab7fdc9804c842baee"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "elfutils-default-yama-scope",
+  "version": "0.180-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "elfutils_project",
+      "Product": "elfutils",
+      "Version": "0.180",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/elfutils-default-yama-scope@0:0.180-1.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "elfutils-default-yama-scope",
+    "version": "0.180",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "1.el8",
+    "sourceRpm": "elfutils-0.180-1.el8.src.rpm",
+    "size": 1810,
+    "license": "GPLv2+ or LGPLv3+",
+    "vendor": "CentOS",
+    "url": "http://elfutils.org/",
+    "files": [
+      {
+        "path": "/usr/lib/sysctl.d/10-default-yama-scope.conf",
+        "mode": 33188,
+        "size": 1810,
+        "sha256": "5d1322bb224f78beb5c06089a52ff53c9e5c77c6039d60f978429071bdba9870"
+      }
+    ]
+  }
+}

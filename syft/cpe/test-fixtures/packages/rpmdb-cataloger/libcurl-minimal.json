@@ -1,0 +1,87 @@
+{
+  "name": "libcurl-minimal",
+  "version": "7.61.1-14.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "haxx",
+      "Product": "libcurl",
+      "Version": "7.61.1",
+      "Update": "14.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libcurl-minimal@0:7.61.1-14.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libcurl-minimal",
+    "version": "7.61.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.el8",
+    "sourceRpm": "curl-7.61.1-14.el8.src.rpm",
+    "size": 551960,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "https://curl.haxx.se/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80/e72d0711746864c48ddf1436920cdb27fd6c13",
+        "mode": 41471,
+        "size": 46,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcurl.so.4",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcurl.so.4.5.0",
+        "mode": 33261,
+        "size": 550872,
+        "sha256": "3b22aa2cee7d6047c1dc4840b1f22146e942cd703a646520b97a3b504f8c9fa0"
+      },
+      {
+        "path": "/usr/share/licenses/libcurl-minimal",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libcurl-minimal/COPYING",
+        "mode": 33188,
+        "size": 1088,
+        "sha256": "5f3849ec38ddb927e79f514bf948890c41b8d1407286a49609b8fb1585931095"
+      }
+    ]
+  }
+}

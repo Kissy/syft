@@ -1,0 +1,97 @@
+{
+  "name": "libxcrypt",
+  "version": "4.1.1-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libxcrypt@0:4.1.1-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libxcrypt",
+    "version": "4.1.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libxcrypt-4.1.1-4.el8.src.rpm",
+    "size": 194420,
+    "license": "LGPLv2+ and BSD and Public Domain",
+    "vendor": "CentOS",
+    "url": "https://github.com/besser82/libxcrypt",
+    "files": [
+      {
+        "path": "/lib64/.libcrypt.so.1.1.0.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "e388d64e27924babe21f733aa5e0260482a5719be97bd3e4ee38f415400d4e40"
+      },
+      {
+        "path": "/lib64/.libcrypt.so.1.hmac",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libcrypt.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libcrypt.so.1.1.0",
+        "mode": 33261,
+        "size": 144568,
+        "sha256": "8c47384e854eb39cbd935f76b0c449184726b7309088c2ca47a7916a244b1850"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a3/baf007ac157d196f2d24cd74f2a0d83456a34d",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libxcrypt",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libxcrypt/AUTHORS",
+        "mode": 33188,
+        "size": 1682,
+        "sha256": "46cfa431806b5fce8e9ea2736b1f4bbaa2a5f2048f18a3515a9e1f3925a83a2d"
+      },
+      {
+        "path": "/usr/share/licenses/libxcrypt/COPYING.LIB",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      },
+      {
+        "path": "/usr/share/licenses/libxcrypt/LICENSING",
+        "mode": 33188,
+        "size": 3015,
+        "sha256": "eaa47c6ebef90e3180e24f1a2c4086a925bdea8159f97998a9ad7c8f6d336d98"
+      }
+    ]
+  }
+}

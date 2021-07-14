@@ -1,0 +1,105 @@
+{
+  "name": "libgcrypt",
+  "version": "1.8.5-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnupg",
+      "Product": "libgcrypt",
+      "Version": "1.8.5",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libgcrypt@0:1.8.5-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libgcrypt",
+    "version": "1.8.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libgcrypt-1.8.5-4.el8.src.rpm",
+    "size": 1270454,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.gnupg.org/",
+    "files": [
+      {
+        "path": "/etc/gcrypt",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/gcrypt/random.conf",
+        "mode": 33188,
+        "size": 157,
+        "sha256": "639bd7d4df19f8e810433e7158f2e2c0b8d8034b9276562f255dd13b108403e5"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9c/5d1f810236e2eda9e6448534db1e08a8e69292",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/.libgcrypt.so.20.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "812237ddfebdfc017d9dbd2c667106e29b3b8a24815ecc364c9431cb13dd87d5"
+      },
+      {
+        "path": "/usr/lib64/libgcrypt.so.20",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgcrypt.so.20.2.5",
+        "mode": 33261,
+        "size": 1188080,
+        "sha256": "3d411c1e2be7ce12584be3827de62e988607bb469c8bbce9fd9113cba6dd5cc9"
+      },
+      {
+        "path": "/usr/share/licenses/libgcrypt",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libgcrypt/COPYING.LIB",
+        "mode": 33188,
+        "size": 26536,
+        "sha256": "ca0061fc1381a3ab242310e4b3f56389f28e3d460eb2fd822ed7a21c6f030532"
+      }
+    ]
+  }
+}

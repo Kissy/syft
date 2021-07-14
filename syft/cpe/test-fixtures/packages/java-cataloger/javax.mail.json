@@ -1,0 +1,74 @@
+{
+  "name": "javax.mail",
+  "version": "1.6.1",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mail_project",
+      "Product": "mail",
+      "Version": "1.6.1",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/com.sun.mail/javax.mail@1.6.1",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/javax.mail-1.6.1.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Automatic-Module-Name": "java.mail",
+        "Bnd-LastModified": "1518220249374",
+        "Build-Jdk": "1.8.0_152",
+        "Built-By": "shannon",
+        "Bundle-Description": "JavaMail API",
+        "Bundle-DocURL": "http://www.oracle.com",
+        "Bundle-License": "https://javaee.github.io/javamail/LICENSE",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "JavaMail API",
+        "Bundle-SymbolicName": "com.sun.mail.javax.mail",
+        "Bundle-Vendor": "Oracle",
+        "Bundle-Version": "1.6.1",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "DynamicImport-Package": "*",
+        "Export-Package": "javax.mail;version=\"1.6\";uses:=\"javax.activation,javax.mail.event,javax.mail.search\",javax.mail.event;version=\"1.6\";uses:=\"javax.mail\",javax.mail.internet;version=\"1.6\";uses:=\"javax.activation,javax.mail\",javax.mail.search;version=\"1.6\";uses:=\"javax.mail\",javax.mail.util;version=\"1.6\";uses:=\"javax.activation,javax.mail.internet\",com.sun.mail.imap;version=\"1.6.1\";uses:=\"com.sun.mail.iap,com.sun.mail.imap.protocol,com.sun.mail.util,javax.activation,javax.mail,javax.mail.event,javax.mail.internet,javax.mail.search\",com.sun.mail.imap.protocol;version=\"1.6.1\";uses:=\"com.sun.mail.iap,com.sun.mail.imap,com.sun.mail.util,javax.mail,javax.mail.internet,javax.mail.search\",com.sun.mail.iap;version=\"1.6.1\";uses:=\"com.sun.mail.util\",com.sun.mail.pop3;version=\"1.6.1\";uses:=\"com.sun.mail.util,javax.mail,javax.mail.internet\",com.sun.mail.smtp;version=\"1.6.1\";uses:=\"com.sun.mail.util,javax.mail,javax.mail.internet\",com.sun.mail.util;version=\"1.6.1\";uses:=\"javax.mail,javax.mail.internet,javax.net.ssl\",com.sun.mail.util.logging;version=\"1.6.1\";uses:=\"javax.mail\",com.sun.mail.handlers;version=\"1.6.1\";uses:=\"javax.activation\"",
+        "Extension-Name": "javax.mail",
+        "Implementation-Title": "javax.mail",
+        "Implementation-Vendor": "Oracle",
+        "Implementation-Vendor-Id": "com.sun",
+        "Implementation-Version": "1.6.1",
+        "Import-Package": "javax.security.sasl;resolution:=optional,com.sun.mail.iap;version=\"[1.6,2)\",com.sun.mail.imap;version=\"[1.6,2)\",com.sun.mail.util;version=\"[1.6,2)\",javax.activation,javax.crypto,javax.crypto.spec,javax.mail;version=\"[1.6,2)\",javax.mail.event;version=\"[1.6,2)\",javax.mail.internet;version=\"[1.6,2)\",javax.mail.search;version=\"[1.6,2)\",javax.mail.util;version=\"[1.6,2)\",javax.net,javax.net.ssl,javax.security.auth.callback,javax.security.auth.x500,javax.xml.transform,javax.xml.transform.stream,sun.security.util;resolution:=optional",
+        "Manifest-Version": "1.0",
+        "Probe-Provider-XML-File-Names": "META-INF/gfprobe-provider.xml",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Specification-Title": "JavaMail(TM) API Design Specification",
+        "Specification-Vendor": "Oracle",
+        "Specification-Version": "1.6",
+        "Tool": "Bnd-3.5.0.201709291849"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.sun.mail/javax.mail/pom.properties",
+      "name": "",
+      "groupId": "com.sun.mail",
+      "artifactId": "javax.mail",
+      "version": "1.6.1",
+      "extraFields": {}
+    }
+  }
+}

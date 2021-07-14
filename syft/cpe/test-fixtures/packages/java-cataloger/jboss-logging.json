@@ -1,0 +1,80 @@
+{
+  "name": "jboss-logging",
+  "version": "3.3.2.Final",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "jboss",
+      "Product": "jboss",
+      "Version": "3.3.2",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.3.2.Final",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jboss-logging-3.3.2.Final.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Automatic-Module-Name": "org.jboss.logging",
+        "Bnd-LastModified": "1518643408971",
+        "Build-Jdk": "1.6.0_45",
+        "Build-Timestamp": "Wed, 14 Feb 2018 13:23:27 -0800",
+        "Built-By": "jperkins",
+        "Bundle-Description": "The JBoss Logging Framework",
+        "Bundle-DocURL": "http://www.jboss.org",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "JBoss Logging 3",
+        "Bundle-SymbolicName": "org.jboss.logging.jboss-logging",
+        "Bundle-Vendor": "JBoss by Red Hat",
+        "Bundle-Version": "3.3.2.Final",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "org.jboss.logging;uses:=\"org.jboss.logmanager,org.apache.logging.log4j.message,org.apache.logging.log4j,org.apache.logging.log4j.spi,org.apache.log4j,org.slf4j.spi,org.slf4j\";version=\"3.3.2.Final\"",
+        "Implementation-Title": "JBoss Logging 3",
+        "Implementation-URL": "http://www.jboss.org",
+        "Implementation-Vendor": "JBoss by Red Hat",
+        "Implementation-Vendor-Id": "org.jboss.logging",
+        "Implementation-Version": "3.3.2.Final",
+        "Import-Package": "org.apache.log4j;resolution:=optional,org.apache.log4j.config;resolution:=optional,org.apache.logging.log4j;resolution:=optional;version=\"[2.0,3)\",org.apache.logging.log4j.message;resolution:=optional;version=\"[2.0,3)\",org.apache.logging.log4j.spi;resolution:=optional;version=\"[2.0,3)\",org.jboss.logmanager;resolution:=optional;version=\"[1.5,2)\",org.slf4j;resolution:=optional;version=\"[1.7,2)\",org.slf4j.spi;resolution:=optional;version=\"[1.7,2)\"",
+        "Java-Vendor": "Sun Microsystems Inc.",
+        "Java-Version": "1.6.0_45",
+        "Manifest-Version": "1.0",
+        "Os-Arch": "amd64",
+        "Os-Name": "Linux",
+        "Os-Version": "4.14.18-300.fc27.x86_64",
+        "Scm-Connection": "scm:git:git://github.com/jboss-logging/jboss-logging.git",
+        "Scm-Revision": "526f45a6eff90ed3db7c0a0092f2c9cc987cb7cc",
+        "Scm-Url": "https://github.com/jboss-logging/jboss-logging",
+        "Specification-Title": "JBoss Logging 3",
+        "Specification-Vendor": "JBoss by Red Hat",
+        "Specification-Version": "3.3.2.Final",
+        "Tool": "Bnd-1.50.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.jboss.logging/jboss-logging/pom.properties",
+      "name": "",
+      "groupId": "org.jboss.logging",
+      "artifactId": "jboss-logging",
+      "version": "3.3.2.Final",
+      "extraFields": {}
+    }
+  }
+}

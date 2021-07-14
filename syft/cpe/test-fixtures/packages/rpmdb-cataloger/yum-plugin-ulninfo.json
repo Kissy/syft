@@ -1,0 +1,63 @@
+{
+  "name": "yum-plugin-ulninfo",
+  "version": "0.2-13.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "baseurl",
+      "Product": "yum",
+      "Version": "0.2",
+      "Update": "13.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/yum-plugin-ulninfo@0:0.2-13.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "yum-plugin-ulninfo",
+    "version": "0.2",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "13.el7",
+    "sourceRpm": "yum-plugin-ulninfo-0.2-13.el7.src.rpm",
+    "size": 22608,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "",
+    "files": [
+      {
+        "path": "/etc/yum/pluginconf.d/ulninfo.conf",
+        "mode": 33188,
+        "size": 163,
+        "sha256": "db1e5dc2516e6b0fa24ae07224acbdaba1b6cd183d9d0ae2b9658b46d7001a0c"
+      },
+      {
+        "path": "/usr/share/yum-plugins/COPYRIGHT",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/yum-plugins/ulninfo.py",
+        "mode": 33188,
+        "size": 4353,
+        "sha256": "1b232132edffd8d373659a77de6dc51f04f2bffba5a09199b3cf2500ab01f59f"
+      }
+    ]
+  }
+}

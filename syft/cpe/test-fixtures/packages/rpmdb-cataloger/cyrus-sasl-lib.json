@@ -1,0 +1,195 @@
+{
+  "name": "cyrus-sasl-lib",
+  "version": "2.1.27-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "cyrusimap",
+      "Product": "cyrus-sasl",
+      "Version": "2.1.27",
+      "Update": "5.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/cyrus-sasl-lib@0:2.1.27-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "cyrus-sasl-lib",
+    "version": "2.1.27",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "cyrus-sasl-2.1.27-5.el8.src.rpm",
+    "size": 726018,
+    "license": "BSD with advertising",
+    "vendor": "CentOS",
+    "url": "https://www.cyrusimap.org/sasl/",
+    "files": [
+      {
+        "path": "/etc/sasl2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/36",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/36/41311fc00952d57e3af5a9e056ee2afbb40482",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/48",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/48/da5f9ff09370a9e54e23edbfd50bf10ccfde66",
+        "mode": 41471,
+        "size": 46,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b/29ce9e15399e0f9a03e08417cec0ea3d6c5d70",
+        "mode": 41471,
+        "size": 49,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7c/4f6b96a5b219cf55d95a221f9ceea1f0ddac78",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ff",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ff/c26e3cc98402a7cbff43f5d9bb131e0b96c555",
+        "mode": 41471,
+        "size": 32,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsasl2.so.3",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsasl2.so.3.0.0",
+        "mode": 33261,
+        "size": 125328,
+        "sha256": "cf154f26e53ba9ea8af90f4efcb4bdf3c95ddc4003cf72a7c4b7bb26aad4588b"
+      },
+      {
+        "path": "/usr/lib64/sasl2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/sasl2/libanonymous.so",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/sasl2/libanonymous.so.3",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/sasl2/libanonymous.so.3.0.0",
+        "mode": 33261,
+        "size": 20808,
+        "sha256": "ce2ce1b5be365670444adeb4e91f5423c4507d43336bde1afe4ad1df00a0a6e7"
+      },
+      {
+        "path": "/usr/lib64/sasl2/libsasldb.so",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/sasl2/libsasldb.so.3",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/sasl2/libsasldb.so.3.0.0",
+        "mode": 33261,
+        "size": 28952,
+        "sha256": "6a871ce28402780c93dac2bf4cfd5bcedc9682118c8f60d71bb3295d48ddfd93"
+      },
+      {
+        "path": "/usr/sbin/sasldblistusers2",
+        "mode": 33261,
+        "size": 21304,
+        "sha256": "c3dc9c2eaa9bb442b373d5526f6bdadce2e82ab7ce1fbaf6d3f7132ab46b8425"
+      },
+      {
+        "path": "/usr/sbin/saslpasswd2",
+        "mode": 33261,
+        "size": 16984,
+        "sha256": "c3c0cea1d333d5a5c844ac05c41e12bb5aac54c23779acf21ba38ab56ba04d2c"
+      },
+      {
+        "path": "/usr/share/licenses/cyrus-sasl-lib",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/cyrus-sasl-lib/COPYING",
+        "mode": 33188,
+        "size": 1861,
+        "sha256": "9d6e5d1632140a6c135b251260953650d17d87cd1124f87aaf72192aa4580d4b"
+      }
+    ]
+  }
+}

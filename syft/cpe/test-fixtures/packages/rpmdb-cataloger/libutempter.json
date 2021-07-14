@@ -1,0 +1,91 @@
+{
+  "name": "libutempter",
+  "version": "1.1.6-14.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libutempter@0:1.1.6-14.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libutempter",
+    "version": "1.1.6",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.el8",
+    "sourceRpm": "libutempter-1.1.6-14.el8.src.rpm",
+    "size": 52637,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "ftp://ftp.altlinux.org/pub/people/ldv/utempter",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/26",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/26/9d01d036b36ab49aa23450dba3d5ea44967026",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/26/d2f5195167325934805bf52d8f702412239100",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libutempter.so.0",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libutempter.so.1.1.6",
+        "mode": 33261,
+        "size": 12120,
+        "sha256": "88f4e7a82a5e9db831cc7a988f29c74a03136493c5ccdcfdbd43576b0742f7ec"
+      },
+      {
+        "path": "/usr/libexec/utempter",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/utempter/utempter",
+        "mode": 34249,
+        "size": 13344,
+        "sha256": "71b75ae9c4973e96840956e8decf8e138afaa101ce73690cac317a942837a139"
+      },
+      {
+        "path": "/usr/share/licenses/libutempter",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libutempter/COPYING",
+        "mode": 33188,
+        "size": 26527,
+        "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+      }
+    ]
+  }
+}

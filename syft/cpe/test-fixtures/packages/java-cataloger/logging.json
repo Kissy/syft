@@ -1,0 +1,35 @@
+{
+  "name": "logging",
+  "version": "2020.6",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/com.traveldoo.generic/logging@2020.6",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/logging-2020.6.jar",
+    "manifest": {
+      "main": {
+        "Build-Jdk": "11.0.8",
+        "Built-By": "jenkins",
+        "Created-By": "Apache Maven 3.5.2",
+        "Manifest-Version": "1.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.traveldoo.generic/logging/pom.properties",
+      "name": "",
+      "groupId": "com.traveldoo.generic",
+      "artifactId": "logging",
+      "version": "2020.6",
+      "extraFields": {}
+    }
+  }
+}

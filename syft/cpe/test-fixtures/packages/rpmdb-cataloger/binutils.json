@@ -1,0 +1,435 @@
+{
+  "name": "binutils",
+  "version": "2.30-79.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "binutils",
+      "Version": "2.30",
+      "Update": "79.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/binutils@0:2.30-79.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "binutils",
+    "version": "2.30",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "79.el8",
+    "sourceRpm": "binutils-2.30-79.el8.src.rpm",
+    "size": 24865370,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "https://sourceware.org/binutils",
+    "files": [
+      {
+        "path": "/usr/bin/addr2line",
+        "mode": 33261,
+        "size": 34232,
+        "sha256": "0c84c0e65396421a19aad72a64a657a2428f34b93910271cd7ab87b8d3ae78f3"
+      },
+      {
+        "path": "/usr/bin/ar",
+        "mode": 33261,
+        "size": 63552,
+        "sha256": "837545b23c39839082f713fd08bce8cf89ce970357f5b3d8d5057aaafdefd75e"
+      },
+      {
+        "path": "/usr/bin/as",
+        "mode": 33261,
+        "size": 944512,
+        "sha256": "dab20dfa147410d4b99f477e0894beb18a5d6cc68271229cd3dc97346f6a6134"
+      },
+      {
+        "path": "/usr/bin/c++filt",
+        "mode": 33261,
+        "size": 29728,
+        "sha256": "69b5adac424b487d3179639aef75f05872f6856cd1db186ad1f09b77be01d452"
+      },
+      {
+        "path": "/usr/bin/dwp",
+        "mode": 33261,
+        "size": 2271400,
+        "sha256": "a07d315956b25f350b38aaf041e9e5f3f8e3130d94ea616b472f4607b72d6f45"
+      },
+      {
+        "path": "/usr/bin/elfedit",
+        "mode": 33261,
+        "size": 34248,
+        "sha256": "d24ff12c4a5a839f04010f11a960315b80f975c127cae51abdf4ef8585d284d1"
+      },
+      {
+        "path": "/usr/bin/gprof",
+        "mode": 33261,
+        "size": 105992,
+        "sha256": "06ee1d48f66c202a4815b42514cd459a8d52654404de2a3693d2e17ee2d20697"
+      },
+      {
+        "path": "/usr/bin/ld",
+        "mode": 33261,
+        "size": 2505600,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/ld.bfd",
+        "mode": 33261,
+        "size": 1789336,
+        "sha256": "84b30c8117c5ed0c80b01a970f53fdfbacf61ca609a1e0f3e101152da7d7ee28"
+      },
+      {
+        "path": "/usr/bin/ld.gold",
+        "mode": 33261,
+        "size": 2505600,
+        "sha256": "99cba6aad85f82ba5cd50de01eff5c6b38e2db6b4b678dbcd56f39623c948cc4"
+      },
+      {
+        "path": "/usr/bin/nm",
+        "mode": 33261,
+        "size": 47504,
+        "sha256": "f59aef2dea530a9696eadfbc22d4e4a93c20a03a4ed6615519dfe248992bf48f"
+      },
+      {
+        "path": "/usr/bin/objcopy",
+        "mode": 33261,
+        "size": 246024,
+        "sha256": "4f04f2f44ad5bbd2076edf4e7015353059936095f7482a282c66294cd292228b"
+      },
+      {
+        "path": "/usr/bin/objdump",
+        "mode": 33261,
+        "size": 425760,
+        "sha256": "71a57afe5f7f7dfc489428bdde5fa73d684895f1a851c907f4bed93bae1db0fa"
+      },
+      {
+        "path": "/usr/bin/ranlib",
+        "mode": 33261,
+        "size": 63600,
+        "sha256": "2dd708b6d9f4cc72c6f0a4ad8a91f61e5085be9f9afb8e74a9e92d9beb68a156"
+      },
+      {
+        "path": "/usr/bin/readelf",
+        "mode": 33261,
+        "size": 639664,
+        "sha256": "33fbfb1e525dab17ccd82dc899812e822f4e02e473d95e872a2047228199ac4f"
+      },
+      {
+        "path": "/usr/bin/size",
+        "mode": 33261,
+        "size": 34184,
+        "sha256": "913c62c34c0d95a4ca6a924b857c8fa5772c8f66a37be362aafb747fac5c7901"
+      },
+      {
+        "path": "/usr/bin/strings",
+        "mode": 33261,
+        "size": 34256,
+        "sha256": "4724630591256fa7a2303523a3a4cffbdedb90cc2968ac86b3d7ac59f013392d"
+      },
+      {
+        "path": "/usr/bin/strip",
+        "mode": 33261,
+        "size": 246016,
+        "sha256": "dbb078fd4bda12fba5936f1151dbe474f478e9d4898fbe9348deeba82cd92fe6"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0d/617fdee51c50ced140c4bc9fe16238bf50908b",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14/13603fb5dbb6b020f447572ef22a97144f2c29",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/22",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/22/c36eecd15395980e70fbf3082334df69d61624",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/31",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/31/4e58c3a67533645ba74f408ba64c5b4e2c3bb2",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/45",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/45/944a39d760847c0436c0aad3b43f93f7e48171",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6f/1de5226486de0e88f32ce596d6fb27a70c5f08",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7a/37650670ba48e7b7992d3b9642f35bcb086d22",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/99",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/99/27ebcc50ead7d85c6f84a3f9dae0170719c5aa",
+        "mode": 41471,
+        "size": 47,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a9",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a9/b1bd844caf77a123f4a4687c7691ed6a1ff7dc",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b1/d3240c0f3020ab083c4543bfc703c607696829",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b3/fc1c1cefd0207cdace1e07dc4b7fb21a65e7c8",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ba",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ba/4c750966804bf847a3ca0e04328b279c24d890",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bd/e6fd489c034e6f9effed0a0ddf33ced927b1b3",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cd/85eafe612a58d08a2691e3d7e34634ea69c01f",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d4",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d4/777992d3fa190ce794b81b45f3f0e55f49c308",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d5/b21224f87f2e537d352d0853accddc0d3daf41",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d5/b21224f87f2e537d352d0853accddc0d3daf41.1",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d7",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d7/92987f2a997b5f693d2e22a0f51e7420f19018",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e2/a93748b9e2c867cfcd29e9a454d008bff5dbe4",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fc",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fc/7d382132889a539aac9cd499f1a2b56855bd95",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libbfd-2.30-79.el8.so",
+        "mode": 33261,
+        "size": 1474592,
+        "sha256": "21b25ab450b4329a8c1158aa4dda46d6317e5939ea3d6ce1e4cbde42031e8206"
+      },
+      {
+        "path": "/usr/lib64/libopcodes-2.30-79.el8.so",
+        "mode": 33261,
+        "size": 1741080,
+        "sha256": "a7f8bd9bdef427a6ed128c326d0a8be489374560b901e87ffd0c87351bede10f"
+      },
+      {
+        "path": "/usr/share/licenses/binutils",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/binutils/COPYING",
+        "mode": 33188,
+        "size": 18002,
+        "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+      },
+      {
+        "path": "/usr/share/licenses/binutils/COPYING.LIB",
+        "mode": 33188,
+        "size": 25291,
+        "sha256": "56bdea73b6145ef6ac5259b3da390b981d840c24cb03b8e1cbc678de7ecfa18d"
+      },
+      {
+        "path": "/usr/share/licenses/binutils/COPYING3",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/licenses/binutils/COPYING3.LIB",
+        "mode": 33188,
+        "size": 7639,
+        "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+      }
+    ]
+  }
+}

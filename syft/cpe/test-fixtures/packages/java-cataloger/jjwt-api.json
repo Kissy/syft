@@ -1,0 +1,70 @@
+{
+  "name": "jjwt-api",
+  "version": "0.11.2",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "karotz",
+      "Product": "api",
+      "Version": "0.11.2",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/io.jsonwebtoken/jjwt-api@0.11.2",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jjwt-api-0.11.2.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1591905050825",
+        "Build-Jdk": "1.7.0_80",
+        "Built-By": "lhazlewood",
+        "Bundle-Description": "JSON Web Token support for the JVM and Android",
+        "Bundle-DocURL": "https://github.com/jwtk/jjwt",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "JJWT :: API",
+        "Bundle-SymbolicName": "io.jsonwebtoken.jjwt-api",
+        "Bundle-Vendor": "jsonwebtoken.io",
+        "Bundle-Version": "0.11.2",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "io.jsonwebtoken;uses:=\"io.jsonwebtoken.io,io.jsonwebtoken.security\";version=\"0.11.2\",io.jsonwebtoken.security;uses:=\"io.jsonwebtoken,javax.crypto\";version=\"0.11.2\",io.jsonwebtoken.io;uses:=\"io.jsonwebtoken\";version=\"0.11.2\",io.jsonwebtoken.lang;version=\"0.11.2\"",
+        "Implementation-Title": "JJWT :: API",
+        "Implementation-URL": "https://github.com/jwtk/jjwt/jjwt-api",
+        "Implementation-Vendor": "jsonwebtoken.io",
+        "Implementation-Vendor-Id": "io.jsonwebtoken",
+        "Implementation-Version": "0.11.2",
+        "Import-Package": "io.jsonwebtoken,io.jsonwebtoken.io,io.jsonwebtoken.lang,io.jsonwebtoken.security,javax.crypto,javax.crypto.spec",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Specification-Title": "JJWT :: API",
+        "Specification-Vendor": "jsonwebtoken.io",
+        "Specification-Version": "0.11.2",
+        "Tool": "Bnd-3.3.0.201609221906"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/io.jsonwebtoken/jjwt-api/pom.properties",
+      "name": "",
+      "groupId": "io.jsonwebtoken",
+      "artifactId": "jjwt-api",
+      "version": "0.11.2",
+      "extraFields": {}
+    }
+  }
+}

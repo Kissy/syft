@@ -1,0 +1,345 @@
+{
+  "name": "rsyslog",
+  "version": "8.24.0-57.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rsyslog",
+      "Product": "rsyslog",
+      "Version": "8.24.0",
+      "Update": "57.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/rsyslog@0:8.24.0-57.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rsyslog",
+    "version": "8.24.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "57.el7_9",
+    "sourceRpm": "rsyslog-8.24.0-57.el7_9.src.rpm",
+    "size": 2007004,
+    "license": "(GPLv3+ and ASL 2.0)",
+    "vendor": "Oracle America",
+    "url": "http://www.rsyslog.com/",
+    "files": [
+      {
+        "path": "/etc/logrotate.d/syslog",
+        "mode": 33188,
+        "size": 224,
+        "sha256": "6830823a94d71a0e118f579e6fe7e7691a1703eca32c4d09ca9f651b74858660"
+      },
+      {
+        "path": "/etc/pki/rsyslog",
+        "mode": 16832,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rsyslog.conf",
+        "mode": 33188,
+        "size": 3232,
+        "sha256": "452bf7d5aca09e7a24c303c5b33f8402c2c76893ed1f1bbbb9314f399f71c2bd"
+      },
+      {
+        "path": "/etc/rsyslog.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rsyslog",
+        "mode": 33188,
+        "size": 196,
+        "sha256": "2a8f12865b8084756d8fc3bb49fd6f9217e79e92c68e5195f1d7ed5db2bc6097"
+      },
+      {
+        "path": "/usr/bin/rsyslog-recover-qi.pl",
+        "mode": 33261,
+        "size": 6098,
+        "sha256": "b7095ba86ec9e4fec660d85e12179c71ac2bbf5d8e45953fbfb02dd1234d2bee"
+      },
+      {
+        "path": "/usr/lib/systemd/system/rsyslog.service",
+        "mode": 33188,
+        "size": 465,
+        "sha256": "d59584d719581e3dd98aaefb86a1826bf147e8ca4227fb2a76b6e50ebe1c79a8"
+      },
+      {
+        "path": "/usr/lib64/rsyslog",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imdiag.so",
+        "mode": 33261,
+        "size": 20944,
+        "sha256": "cdc85b482ca61533c5178bda542d87b5c4c9b3991f753c7d967d58a527d91ad6"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imfile.so",
+        "mode": 33261,
+        "size": 50256,
+        "sha256": "87a0efa0ce78435d8c3db1c702798dd9e1abf88b44b9573a1a9ee4a3625e3e8f"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imjournal.so",
+        "mode": 33261,
+        "size": 25024,
+        "sha256": "8b6a679b9ac2d7695e4133b65c056a7d3d1862185498baca940491426d8697f6"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imklog.so",
+        "mode": 33261,
+        "size": 20704,
+        "sha256": "b5e30164b072385d2396eddd6502800b1d291dcd0b8ff58e26841b98119c44db"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/immark.so",
+        "mode": 33261,
+        "size": 11912,
+        "sha256": "36024cba730e59ff89bdc3be6f64037c0ed95ad6bd09d1a07ba41800de687f80"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/impstats.so",
+        "mode": 33261,
+        "size": 20672,
+        "sha256": "b624152d37bb958790ee808c1cfbef773201d485eecfc2acf5ce1c5912471bf7"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imptcp.so",
+        "mode": 33261,
+        "size": 41904,
+        "sha256": "2a9ea372a3f25de3c57b1a7c841027d5051e2a2f70f44b4c4673cd30cae434ab"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imtcp.so",
+        "mode": 33261,
+        "size": 21192,
+        "sha256": "2bf761a342956fe15753eec4ea53ebdb2ff76ea8ce47074f9ce835a913415587"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imudp.so",
+        "mode": 33261,
+        "size": 29384,
+        "sha256": "a8be05f10414762d5dfaf9a0da74989d21461ff9281fb3c7b557f754a8265368"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/imuxsock.so",
+        "mode": 33261,
+        "size": 38048,
+        "sha256": "68b0765926b071d6c2e33b3ce0497e5444830a462706ffa78fad4e7f9484b5e6"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmnet.so",
+        "mode": 33261,
+        "size": 24432,
+        "sha256": "00310c5c57648a56ceb870acd1f0c120506b5c8fb3da45447048a8a05c4dfe24"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmnetstrms.so",
+        "mode": 33261,
+        "size": 22072,
+        "sha256": "93c1e1c2ac11489db349ffa625916b0c811887c7b0197b21fb0871e730fbec02"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmnsd_ptcp.so",
+        "mode": 33261,
+        "size": 26184,
+        "sha256": "6ac8d19f5393444d361aa596f79099e1c68031373ae7a8105a95f78d13441453"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmregexp.so",
+        "mode": 33261,
+        "size": 7088,
+        "sha256": "ac8f39503937068bcd0e5514b44d5b2b3dd14596e30bcacb9b45b4980b9a96df"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmstrmsrv.so",
+        "mode": 33261,
+        "size": 22424,
+        "sha256": "57e772b9796b7dc3cd3af6060a4f319c0f0ee6ae131c82c3cb4257a19b54aaea"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmtcpclt.so",
+        "mode": 33261,
+        "size": 11336,
+        "sha256": "f39ac0e121a9f3ab01919435988476c8ba1e30fed9bd6657df5760ac72470fcc"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmtcpsrv.so",
+        "mode": 33261,
+        "size": 35352,
+        "sha256": "165dc7521384162c47fb61b48706523b2cc997df8d51d7c063a45044ab8a6625"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/lmzlibw.so",
+        "mode": 33261,
+        "size": 11224,
+        "sha256": "1ba17a88d10fdd59ae5825c4c422ad6a35f3f2edb4838568f346ecdbb3db4377"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/mmanon.so",
+        "mode": 33261,
+        "size": 15584,
+        "sha256": "c78a12a8d7d19dc2989c3e6322cd84b8be280340f6de57e68d7a79f438a054fc"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/mmcount.so",
+        "mode": 33261,
+        "size": 15616,
+        "sha256": "c157288b7da081e661b2dd8b3ebae872376f3b718049ac5c57f5c4872dcf68a4"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/mmexternal.so",
+        "mode": 33261,
+        "size": 19696,
+        "sha256": "a6650d0be9c104cbd17012d8c071b477d6b8a2fd524622d0d3321a2a9c320027"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/mmutf8fix.so",
+        "mode": 33261,
+        "size": 11472,
+        "sha256": "70739229cc34ede44893dfe75b38e4f7f371aff24834103ee31c01643e7d2953"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/omjournal.so",
+        "mode": 33261,
+        "size": 15536,
+        "sha256": "d44c46cd203c49ae7df44ceee8b6e2b67ae3978fdefff3e14b400f9032c6005a"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/ommail.so",
+        "mode": 33261,
+        "size": 20464,
+        "sha256": "b1388b499da96c90b6c8540401eb189e626f0315b914f31f65b98b480c1d63cf"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/omprog.so",
+        "mode": 33261,
+        "size": 23928,
+        "sha256": "078fbe4f4eed28ee986113616d15eb29476f1adcdefaab26b2ba5c195be868fc"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/omruleset.so",
+        "mode": 33261,
+        "size": 11512,
+        "sha256": "91fefd8ae89515a25ef090fb6d27989d28da96c06215c6088ff6d6eb224a17e6"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/omstdout.so",
+        "mode": 33261,
+        "size": 11328,
+        "sha256": "e150a2e9c75b685342f6217dc01af6f6772dbd46a21bb45314776be156934fa3"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/omtesting.so",
+        "mode": 33261,
+        "size": 15424,
+        "sha256": "7487db2277e223a4013d2980d22fc53102a7f0fd3583c746f2bbdfb8a8fd6f09"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/omuxsock.so",
+        "mode": 33261,
+        "size": 16120,
+        "sha256": "ec71c2c96739fd67cb7c2367c69cb6c1c6d1f600b8f9fa9b41b002c56c8a7ae8"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/pmaixforwardedfrom.so",
+        "mode": 33261,
+        "size": 11992,
+        "sha256": "5232fda73950c66f79d254ae95b29811d3d4b92f09fcec852e258b29718b4636"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/pmcisconames.so",
+        "mode": 33261,
+        "size": 11992,
+        "sha256": "5d8e7e0f3f94053faf2f49d2f7f883272d2780b1efe0137dd74029c7060f381d"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/pmlastmsg.so",
+        "mode": 33261,
+        "size": 11992,
+        "sha256": "87130a5fb0b3ccfa4dc50075f71d60e14250da241982ff8b24a3a06900c713e0"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/pmrfc3164sd.so",
+        "mode": 33261,
+        "size": 12000,
+        "sha256": "3ec76a8052a1fe2a40f13b41c5cf2b6bc2b0fdf128f16ca28a86321a525028f2"
+      },
+      {
+        "path": "/usr/lib64/rsyslog/pmsnare.so",
+        "mode": 33261,
+        "size": 11992,
+        "sha256": "b5ec68ab3b10ae12a940df6a84085604f70cf63f53960116f17802039efa627d"
+      },
+      {
+        "path": "/usr/sbin/rsyslogd",
+        "mode": 33261,
+        "size": 663992,
+        "sha256": "086d43ad666424ad5f06f5c14f81dd04938dfe4f5cdb9ad224c5ea4a0ec07c61"
+      },
+      {
+        "path": "/usr/share/doc/rsyslog-8.24.0",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/rsyslog-8.24.0/AUTHORS",
+        "mode": 33188,
+        "size": 501,
+        "sha256": "d45496d13321e42631a84025f0b3b6951bd91d917b60d35e6765a3d4950c1d35"
+      },
+      {
+        "path": "/usr/share/doc/rsyslog-8.24.0/COPYING",
+        "mode": 33188,
+        "size": 35146,
+        "sha256": "054b3a047d9232376a46b87356b19b0c0c2924cb5e6911ab96a01fc4b515f083"
+      },
+      {
+        "path": "/usr/share/doc/rsyslog-8.24.0/COPYING.ASL20",
+        "mode": 33188,
+        "size": 9137,
+        "sha256": "8743ad560dea1229d4f46cd603e10874db41a27f3c74f64e958ef123f3943fab"
+      },
+      {
+        "path": "/usr/share/doc/rsyslog-8.24.0/COPYING.LESSER",
+        "mode": 33188,
+        "size": 7639,
+        "sha256": "4038442ca5bde8ffd243cfc235cb4455e7d618d47558ea3d8284733f71d904ed"
+      },
+      {
+        "path": "/usr/share/doc/rsyslog-8.24.0/ChangeLog",
+        "mode": 33188,
+        "size": 588023,
+        "sha256": "dbf1236ffd23812f7d04769273634cac8e9eff36d28f983b6428af76f641d7b5"
+      },
+      {
+        "path": "/var/lib/rsyslog",
+        "mode": 16832,
+        "size": 6,
+        "sha256": ""
+      }
+    ]
+  }
+}

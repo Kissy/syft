@@ -1,0 +1,165 @@
+{
+  "name": "cracklib",
+  "version": "2.9.6-15.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "cracklib_project",
+      "Product": "cracklib",
+      "Version": "2.9.6",
+      "Update": "15.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/cracklib@0:2.9.6-15.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "cracklib",
+    "version": "2.9.6",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "15.el8",
+    "sourceRpm": "cracklib-2.9.6-15.el8.src.rpm",
+    "size": 239047,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://sourceforge.net/projects/cracklib/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2a/b3ca352642eddf459647af45d10196b68e803e",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2c/f06ecb760830a44054a2dae5e46d37c0096bdc",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/45",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/45/eadd32bae2bb25d417c9c1c246cf6fba760ba6",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/61",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/61/d2f881301c3bb88a1baa2a50115429de33b825",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcrack.so.2",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcrack.so.2.9.0",
+        "mode": 33261,
+        "size": 46232,
+        "sha256": "0130a8325893b5b540902e881bc13f223ed41c87d77453ae7dec5dfb61462a4d"
+      },
+      {
+        "path": "/usr/sbin/cracklib-check",
+        "mode": 33261,
+        "size": 13360,
+        "sha256": "59fdd9ba1b742a1344634248065b0cddddd6ce94e0705675eed56f1bb599e3d3"
+      },
+      {
+        "path": "/usr/sbin/cracklib-format",
+        "mode": 33261,
+        "size": 251,
+        "sha256": "fa9c53f74aa35d417a2520f2545addcd5fc0f6b59324e51834740b39f13c1aaf"
+      },
+      {
+        "path": "/usr/sbin/cracklib-packer",
+        "mode": 33261,
+        "size": 13368,
+        "sha256": "b158f64c08ad5d3251f09b1886deb80bf3f41bf800771b01cf0b17c4eb69a836"
+      },
+      {
+        "path": "/usr/sbin/cracklib-unpacker",
+        "mode": 33261,
+        "size": 9248,
+        "sha256": "b246dd1e219141f712daa68dfde2c31080709e3e0ddc8dc5ae830306fe49051a"
+      },
+      {
+        "path": "/usr/sbin/create-cracklib-dict",
+        "mode": 33261,
+        "size": 990,
+        "sha256": "7f0691c00d8cea3ac2f69c7a5e7b2f97eaddab2d792ef4e969f6bab544314dcc"
+      },
+      {
+        "path": "/usr/share/cracklib",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/cracklib/cracklib.magic",
+        "mode": 33188,
+        "size": 360,
+        "sha256": "ce9de85e27f60a8905bcdfd3554df17ec49c9cd2d23342c6f45af9fb0e266965"
+      },
+      {
+        "path": "/usr/share/licenses/cracklib",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/cracklib/COPYING.LIB",
+        "mode": 33188,
+        "size": 26542,
+        "sha256": "f18a0811fa0e220ccbc42f661545e77f0388631e209585ed582a1c693029c6aa"
+      }
+    ]
+  }
+}

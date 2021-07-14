@@ -1,0 +1,123 @@
+{
+  "name": "info",
+  "version": "6.5-6.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "texinfo",
+      "Version": "6.5",
+      "Update": "6.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/info@0:6.5-6.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "info",
+    "version": "6.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el8",
+    "sourceRpm": "texinfo-6.5-6.el8.src.rpm",
+    "size": 386513,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/texinfo/",
+    "files": [
+      {
+        "path": "/sbin/install-info",
+        "mode": 33261,
+        "size": 51504,
+        "sha256": "8943072c4ba30db753d3d5fd9c5755cd4ff4eafbdc8160086fc4950e99468ecd"
+      },
+      {
+        "path": "/usr/bin/info",
+        "mode": 33261,
+        "size": 255920,
+        "sha256": "107314e28551bd60df3f7e5c44f71bdb2c15503a6123c7ee6e61aca1922a6ec0"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4a/3b988936c3bcd9d20936e314d479123b3e7c1f",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90/e70b4e00d05b911fe4d53fcb63b7325e5ab342",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/macros.d/macros.info",
+        "mode": 33188,
+        "size": 390,
+        "sha256": "7e1a04691c1409a0ab699a2362eeb2dc1124570dbb65453acd8c30a3bcf06be8"
+      },
+      {
+        "path": "/usr/sbin/fix-info-dir",
+        "mode": 33261,
+        "size": 7976,
+        "sha256": "db24f2f10b71b03f498f7da204d26b2695abdfa275142ed3fe6ad6c96c1a2c80"
+      },
+      {
+        "path": "/usr/share/info/dir",
+        "mode": 33188,
+        "size": 1426,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/info/dir.old",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/info",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/info/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "libkcapi",
+  "version": "1.2.0-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libkcapi@0:1.2.0-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libkcapi",
+    "version": "1.2.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "libkcapi-1.2.0-2.el8.src.rpm",
+    "size": 80563,
+    "license": "BSD or GPLv2",
+    "vendor": "CentOS",
+    "url": "http://www.chronox.de/libkcapi.html",
+    "files": [
+      {
+        "path": "/lib64/fipscheck/libkcapi.so.1.2.0.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "4b7c969a68d72605cdc1e7aefac3e05105f201e5e5a6bdb31ef0b87f570bcc2c"
+      },
+      {
+        "path": "/lib64/fipscheck/libkcapi.so.1.hmac",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libkcapi.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libkcapi.so.1.2.0",
+        "mode": 33261,
+        "size": 50184,
+        "sha256": "ceb87f8a415b63cfe1c52110d18ee48502a253184ef25a7a39910e70ea0e9a0f"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/73",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/73/9255e1500c34d8c983568bd19286b70f8c17b6",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/sysctl.d/50-libkcapi-optmem_max.conf",
+        "mode": 33188,
+        "size": 246,
+        "sha256": "d129f7e21b6757b66b715e585d8000d319f47ffa3aac1e1fca97702544ba996c"
+      },
+      {
+        "path": "/usr/share/licenses/libkcapi",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libkcapi/COPYING",
+        "mode": 33188,
+        "size": 1781,
+        "sha256": "7f5cf82902cb2236d0108c52ef387021213a1cb60c9c656e131d9ebe147c8fdc"
+      },
+      {
+        "path": "/usr/share/licenses/libkcapi/COPYING.bsd",
+        "mode": 33188,
+        "size": 1382,
+        "sha256": "13aa749a5b0a454917a944ed8fffc530b784f5ead522b1aacaf4ec8aa55a6239"
+      },
+      {
+        "path": "/usr/share/licenses/libkcapi/COPYING.gplv2",
+        "mode": 33188,
+        "size": 18011,
+        "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+      }
+    ]
+  }
+}

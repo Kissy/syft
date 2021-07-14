@@ -1,0 +1,81 @@
+{
+  "name": "python-ethtool",
+  "version": "0.8-8.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "0.8",
+      "Update": "8.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-ethtool@0:0.8-8.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-ethtool",
+    "version": "0.8",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "8.el7",
+    "sourceRpm": "python-ethtool-0.8-8.el7.src.rpm",
+    "size": 76263,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "https://github.com/fedora-python/python-ethtool",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/ethtool-0.8-py2.7.egg-info",
+        "mode": 33188,
+        "size": 307,
+        "sha256": "9644a95c3c44c8cd1ad5f15fb9ff6b70245534ce96224b4754813585a2543c24"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/ethtool.so",
+        "mode": 33261,
+        "size": 43928,
+        "sha256": "468623a7f6ea5597363e58244f1e482eda612771879a7c8369eed0633f4030f9"
+      },
+      {
+        "path": "/usr/sbin/pethtool",
+        "mode": 33261,
+        "size": 9156,
+        "sha256": "9c78e7863c5450667b964db85d2793e78975eae030d3e4ccd3cf13f791e7ee4d"
+      },
+      {
+        "path": "/usr/sbin/pifconfig",
+        "mode": 33261,
+        "size": 3100,
+        "sha256": "8500c338029770b5c99b1908b8e0fa895fed82eed558a1d60fd309f3fd5a42e2"
+      },
+      {
+        "path": "/usr/share/doc/python-ethtool-0.8",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-ethtool-0.8/COPYING",
+        "mode": 33188,
+        "size": 17982,
+        "sha256": "91df39d1816bfb17a4dda2d3d2c83b1f6f2d38d53e53e41e8f97ad5ac46a0cad"
+      }
+    ]
+  }
+}

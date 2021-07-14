@@ -1,0 +1,79 @@
+{
+  "name": "passwd",
+  "version": "0.79-6.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/passwd@0:0.79-6.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "passwd",
+    "version": "0.79",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el7",
+    "sourceRpm": "passwd-0.79-6.el7.src.rpm",
+    "size": 430226,
+    "license": "BSD or GPL+",
+    "vendor": "Oracle America",
+    "url": "https://pagure.io/passwd",
+    "files": [
+      {
+        "path": "/etc/pam.d/passwd",
+        "mode": 33188,
+        "size": 188,
+        "sha256": "01bb518a9bb8579e144f38bdbba48caf955c3671cc395fcd1a246da4515387f8"
+      },
+      {
+        "path": "/usr/bin/passwd",
+        "mode": 35309,
+        "size": 27856,
+        "sha256": "59e107c419b4feb9dc7835f356353b4bdd1878175f54b11b180ed1dd4b10ccfa"
+      },
+      {
+        "path": "/usr/share/doc/passwd-0.79",
+        "mode": 16877,
+        "size": 65,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/passwd-0.79/AUTHORS",
+        "mode": 33188,
+        "size": 156,
+        "sha256": "01c48f0224f200637aedfa2776f0c61f946abb36b48f3e845c3dec74b0233fdd"
+      },
+      {
+        "path": "/usr/share/doc/passwd-0.79/COPYING",
+        "mode": 33188,
+        "size": 19950,
+        "sha256": "fce6516f72666a829cd190b2b90d337504aa034633a99bc18be41a7b27f29d1f"
+      },
+      {
+        "path": "/usr/share/doc/passwd-0.79/ChangeLog",
+        "mode": 33188,
+        "size": 4858,
+        "sha256": "2362255b800d6fd48cbdcee3d4705e9ac1338083ce635626a051ba1b2f76b7d5"
+      },
+      {
+        "path": "/usr/share/doc/passwd-0.79/NEWS",
+        "mode": 33188,
+        "size": 361,
+        "sha256": "8d557cc82235a58bbc7b719572a0e3e0d3c9135700d734d3fa41a5f27d08f079"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/passwd.mo",
+        "mode": 33188,
+        "size": 5129,
+        "sha256": "ad32f8769a4f6ebd934e7a1a335aca87b9b11ae2ec67f6f95cad18459d4d2b11"
+      }
+    ]
+  }
+}

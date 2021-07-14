@@ -1,0 +1,73 @@
+{
+  "name": "libsigsegv",
+  "version": "2.11-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libsigsegv@0:2.11-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libsigsegv",
+    "version": "2.11",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libsigsegv-2.11-5.el8.src.rpm",
+    "size": 47034,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://www.gnu.org/software/libsigsegv/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/42",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/42/ae5a2692c9ba4b432587f875f59dc9acb5f590",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsigsegv.so.2",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsigsegv.so.2.0.4",
+        "mode": 33261,
+        "size": 17920,
+        "sha256": "48380facc040c4b0fc14e19b970dfeb941c74ed20438153398762ea2ce304fad"
+      },
+      {
+        "path": "/usr/share/licenses/libsigsegv",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libsigsegv/COPYING",
+        "mode": 33188,
+        "size": 18154,
+        "sha256": "8f2983e9a940367f48999881c14775db725ee643bce1e2f1ba195eb629a33cde"
+      }
+    ]
+  }
+}

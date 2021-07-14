@@ -1,0 +1,91 @@
+{
+  "name": "pkgconfig",
+  "version": "0.27.1-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pkgconfig@1:0.27.1-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pkgconfig",
+    "version": "0.27.1",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "pkgconfig-0.27.1-4.el7.src.rpm",
+    "size": 105554,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://pkgconfig.freedesktop.org",
+    "files": [
+      {
+        "path": "/usr/bin/pkg-config",
+        "mode": 33261,
+        "size": 45480,
+        "sha256": "33454d7053cda22d391bcbac42fd8c55238b90d1e27b7954fc897d7e522369dc"
+      },
+      {
+        "path": "/usr/lib64/pkgconfig",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/aclocal/pkg.m4",
+        "mode": 33188,
+        "size": 7321,
+        "sha256": "7e18eaae54243be08a618005e8340cd14a8f4779d19797615de4ed21062b0d06"
+      },
+      {
+        "path": "/usr/share/doc/pkgconfig-0.27.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pkgconfig-0.27.1/AUTHORS",
+        "mode": 33188,
+        "size": 359,
+        "sha256": "28b8e4097e7b6566c0f3055418ac00864d2162492b4ee1e770b2cfab49cd95b4"
+      },
+      {
+        "path": "/usr/share/doc/pkgconfig-0.27.1/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/doc/pkgconfig-0.27.1/NEWS",
+        "mode": 33188,
+        "size": 7519,
+        "sha256": "e2d35cf9e995add2edd4d01f2f1e284ff06c13b935058ea6ec8dca1dc77457db"
+      },
+      {
+        "path": "/usr/share/doc/pkgconfig-0.27.1/README",
+        "mode": 33188,
+        "size": 2599,
+        "sha256": "f2ef35bc0db78babbb9950842f3498133c77b1c80e3f268f0536e662395930fd"
+      },
+      {
+        "path": "/usr/share/doc/pkgconfig-0.27.1/pkg-config-guide.html",
+        "mode": 33188,
+        "size": 17635,
+        "sha256": "5508a005b834d56259fdd83d8e7c861bb5595084d2998dd3ae63ea8ec88b5c9c"
+      },
+      {
+        "path": "/usr/share/pkgconfig",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      }
+    ]
+  }
+}

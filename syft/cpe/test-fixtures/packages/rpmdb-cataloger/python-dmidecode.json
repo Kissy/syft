@@ -1,0 +1,123 @@
+{
+  "name": "python-dmidecode",
+  "version": "3.12.2-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "3.12.2",
+      "Update": "4.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-dmidecode@0:3.12.2-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-dmidecode",
+    "version": "3.12.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "python-dmidecode-3.12.2-4.el7.src.rpm",
+    "size": 267038,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "https://github.com/nima/python-dmidecode/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dmidecode.py",
+        "mode": 33188,
+        "size": 3461,
+        "sha256": "a2c9c0bd0f7f43bed86c629aa83c6d9fca545d7b94514cd195575b3a25730cb5"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dmidecode.pyc",
+        "mode": 33188,
+        "size": 2308,
+        "sha256": "ee4b56f2aac08dde06fa4928cc4ddd80bd5cbbe16547a851e76e320c69c848d8"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dmidecode.pyo",
+        "mode": 33188,
+        "size": 2308,
+        "sha256": "ee4b56f2aac08dde06fa4928cc4ddd80bd5cbbe16547a851e76e320c69c848d8"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dmidecodemod.so",
+        "mode": 33261,
+        "size": 187168,
+        "sha256": "8fe26e04a1554872541ed9c1e1ad001b23e2ae365004b5814ed60f830d583dc1"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/python_dmidecode-3.10.13-py2.7.egg-info",
+        "mode": 33188,
+        "size": 311,
+        "sha256": "c90846ce8dadc214974e387779aeaaa64a6cffdcc221d219571fb3ad23308a08"
+      },
+      {
+        "path": "/usr/share/doc/python-dmidecode-3.12.2",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-dmidecode-3.12.2/AUTHORS",
+        "mode": 33188,
+        "size": 709,
+        "sha256": "70b5cf6f1c3a42d688c39b60407090724c5e512efec5c187952bda2255fd8c44"
+      },
+      {
+        "path": "/usr/share/doc/python-dmidecode-3.12.2/AUTHORS.upstream",
+        "mode": 33188,
+        "size": 1275,
+        "sha256": "c7cb6c1bb23692732a1b0c31f459c2e6fd31485ebab2b56476ea33a0eb454bf9"
+      },
+      {
+        "path": "/usr/share/doc/python-dmidecode-3.12.2/LICENSE",
+        "mode": 33188,
+        "size": 17987,
+        "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+      },
+      {
+        "path": "/usr/share/doc/python-dmidecode-3.12.2/README",
+        "mode": 33188,
+        "size": 63,
+        "sha256": "bfffd8367d01b311d3296cd5fc1a95d8682e64135cba954955e525d6478f0d61"
+      },
+      {
+        "path": "/usr/share/doc/python-dmidecode-3.12.2/README.upstream",
+        "mode": 33188,
+        "size": 4705,
+        "sha256": "eb60288c61babd9702a8906a3f05db338635118f9fd847952b1497ac3c93e35f"
+      },
+      {
+        "path": "/usr/share/python-dmidecode",
+        "mode": 16877,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/python-dmidecode/pymap.xml",
+        "mode": 33188,
+        "size": 49051,
+        "sha256": "7ffc60e7af51409f5281a703fc941e8188e12b030f1b00cd43281c2de5388083"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "name": "dbus-tools",
+  "version": "1.12.8-11.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "dbus",
+      "Version": "1.12.8",
+      "Update": "11.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dbus-tools@1:1.12.8-11.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dbus-tools",
+    "version": "1.12.8",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "11.el8",
+    "sourceRpm": "dbus-1.12.8-11.el8.src.rpm",
+    "size": 125585,
+    "license": "(GPLv2+ or AFL) and GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.freedesktop.org/Software/dbus/",
+    "files": [
+      {
+        "path": "/usr/bin/dbus-monitor",
+        "mode": 33261,
+        "size": 29408,
+        "sha256": "ece7063bff14ef269c77382e6ef7901445e2df919f0256c02d5328a54d0dcc25"
+      },
+      {
+        "path": "/usr/bin/dbus-send",
+        "mode": 33261,
+        "size": 29368,
+        "sha256": "317451effe631d13a297cc76af61c81b8953eaff589cbaa3b68d2041b30c5c82"
+      },
+      {
+        "path": "/usr/bin/dbus-update-activation-environment",
+        "mode": 33261,
+        "size": 17024,
+        "sha256": "3d313051170b9117dab48eb0918d242055954a5ff58ce4667ddc64cc18541c1b"
+      },
+      {
+        "path": "/usr/bin/dbus-uuidgen",
+        "mode": 33261,
+        "size": 12784,
+        "sha256": "71d919546ae47ac584aca2ab0f7c4ee616b823b58b1f1210e1e333653403af64"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/1d/18e09f0c89167fe3223a756cb1c8ecd52bc6cd",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/68",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/68/d21dd79a3f1904bb222b5ab2a3366bba31bd4d",
+        "mode": 41471,
+        "size": 32,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80/557d83a38777fd9560ab757654bdecf00f0e3a",
+        "mode": 41471,
+        "size": 32,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bf/33e248096f373e2826293faba545f016ade6d2",
+        "mode": 41471,
+        "size": 54,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/dbus-tools",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/dbus-tools/COPYING",
+        "mode": 33188,
+        "size": 29176,
+        "sha256": "0e46f54efb12d04ab5c33713bacd0e140c9a35b57ae29e03c853203266e8f3a1"
+      }
+    ]
+  }
+}

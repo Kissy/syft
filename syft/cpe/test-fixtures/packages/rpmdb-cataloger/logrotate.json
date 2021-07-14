@@ -1,0 +1,99 @@
+{
+  "name": "logrotate",
+  "version": "3.8.6-19.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "logrotate_project",
+      "Product": "logrotate",
+      "Version": "3.8.6",
+      "Update": "19.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/logrotate@0:3.8.6-19.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "logrotate",
+    "version": "3.8.6",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "19.el7",
+    "sourceRpm": "logrotate-3.8.6-19.el7.src.rpm",
+    "size": 107068,
+    "license": "GPL+",
+    "vendor": "Oracle America",
+    "url": "https://github.com/logrotate/logrotate",
+    "files": [
+      {
+        "path": "/etc/cron.daily/logrotate",
+        "mode": 33216,
+        "size": 219,
+        "sha256": "1c302db14573ebde80f7b12c217912c9599cf4060400506201d95da3bcd38cb4"
+      },
+      {
+        "path": "/etc/logrotate.conf",
+        "mode": 33188,
+        "size": 662,
+        "sha256": "32b571b5129733078bb99b26f441aabf883683d7a892280487a0459c79111823"
+      },
+      {
+        "path": "/etc/logrotate.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rwtab.d/logrotate",
+        "mode": 33188,
+        "size": 24,
+        "sha256": "c8090335b3d2d05f24ab97657b41e6b60b838f05307638decbd0c4e151d51095"
+      },
+      {
+        "path": "/usr/sbin/logrotate",
+        "mode": 33261,
+        "size": 70256,
+        "sha256": "fa8414535cfc3135483757aff3fc2f482b40b178879722a09fc7540e07d86579"
+      },
+      {
+        "path": "/usr/share/doc/logrotate-3.8.6",
+        "mode": 16877,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/logrotate-3.8.6/CHANGES",
+        "mode": 33188,
+        "size": 10958,
+        "sha256": "1f04cb62155d0b5d272a9b88c7572a6e5f80f9150d473908211e79bf64698074"
+      },
+      {
+        "path": "/usr/share/doc/logrotate-3.8.6/COPYING",
+        "mode": 33188,
+        "size": 17976,
+        "sha256": "1b2a567f289f66a143c56353e7b3d4fa5862514a5e3c5cfdf8b02ee5e5aaa953"
+      },
+      {
+        "path": "/var/lib/logrotate",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      }
+    ]
+  }
+}

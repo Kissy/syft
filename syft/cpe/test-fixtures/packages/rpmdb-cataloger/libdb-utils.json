@@ -1,0 +1,301 @@
+{
+  "name": "libdb-utils",
+  "version": "5.3.28-39.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libdb-utils@0:5.3.28-39.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libdb-utils",
+    "version": "5.3.28",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "39.el8",
+    "sourceRpm": "libdb-5.3.28-39.el8.src.rpm",
+    "size": 371711,
+    "license": "BSD and LGPLv2 and Sleepycat",
+    "vendor": "CentOS",
+    "url": "http://www.oracle.com/database/berkeley-db/",
+    "files": [
+      {
+        "path": "/usr/bin/db_archive",
+        "mode": 33261,
+        "size": 12896,
+        "sha256": "d5fe4ae852b327740c3dd2528576ff18d9db9d6cca38423336ec769dd864f949"
+      },
+      {
+        "path": "/usr/bin/db_checkpoint",
+        "mode": 33261,
+        "size": 17016,
+        "sha256": "b1cdbfa98c189c56378fb47b3014b5f765304b2e2a0dff6004b1157fa4d08e3d"
+      },
+      {
+        "path": "/usr/bin/db_deadlock",
+        "mode": 33261,
+        "size": 17016,
+        "sha256": "789dfae6cfe26e55e802680c991ca66937dc4e0fd469c1a43dd522f9d9982677"
+      },
+      {
+        "path": "/usr/bin/db_dump",
+        "mode": 33261,
+        "size": 17048,
+        "sha256": "50fde9db18241ad5d05276186358dfb71918bd27b7a2ace660837d4806486bab"
+      },
+      {
+        "path": "/usr/bin/db_dump185",
+        "mode": 33261,
+        "size": 71344,
+        "sha256": "13db9a93d194196c6374b262e7c689d5efd278604396a58def6c6ceea1f6057a"
+      },
+      {
+        "path": "/usr/bin/db_hotbackup",
+        "mode": 33261,
+        "size": 21112,
+        "sha256": "a72b73f0cc0f785a68d37fb706c42a8ed0f05fcc3c1523a204e0e0af5ef139cc"
+      },
+      {
+        "path": "/usr/bin/db_load",
+        "mode": 33261,
+        "size": 29440,
+        "sha256": "1b5dab3f989836e823fc677a573769e1de43798899919fbeab3347eb365ce08e"
+      },
+      {
+        "path": "/usr/bin/db_log_verify",
+        "mode": 33261,
+        "size": 17056,
+        "sha256": "3d46a8dbee47d78b9269f664211551a5a6e2d64ea18c2726037305df129285b7"
+      },
+      {
+        "path": "/usr/bin/db_printlog",
+        "mode": 33261,
+        "size": 34328,
+        "sha256": "7fbd8045ba175c27437545968fa599d54149af20d897e7ef92f4df4f82fb2e16"
+      },
+      {
+        "path": "/usr/bin/db_recover",
+        "mode": 33261,
+        "size": 17040,
+        "sha256": "572f3a68c710fd0d41c2b57cdda9e150c06978b04f614c8595566a7e6a7af231"
+      },
+      {
+        "path": "/usr/bin/db_replicate",
+        "mode": 33261,
+        "size": 17032,
+        "sha256": "c3f22d68b4984748fb01a1c35b759adabc082cd73c9e5a0445a07890cd01c349"
+      },
+      {
+        "path": "/usr/bin/db_stat",
+        "mode": 33261,
+        "size": 17016,
+        "sha256": "97efdc43303ef856078be1d0ca0e97f3d48aa384dbbdeb9a0f070250ff0f7824"
+      },
+      {
+        "path": "/usr/bin/db_tuner",
+        "mode": 33261,
+        "size": 25280,
+        "sha256": "4a94a9d249dd75a76076ed1d05d099e58deeb28298d1f6b2444299d0520ed3b6"
+      },
+      {
+        "path": "/usr/bin/db_upgrade",
+        "mode": 33261,
+        "size": 12904,
+        "sha256": "fbf70d62e758d5d52d69720dabdce5b9231db49aba59ee61f1e21657149cea24"
+      },
+      {
+        "path": "/usr/bin/db_verify",
+        "mode": 33261,
+        "size": 17000,
+        "sha256": "7052fbb58af4a7b56aa400a3c1e38a8fb33a835216f71d10e7ae8d021ce7fa38"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0d/620df66567105ecce719a29c08cf0cda0c67ad",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/12",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/12/f5b86fd19064ee819b99511622d5afba3cdcbb",
+        "mode": 41471,
+        "size": 32,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/23",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/23/9d95d6fcba5ce7960cba72a10c18ba1e269115",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/56",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/56/8f7acb9ea380e76ab7a93a2f6f58bd60cb3cfa",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/58",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/58/7a4932bdba2afb56410d9b8f80e1bf7808d851",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80/872466828dc6e47d66b1fb6d337fe99438a36f",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/80/dfebd7e16560123558956d1186844f9f68d17c",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90/1febf622c15a7366d35e9a9550c92f2031acdc",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/aa",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/aa/d758133f4ffcb795da1e1aec90db1ccd69d6b9",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b2/59d5f9454a6ef795aee9960728f91c91533b2f",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bd/418f52ec2e650eda9510970c9bed42073d31d7",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c9",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c9/852d6309cb3d65679dc106b95290232c7e5a73",
+        "mode": 41471,
+        "size": 32,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cc",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cc/631fc7b65ce1e0e4dccf140bd1877d686c5895",
+        "mode": 41471,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/dd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/dd/77485f5848e229b911ef623000b33c6d05d75c",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f2/e0b7c08df16375bbd159ccb69e6edbf10691af",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      }
+    ]
+  }
+}

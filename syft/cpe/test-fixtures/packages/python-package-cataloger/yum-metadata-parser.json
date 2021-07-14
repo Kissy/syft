@@ -1,0 +1,28 @@
+{
+  "name": "yum-metadata-parser",
+  "version": "1.1.4",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/yum_metadata_parser-1.1.4-py2.7.egg-info",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "UNKNOWN"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/yum-metadata-parser@1.1.4",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "yum-metadata-parser",
+    "version": "1.1.4",
+    "license": "UNKNOWN",
+    "author": "UNKNOWN",
+    "authorEmail": "UNKNOWN",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages"
+  }
+}

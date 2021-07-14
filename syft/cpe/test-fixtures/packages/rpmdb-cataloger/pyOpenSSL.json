@@ -1,0 +1,225 @@
+{
+  "name": "pyOpenSSL",
+  "version": "0.13.1-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "pyopenssl",
+      "Product": "pyopenssl",
+      "Version": "0.13.1",
+      "Update": "4.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/pyOpenSSL@0:0.13.1-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pyOpenSSL",
+    "version": "0.13.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "pyOpenSSL-0.13.1-4.el7.src.rpm",
+    "size": 645496,
+    "license": "ASL 2.0",
+    "vendor": "Oracle America",
+    "url": "http://pyopenssl.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/SSL.so",
+        "mode": 33261,
+        "size": 68632,
+        "sha256": "17bd5f2273512c035c2d25d39c2aa8b109fcb057bc4bb6bce3913b2f6553fbd5"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/__init__.py",
+        "mode": 33188,
+        "size": 965,
+        "sha256": "44ff4666f590ed220279297435ba459f1f720777c19e7d1092a58907d4d7a121"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/__init__.pyc",
+        "mode": 33188,
+        "size": 951,
+        "sha256": "d3af99b242e6c93f3456f36a565301857aea3868e9c3d8e0b2ab16c816e4f225"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/__init__.pyo",
+        "mode": 33188,
+        "size": 951,
+        "sha256": "d3af99b242e6c93f3456f36a565301857aea3868e9c3d8e0b2ab16c816e4f225"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/crypto.so",
+        "mode": 33261,
+        "size": 99304,
+        "sha256": "35301b38d4e8c695fffa95555931b2a6036eda0cdfa7a8510a70557e5e084e67"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/rand.so",
+        "mode": 33261,
+        "size": 13448,
+        "sha256": "3cf5d2b7a21d973d1da4fa41a9eeb9679966885c256d70544cd702f0acbf55d2"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/__init__.py",
+        "mode": 33188,
+        "size": 118,
+        "sha256": "2064de012b401add66bfaf27770d186c327f735905ddf078026b1875820be5dc"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/__init__.pyc",
+        "mode": 33188,
+        "size": 216,
+        "sha256": "1ab8cfd0625be89ac789b6ce3e25186e1a659898a1c403cc65a4c3e20ea19738"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/__init__.pyo",
+        "mode": 33188,
+        "size": 216,
+        "sha256": "1ab8cfd0625be89ac789b6ce3e25186e1a659898a1c403cc65a4c3e20ea19738"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_crypto.py",
+        "mode": 33188,
+        "size": 107656,
+        "sha256": "a8f5bb7074b43a14b9590d3a0b2900b984c3106d5992577c0fe131d4832080bc"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_crypto.pyc",
+        "mode": 33188,
+        "size": 110214,
+        "sha256": "1347510fcc46735f82ed5b1875a9dd31d1fc1efc004abd0fceaf0f08e7e880dd"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_crypto.pyo",
+        "mode": 33188,
+        "size": 110214,
+        "sha256": "1347510fcc46735f82ed5b1875a9dd31d1fc1efc004abd0fceaf0f08e7e880dd"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_rand.py",
+        "mode": 33188,
+        "size": 5802,
+        "sha256": "1725c50cfc477ca3c99428b193d1b93872dceca962eaaa9b62a2c5a62cb423e2"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_rand.pyc",
+        "mode": 33188,
+        "size": 7116,
+        "sha256": "1e17ad8cde1ed19fcf1a75dbd9339d1d3908dabe543923194da7ba0d711e2131"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_rand.pyo",
+        "mode": 33188,
+        "size": 7116,
+        "sha256": "1e17ad8cde1ed19fcf1a75dbd9339d1d3908dabe543923194da7ba0d711e2131"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_ssl.py",
+        "mode": 33188,
+        "size": 71860,
+        "sha256": "c15d78752b84180b63b9382915faf1e7b99c2e642cbc885fab704c7592a86bd1"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_ssl.pyc",
+        "mode": 33188,
+        "size": 71615,
+        "sha256": "fb968526fb8065a6d0acc18ea1e30b9b4cdd35c4564a4f9d181590ae3e3c0db0"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/test_ssl.pyo",
+        "mode": 33188,
+        "size": 71486,
+        "sha256": "f4fe0efec631843f44c439e59145a2125385d8489090f520a153a7bb642642d2"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/util.py",
+        "mode": 33188,
+        "size": 5736,
+        "sha256": "1efcadc86653b98d06253e93376fa3e4f04c842f2995d2d34f37f1f3d7e2f226"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/util.pyc",
+        "mode": 33188,
+        "size": 6697,
+        "sha256": "3a8904ae57e6ead9e379337c01999a985fdb83932df66cee7db45f5dc1a6cd1c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/test/util.pyo",
+        "mode": 33188,
+        "size": 6697,
+        "sha256": "3a8904ae57e6ead9e379337c01999a985fdb83932df66cee7db45f5dc1a6cd1c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/tsafe.py",
+        "mode": 33188,
+        "size": 1010,
+        "sha256": "6a82e06015c447e98e884cd2a0b90259b6da7cb17c6c5556f2829dbd3a0901e0"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/tsafe.pyc",
+        "mode": 33188,
+        "size": 1655,
+        "sha256": "8a6e09f7ea5bc0f21b6316ab4cd8a2fba0178bac93313f32a4078b4b3fda3396"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/tsafe.pyo",
+        "mode": 33188,
+        "size": 1655,
+        "sha256": "8a6e09f7ea5bc0f21b6316ab4cd8a2fba0178bac93313f32a4078b4b3fda3396"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/version.py",
+        "mode": 33188,
+        "size": 178,
+        "sha256": "29b9631e85d2816cc7e6c186eb63f02672b42fced1dd6b1450ffd66ae8605c97"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/version.pyc",
+        "mode": 33188,
+        "size": 255,
+        "sha256": "fcb888d2a6ae97a135fae162f3a87698b5bf6cee739e444f1774c079fd5c5e8c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/OpenSSL/version.pyo",
+        "mode": 33188,
+        "size": 255,
+        "sha256": "fcb888d2a6ae97a135fae162f3a87698b5bf6cee739e444f1774c079fd5c5e8c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyOpenSSL-0.13.1-py2.7.egg-info",
+        "mode": 33188,
+        "size": 582,
+        "sha256": "5944c30b2e17c53ec25effcb1cbb5870b6b65e77266c6e96935ac2bc961a180e"
+      }
+    ]
+  }
+}

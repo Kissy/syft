@@ -1,0 +1,129 @@
+{
+  "name": "yum-rhn-plugin",
+  "version": "2.0.1-10.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "baseurl",
+      "Product": "yum",
+      "Version": "2.0.1",
+      "Update": "10.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/yum-rhn-plugin@0:2.0.1-10.0.1.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "yum-rhn-plugin",
+    "version": "2.0.1",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "10.0.1.el7",
+    "sourceRpm": "yum-rhn-plugin-2.0.1-10.0.1.el7.src.rpm",
+    "size": 207527,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "https://github.com/spacewalkproject/spacewalk",
+    "files": [
+      {
+        "path": "/etc/yum/pluginconf.d/rhnplugin.conf",
+        "mode": 33188,
+        "size": 178,
+        "sha256": "7484ac91a5c1a89688d6a1d0c74011a1651929afe7df93579ae1ed311525a1f1"
+      },
+      {
+        "path": "/usr/share/doc/yum-rhn-plugin-2.0.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/yum-rhn-plugin-2.0.1/LICENSE",
+        "mode": 33188,
+        "size": 17987,
+        "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/yum-rhn-plugin.mo",
+        "mode": 33188,
+        "size": 488,
+        "sha256": "cba7fd52e961cc287a4c9c186e4339c7afadbab8864121e44551b78e2a49cd06"
+      },
+      {
+        "path": "/usr/share/rhn/actions/errata.py",
+        "mode": 33188,
+        "size": 2364,
+        "sha256": "3ec45fa68f83e8f5d0e33bfe41e15da5d5cd2193b59dab03b438e6904a3de327"
+      },
+      {
+        "path": "/usr/share/rhn/actions/errata.pyc",
+        "mode": 33188,
+        "size": 2196,
+        "sha256": "596fa154fdd4b2c436249e0c25fc68f3164dfb26b898f37db88fde0a545d5d5c"
+      },
+      {
+        "path": "/usr/share/rhn/actions/errata.pyo",
+        "mode": 33188,
+        "size": 2196,
+        "sha256": "596fa154fdd4b2c436249e0c25fc68f3164dfb26b898f37db88fde0a545d5d5c"
+      },
+      {
+        "path": "/usr/share/rhn/actions/packages.py",
+        "mode": 33188,
+        "size": 20389,
+        "sha256": "bcb1f20466d0acec77a78fc00b80590f9108a2a1766c2776df62a58d865c581b"
+      },
+      {
+        "path": "/usr/share/rhn/actions/packages.pyc",
+        "mode": 33188,
+        "size": 16671,
+        "sha256": "3050facce2995c92c0e5a90f168841c1484566bb1c529c884bb9a69a47d6c879"
+      },
+      {
+        "path": "/usr/share/rhn/actions/packages.pyo",
+        "mode": 33188,
+        "size": 16589,
+        "sha256": "84721f492b1280b0cab0c673fc449356cbd93443224bc448dee9b235a5c1c8a9"
+      },
+      {
+        "path": "/usr/share/yum-plugins/rhnplugin.py",
+        "mode": 33188,
+        "size": 28345,
+        "sha256": "cb1c4cbb2f2747d1d6a709aaf9cea289cfc1e54deae8d0ce6d167961789ea801"
+      },
+      {
+        "path": "/usr/share/yum-plugins/rhnplugin.pyc",
+        "mode": 33188,
+        "size": 23746,
+        "sha256": "3609c06cdfc984460416622c0951784e8734057f6d0bb5759dfa082ace26651a"
+      },
+      {
+        "path": "/usr/share/yum-plugins/rhnplugin.pyo",
+        "mode": 33188,
+        "size": 23746,
+        "sha256": "3609c06cdfc984460416622c0951784e8734057f6d0bb5759dfa082ace26651a"
+      },
+      {
+        "path": "/var/lib/up2date",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      }
+    ]
+  }
+}

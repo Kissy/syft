@@ -1,0 +1,73 @@
+{
+  "name": "newt-python",
+  "version": "0.52.15-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/newt-python@0:0.52.15-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "newt-python",
+    "version": "0.52.15",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "newt-0.52.15-4.el7.src.rpm",
+    "size": 116900,
+    "license": "LGPLv2",
+    "vendor": "Oracle America",
+    "url": "https://fedorahosted.org/newt/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/_snackmodule.so",
+        "mode": 33261,
+        "size": 40888,
+        "sha256": "48acde77ff075ee8be58989fa256ac9f02db1c5093dec1972768f860cf787315"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/snack.py",
+        "mode": 33188,
+        "size": 30957,
+        "sha256": "61f479ef757cf3ae6ee467ab62739509b900b21fc225fd14ad594194cb845705"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/snack.pyc",
+        "mode": 33188,
+        "size": 40942,
+        "sha256": "4852c1ac73530c03f02f544e0b8897c4b708a71b8f25e22021cd4b8bb68c12f6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/snack.pyo",
+        "mode": 33188,
+        "size": 40942,
+        "sha256": "4852c1ac73530c03f02f544e0b8897c4b708a71b8f25e22021cd4b8bb68c12f6"
+      },
+      {
+        "path": "/usr/share/doc/newt-python-0.52.15",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/newt-python-0.52.15/peanuts.py",
+        "mode": 33188,
+        "size": 1141,
+        "sha256": "1988a998bcac25089966801a7feadbfbbb2e7dc3d89df1ec5d61b0e9befb7766"
+      },
+      {
+        "path": "/usr/share/doc/newt-python-0.52.15/popcorn.py",
+        "mode": 33188,
+        "size": 2972,
+        "sha256": "847af7cf3a68f8c981d9c14df0f9dff773eeb453fd59d00a2df2a3886096b0e4"
+      }
+    ]
+  }
+}

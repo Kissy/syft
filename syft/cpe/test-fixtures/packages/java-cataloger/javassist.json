@@ -1,0 +1,50 @@
+{
+  "name": "javassist",
+  "version": "3.24.0-GA",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/org.javassist/javassist@3.24.0-GA",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/javassist-3.24.0-GA.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1541092662849",
+        "Build-Jdk": "11.0.1",
+        "Built-By": "smarlow",
+        "Bundle-Description": "Javassist (JAVA programming ASSISTant) makes Javabytecode manipulation    simple.  It is a class library for editing bytecodes in Java.",
+        "Bundle-License": "http://www.mozilla.org/MPL/MPL-1.1.html, http://www.gnu.org/licenses/lgpl-2.1.html, http://www.apache.org/licenses/",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Javassist",
+        "Bundle-SymbolicName": "javassist",
+        "Bundle-Vendor": "Shigeru Chiba, www.javassist.org",
+        "Bundle-Version": "3.24.0.GA",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "javassist;version=\"3.24.0.GA\";uses:=\"javassist.bytecode,javassist.compiler,javassist.compiler.ast,javassist.convert,javassist.expr\",javassist.bytecode;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode.annotation\",javassist.bytecode.analysis;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode,javassist.bytecode.stackmap\",javassist.bytecode.annotation;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode\",javassist.bytecode.stackmap;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode\",javassist.compiler;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode,javassist.compiler.ast\",javassist.compiler.ast;version=\"3.24.0.GA\";uses:=\"javassist,javassist.compiler\",javassist.convert;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode\",javassist.expr;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode\",javassist.runtime;version=\"3.24.0.GA\",javassist.scopedpool;version=\"3.24.0.GA\";uses:=javassist,javassist.tools;version=\"3.24.0.GA\";uses:=javassist,javassist.tools.reflect;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode\",javassist.tools.rmi;version=\"3.24.0.GA\";uses:=\"javassist,javassist.tools.web\",javassist.tools.web;version=\"3.24.0.GA\";uses:=javassist,javassist.util;version=\"3.24.0.GA\";uses:=javassist,javassist.util.proxy;version=\"3.24.0.GA\";uses:=\"javassist,javassist.bytecode\"",
+        "Main-Class": "javassist.CtClass",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Specification-Title": "Javassist",
+        "Specification-Vendor": "Shigeru Chiba, www.javassist.org",
+        "Specification-Version": "3.24.0-GA",
+        "Tool": "Bnd-3.3.0.201609221906"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.javassist/javassist/pom.properties",
+      "name": "",
+      "groupId": "org.javassist",
+      "artifactId": "javassist",
+      "version": "3.24.0-GA",
+      "extraFields": {}
+    }
+  }
+}

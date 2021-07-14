@@ -272,3 +272,23 @@ func RemoveTldPrefix(s string) string {
 	}
 	return s
 }
+
+func RemoveTldSuffix(s string) string {
+	for _, tld := range tlds {
+		s = strings.TrimSuffix(s, "."+tld)
+	}
+	return s
+}
+
+func RemoveProtocol(url string) string {
+	parts := strings.SplitAfterN(url, "://", 2)
+	if len(parts) < 2 {
+		return parts[0]
+	}
+	return parts[1]
+}
+
+func CleanHost(host string) string {
+	s := RemoveTldSuffix(host)
+	return strings.TrimPrefix(s, "www.")
+}

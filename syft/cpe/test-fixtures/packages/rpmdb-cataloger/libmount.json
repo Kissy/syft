@@ -1,0 +1,73 @@
+{
+  "name": "libmount",
+  "version": "2.32.1-24.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libmount@0:2.32.1-24.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libmount",
+    "version": "2.32.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "24.el8",
+    "sourceRpm": "util-linux-2.32.1-24.el8.src.rpm",
+    "size": 398138,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://en.wikipedia.org/wiki/Util-linux",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65/ce8f4b9623a04a4a64642423a45b512673d0b9",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmount.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmount.so.1.1.0",
+        "mode": 33261,
+        "size": 371256,
+        "sha256": "f26e6e29742475230db6217ae03f1ba4b587c5aa0762cbcf5078fbd64f51d8f4"
+      },
+      {
+        "path": "/usr/share/licenses/libmount",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libmount/COPYING",
+        "mode": 33188,
+        "size": 352,
+        "sha256": "a2dc3d3adff705e225aee932ec4c2ac29ee45221cf7566e7b837a6d0d1442966"
+      },
+      {
+        "path": "/usr/share/licenses/libmount/COPYING.LGPLv2.1",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

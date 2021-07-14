@@ -1,0 +1,171 @@
+{
+  "name": "gzip",
+  "version": "1.9-9.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "gzip",
+      "Version": "1.9",
+      "Update": "9.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/gzip@0:1.9-9.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "gzip",
+    "version": "1.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.el8",
+    "sourceRpm": "gzip-1.9-9.el8.src.rpm",
+    "size": 426515,
+    "license": "GPLv3+ and GFDL",
+    "vendor": "CentOS",
+    "url": "http://www.gzip.org/",
+    "files": [
+      {
+        "path": "/etc/profile.d/colorzgrep.csh",
+        "mode": 33188,
+        "size": 216,
+        "sha256": "61da8a541c165502ac1258589686fd072a3f08e50838c45616e4d014fa9153ba"
+      },
+      {
+        "path": "/etc/profile.d/colorzgrep.sh",
+        "mode": 33188,
+        "size": 220,
+        "sha256": "873ff1677c3430a2d90fa6257ddd5b511cc480cf7098b1cfbb246b5af9044a82"
+      },
+      {
+        "path": "/usr/bin/gunzip",
+        "mode": 33261,
+        "size": 2345,
+        "sha256": "0011d06d8822b2097140be7ef6bbfaf0e01b9519a179644c6593a56f2bf5f903"
+      },
+      {
+        "path": "/usr/bin/gzexe",
+        "mode": 33261,
+        "size": 6375,
+        "sha256": "99bf533f0fbc345e4885d525e26ee732a001255ae47167268e7ea482f4d6af5c"
+      },
+      {
+        "path": "/usr/bin/gzip",
+        "mode": 33261,
+        "size": 170544,
+        "sha256": "424fb3892facae3687694009a2f0d268ab71bb98f997b912e0a1951c71b17930"
+      },
+      {
+        "path": "/usr/bin/zcat",
+        "mode": 33261,
+        "size": 1983,
+        "sha256": "4cdce728b8d9c53e855853a2414b7d93251f632cc7bc34bcf0bf688f2da74ecf"
+      },
+      {
+        "path": "/usr/bin/zcmp",
+        "mode": 33261,
+        "size": 1677,
+        "sha256": "dbfb20b6ae482c2f7f8365e3fe71f42266ef2c56e77f0787ad2f094083550a36"
+      },
+      {
+        "path": "/usr/bin/zdiff",
+        "mode": 33261,
+        "size": 5879,
+        "sha256": "1bf1cef165c5265317d9bba07a58a28899fffe331ffa52a87d483e482d539296"
+      },
+      {
+        "path": "/usr/bin/zegrep",
+        "mode": 33261,
+        "size": 29,
+        "sha256": "67ee7fadec7ea53b4c1f8cfc3c81427b29c0b1381e80b55642617620c84d0bcc"
+      },
+      {
+        "path": "/usr/bin/zfgrep",
+        "mode": 33261,
+        "size": 29,
+        "sha256": "87ab5f4c7cb344e409d614d1a69cc156b3b1053d6ae0b59d8e2c2131f3e63e5a"
+      },
+      {
+        "path": "/usr/bin/zforce",
+        "mode": 33261,
+        "size": 2080,
+        "sha256": "136b8f154b0c63d346af66498254e3aec25731d0897f80081d9e8819ff79da31"
+      },
+      {
+        "path": "/usr/bin/zgrep",
+        "mode": 33261,
+        "size": 7591,
+        "sha256": "1e187b48e5a29009b682be0dc73e651000e801bf5f168cfee6b0a132e02c3611"
+      },
+      {
+        "path": "/usr/bin/zless",
+        "mode": 33261,
+        "size": 2205,
+        "sha256": "d877394651502655a165962d79514bd67e3193f935aeacfea0baa22864739c75"
+      },
+      {
+        "path": "/usr/bin/zmore",
+        "mode": 33261,
+        "size": 1841,
+        "sha256": "c1700b78ebb87a4806ca6e249abc66ffb18d89913349781b771cf39b9cf09aab"
+      },
+      {
+        "path": "/usr/bin/znew",
+        "mode": 33261,
+        "size": 4552,
+        "sha256": "60cbb9f5388ebadd7dae2c9d9d061ef999818b18e324bdca9315ecea2771e1ac"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1/3c5d680c050adc9f780b5b5b0dc305c55cd098",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/gzip",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/gzip/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/licenses/gzip/fdl-1.3.txt",
+        "mode": 33188,
+        "size": 22962,
+        "sha256": "4748f03ed2dbcc14cde6ebc30799899c403e356a7465dc30fcf2b80c45fc0059"
+      }
+    ]
+  }
+}

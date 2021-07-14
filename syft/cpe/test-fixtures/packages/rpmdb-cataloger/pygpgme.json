@@ -1,0 +1,265 @@
+{
+  "name": "pygpgme",
+  "version": "0.3-9.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pygpgme@0:0.3-9.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pygpgme",
+    "version": "0.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.el7",
+    "sourceRpm": "pygpgme-0.3-9.el7.src.rpm",
+    "size": 193413,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://cheeseshop.python.org/pypi/pygpgme",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/__init__.py",
+        "mode": 33188,
+        "size": 909,
+        "sha256": "c427986a0e978f54b38aa4db7fe30ac22e39d09bf1a60335edf326c9147ca665"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/__init__.pyc",
+        "mode": 33188,
+        "size": 233,
+        "sha256": "4b319ebb9b3ce060225d9cd7fc24709a7ccf5ca8d6804cb7e3f1d1642bc8491c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/__init__.pyo",
+        "mode": 33188,
+        "size": 233,
+        "sha256": "4b319ebb9b3ce060225d9cd7fc24709a7ccf5ca8d6804cb7e3f1d1642bc8491c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/_gpgme.so",
+        "mode": 33261,
+        "size": 79480,
+        "sha256": "9592d85637a050b1c61c3fb6986f628cf4c42ba492e7dfea9b254fc5ba7af1c2"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/editutil.py",
+        "mode": 33188,
+        "size": 5275,
+        "sha256": "2ba84d0cb66db07bb4ba7968e09c8c7e2f5a004c59f96858d7e53666a660fbcf"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/editutil.pyc",
+        "mode": 33188,
+        "size": 4580,
+        "sha256": "df6f72bd35935f126d3e5473f342993252a1cf2592237ceb7e47c0ab6d8fc0c4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gpgme/editutil.pyo",
+        "mode": 33188,
+        "size": 4346,
+        "sha256": "57d6e0c202c84a88555907bbaa803aabf597fa35fff65299fdd445880e0e538c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pygpgme-0.3-py2.7.egg-info",
+        "mode": 33188,
+        "size": 889,
+        "sha256": "1c5fe69828b0e2acbe4e9c5c15c76e6e91c050a767664a08f58c9aa86c6ae24d"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/PKG-INFO",
+        "mode": 33188,
+        "size": 889,
+        "sha256": "07d2f33a4c0d4c5b3e52ed0b0ef0177f5514b91a37975e0bf9c2103f2d1d594e"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/README",
+        "mode": 33188,
+        "size": 1226,
+        "sha256": "fdaa1b34380cae687fa78d77fd84b438593514629fe36d1d8aa32adbffddf1d3"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/examples",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/examples/encrypt.py",
+        "mode": 33188,
+        "size": 331,
+        "sha256": "fb5be497ae84217d18af8d2e86a60189a653733a60f75e1b6327fba08b9fdb23"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/__init__.py",
+        "mode": 33188,
+        "size": 1895,
+        "sha256": "773f465968e86c6ecfae089da83001ddf113a8c3b9c90a6d0576a26efc74860e"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/key1.pub",
+        "mode": 33188,
+        "size": 1665,
+        "sha256": "80e030bc50ea3d866f1c08a16bdf7946253526e1e88133710f54294b9f669ea1"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/key1.sec",
+        "mode": 33188,
+        "size": 1769,
+        "sha256": "0ae61f7c51a77f30c68a2c3be6da6fb5488cc52401d9ad5984a5c2f87df19f31"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/key2.pub",
+        "mode": 33188,
+        "size": 3181,
+        "sha256": "de76e9c7c9184b0a49e0db7af1334cb0aae3f9d0ff0e3168b3b90ed9363607eb"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/key2.sec",
+        "mode": 33188,
+        "size": 6579,
+        "sha256": "027cca422c8d7fa87db317d38166f2b4605bba5f5f3978749a390434feeab051"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/passphrase.pub",
+        "mode": 33188,
+        "size": 908,
+        "sha256": "3e9615e934e4acece75d2c2afd474eca6f9c0abd41de98fc775d7b3b7fcad9d3"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/passphrase.sec",
+        "mode": 33188,
+        "size": 1045,
+        "sha256": "a8d43fc81de04fdf513ca842737a92e56af1811252cd4abaefaf6c675717e407"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/revoked.pub",
+        "mode": 33188,
+        "size": 1454,
+        "sha256": "52a0061bb63a8228cfae71bf72e6a3e03376bd0ff5302d82477b5272a8ac86b5"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/signonly.pub",
+        "mode": 33188,
+        "size": 4046,
+        "sha256": "18d0757cf30b7c47d70d5594a381a0f01b88cfa64376c3f59e4d976178d52629"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/keys/signonly.sec",
+        "mode": 33188,
+        "size": 4227,
+        "sha256": "f3d1fe467e5dadeab4bf8fe11c01ecb1bda9459dcabe9bb0c308f2e440037b78"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_context.py",
+        "mode": 33188,
+        "size": 5402,
+        "sha256": "cdd3f2d303db6f2af1128f180c6eb25d95c7fd04b706c49bc0424788ce15ccd6"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_delete.py",
+        "mode": 33188,
+        "size": 2327,
+        "sha256": "b059d3494097ef5bf5cd41f923618c1879fdad333bd2f30e4979b4c19b92c72b"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_editkey.py",
+        "mode": 33188,
+        "size": 3392,
+        "sha256": "3da21f74348813be9ccfea7d3a900b75c7eb29f0d99c5d16215203be699e6ac9"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_encrypt_decrypt.py",
+        "mode": 33188,
+        "size": 8533,
+        "sha256": "b365c86e874962c3361918d6a4daf0444a53d526342f8ffcfad75ffc30e89d9f"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_export.py",
+        "mode": 33188,
+        "size": 2070,
+        "sha256": "bb2552b80dbe1640b09659ea8c5d7f067fd72bbae31b109ec25122b7693c11ec"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_genkey.py",
+        "mode": 33188,
+        "size": 3849,
+        "sha256": "03219d0dbbd597c59eca790bc6c45964b66bdbe2047cf760ab0d905776f087b5"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_import.py",
+        "mode": 33188,
+        "size": 7698,
+        "sha256": "6e4488674aa17c58dc52b87e644e953a8aaa3956cfac2d3e7de089fdbe1159bc"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_keylist.py",
+        "mode": 33188,
+        "size": 2827,
+        "sha256": "f3c72fb66015b627cf4e6e6756a427313ef32fdb121069249a5d99e5f35f9c89"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_keys.py",
+        "mode": 33188,
+        "size": 12368,
+        "sha256": "4eae686c899f195033fe39683fbc5e6486542eaff16f26c27acc3f17ed07bd76"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_passphrase.py",
+        "mode": 33188,
+        "size": 3020,
+        "sha256": "a4029003ae61cc60475933f18df17e87a71f6a942eeff6dc5f812a7dd2e9d1fb"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_progress.py",
+        "mode": 33188,
+        "size": 1986,
+        "sha256": "b7b4e1c7dca0971f9d5e15e7187314750871f722c8a8b7512d3ca87049a1fe02"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/test_sign_verify.py",
+        "mode": 33188,
+        "size": 13281,
+        "sha256": "f83f79a440ef719501064e20437955bcf938a1854cb2d6936b88ea6a8607ebce"
+      },
+      {
+        "path": "/usr/share/doc/pygpgme-0.3/tests/util.py",
+        "mode": 33188,
+        "size": 1733,
+        "sha256": "eb64875f707787a8958c093b91b0d5126e8ecb1e350edb4ab0b7ba00e3f043b2"
+      }
+    ]
+  }
+}

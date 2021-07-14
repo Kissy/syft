@@ -1,0 +1,117 @@
+{
+  "name": "audit-libs",
+  "version": "3.0-0.17.20191104git1c2f876.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "linux_audit_project",
+      "Product": "linux_audit",
+      "Version": "3.0",
+      "Update": "0.17.20191104git1c2f876.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/audit-libs@0:3.0-0.17.20191104git1c2f876.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "audit-libs",
+    "version": "3.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "0.17.20191104git1c2f876.el8",
+    "sourceRpm": "audit-3.0-0.17.20191104git1c2f876.el8.src.rpm",
+    "size": 283708,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://people.redhat.com/sgrubb/audit/",
+    "files": [
+      {
+        "path": "/etc/libaudit.conf",
+        "mode": 33184,
+        "size": 191,
+        "sha256": "d48318c90620fde96cb6a8e6eb1eb64663b21200f9d1d053f9e3b4fce24a2543"
+      },
+      {
+        "path": "/lib64/libaudit.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libaudit.so.1.0.0",
+        "mode": 33261,
+        "size": 123336,
+        "sha256": "ec5076e0e43aa883903c8b2732d108c1f4b87e8f63e336d01940bf80a19c7274"
+      },
+      {
+        "path": "/lib64/libauparse.so.0",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libauparse.so.0.0.0",
+        "mode": 33261,
+        "size": 133096,
+        "sha256": "700cc21a71bfb86d7a041ade05add20ab1abb2b3f0fd92a0547ea0e1ca4460bb"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c6/24ac9e2f0ab806f46f0824a99d7b276881c52a",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f2/4c660a5b7a8ce9bd6ca2c05e3fbf801ea13e7a",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/audit-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/audit-libs/lgpl-2.1.txt",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

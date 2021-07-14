@@ -1,0 +1,62 @@
+{
+  "name": "mapstruct",
+  "version": "1.4.1.Final",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "api-platform",
+      "Product": "core",
+      "Version": "1.4.1",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.mapstruct/mapstruct@1.4.1.Final",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/mapstruct-1.4.1.Final.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "org.mapstruct",
+        "Bnd-LastModified": "1602401756941",
+        "Build-Jdk": "1.8.0_202",
+        "Build-Jdk-Spec": "1.8",
+        "Built-By": "filiphr",
+        "Bundle-Description": "An annotation processor for generating type-safe bean mappers",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "MapStruct Core",
+        "Bundle-SymbolicName": "org.mapstruct",
+        "Bundle-Version": "1.4.1.Final",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "org.mapstruct;uses:=\"org.mapstruct.control\";version=\"1.4.1\",org.mapstruct.control;version=\"1.4.1\",org.mapstruct.factory;version=\"1.4.1\",org.mapstruct.util;version=\"1.4.1\"",
+        "Import-Package": "org.mapstruct.control",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-5.1.1.202006162103"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.mapstruct/mapstruct/pom.properties",
+      "name": "",
+      "groupId": "org.mapstruct",
+      "artifactId": "mapstruct",
+      "version": "1.4.1.Final",
+      "extraFields": {}
+    }
+  }
+}

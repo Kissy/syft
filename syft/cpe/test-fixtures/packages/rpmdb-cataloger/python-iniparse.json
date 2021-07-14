@@ -1,0 +1,189 @@
+{
+  "name": "python-iniparse",
+  "version": "0.4-9.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "0.4",
+      "Update": "9.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-iniparse@0:0.4-9.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-iniparse",
+    "version": "0.4",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "9.el7",
+    "sourceRpm": "python-iniparse-0.4-9.el7.src.rpm",
+    "size": 115166,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "http://code.google.com/p/iniparse/",
+    "files": [
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse-0.4-py2.7.egg-info",
+        "mode": 33188,
+        "size": 1083,
+        "sha256": "2712ff8f0393d5663b27a35482d25be16dc7477f6dbc332bce0f7613bdded2b9"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/__init__.py",
+        "mode": 33188,
+        "size": 1111,
+        "sha256": "ce758f36762e3872ba067a0a746a4e005f89bf7deead881d347f328c7db02822"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/__init__.pyc",
+        "mode": 33188,
+        "size": 945,
+        "sha256": "ed6be250ee172f4bd6d8e3696eb73d3fed38f6d8758c15565bb2a8d764f35db3"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/__init__.pyo",
+        "mode": 33188,
+        "size": 945,
+        "sha256": "ed6be250ee172f4bd6d8e3696eb73d3fed38f6d8758c15565bb2a8d764f35db3"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/compat.py",
+        "mode": 33188,
+        "size": 12102,
+        "sha256": "572030246772a1fb401bed4cd452c7db62a8a04ba5a89b754b9db4b0a95486f3"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/compat.pyc",
+        "mode": 33188,
+        "size": 12846,
+        "sha256": "a5763f3d8c46451158f5f0cedddadcc8dba4dca9a2523dac4e73fcaa6d6320a4"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/compat.pyo",
+        "mode": 33188,
+        "size": 12846,
+        "sha256": "a5763f3d8c46451158f5f0cedddadcc8dba4dca9a2523dac4e73fcaa6d6320a4"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/config.py",
+        "mode": 33188,
+        "size": 8307,
+        "sha256": "d19a2c3d792dbbf0567977ac5d20a2f44307c0df98d1519bd51547df27ee0866"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/config.pyc",
+        "mode": 33188,
+        "size": 9599,
+        "sha256": "db6e7f5cbfc2e6b6e039a37c40783c84297fc9a4851891f48aba9836670a90bc"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/config.pyo",
+        "mode": 33188,
+        "size": 9599,
+        "sha256": "db6e7f5cbfc2e6b6e039a37c40783c84297fc9a4851891f48aba9836670a90bc"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/ini.py",
+        "mode": 33188,
+        "size": 20656,
+        "sha256": "05231db70221d803dcd0e2491c5ed87b5d26f8201709182e42e0b3984d9bbc17"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/ini.pyc",
+        "mode": 33188,
+        "size": 20422,
+        "sha256": "53b75e615012079b072efc2f95d71bc19ef828de9b4180524afda7c29b5f4ceb"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/ini.pyo",
+        "mode": 33188,
+        "size": 20422,
+        "sha256": "53b75e615012079b072efc2f95d71bc19ef828de9b4180524afda7c29b5f4ceb"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/utils.py",
+        "mode": 33188,
+        "size": 1266,
+        "sha256": "fa79cd254a93d265d7bb7f31c05574e06b8ee01fe3010bc555ac6fc152bcb44c"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/utils.pyc",
+        "mode": 33188,
+        "size": 1426,
+        "sha256": "4bd7e8065156d066f361884d0fe00f28d17ce06b69035722ffe55dac7de0e707"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/iniparse/utils.pyo",
+        "mode": 33188,
+        "size": 1426,
+        "sha256": "4bd7e8065156d066f361884d0fe00f28d17ce06b69035722ffe55dac7de0e707"
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4/Changelog",
+        "mode": 33188,
+        "size": 2762,
+        "sha256": "ca238a20e0d213951090913b3f1fc6df74a86d5c9661e6cf0a1a58994b8d09b8"
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4/LICENSE",
+        "mode": 33188,
+        "size": 1588,
+        "sha256": "ff45637d8a96adc414179e502fbed40160e57205bf2e302140e79a0c71eceaa7"
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4/LICENSE-PSF",
+        "mode": 33188,
+        "size": 13110,
+        "sha256": "9b02e3dfe433ccd2bd94636ef6eb08638b5a54deafe5f87a3d9d9104356c48e0"
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4/README",
+        "mode": 33188,
+        "size": 1221,
+        "sha256": "8038e84396e92e72334832d5561078476f60ac71143626a668ed9b526f2c2b44"
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4/index.html",
+        "mode": 33188,
+        "size": 5010,
+        "sha256": "17e82699aa1e6fdcc7558a60fce51f8613529dd389211c2e9a1d428f4cd1cab0"
+      },
+      {
+        "path": "/usr/share/doc/python-iniparse-0.4/style.css",
+        "mode": 33188,
+        "size": 1712,
+        "sha256": "02ecc1a5659e43f7e46f66193c0a3c354e9f81933fda0a8e8e7a52ce4fa2d829"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "swagger-annotations",
+  "version": "2.1.4",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "doctrine-project",
+      "Product": "annotations",
+      "Version": "2.1.4",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/io.swagger.core.v3/swagger-annotations@2.1.4",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/swagger-annotations-2.1.4.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "io.swagger.v3.oas.annotations",
+        "Bnd-LastModified": "1595657133388",
+        "Build-Jdk": "1.8.0_262",
+        "Built-By": "runner",
+        "Bundle-Description": "swagger-annotations",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "swagger-annotations",
+        "Bundle-SymbolicName": "io.swagger.core.v3.swagger-annotations",
+        "Bundle-Version": "2.1.4",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "io.swagger.v3.oas.annotations.media;uses:=\"io.swagger.v3.oas.annotations,io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.headers\";version=\"2.1.4\",io.swagger.v3.oas.annotations.headers;uses:=\"io.swagger.v3.oas.annotations.media\";version=\"2.1.4\",io.swagger.v3.oas.annotations;uses:=\"io.swagger.v3.oas.annotations.enums,io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.info,io.swagger.v3.oas.annotations.media,io.swagger.v3.oas.annotations.parameters,io.swagger.v3.oas.annotations.responses,io.swagger.v3.oas.annotations.security,io.swagger.v3.oas.annotations.servers,io.swagger.v3.oas.annotations.tags\";version=\"2.1.4\",io.swagger.v3.oas.annotations.extensions;version=\"2.1.4\",io.swagger.v3.oas.annotations.links;uses:=\"io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.servers\";version=\"2.1.4\",io.swagger.v3.oas.annotations.parameters;uses:=\"io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.media\";version=\"2.1.4\",io.swagger.v3.oas.annotations.enums;version=\"2.1.4\",io.swagger.v3.oas.annotations.security;uses:=\"io.swagger.v3.oas.annotations.enums,io.swagger.v3.oas.annotations.extensions\";version=\"2.1.4\",io.swagger.v3.oas.annotations.callbacks;uses:=\"io.swagger.v3.oas.annotations,io.swagger.v3.oas.annotations.extensions\";version=\"2.1.4\",io.swagger.v3.oas.annotations.tags;uses:=\"io.swagger.v3.oas.annotations,io.swagger.v3.oas.annotations.extensions\";version=\"2.1.4\",io.swagger.v3.oas.annotations.responses;uses:=\"io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.headers,io.swagger.v3.oas.annotations.links,io.swagger.v3.oas.annotations.media\";version=\"2.1.4\",io.swagger.v3.oas.annotations.servers;uses:=\"io.swagger.v3.oas.annotations.extensions\";version=\"2.1.4\",io.swagger.v3.oas.annotations.info;uses:=\"io.swagger.v3.oas.annotations.extensions\";version=\"2.1.4\"",
+        "Import-Package": "io.swagger.v3.oas.annotations,io.swagger.v3.oas.annotations.enums,io.swagger.v3.oas.annotations.extensions,io.swagger.v3.oas.annotations.headers,io.swagger.v3.oas.annotations.info,io.swagger.v3.oas.annotations.links,io.swagger.v3.oas.annotations.media,io.swagger.v3.oas.annotations.parameters,io.swagger.v3.oas.annotations.responses,io.swagger.v3.oas.annotations.security,io.swagger.v3.oas.annotations.servers,io.swagger.v3.oas.annotations.tags",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-4.2.0.201903051501",
+        "implementation-version": "2.1.4",
+        "mode": "development",
+        "package": "io.swagger",
+        "url": "https://github.com/swagger-api/swagger-core/modules/swagger-annotations"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/io.swagger.core.v3/swagger-annotations/pom.properties",
+      "name": "",
+      "groupId": "io.swagger.core.v3",
+      "artifactId": "swagger-annotations",
+      "version": "2.1.4",
+      "extraFields": {}
+    }
+  }
+}

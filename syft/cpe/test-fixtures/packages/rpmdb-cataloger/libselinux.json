@@ -1,0 +1,93 @@
+{
+  "name": "libselinux",
+  "version": "2.9-4.el8_3",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "selinuxproject",
+      "Product": "libselinux",
+      "Version": "2.9",
+      "Update": "4.el8_3",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libselinux@0:2.9-4.el8_3?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libselinux",
+    "version": "2.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8_3",
+    "sourceRpm": "libselinux-2.9-4.el8_3.src.rpm",
+    "size": 169632,
+    "license": "Public Domain",
+    "vendor": "CentOS",
+    "url": "https://github.com/SELinuxProject/selinux/wiki",
+    "files": [
+      {
+        "path": "/run/setrans",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f5/9797148b51da3c41370527218252e673630c23",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d/libselinux.conf",
+        "mode": 33188,
+        "size": 30,
+        "sha256": "afe23890fb2e12e6756e5d81bad3c3da33f38a95d072731c0422fbeb0b1fa1fc"
+      },
+      {
+        "path": "/usr/lib64/libselinux.so.1",
+        "mode": 33261,
+        "size": 168568,
+        "sha256": "8ac3842592b078822e2156ab1ae5e98ba34ec08a9ad7484bdcfc6416cb73b9dd"
+      },
+      {
+        "path": "/usr/share/licenses/libselinux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libselinux/LICENSE",
+        "mode": 33188,
+        "size": 1034,
+        "sha256": "86657b4c0fe868d7cbd977cb04c63b6c667e08fa51595a7bc846ad4bed8fc364"
+      }
+    ]
+  }
+}

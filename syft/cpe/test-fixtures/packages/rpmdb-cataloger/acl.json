@@ -1,0 +1,123 @@
+{
+  "name": "acl",
+  "version": "2.2.53-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "acl_project",
+      "Product": "acl",
+      "Version": "2.2.53",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/acl@0:2.2.53-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "acl",
+    "version": "2.2.53",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "acl-2.2.53-1.el8.src.rpm",
+    "size": 205740,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://savannah.nongnu.org/projects/acl",
+    "files": [
+      {
+        "path": "/usr/bin/chacl",
+        "mode": 33261,
+        "size": 17488,
+        "sha256": "4166ad78974742bf94031a0ae6dec78422a5c4d1f385e77ca4f763f01ab4e63a"
+      },
+      {
+        "path": "/usr/bin/getfacl",
+        "mode": 33261,
+        "size": 28664,
+        "sha256": "cb3a0f064d2c342e81ce7cefcf2b17a0168c4b6ac44febd97fa72dd3d0b08b58"
+      },
+      {
+        "path": "/usr/bin/setfacl",
+        "mode": 33261,
+        "size": 42472,
+        "sha256": "1fd707e2de514632c687932c710eac52ed80b1279565eae376f6fd2e7c53e860"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/52",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/52/6aa76cbaf89308b25c7a2fdd6b743b9956a69a",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/57",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/57/b40394d1514816d39c8366582bac402b86cbf0",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d7",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d7/5f66cdfce347bb0d912d2d9772b96fd477fa74",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/acl",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/acl/COPYING",
+        "mode": 33188,
+        "size": 18311,
+        "sha256": "a45a845012742796534f7e91fe623262ccfb99460a2bd04015bd28d66fba95b8"
+      },
+      {
+        "path": "/usr/share/licenses/acl/COPYING.LGPL",
+        "mode": 33188,
+        "size": 26762,
+        "sha256": "01b1f9f2c8ee648a7a596a1abe8aa4ed7899b1c9e5551bda06da6e422b04aa55"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "javax.activation-api",
+  "version": "1.2.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "karotz",
+      "Product": "api",
+      "Version": "1.2.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/javax.activation/javax.activation-api@1.2.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/javax.activation-api-1.2.0.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Automatic-Module-Name": "java.activation",
+        "Bnd-LastModified": "1504739594803",
+        "Build-Jdk": "1.7.0_121",
+        "Built-By": "shannon",
+        "Bundle-Description": "JavaBeans Activation Framework API jar",
+        "Bundle-DocURL": "http://www.oracle.com",
+        "Bundle-License": "https://github.com/javaee/activation/blob/master/LICENSE.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "JavaBeans Activation Framework API jar",
+        "Bundle-SymbolicName": "javax.activation-api",
+        "Bundle-Vendor": "Oracle",
+        "Bundle-Version": "1.2.0",
+        "Created-By": "1.7.0_121 (Oracle Corporation)",
+        "DynamicImport-Package": "*",
+        "Export-Package": "javax.activation;uses:=\"com.sun.activation.registries\";version=\"1.2\"",
+        "Extension-Name": "javax.activation",
+        "Implementation-Title": "javax.activation.javax.activation-api",
+        "Implementation-Vendor": "Oracle",
+        "Implementation-Vendor-Id": "com.sun",
+        "Implementation-Version": "1.2.0",
+        "Import-Package": "com.sun.activation.registries,javax.activation;version=\"1.2\"",
+        "Manifest-Version": "1.0",
+        "Originally-Created-By": "1.8.0_141 (Oracle Corporation)",
+        "Specification-Title": "javax.activation.javax.activation-api",
+        "Specification-Vendor": "Oracle",
+        "Specification-Version": "1.2",
+        "Tool": "Bnd-0.0.357"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/javax.activation/javax.activation-api/pom.properties",
+      "name": "",
+      "groupId": "javax.activation",
+      "artifactId": "javax.activation-api",
+      "version": "1.2.0",
+      "extraFields": {}
+    }
+  }
+}

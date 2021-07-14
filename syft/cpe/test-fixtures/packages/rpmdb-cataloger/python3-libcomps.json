@@ -1,0 +1,99 @@
+{
+  "name": "python3-libcomps",
+  "version": "0.1.11-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "libcomps",
+      "Version": "0.1.11",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/python3-libcomps@0:0.1.11-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python3-libcomps",
+    "version": "0.1.11",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libcomps-0.1.11-4.el8.src.rpm",
+    "size": 147027,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/libcomps",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fe",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fe/6c1f8e908ef65cc501a30491ec7552e856e157",
+        "mode": 41471,
+        "size": 69,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libcomps",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libcomps/__init__.py",
+        "mode": 33188,
+        "size": 28,
+        "sha256": "06625bfa06225ca1238bb96a578924130dfb63bc46deb89628e1a3c9dccb9b7e"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libcomps/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libcomps/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 143,
+        "sha256": "2974f26f5d0a02a36b77269da73420429aa5fdc5827913f33f81662572f9de83"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libcomps/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 143,
+        "sha256": "2974f26f5d0a02a36b77269da73420429aa5fdc5827913f33f81662572f9de83"
+      },
+      {
+        "path": "/usr/lib64/python3.6/site-packages/libcomps/_libpycomps.so",
+        "mode": 33261,
+        "size": 146856,
+        "sha256": "01b80c622dfa200bc4becce7915b1b48ade9cf695cd25fe8528f2318b232675e"
+      }
+    ]
+  }
+}

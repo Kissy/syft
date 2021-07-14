@@ -1,0 +1,427 @@
+{
+  "name": "dbus-python",
+  "version": "1.1.1-9.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/dbus-python@0:1.1.1-9.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dbus-python",
+    "version": "1.1.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.el7",
+    "sourceRpm": "dbus-python-1.1.1-9.el7.src.rpm",
+    "size": 848154,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "http://www.freedesktop.org/software/dbus-python",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/_dbus_bindings.so",
+        "mode": 33261,
+        "size": 166248,
+        "sha256": "abc4a10f8cb16331921d77e676f35b5b43515e85c1ccd193e71fae332327d676"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/_dbus_glib_bindings.so",
+        "mode": 33261,
+        "size": 12008,
+        "sha256": "053ae5b16356d5135750af9053905d9a8c4b3367cf40e20d5d636052a627cb0e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/__init__.py",
+        "mode": 33188,
+        "size": 3824,
+        "sha256": "d596e7d084df3df5d7ce24f0105f833494466f9ff735d98862f996d22cf607aa"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/__init__.pyc",
+        "mode": 33188,
+        "size": 2655,
+        "sha256": "59c82ac39902b8bf959b1beac9df28cb3ed1c50d36c509a556cbcb2a6b08fea4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/__init__.pyo",
+        "mode": 33188,
+        "size": 2655,
+        "sha256": "59c82ac39902b8bf959b1beac9df28cb3ed1c50d36c509a556cbcb2a6b08fea4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_compat.py",
+        "mode": 33188,
+        "size": 211,
+        "sha256": "6f33409d8874b357d689d71453885d528294b055ccb5567f4725899c3c77390b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_compat.pyc",
+        "mode": 33188,
+        "size": 241,
+        "sha256": "db5549f2b064f5a263c9740b5f7251e14c37d3e07b1241797cae9852ebfb689e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_compat.pyo",
+        "mode": 33188,
+        "size": 241,
+        "sha256": "db5549f2b064f5a263c9740b5f7251e14c37d3e07b1241797cae9852ebfb689e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_dbus.py",
+        "mode": 33188,
+        "size": 8804,
+        "sha256": "7ce27c00954083cc732cafedbc20c10533fb8150bb9ed60234a52f845f40d89d"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_dbus.pyc",
+        "mode": 33188,
+        "size": 8469,
+        "sha256": "bbbcc5b39ab0dc393949e9345f9e0cb9c54b3b024b07db71af2b6e8d511c90d6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_dbus.pyo",
+        "mode": 33188,
+        "size": 8469,
+        "sha256": "bbbcc5b39ab0dc393949e9345f9e0cb9c54b3b024b07db71af2b6e8d511c90d6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_expat_introspect_parser.py",
+        "mode": 33188,
+        "size": 3376,
+        "sha256": "1e46c2d7a3264107cb4ac725595ea4342a3efb550fcb3aca80c32799683479c2"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_expat_introspect_parser.pyc",
+        "mode": 33188,
+        "size": 2835,
+        "sha256": "33cdd1ff25a7c91d5891f1f30c73e68dd78ab771295780d0146eae85af604912"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_expat_introspect_parser.pyo",
+        "mode": 33188,
+        "size": 2835,
+        "sha256": "33cdd1ff25a7c91d5891f1f30c73e68dd78ab771295780d0146eae85af604912"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_version.py",
+        "mode": 33188,
+        "size": 107,
+        "sha256": "9ba7cf959bada07449e61c40af272c8c4c214091eb008a2da49e951934bece38"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_version.pyc",
+        "mode": 33188,
+        "size": 215,
+        "sha256": "45b4cc9c2bdd3f1b836656ca795a5e8d0bdff710d17b3ac1668c6597cc349ce1"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/_version.pyo",
+        "mode": 33188,
+        "size": 215,
+        "sha256": "45b4cc9c2bdd3f1b836656ca795a5e8d0bdff710d17b3ac1668c6597cc349ce1"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/bus.py",
+        "mode": 33188,
+        "size": 17927,
+        "sha256": "b46d7638fc9d9e5ff9efe2fb331e7864bebddf357fbcc517e6488924ebb33eaf"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/bus.pyc",
+        "mode": 33188,
+        "size": 15830,
+        "sha256": "b8c36ab689228c7af5627acdcc4a77dee660daccf09da61b2847bdf334765b21"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/bus.pyo",
+        "mode": 33188,
+        "size": 15830,
+        "sha256": "b8c36ab689228c7af5627acdcc4a77dee660daccf09da61b2847bdf334765b21"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/connection.py",
+        "mode": 33188,
+        "size": 27773,
+        "sha256": "44a20ccff869eaff296fd95a55fb7230a5b59a89893a8967e1a24bc8f196c5c3"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/connection.pyc",
+        "mode": 33188,
+        "size": 20997,
+        "sha256": "091c77c9a14154c26e7e4f51e0b4235a838eafb02c7d356a70b9304ff940ead6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/connection.pyo",
+        "mode": 33188,
+        "size": 20997,
+        "sha256": "091c77c9a14154c26e7e4f51e0b4235a838eafb02c7d356a70b9304ff940ead6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/decorators.py",
+        "mode": 33188,
+        "size": 14880,
+        "sha256": "94166b9eddab12b5ea865631d084b77de7095047ecb477435e239bc89feceb19"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/decorators.pyc",
+        "mode": 33188,
+        "size": 12468,
+        "sha256": "1ac4a07a1c46873f0b89e195ffb6df8cf0c7b37eda7662653427740d4e4be9d1"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/decorators.pyo",
+        "mode": 33188,
+        "size": 12468,
+        "sha256": "1ac4a07a1c46873f0b89e195ffb6df8cf0c7b37eda7662653427740d4e4be9d1"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/exceptions.py",
+        "mode": 33188,
+        "size": 3956,
+        "sha256": "f2c8c52103a43c4dba4e5ad34fc31816bb0c01aa2bfae8fe7d54ce833221be2e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/exceptions.pyc",
+        "mode": 33188,
+        "size": 4610,
+        "sha256": "99f1442729d7e412eada4d9888f6801c1897029bc2889757dbf0bca1e18c4d4b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/exceptions.pyo",
+        "mode": 33188,
+        "size": 4610,
+        "sha256": "99f1442729d7e412eada4d9888f6801c1897029bc2889757dbf0bca1e18c4d4b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/gi_service.py",
+        "mode": 33188,
+        "size": 3482,
+        "sha256": "70052ff23eae4e44a48be44d5b98d7f503d84532c29d84d03e9a5e0ebc9c77a7"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/gi_service.pyc",
+        "mode": 33188,
+        "size": 2260,
+        "sha256": "9009ab08144ac91270e60d28dbcd0096da2571aff0ac162deb0f392529ab4794"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/gi_service.pyo",
+        "mode": 33188,
+        "size": 2260,
+        "sha256": "9009ab08144ac91270e60d28dbcd0096da2571aff0ac162deb0f392529ab4794"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/glib.py",
+        "mode": 33188,
+        "size": 2097,
+        "sha256": "f4a6c8f56322ca66a384bdffadf376fe3937d71e1a8912f502e3a08c2767ccf3"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/glib.pyc",
+        "mode": 33188,
+        "size": 1093,
+        "sha256": "f3cc5716bdb63017795266504f3801d7413fccd5c03e5e424ec949b7d4b624ca"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/glib.pyo",
+        "mode": 33188,
+        "size": 1093,
+        "sha256": "f3cc5716bdb63017795266504f3801d7413fccd5c03e5e424ec949b7d4b624ca"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/gobject_service.py",
+        "mode": 33188,
+        "size": 3708,
+        "sha256": "435067ba98ce44812524405def7569243d8f9a7fb15f361d6c03241b5abe46f0"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/gobject_service.pyc",
+        "mode": 33188,
+        "size": 3130,
+        "sha256": "cd8413029be61ec1e52f8ff6b969aecd8b9e495ef1757310601e4f83e709e4c4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/gobject_service.pyo",
+        "mode": 33188,
+        "size": 3130,
+        "sha256": "cd8413029be61ec1e52f8ff6b969aecd8b9e495ef1757310601e4f83e709e4c4"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/lowlevel.py",
+        "mode": 33188,
+        "size": 1831,
+        "sha256": "06fbb910d8dd3ea53cdb51e29163f7edbdc5b0c97cb299672f381cc30756c1b6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/lowlevel.pyc",
+        "mode": 33188,
+        "size": 1080,
+        "sha256": "8f1b2c324b4b832102b10b6f355654d8b2649ee7475cd194ce5e04b4b301928e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/lowlevel.pyo",
+        "mode": 33188,
+        "size": 1080,
+        "sha256": "8f1b2c324b4b832102b10b6f355654d8b2649ee7475cd194ce5e04b4b301928e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop/__init__.py",
+        "mode": 33188,
+        "size": 2336,
+        "sha256": "ee39ce379e9193b3da0d49e5303e2d07d31895eaba1e579e2640d320e19c155e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop/__init__.pyc",
+        "mode": 33188,
+        "size": 616,
+        "sha256": "93d474229b53bd9a8469b3db9c1a0b697c9293a042958ca9994db6b1a4b44466"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop/__init__.pyo",
+        "mode": 33188,
+        "size": 616,
+        "sha256": "93d474229b53bd9a8469b3db9c1a0b697c9293a042958ca9994db6b1a4b44466"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop/glib.py",
+        "mode": 33188,
+        "size": 1773,
+        "sha256": "84e1125b2fddc28f7e8a5c720df7d9f4729e1d86a96def0bfb07a5f612da6ea9"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop/glib.pyc",
+        "mode": 33188,
+        "size": 811,
+        "sha256": "d1dc4aeb75296518b1a02e34854633c3e93a89ac9d9bc5fd3c80ef90bde19210"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/mainloop/glib.pyo",
+        "mode": 33188,
+        "size": 811,
+        "sha256": "d1dc4aeb75296518b1a02e34854633c3e93a89ac9d9bc5fd3c80ef90bde19210"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/proxies.py",
+        "mode": 33188,
+        "size": 24788,
+        "sha256": "5c629257b08f9c5e66fb32e15d79b939b6980d0170d86cf490ebe2faa2a7584b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/proxies.pyc",
+        "mode": 33188,
+        "size": 20149,
+        "sha256": "c6f6f692cd3dd91f1db538d4acf3d5a4cf5d23062cca76828a08ef8979cb59d5"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/proxies.pyo",
+        "mode": 33188,
+        "size": 20149,
+        "sha256": "c6f6f692cd3dd91f1db538d4acf3d5a4cf5d23062cca76828a08ef8979cb59d5"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/server.py",
+        "mode": 33188,
+        "size": 4624,
+        "sha256": "5095ab39c9d9ee506d19512ade075f2654b108e7236cd5450cf2a53b18979b20"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/server.pyc",
+        "mode": 33188,
+        "size": 3830,
+        "sha256": "13fb04c05942e29b9590e3d629503c381f54141ff6cfefd51ef3bcdea8428b24"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/server.pyo",
+        "mode": 33188,
+        "size": 3830,
+        "sha256": "13fb04c05942e29b9590e3d629503c381f54141ff6cfefd51ef3bcdea8428b24"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/service.py",
+        "mode": 33188,
+        "size": 35341,
+        "sha256": "2ba768bc357d438485ca2d9f052e1a75be73a2e2a98aff9da59c212c770ebd20"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/service.pyc",
+        "mode": 33188,
+        "size": 25373,
+        "sha256": "c5acd338c5b77653911c107a56c3412caa8c631a798e907010ecee3b77399198"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/service.pyo",
+        "mode": 33188,
+        "size": 25373,
+        "sha256": "c5acd338c5b77653911c107a56c3412caa8c631a798e907010ecee3b77399198"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/types.py",
+        "mode": 33188,
+        "size": 529,
+        "sha256": "662a2d4c19db97bcefff0f3a458d6ff4952ba3c73d8118ad1e7cce30f9ba90ff"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/types.pyc",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "aaf22f2a6cb00a9dcca034f845091160d04ec35b7a2f5b4bdab1f6c5980c65b6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/dbus/types.pyo",
+        "mode": 33188,
+        "size": 860,
+        "sha256": "aaf22f2a6cb00a9dcca034f845091160d04ec35b7a2f5b4bdab1f6c5980c65b6"
+      },
+      {
+        "path": "/usr/share/doc/dbus-python-1.1.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/dbus-python-1.1.1/COPYING",
+        "mode": 33188,
+        "size": 1243,
+        "sha256": "51bbd3021265df293f5e15fe5f3f1cfdcf56d8f6d805740b92f6d700cffb86a0"
+      },
+      {
+        "path": "/usr/share/doc/dbus-python-1.1.1/ChangeLog",
+        "mode": 33188,
+        "size": 358373,
+        "sha256": "b0d407c16a173236a8fde542de16aedfb8703241a453c076c2f8e7f24a58844d"
+      },
+      {
+        "path": "/usr/share/doc/dbus-python-1.1.1/NEWS",
+        "mode": 33188,
+        "size": 19371,
+        "sha256": "28fe8464a7a2c385226d3b9845d1e37ac207e410e359ed9616edc562bbf16c72"
+      },
+      {
+        "path": "/usr/share/doc/dbus-python-1.1.1/README",
+        "mode": 33188,
+        "size": 2022,
+        "sha256": "23e4bff3e0fd83a1c5fc4b1b672aeebd35b5fda7a466673073ded3d50fa08b33"
+      }
+    ]
+  }
+}

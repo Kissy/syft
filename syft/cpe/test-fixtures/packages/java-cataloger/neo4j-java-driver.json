@@ -1,0 +1,63 @@
+{
+  "name": "neo4j-java-driver",
+  "version": "1.6.4",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "neo4j",
+      "Product": "neo4j",
+      "Version": "1.6.4",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.neo4j.driver/neo4j-java-driver@1.6.4",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/neo4j-java-driver-1.6.4.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "org.neo4j.driver",
+        "Build-Jdk": "1.8.0-adoptopenjdk",
+        "Built-By": "teamcity",
+        "Bundle-Description": "Access to the Neo4j graph database through Java",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Neo4j Java Driver",
+        "Bundle-SymbolicName": "org.neo4j.driver.neo4j-java-driver",
+        "Bundle-Version": "1.6.4.v20181203-1958",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "org.neo4j.driver.v1;version=\"1.6.4\",org.neo4j.driver.v1.exceptions;version=\"1.6.4\",org.neo4j.driver.v1.exceptions.value;version=\"1.6.4\",org.neo4j.driver.v1.summary;version=\"1.6.4\",org.neo4j.driver.v1.types;version=\"1.6.4\",org.neo4j.driver.v1.util;version=\"1.6.4\"",
+        "Implementation-Version": "1.6.4-fa493894b8ab2f8759dd0e78fe63ca5886b1cc8e",
+        "Import-Package": "io.netty.bootstrap;version=\"[4.1,5)\",io.netty.buffer;version=\"[4.1,5)\",io.netty.channel;version=\"[4.1,5)\",io.netty.channel.nio;version=\"[4.1,5)\",io.netty.channel.pool;version=\"[4.1,5)\",io.netty.channel.socket.nio;version=\"[4.1,5)\",io.netty.handler.codec;version=\"[4.1,5)\",io.netty.handler.ssl;version=\"[4.1,5)\",io.netty.handler.timeout;version=\"[4.1,5)\",io.netty.util;version=\"[4.1,5)\",io.netty.util.concurrent;version=\"[4.1,5)\",io.netty.util.internal;version=\"[4.1,5)\",io.netty.util.internal.logging;version=\"[4.1,5)\",javax.net.ssl,org.HdrHistogram;version=\"[2.1,3)\",org.neo4j.driver.v1.exceptions;version=\"[1.6,2)\",org.neo4j.driver.v1.exceptions.value;version=\"[1.6,2)\",org.neo4j.driver.v1.summary;version=\"[1.6,2)\",org.neo4j.driver.v1.types;version=\"[1.6,2)\",org.neo4j.driver.v1.util;version=\"[1.6,2)\"",
+        "Manifest-Version": "1.0",
+        "Originally-Created-By": "Apache Maven Bundle Plugin",
+        "Package": "org/neo4j/driver",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Tool": "Bnd-3.5.0.201709291849"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.neo4j.driver/neo4j-java-driver/pom.properties",
+      "name": "",
+      "groupId": "org.neo4j.driver",
+      "artifactId": "neo4j-java-driver",
+      "version": "1.6.4",
+      "extraFields": {}
+    }
+  }
+}

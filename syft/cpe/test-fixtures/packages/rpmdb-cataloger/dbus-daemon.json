@@ -1,0 +1,213 @@
+{
+  "name": "dbus-daemon",
+  "version": "1.12.8-11.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "dbus",
+      "Version": "1.12.8",
+      "Update": "11.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dbus-daemon@1:1.12.8-11.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dbus-daemon",
+    "version": "1.12.8",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "11.el8",
+    "sourceRpm": "dbus-1.12.8-11.el8.src.rpm",
+    "size": 560129,
+    "license": "(GPLv2+ or AFL) and GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.freedesktop.org/Software/dbus/",
+    "files": [
+      {
+        "path": "/usr/bin/dbus-cleanup-sockets",
+        "mode": 33261,
+        "size": 16904,
+        "sha256": "64be34fcd86837fc4c295d813697bbb7bfdd6de45eeeef457d4c8a4a112bd4ea"
+      },
+      {
+        "path": "/usr/bin/dbus-daemon",
+        "mode": 33261,
+        "size": 245640,
+        "sha256": "0942f8183379b4d33b99adbbd36fa86a0f3ff10ec7d0b51cd38d39c94c9b45fd"
+      },
+      {
+        "path": "/usr/bin/dbus-run-session",
+        "mode": 33261,
+        "size": 16440,
+        "sha256": "6a6b672da4df63c546a64b9131b5b6658b9499a23da61e934e73c76214541615"
+      },
+      {
+        "path": "/usr/bin/dbus-test-tool",
+        "mode": 33261,
+        "size": 25328,
+        "sha256": "89737a7249e83b96831a8be0fd55c01288b9730746e403e5e5bf08d59c94d17d"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/07",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/07/8c915f9a7e8b3226bce9951bcd0fd3a7c32ecf",
+        "mode": 41471,
+        "size": 34,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/07/d1cc38ed0dc2230837e80567f34cabebe7fe5f",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a6/430041d1fd6c2c9c68506080a7ab914304aa1c",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b3/f68fcfe1e1dcdc29b786bd33afea63e06b74c6",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1/289a73d044955ffd1b7de029782b5496474b76",
+        "mode": 41471,
+        "size": 56,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dbus.service",
+        "mode": 33188,
+        "size": 380,
+        "sha256": "7d9d706cc9966c2b6dfebcd64ef460010522194f5b3cb92bc119566b5c8c7864"
+      },
+      {
+        "path": "/usr/lib/systemd/system/dbus.socket",
+        "mode": 33188,
+        "size": 102,
+        "sha256": "e05359bbdc083b8db2b49542b26429166b5e13367a63668a4e8ff8a1b496f7ae"
+      },
+      {
+        "path": "/usr/lib/systemd/system/messagebus.service",
+        "mode": 41471,
+        "size": 12,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/multi-user.target.wants/dbus.service",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/sockets.target.wants/dbus.socket",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/user/dbus.service",
+        "mode": 33188,
+        "size": 360,
+        "sha256": "19d7b51e1e6da255346ac6acbf95627baf14c324e84ee841d90fab98bcc0e994"
+      },
+      {
+        "path": "/usr/lib/systemd/user/dbus.socket",
+        "mode": 33188,
+        "size": 178,
+        "sha256": "2b7ac7357065180d1c2f3f00c11d17dadd31cdc3d7e59c623eb733beb3e50cef"
+      },
+      {
+        "path": "/usr/lib/systemd/user/sockets.target.wants/dbus.socket",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d/dbus.conf",
+        "mode": 33188,
+        "size": 365,
+        "sha256": "d1b15f34a0590f6535dbff91727dd6bbf10752e8abb2cab73fa66a6184f9df1a"
+      },
+      {
+        "path": "/usr/libexec/dbus-1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/dbus-1/dbus-daemon-launch-helper",
+        "mode": 35304,
+        "size": 63760,
+        "sha256": "adf9beeeaf86b4ef98761162151d2c623cf1fbbe23d7acda8675737167835ea9"
+      },
+      {
+        "path": "/usr/share/licenses/dbus-daemon",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/dbus-daemon/COPYING",
+        "mode": 33188,
+        "size": 29176,
+        "sha256": "0e46f54efb12d04ab5c33713bacd0e140c9a35b57ae29e03c853203266e8f3a1"
+      },
+      {
+        "path": "/var/lib/dbus",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

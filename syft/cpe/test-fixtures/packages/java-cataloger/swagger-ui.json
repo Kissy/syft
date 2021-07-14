@@ -1,0 +1,57 @@
+{
+  "name": "swagger-ui",
+  "version": "3.34.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "smartbear",
+      "Product": "swagger-ui",
+      "Version": "3.34.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.webjars/swagger-ui@3.34.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/swagger-ui-3.34.0.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1600700505266",
+        "Build-Jdk": "1.8.0_222",
+        "Built-By": "jamesward",
+        "Bundle-Description": "WebJar for Swagger UI",
+        "Bundle-License": "https://github.com/swagger-api/swagger-ui",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Swagger UI",
+        "Bundle-SymbolicName": "org.webjars.swagger-ui",
+        "Bundle-Version": "3.34.0",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Manifest-Version": "1.0",
+        "Tool": "Bnd-3.2.0.201605172007"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.webjars/swagger-ui/pom.properties",
+      "name": "",
+      "groupId": "org.webjars",
+      "artifactId": "swagger-ui",
+      "version": "3.34.0",
+      "extraFields": {}
+    }
+  }
+}

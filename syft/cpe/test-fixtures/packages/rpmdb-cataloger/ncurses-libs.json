@@ -1,0 +1,309 @@
+{
+  "name": "ncurses-libs",
+  "version": "6.1-7.20180224.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "ncurses_project",
+      "Product": "ncurses",
+      "Version": "6.1",
+      "Update": "7.20180224.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/ncurses-libs@0:6.1-7.20180224.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "ncurses-libs",
+    "version": "6.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "7.20180224.el8",
+    "sourceRpm": "ncurses-6.1-7.20180224.el8.src.rpm",
+    "size": 1120040,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "https://invisible-island.net/ncurses/ncurses.html",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0f/a4257065e15ec5447b36eec86bdf4ad6b6ad3d",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2b/5886411e342c52d649245d46acd346d9870bb1",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/46",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/46/936366ebfed6d3828e23ce2a848023b6bd01d7",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5e/b7135acda6824ce98894c52c45cda27a866c4a",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/63",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/63/d42395e2ac6dd60332da36d26486f8a669b2cb",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a4",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a4/925636ecde9fb630563d73b62fe1589498db0a",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ad",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ad/836bbea1beebbd1df8bfab324bfec157320013",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bf/86c2ac74bfa0db05a88ad5f2b636720d0c2604",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d0/90a2a9f97976d8b604bcec67c09dbb44a7dc4f",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e6/0c3bf2c757d54e7e7958fa7f9f3e9f7af20647",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e7",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e7/4bd7b5c64379e0337c21cac016ab752ccacd57",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ef",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ef/4d909db95c328002dca46789bb58dc01b4bce0",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libform.so.6",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libform.so.6.1",
+        "mode": 33261,
+        "size": 88848,
+        "sha256": "575325aed3db6b7c34b174dd0da3f52f0663a1546a44afb78e2bab5751d6ad9d"
+      },
+      {
+        "path": "/usr/lib64/libformw.so.6",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libformw.so.6.1",
+        "mode": 33261,
+        "size": 97152,
+        "sha256": "92d7fcf93e8d409af23d181f99d8d84706ae89fe0b31c4aae3710e013fcba723"
+      },
+      {
+        "path": "/usr/lib64/libmenu.so.6",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmenu.so.6.1",
+        "mode": 33261,
+        "size": 48040,
+        "sha256": "cd21371deba4ea1f3641ad4b5434932cf4418cf9ab068fade27303fe7b0212b2"
+      },
+      {
+        "path": "/usr/lib64/libmenuw.so.6",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmenuw.so.6.1",
+        "mode": 33261,
+        "size": 48040,
+        "sha256": "6734fa55b9a333f9ff53e25fa84937c8310ef257c732261e3ea77152ab172e7d"
+      },
+      {
+        "path": "/usr/lib64/libncurses.so.6",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libncurses.so.6.1",
+        "mode": 33261,
+        "size": 216912,
+        "sha256": "37e54f939ea95345b87cd6aacb4b933889708a851f5d4030dc33718edb42be16"
+      },
+      {
+        "path": "/usr/lib64/libncursesw.so.6",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libncursesw.so.6.1",
+        "mode": 33261,
+        "size": 300104,
+        "sha256": "6917186341a5e6ea36eea5488909ab0b254c1d25d00507f919be453d71753a03"
+      },
+      {
+        "path": "/usr/lib64/libpanel.so.6",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpanel.so.6.1",
+        "mode": 33261,
+        "size": 21952,
+        "sha256": "8832fe392e9cae2ea5ef543ed85db363390b7df2488413d193254ad47fed9d65"
+      },
+      {
+        "path": "/usr/lib64/libpanelw.so.6",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpanelw.so.6.1",
+        "mode": 33261,
+        "size": 21952,
+        "sha256": "9dc1ca629379124479d1ae271e50c00ef3673e570321000e36a80006e52d5739"
+      },
+      {
+        "path": "/usr/lib64/libtic.so.6",
+        "mode": 41471,
+        "size": 13,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libtic.so.6.1",
+        "mode": 33261,
+        "size": 68424,
+        "sha256": "9bef84ab9530dcf32ee44395912e7bc4417f70c69fd43d878b0d7d2de7894560"
+      },
+      {
+        "path": "/usr/lib64/libtinfo.so.6",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libtinfo.so.6.1",
+        "mode": 33261,
+        "size": 208616,
+        "sha256": "4d3bfa809d1ed5c6efd9e6b4f04658cc3bc967492ee9b09ebc80a77110f9bfc2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "pth",
+  "version": "2.0.7-23.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pth@0:2.0.7-23.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pth",
+    "version": "2.0.7",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "23.el7",
+    "sourceRpm": "pth-2.0.7-23.el7.src.rpm",
+    "size": 267851,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.gnu.org/software/pth/",
+    "files": [
+      {
+        "path": "/usr/lib64/libpth.so.20",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpth.so.20.0.27",
+        "mode": 33261,
+        "size": 83720,
+        "sha256": "8ecdafafecb8a69be711e9c66fe2f31f49917464d6661639bc77f70badfff1f2"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/ANNOUNCE",
+        "mode": 33188,
+        "size": 3766,
+        "sha256": "67a77c0398d759968a788457792ee155b7a7cac2f205a0730ffb483352eb279e"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/AUTHORS",
+        "mode": 33188,
+        "size": 602,
+        "sha256": "02edf1717f45c9e6ba67298c50c4ef31a0a1e79ed2231f590f0a9eddac9e78ee"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/COPYING",
+        "mode": 33188,
+        "size": 26866,
+        "sha256": "f1b95d3728077d1a3efe7fc17928b1953b1224f6caf9c528e30e570158b7520d"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/ChangeLog",
+        "mode": 33188,
+        "size": 104918,
+        "sha256": "187c35e2e3e393fa6feee5171941b10607d2408775d429c809c933c7768cb8ff"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/HISTORY",
+        "mode": 33188,
+        "size": 3852,
+        "sha256": "f2e9f689602286ef07624f7a374c0a3ca07b7482d6b2ff9d2ea220368cf19cec"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/NEWS",
+        "mode": 33188,
+        "size": 3973,
+        "sha256": "7c4b18f580223bc6bc9426d2b1e9478c4100d5e114cfc828851eab1a8ae9b3f7"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/PORTING",
+        "mode": 33188,
+        "size": 19473,
+        "sha256": "dfbab65bbda22ab35fece9ad50583cfea9c50679c2b3e9cb2c07c8dcddc7c23f"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/README",
+        "mode": 33188,
+        "size": 4058,
+        "sha256": "71b977be4d72e858f12d0e9dc4335f81df654eaf8a2218cc73edce7222e14253"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/SUPPORT",
+        "mode": 33188,
+        "size": 2379,
+        "sha256": "e7fd9de50c76547f8a40f32c69c56ccec61f29845533e85432560c916a7a94ae"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/TESTS",
+        "mode": 33188,
+        "size": 6237,
+        "sha256": "f68bcdc267444c941ac17e73e79585b9e22fb5b82717341c7a06782cead80f46"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/THANKS",
+        "mode": 33188,
+        "size": 6477,
+        "sha256": "bdb598bece2348c8d2824730e857c8e10e43d9902b3fe391df810a436227512b"
+      },
+      {
+        "path": "/usr/share/doc/pth-2.0.7/USERS",
+        "mode": 33188,
+        "size": 1530,
+        "sha256": "f35ad8b0778f1c0736c771a64172cf3b2741ea6b0d4610aaba6bc39a08be7a6e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "newt",
+  "version": "0.52.15-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/newt@0:0.52.15-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "newt",
+    "version": "0.52.15",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "newt-0.52.15-4.el7.src.rpm",
+    "size": 184324,
+    "license": "LGPLv2",
+    "vendor": "Oracle America",
+    "url": "https://fedorahosted.org/newt/",
+    "files": [
+      {
+        "path": "/usr/bin/whiptail",
+        "mode": 33261,
+        "size": 28536,
+        "sha256": "3c51e094a902550c12b408fdd2bf3338aaba178e10a31087c03e91926b89f3a7"
+      },
+      {
+        "path": "/usr/lib64/libnewt.so.0.52",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnewt.so.0.52.15",
+        "mode": 33261,
+        "size": 87360,
+        "sha256": "36e8a273d588e426d16d8315a5e316610fe7590898c737401c8868a9c6b91ecc"
+      },
+      {
+        "path": "/usr/share/doc/newt-0.52.15",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/newt-0.52.15/COPYING",
+        "mode": 33188,
+        "size": 25383,
+        "sha256": "b7993225104d90ddd8024fd838faf300bea5e83d91203eab98e29512acebd69c"
+      }
+    ]
+  }
+}

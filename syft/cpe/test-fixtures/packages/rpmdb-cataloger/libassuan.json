@@ -1,0 +1,79 @@
+{
+  "name": "libassuan",
+  "version": "2.5.1-3.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libassuan@0:2.5.1-3.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libassuan",
+    "version": "2.5.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8",
+    "sourceRpm": "libassuan-2.5.1-3.el8.src.rpm",
+    "size": 202763,
+    "license": "LGPLv2+ and GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnupg.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/87",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/87/22b69215e3b2fe5787d8298b57148a56199716",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libassuan.so.0",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libassuan.so.0.8.1",
+        "mode": 33261,
+        "size": 92664,
+        "sha256": "7259bce6b4cee2f78d535f13e2a81f9ba9e407088d03a87fe08be2d445ed7aa7"
+      },
+      {
+        "path": "/usr/share/licenses/libassuan",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libassuan/COPYING",
+        "mode": 33188,
+        "size": 35068,
+        "sha256": "fc82ca8b6fdb18d4e3e85cfd8ab58d1bcd3f1b29abe782895abd91d64763f8e7"
+      },
+      {
+        "path": "/usr/share/licenses/libassuan/COPYING.LIB",
+        "mode": 33188,
+        "size": 26527,
+        "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+      }
+    ]
+  }
+}

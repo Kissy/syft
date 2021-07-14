@@ -1,0 +1,41 @@
+{
+  "name": "site-resources-api",
+  "version": "IAP-1960-SNAPSHOT",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/com.traveldoo.supportingbusiness/site-resources-api@IAP-1960-SNAPSHOT",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar",
+    "manifest": {
+      "main": {
+        "Build-Jdk": "15.0.1",
+        "Built-By": "glebiller",
+        "Created-By": "Apache Maven 3.6.3",
+        "Main-Class": "org.springframework.boot.loader.JarLauncher",
+        "Manifest-Version": "1.0",
+        "Spring-Boot-Classes": "BOOT-INF/classes/",
+        "Spring-Boot-Classpath-Index": "BOOT-INF/classpath.idx",
+        "Spring-Boot-Lib": "BOOT-INF/lib/",
+        "Spring-Boot-Version": "2.3.4.RELEASE",
+        "Start-Class": "com.traveldoo.supportingbusiness.siteresources.api.Application"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.traveldoo.supportingbusiness/site-resources-api/pom.properties",
+      "name": "",
+      "groupId": "com.traveldoo.supportingbusiness",
+      "artifactId": "site-resources-api",
+      "version": "IAP-1960-SNAPSHOT",
+      "extraFields": {}
+    }
+  }
+}

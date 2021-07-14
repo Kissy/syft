@@ -1,0 +1,87 @@
+{
+  "name": "libseccomp",
+  "version": "2.4.3-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libseccomp_project",
+      "Product": "libseccomp",
+      "Version": "2.4.3",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libseccomp@0:2.4.3-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libseccomp",
+    "version": "2.4.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "libseccomp-2.4.3-1.el8.src.rpm",
+    "size": 350734,
+    "license": "LGPLv2",
+    "vendor": "CentOS",
+    "url": "https://github.com/seccomp/libseccomp",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7c/e756c47e98e1889e7fe2551c2fd2e5ed9433e3",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libseccomp.so.2",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libseccomp.so.2.4.3",
+        "mode": 33261,
+        "size": 312632,
+        "sha256": "6d75b0bd706f5c06c7aa894a6066f620d2c69dd43a24084ad018062db2668233"
+      },
+      {
+        "path": "/usr/share/licenses/libseccomp",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libseccomp/LICENSE",
+        "mode": 33188,
+        "size": 24428,
+        "sha256": "102900208eef27b766380135906d431dba87edaa7ec6aa72e6ebd3dd67f3a97b"
+      }
+    ]
+  }
+}

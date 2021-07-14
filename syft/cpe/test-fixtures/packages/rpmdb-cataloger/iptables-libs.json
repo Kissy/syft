@@ -1,0 +1,183 @@
+{
+  "name": "iptables-libs",
+  "version": "1.8.4-15.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "netfilter",
+      "Product": "iptables",
+      "Version": "1.8.4",
+      "Update": "15.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/iptables-libs@0:1.8.4-15.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "iptables-libs",
+    "version": "1.8.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "15.el8",
+    "sourceRpm": "iptables-1.8.4-15.el8.src.rpm",
+    "size": 201952,
+    "license": "GPLv2 and Artistic 2.0 and ISC",
+    "vendor": "CentOS",
+    "url": "http://www.netfilter.org/projects/iptables",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/09",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/09/ed7c0732c9fadac51681880e56d4e068b56c60",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4d/07d9b618dd1f6f82dfc0c7a3482f9f3728e48c",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5b/4d4907a0056ca4cbbdfbe9d610b6a04d51eca5",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6b/d91acf770ef6b25caa4edb8276805c3704a993",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7f/6085f1d2d6005d4d5f7daf61e31be5b0167139",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7f/60f4bd65030f4e606e924838799792425cf597",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libip4tc.so.0",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libip4tc.so.0.1.0",
+        "mode": 33261,
+        "size": 33248,
+        "sha256": "284f85f2a9517cacc7799ca81e14a7773bc71c2a5da35aa0864ab56780e676ba"
+      },
+      {
+        "path": "/usr/lib64/libip4tc.so.2",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libip4tc.so.2.0.0",
+        "mode": 33261,
+        "size": 33256,
+        "sha256": "8d79fe67d25024514e214ea6149f8ed2440f488202d18f3eec162d0b5a55f481"
+      },
+      {
+        "path": "/usr/lib64/libip6tc.so.0",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libip6tc.so.0.1.0",
+        "mode": 33261,
+        "size": 33264,
+        "sha256": "27b3651b11f40bcbda853502add732e2ff4cd90765c598abff29e79d014e85c6"
+      },
+      {
+        "path": "/usr/lib64/libip6tc.so.2",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libip6tc.so.2.0.0",
+        "mode": 33261,
+        "size": 33272,
+        "sha256": "939de3a5bb2829ee4af108c8fa9ce98a06ae5a84e10ead08ffc8d91c9ccf8a44"
+      },
+      {
+        "path": "/usr/lib64/libiptc.so.0",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libiptc.so.0.0.0",
+        "mode": 33261,
+        "size": 6896,
+        "sha256": "fe693e879548d5b0974484622c94d227fdb48636a2a8b2fe0da6c67f49fde8a7"
+      },
+      {
+        "path": "/usr/lib64/libxtables.so.12",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libxtables.so.12.2.0",
+        "mode": 33261,
+        "size": 62016,
+        "sha256": "50cd09a1a357ed7942cfd83648254593f6097624955278edefe08fac705bcf82"
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "name": "pygobject2",
+  "version": "2.28.6-11.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pygobject2@0:2.28.6-11.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pygobject2",
+    "version": "2.28.6",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "11.el7",
+    "sourceRpm": "pygobject2-2.28.6-11.el7.src.rpm",
+    "size": 890111,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.pygtk.org/",
+    "files": [
+      {
+        "path": "/usr/lib64/libpyglib-2.0-python.so",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpyglib-2.0-python.so.0",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpyglib-2.0-python.so.0.0.0",
+        "mode": 33188,
+        "size": 19600,
+        "sha256": "da00396317aa2a38d22b42bf660c190eb0074517c60ba433bcfaa6e01939b8b0"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/__init__.py",
+        "mode": 33188,
+        "size": 996,
+        "sha256": "de35bf66ecc56ac3e4257bee0b9349edcc6a21c0a2f8a7c69c8ce01a82214fb7"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/__init__.pyc",
+        "mode": 33188,
+        "size": 221,
+        "sha256": "31d70f3b7d8072343bea4430008adb0237e0ad1247c28b23385d9a29bf4013b5"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/__init__.pyo",
+        "mode": 33188,
+        "size": 221,
+        "sha256": "31d70f3b7d8072343bea4430008adb0237e0ad1247c28b23385d9a29bf4013b5"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/_glib.so",
+        "mode": 33188,
+        "size": 83928,
+        "sha256": "8ca505f673796a8d4564d0049f872bb65ca158d4b4b0eac35c14457e4a6aa77e"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/option.py",
+        "mode": 33188,
+        "size": 13157,
+        "sha256": "3aef365cf2d664c842d8a98ecefdf787f0c88b1383fc9ca22c48921635833990"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/option.pyc",
+        "mode": 33188,
+        "size": 12639,
+        "sha256": "61476df01bef815392f864e2bb4fcd61a3024a8debc57b829678f2b82097eee8"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/glib/option.pyo",
+        "mode": 33188,
+        "size": 12639,
+        "sha256": "61476df01bef815392f864e2bb4fcd61a3024a8debc57b829678f2b82097eee8"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/__init__.py",
+        "mode": 33188,
+        "size": 4924,
+        "sha256": "d42c82ab268b0ad51ebb3ebaabfca57c6ff24f589d0703c16a9cfcab16fedb96"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/__init__.pyc",
+        "mode": 33188,
+        "size": 5426,
+        "sha256": "6b713dbed95f2310ed3aa594d4faff374b7d797fe4cb98ce4c7311699cfe0d69"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/__init__.pyo",
+        "mode": 33188,
+        "size": 5426,
+        "sha256": "6b713dbed95f2310ed3aa594d4faff374b7d797fe4cb98ce4c7311699cfe0d69"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/_gobject.so",
+        "mode": 33188,
+        "size": 152656,
+        "sha256": "01186f73ead4989b2fcd3aee960f19154f0648372e03af60119aed38f11181c6"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/constants.py",
+        "mode": 33188,
+        "size": 3158,
+        "sha256": "6cdc3784824e7cf047f94a947b605b9b6c661df4f7bdac2770a09348bdb55929"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/constants.pyc",
+        "mode": 33188,
+        "size": 1991,
+        "sha256": "d26503f5537396a6801e2a7cfa36f4ebbea043752ececbc66db99726f9b83f07"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/constants.pyo",
+        "mode": 33188,
+        "size": 1991,
+        "sha256": "d26503f5537396a6801e2a7cfa36f4ebbea043752ececbc66db99726f9b83f07"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/propertyhelper.py",
+        "mode": 33188,
+        "size": 9884,
+        "sha256": "80e086a872333347e3c46ae8ae49f0758ea2e9bd26603afd1eed0ea89fc2b9bb"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/propertyhelper.pyc",
+        "mode": 33188,
+        "size": 9460,
+        "sha256": "9f633e2a04b994f93a4cd27be20b18cba2d0d13a8e904f224bdc1817a3a6f0ee"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gobject/propertyhelper.pyo",
+        "mode": 33188,
+        "size": 9460,
+        "sha256": "9f633e2a04b994f93a4cd27be20b18cba2d0d13a8e904f224bdc1817a3a6f0ee"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/dsextras.py",
+        "mode": 33188,
+        "size": 16351,
+        "sha256": "57cbbc77ef5b54b081ad4b76e5fdd3faaa2b6b439722cf259da6f9cabd08ad73"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/dsextras.pyc",
+        "mode": 33188,
+        "size": 17929,
+        "sha256": "1e668344856b7d1974b3617a1aa4a94398d2ece1c3c0f24a5c34d0850d659570"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/dsextras.pyo",
+        "mode": 33188,
+        "size": 17929,
+        "sha256": "1e668344856b7d1974b3617a1aa4a94398d2ece1c3c0f24a5c34d0850d659570"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/gio",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/gio/__init__.py",
+        "mode": 33188,
+        "size": 1328,
+        "sha256": "942cf2db0f4a7b80f59d5d6dc4a9a64cb9532eb6087f9919f4b920c27164146b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/gio/__init__.pyc",
+        "mode": 33188,
+        "size": 935,
+        "sha256": "6909cb030458ce289a0c499f382e2f561c14b1c8a82fff73180989a20c903f01"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/gio/__init__.pyo",
+        "mode": 33188,
+        "size": 935,
+        "sha256": "6909cb030458ce289a0c499f382e2f561c14b1c8a82fff73180989a20c903f01"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/gio/_gio.so",
+        "mode": 33188,
+        "size": 418264,
+        "sha256": "f7b7d4831dd9a0ceb0476fa0f5a5faa7db464530ef099b69b22776a856dbb384"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gtk-2.0/gio/unix.so",
+        "mode": 33188,
+        "size": 31960,
+        "sha256": "75ec62479064a3cc28c98da7b35135a57869fcf1b024f0b626ec96b626a2cf65"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pygtk.pth",
+        "mode": 33188,
+        "size": 8,
+        "sha256": "1defc2635d899188ba39132974233f522c471c1c255c39786bf1a25f5a4367eb"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pygtk.py",
+        "mode": 33188,
+        "size": 2966,
+        "sha256": "e39c07cf442e067150bee709fc1db98cfc26dc785bbc3ba2d2d8533c84204110"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pygtk.pyc",
+        "mode": 33188,
+        "size": 2059,
+        "sha256": "7c5a7e082116b82e88fd7f4014903e7f7527c664cd6eeefc325bbc4bcc21f840"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pygtk.pyo",
+        "mode": 33188,
+        "size": 1763,
+        "sha256": "278cd87074eec5179b4384e102e01cbf2e6b7496ba618fb4166d328b02ff29be"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/AUTHORS",
+        "mode": 33188,
+        "size": 223,
+        "sha256": "b97b1cd18526e7cfaaedd8c87706accc4f9f378308c703876b8188a8df355648"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/NEWS",
+        "mode": 33188,
+        "size": 70243,
+        "sha256": "b7f17abe1b1189c71f274241222e9cf1a642aea5c0f87e097622805e7604e24c"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/README",
+        "mode": 33188,
+        "size": 3152,
+        "sha256": "aa5fed1731ff90a84fece18a5113364517c4898ee5b8ff61a8dd74f612adbe69"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/examples",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/examples/cairo-demo.py",
+        "mode": 33188,
+        "size": 2584,
+        "sha256": "cff92b8bc643e0cbddc7c6d31f9cd1d8b2ec17edc44dab07b6159f4a55b48ac0"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/examples/option.py",
+        "mode": 33188,
+        "size": 861,
+        "sha256": "e5996ee2cfde1c1e004d91d87135c68eb8a52ee8ec06fab21a063762b85947bd"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/examples/properties.py",
+        "mode": 33188,
+        "size": 592,
+        "sha256": "60a1f2dd9b6283f35f683abdef9cab4c25160db83fd9f2206d536524356ac46e"
+      },
+      {
+        "path": "/usr/share/doc/pygobject2-2.28.6/examples/signal.py",
+        "mode": 33188,
+        "size": 853,
+        "sha256": "9d8bd47e5d2215da35b1a77c444ac28dd68220fd18b60b2eb3d03b915efd5565"
+      }
+    ]
+  }
+}

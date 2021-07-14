@@ -1,0 +1,63 @@
+{
+  "name": "nss-pem",
+  "version": "1.0.3-7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "nss",
+      "Version": "1.0.3",
+      "Update": "7.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nss-pem@0:1.0.3-7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nss-pem",
+    "version": "1.0.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "7.el7",
+    "sourceRpm": "nss-pem-1.0.3-7.el7.src.rpm",
+    "size": 205555,
+    "license": "MPLv1.1",
+    "vendor": "Oracle America",
+    "url": "https://github.com/kdudka/nss-pem",
+    "files": [
+      {
+        "path": "/usr/lib64/libnsspem.so",
+        "mode": 33261,
+        "size": 179800,
+        "sha256": "6870e7ad9378b9732fb09008ad18f919d9482d555ccd00a96b814aea94545cb7"
+      },
+      {
+        "path": "/usr/share/licenses/nss-pem-1.0.3",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/nss-pem-1.0.3/COPYING",
+        "mode": 33188,
+        "size": 25755,
+        "sha256": "f849fc26a7a99981611a3a370e83078deb617d12a45776d6c4cada4d338be469"
+      }
+    ]
+  }
+}

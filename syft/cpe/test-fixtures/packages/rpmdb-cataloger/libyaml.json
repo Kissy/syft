@@ -1,0 +1,87 @@
+{
+  "name": "libyaml",
+  "version": "0.1.7-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "pyyaml",
+      "Product": "libyaml",
+      "Version": "0.1.7",
+      "Update": "5.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libyaml@0:0.1.7-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libyaml",
+    "version": "0.1.7",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libyaml-0.1.7-5.el8.src.rpm",
+    "size": 136478,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "http://pyyaml.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/19",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/19/086a9628216954b47992cf8a0141847303ce29",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libyaml-0.so.2",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libyaml-0.so.2.0.5",
+        "mode": 33261,
+        "size": 134584,
+        "sha256": "40b3dddf38b4bf7ded16644bd0e37d23aa71205dc4e9dec1509073c10cd6a46b"
+      },
+      {
+        "path": "/usr/share/licenses/libyaml",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libyaml/LICENSE",
+        "mode": 33188,
+        "size": 1058,
+        "sha256": "d0d8b09800a45cd982e9568fc7669d9c1a4c330e275a821bbe24d54366d16fe9"
+      }
+    ]
+  }
+}

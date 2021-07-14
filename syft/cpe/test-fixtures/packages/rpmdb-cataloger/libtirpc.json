@@ -1,0 +1,87 @@
+{
+  "name": "libtirpc",
+  "version": "1.1.4-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libtirpc_project",
+      "Product": "libtirpc",
+      "Version": "1.1.4",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libtirpc@0:1.1.4-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libtirpc",
+    "version": "1.1.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libtirpc-1.1.4-4.el8.src.rpm",
+    "size": 381964,
+    "license": "SISSL and BSD",
+    "vendor": "CentOS",
+    "url": "http://git.linux-nfs.org/?p=steved/libtirpc.git;a=summary",
+    "files": [
+      {
+        "path": "/etc/bindresvport.blacklist",
+        "mode": 33188,
+        "size": 429,
+        "sha256": "3eef9865b1123a43ebe87fec9d9379ff0735fe85fc9c46480c548fcb0ef2fe10"
+      },
+      {
+        "path": "/etc/netconfig",
+        "mode": 33188,
+        "size": 767,
+        "sha256": "86ee43cde79ed4afdbcc697d74fe80cb3d9b261feab550f45beeedfba7ff9fbd"
+      },
+      {
+        "path": "/lib64/libtirpc.so.3",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libtirpc.so.3.0.0",
+        "mode": 33261,
+        "size": 371032,
+        "sha256": "e2173c5c0cb8ea40aaa071f3f124d9ff0a13b1713080be372d6f657848c3adef"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/65/02626b8974cc694f43fa0c3d60ba4cbc8e835b",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      }
+    ]
+  }
+}

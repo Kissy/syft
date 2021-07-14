@@ -1,0 +1,201 @@
+{
+  "name": "openssh",
+  "version": "7.4p1-21.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "openbsd",
+      "Product": "openssh",
+      "Version": "7.4p1",
+      "Update": "21.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/openssh@0:7.4p1-21.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "openssh",
+    "version": "7.4p1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "21.0.1.el7",
+    "sourceRpm": "openssh-7.4p1-21.0.1.el7.src.rpm",
+    "size": 1991164,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://www.openssh.com/portable.html",
+    "files": [
+      {
+        "path": "/etc/ssh",
+        "mode": 16877,
+        "size": 57,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/ssh/moduli",
+        "mode": 33188,
+        "size": 581843,
+        "sha256": "c0c72ef47e7d04b437eb3f9bf95b88cd2b154b9467537b429d16e483d4a99b7a"
+      },
+      {
+        "path": "/usr/bin/ssh-keygen",
+        "mode": 33261,
+        "size": 419208,
+        "sha256": "3afc171683cace95e384c3ddb90a588024dc2da0dacb1eb5d3e4903d2c1db145"
+      },
+      {
+        "path": "/usr/libexec/openssh",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/openssh/ctr-cavstest",
+        "mode": 33261,
+        "size": 83136,
+        "sha256": "0f7250a8a43b5f869d1cc33593a48756672e5dbcb0b8a542649bc292df62d7e9"
+      },
+      {
+        "path": "/usr/libexec/openssh/ssh-keysign",
+        "mode": 33865,
+        "size": 465752,
+        "sha256": "dcb94612b39fe36f8774da0be45fe92fd5659647ef5c8c3b390c3080f2e67f41"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/CREDITS",
+        "mode": 33188,
+        "size": 5493,
+        "sha256": "df81bed0165540878d1e4e50ebee6e87801ee76a01e3f1eb0be34756298d7104"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/ChangeLog",
+        "mode": 33188,
+        "size": 310100,
+        "sha256": "a560d28d0e2e23780ef15f161a100f6d99cce6eda908d59c37599da8667e1279"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/INSTALL",
+        "mode": 33188,
+        "size": 9431,
+        "sha256": "f10b4549137da8e61b4111b2eb1ea0134fc2b51dc0bacf198e6d96cfd3d1b4b4"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/OVERVIEW",
+        "mode": 33188,
+        "size": 6705,
+        "sha256": "c44968b360fdeae1586a62626ac136df18da89459e2e39e7294dbeb8b1940715"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL",
+        "mode": 33188,
+        "size": 16788,
+        "sha256": "c48f961a8959be2840faecc36921763772692a25eb82e3e30f752c1dc832cea8"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL.agent",
+        "mode": 33188,
+        "size": 18711,
+        "sha256": "4ca1d67ebbfce4c5c33e1ce3a20c9ed5ba1b2ee3aa183eeefdc79d9a01487670"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL.certkeys",
+        "mode": 33188,
+        "size": 11367,
+        "sha256": "cb0f561df7e36234d7f849b9d3aceb578ec87c1cf15c9f336c5372b2f40c3e92"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL.chacha20poly1305",
+        "mode": 33188,
+        "size": 4625,
+        "sha256": "d3d2451150bb9520fa1cf4d86bd9efa28da930483119ba7c510a90f828c90eb0"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL.key",
+        "mode": 33188,
+        "size": 1539,
+        "sha256": "dfb306f3c784119ec7c4cc39de766101799de32f4a5f5403ac22bfde174c5b45"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL.krl",
+        "mode": 33188,
+        "size": 5167,
+        "sha256": "a9be0ce98cac2f4a8702b77a4bb8b3a51bd8ecd34a3aa37fa8f23fe1032b6b2c"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/PROTOCOL.mux",
+        "mode": 33188,
+        "size": 6262,
+        "sha256": "792f81a0fdeae30cf9da714e312e1b558406bc5b027c5211ddf9d97bafa9cfaa"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/README",
+        "mode": 33188,
+        "size": 2622,
+        "sha256": "7a2f3a49bac7cd3356518e9f20350fb063844353ed4fe89723a649b60c0e0982"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/README.dns",
+        "mode": 33188,
+        "size": 1607,
+        "sha256": "84b4b723a62e24440f18ae29dc128eb191b1c80a6d75de337b6dc1f75f0715fd"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/README.platform",
+        "mode": 33188,
+        "size": 4047,
+        "sha256": "cef4f10333440cb057e8a879e938b798e8dc972f581dbf9bf92aebf12c59cffb"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/README.privsep",
+        "mode": 33188,
+        "size": 2316,
+        "sha256": "f21d641519c368ff631b2a2ee085048940fc26f952696dfea5657fe967f00a0d"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/README.tun",
+        "mode": 33188,
+        "size": 4890,
+        "sha256": "80b2a0da1a4018315e52145f07994eccf652e9cffeab270d84dc753bffa86501"
+      },
+      {
+        "path": "/usr/share/doc/openssh-7.4p1/TODO",
+        "mode": 33188,
+        "size": 2606,
+        "sha256": "76b3f0e94a1b1eded81e6e07a5afa7eb4dcebc7142e31dc80b528fe04b0459fa"
+      },
+      {
+        "path": "/usr/share/licenses/openssh-7.4p1",
+        "mode": 16877,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/openssh-7.4p1/LICENCE",
+        "mode": 33188,
+        "size": 16040,
+        "sha256": "894e7b6ae112e9c71ab5a5d9190112826355588b2f1d246d87a3f82b625b332d"
+      }
+    ]
+  }
+}

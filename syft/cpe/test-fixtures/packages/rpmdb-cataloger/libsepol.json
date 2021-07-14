@@ -1,0 +1,81 @@
+{
+  "name": "libsepol",
+  "version": "2.9-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "selinuxproject",
+      "Product": "libsepol",
+      "Version": "2.9",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libsepol@0:2.9-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libsepol",
+    "version": "2.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "libsepol-2.9-1.el8.src.rpm",
+    "size": 996264,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/SELinuxProject/selinux/wiki",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d1/42ffe3ba2fe4e29f2d3d726464979381ba9389",
+        "mode": 41471,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsepol.so.1",
+        "mode": 33261,
+        "size": 969832,
+        "sha256": "1a91945edbab7b0a955a36b6155f15aa6052d344b79f622b2e192fffe2397f2a"
+      },
+      {
+        "path": "/usr/share/licenses/libsepol",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libsepol/COPYING",
+        "mode": 33188,
+        "size": 26432,
+        "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "gson",
+  "version": "2.4",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/gson-2.4.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Build-Jdk": "1.7.0_71",
+        "Built-By": "inder",
+        "Bundle-ClassPath": ".",
+        "Bundle-ContactAddress": "https://github.com/google/gson",
+        "Bundle-Description": "Google Gson library",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Gson",
+        "Bundle-RequiredExecutionEnvironment": "J2SE-1.5, JavaSE-1.6, JavaSE-1.7,JavaSE-1.8",
+        "Bundle-SymbolicName": "com.google.gson",
+        "Bundle-Vendor": "Google Gson Project",
+        "Bundle-Version": "2.4",
+        "Created-By": "Apache Maven 3.2.1",
+        "Export-Package": "com.google.gson;version=2.4, com.google.gson.annotations;version=2.4, com.google.gson.reflect;version=2.4, com.google.gson.stream;version=2.4, com.google.gson.internal;version=2.4, com.google.gson.internal.bind;version=2.4",
+        "Manifest-Version": "1.0"
+      }
+    }
+  }
+}

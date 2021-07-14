@@ -1,0 +1,1149 @@
+{
+  "name": "rpm",
+  "version": "4.14.3-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "rpm",
+      "Version": "4.14.3",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/rpm@0:4.14.3-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rpm",
+    "version": "4.14.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "rpm-4.14.3-4.el8.src.rpm",
+    "size": 2087308,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.rpm.org/",
+    "files": [
+      {
+        "path": "/etc/rpm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/rpm",
+        "mode": 33261,
+        "size": 21456,
+        "sha256": "144122d398093fa98de2d97ad0aa1eb7cdfece56c630bab4edd3c26ed6ebf499"
+      },
+      {
+        "path": "/usr/bin/rpm2archive",
+        "mode": 33261,
+        "size": 20520,
+        "sha256": "a9fbc2737287679b2d69a7e62b5f4b3b075b96ee64a6bffb9fbd4ea96c3bf971"
+      },
+      {
+        "path": "/usr/bin/rpm2cpio",
+        "mode": 33261,
+        "size": 12312,
+        "sha256": "fd473bcf5c4fcfdd7eda8d80b62b3b77e632adbc0033cf1422385c80ac947fff"
+      },
+      {
+        "path": "/usr/bin/rpmdb",
+        "mode": 33261,
+        "size": 17480,
+        "sha256": "c3a102ac399651449a0b6adcd5e9895407db0bc92ad94e6c160edce5e56d9471"
+      },
+      {
+        "path": "/usr/bin/rpmkeys",
+        "mode": 33261,
+        "size": 17384,
+        "sha256": "e93a6ddf860684bb255a79cdb1b868241ccda246021f9742710b4a7f617d7080"
+      },
+      {
+        "path": "/usr/bin/rpmquery",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/rpmverify",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4c/e716bd9f5a7c1a7bb4ef87128302b8549c9438",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7e/3e3571acd240ccae922b3a9f9d063cd0b80907",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/81",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/81/9031835f45289440df1466bee1c2f287b7f817",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/90/9a6a7ec1124f61842733ee800a2925be9de625",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c3",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c3/ed7cba500dfedafb71f9be7b1a4f6e7a734011",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/fileattrs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/macros",
+        "mode": 33188,
+        "size": 43474,
+        "sha256": "97d3e277193b7c01436822da3de0164e95fe5be422de7b0ce13ac527af9d9976"
+      },
+      {
+        "path": "/usr/lib/rpm/macros.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/aarch64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/aarch64-linux/macros",
+        "mode": 33188,
+        "size": 3037,
+        "sha256": "fb512542e0d06a13ef94b67afd8f665b9e66638788a25dc8892cdffb99ba71ec"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alpha-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alpha-linux/macros",
+        "mode": 33188,
+        "size": 3036,
+        "sha256": "d12be62450a06d0f64bb418d4ec51ad381f8c8871c7bf0989f6ced5c0d3075d0"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev5-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev5-linux/macros",
+        "mode": 33188,
+        "size": 3047,
+        "sha256": "5ef22473f381862949e300105c1fd3aef3c30d2549cbef378701a38b38b4cce3"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev56-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev56-linux/macros",
+        "mode": 33188,
+        "size": 3048,
+        "sha256": "22958c1d46ffda385968427641d39c35c4cb6253784c5420f1478dc74bf3f6e7"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev6-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev6-linux/macros",
+        "mode": 33188,
+        "size": 3047,
+        "sha256": "c739443a3c26d3cc58c3d5140ac6d5976d1ac68b08593ebfe338db5a668b63b2"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev67-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphaev67-linux/macros",
+        "mode": 33188,
+        "size": 3048,
+        "sha256": "408093fc7379c2f31883cb31307aaaefb57f7eafd7b86b9a99b0d40759c9bc92"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphapca56-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/alphapca56-linux/macros",
+        "mode": 33188,
+        "size": 3049,
+        "sha256": "70abc441f14f587c2c91e72bf83f74940d6af277cfbb6ac7d04fbcae0e598b91"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/amd64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/amd64-linux/macros",
+        "mode": 33188,
+        "size": 3033,
+        "sha256": "d46e0ba264eaec5072e60eb3b070c8dfd8aac4b9136ccfb05294f1a81251df54"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv3l-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv3l-linux/macros",
+        "mode": 33188,
+        "size": 3039,
+        "sha256": "a8398009f8a18e8131db229bacb461df8327f49106a07a8876f86b4833a92134"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv4b-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv4b-linux/macros",
+        "mode": 33188,
+        "size": 3039,
+        "sha256": "e8cbbf9aa930578c1371d1c1fac375488d642fcca9d4d4be7c35e8ccc6cdbc1d"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv4l-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv4l-linux/macros",
+        "mode": 33188,
+        "size": 3039,
+        "sha256": "7c9add18208109699bcaf94cf94ffd6eaf501cca25f0d5876d9181d910cff666"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv5tejl-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv5tejl-linux/macros",
+        "mode": 33188,
+        "size": 3044,
+        "sha256": "7eddc01d3602d9f64fb278f9a78c275a316f7af289d1edaea45c08b83b12d7c2"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv5tel-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv5tel-linux/macros",
+        "mode": 33188,
+        "size": 3043,
+        "sha256": "eac1f1d332ed468b0ca9fc23043bf79ec88f58dbee183066f9e7b553c45ea0b3"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv5tl-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv5tl-linux/macros",
+        "mode": 33188,
+        "size": 3041,
+        "sha256": "2866ded7c0a3c7f394cf49143e56237e33c75beef329a71a2bd926484f501748"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv6hl-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv6hl-linux/macros",
+        "mode": 33188,
+        "size": 3067,
+        "sha256": "37eef6cb39b090ad15f899d1dfc0c6e0a0a7bb5feee2a661f75997ba23f1ad1d"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv6l-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv6l-linux/macros",
+        "mode": 33188,
+        "size": 3039,
+        "sha256": "84e4fb0f49da78882a8ba9e78fb79e049bd7f0fe4ea27d0e6eef32faf39650b6"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv7hl-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv7hl-linux/macros",
+        "mode": 33188,
+        "size": 3075,
+        "sha256": "8a5ea922a2a4282d42ff1d7c46c2074580d0ef10771e5f462ba455b3b208f0ac"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv7hnl-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv7hnl-linux/macros",
+        "mode": 33188,
+        "size": 3070,
+        "sha256": "acece40e00e3667265f92404deac6616263bbb58cffa572b4707cdd51780e31e"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv7l-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/armv7l-linux/macros",
+        "mode": 33188,
+        "size": 3039,
+        "sha256": "8ef4d2135cecf4563c5a3af797b757236a55a645a90df41f68b2748af7b5cf56"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/athlon-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/athlon-linux/macros",
+        "mode": 33188,
+        "size": 3039,
+        "sha256": "4c9279ca9f95b776f25b4ceefa98e9c0d8d6be6d947f9a85873317e25f03dd67"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/geode-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/geode-linux/macros",
+        "mode": 33188,
+        "size": 3043,
+        "sha256": "b7ec000a1d6311590cfb1721f7949d4a9cb1f675ad2a40e6c19a4d9a7be68d10"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i386-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i386-linux/macros",
+        "mode": 33188,
+        "size": 3049,
+        "sha256": "2660bb2b2fe3aa9d3ea444646ebc335f65f77acb6a9b06ad2566814a26507682"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i486-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i486-linux/macros",
+        "mode": 33188,
+        "size": 3037,
+        "sha256": "ed74b4a5125a2ba6d772f0209d48f432ae72f84f6b1e5d543f55c6464ec72947"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i586-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i586-linux/macros",
+        "mode": 33188,
+        "size": 3037,
+        "sha256": "f8da92d7d47cccd3c1c0cf04714a2cd80112cb606b0bf5728f6f071cb01a8c24"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i686-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/i686-linux/macros",
+        "mode": 33188,
+        "size": 3037,
+        "sha256": "74e11ddaf6ba99e925361327caba945bd4d919851aa526b01562afcc909abdd2"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ia32e-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ia32e-linux/macros",
+        "mode": 33188,
+        "size": 3033,
+        "sha256": "d46e0ba264eaec5072e60eb3b070c8dfd8aac4b9136ccfb05294f1a81251df54"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ia64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ia64-linux/macros",
+        "mode": 33188,
+        "size": 3024,
+        "sha256": "860799d04d554170e1145f135f49124df9cfbc15e9fc770e76f15e8c897c4a0c"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/m68k-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/m68k-linux/macros",
+        "mode": 33188,
+        "size": 3075,
+        "sha256": "836fcd20cffa9ff7f108f3d2a1c857b207eb4b1cb819ae269559fc99b40a15d0"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips-linux/macros",
+        "mode": 33188,
+        "size": 3026,
+        "sha256": "630c6435736c40185fee0a2b7d57e2153b2fd2ae9255d23db6f0712b540e7f57"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64-linux/macros",
+        "mode": 33188,
+        "size": 3034,
+        "sha256": "7f42bfdd9ca6f2ba23a9d7b635169e64e90139a00ca16e7207d81e9a437510f7"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64el-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64el-linux/macros",
+        "mode": 33188,
+        "size": 3038,
+        "sha256": "998f71983432f0be3da3045dc413e79f925afd90ddc2d9c004bc991573598abd"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64r6-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64r6-linux/macros",
+        "mode": 33188,
+        "size": 3040,
+        "sha256": "1faebec485360d66840aa1ec31fe9c522c59e2fb9cb7fb9fc2d5b4f3903d462a"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64r6el-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mips64r6el-linux/macros",
+        "mode": 33188,
+        "size": 3044,
+        "sha256": "058675f1bf0b09ca5a603df9e342dd030e3e406f3445068e78708cc396371be6"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mipsel-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mipsel-linux/macros",
+        "mode": 33188,
+        "size": 3030,
+        "sha256": "9918bcd29e5f937549dceb1127f2775294e496dee38cf2735498168940fbe164"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mipsr6-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mipsr6-linux/macros",
+        "mode": 33188,
+        "size": 3032,
+        "sha256": "a2fdb02bd959921af4154eb8956ac392f26996cba6e7ddabe0a14e0706e0f53b"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mipsr6el-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/mipsr6el-linux/macros",
+        "mode": 33188,
+        "size": 3036,
+        "sha256": "10c088db50be0d770c729d6b85471e467ae5e74d0e7727e8b27a4eb71031f5a9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/noarch-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/noarch-linux/macros",
+        "mode": 33188,
+        "size": 2941,
+        "sha256": "bff340ac94d0096ecb18528380a8389e8690f870426338d95589d4c0de63cda5"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/pentium3-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/pentium3-linux/macros",
+        "mode": 33188,
+        "size": 3041,
+        "sha256": "0b7be3f55f06a1c5db5b6d70a9fafafb5553c94a540a0efeb3d5610d767e3201"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/pentium4-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/pentium4-linux/macros",
+        "mode": 33188,
+        "size": 3041,
+        "sha256": "ce87446960e94f8d9d09d2527f3e6e1e14e4d9b9e93853a2bdc0aa30f1a379d5"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc-linux/macros",
+        "mode": 33188,
+        "size": 3023,
+        "sha256": "e4a7673022c6a463041b3d99f48f4d7f74fb93b56190557566530b701624baa9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc32dy4-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc32dy4-linux/macros",
+        "mode": 33188,
+        "size": 3023,
+        "sha256": "e4a7673022c6a463041b3d99f48f4d7f74fb93b56190557566530b701624baa9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64-linux/macros",
+        "mode": 33188,
+        "size": 3031,
+        "sha256": "310da370dce71efb7a310e52b3aa957c0287a68676c1151367697e9d8af72027"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64iseries-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64iseries-linux/macros",
+        "mode": 33188,
+        "size": 3020,
+        "sha256": "346d040b05a4b9a3cff7583f56611da6b1171ab14202e08587736f04ae995f69"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64le-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64le-linux/macros",
+        "mode": 33188,
+        "size": 3035,
+        "sha256": "e668c7f2ea9ef7f06276a01d759e03b4877592de9ad2d994f9cf717fa23a40e6"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64p7-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64p7-linux/macros",
+        "mode": 33188,
+        "size": 3058,
+        "sha256": "12d994fa3a8d2538ffc9f634e41043439fec942415a9c99e95a343df18bc8dee"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64pseries-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc64pseries-linux/macros",
+        "mode": 33188,
+        "size": 3020,
+        "sha256": "346d040b05a4b9a3cff7583f56611da6b1171ab14202e08587736f04ae995f69"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc8260-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc8260-linux/macros",
+        "mode": 33188,
+        "size": 3023,
+        "sha256": "e4a7673022c6a463041b3d99f48f4d7f74fb93b56190557566530b701624baa9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc8560-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppc8560-linux/macros",
+        "mode": 33188,
+        "size": 3023,
+        "sha256": "e4a7673022c6a463041b3d99f48f4d7f74fb93b56190557566530b701624baa9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppciseries-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppciseries-linux/macros",
+        "mode": 33188,
+        "size": 3023,
+        "sha256": "e4a7673022c6a463041b3d99f48f4d7f74fb93b56190557566530b701624baa9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppcpseries-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/ppcpseries-linux/macros",
+        "mode": 33188,
+        "size": 3023,
+        "sha256": "e4a7673022c6a463041b3d99f48f4d7f74fb93b56190557566530b701624baa9"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/riscv64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/riscv64-linux/macros",
+        "mode": 33188,
+        "size": 3037,
+        "sha256": "46395b79cc0ad581f0d2d72624bc42ea10c43d50ad0bea80a71c7a8af36bba1b"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/s390-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/s390-linux/macros",
+        "mode": 33188,
+        "size": 3026,
+        "sha256": "36bfa1b1e3a3fa173645a9e197662b2937af0fe6382b09029b06a634876697f5"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/s390x-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/s390x-linux/macros",
+        "mode": 33188,
+        "size": 3032,
+        "sha256": "deb6eb8a4e922f3c250ac4c51595ad29fb15d89133e93f63067ead5a7b4f1397"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh-linux/macros",
+        "mode": 33188,
+        "size": 3017,
+        "sha256": "7c9e53dc71974d67e9f8cd8f9f43195c4f85baec0cda27046b1813fa47d09b90"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh3-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh3-linux/macros",
+        "mode": 33188,
+        "size": 3022,
+        "sha256": "ddd7defc6670555c21792e907e2117af891bfe4fe8b436a5f03435671472fe31"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh4-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh4-linux/macros",
+        "mode": 33188,
+        "size": 3029,
+        "sha256": "54f9e8f34beb7fa418f6f39fce5538be34a1ed4cd46019451d046ae9788e4b00"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh4a-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sh4a-linux/macros",
+        "mode": 33188,
+        "size": 3031,
+        "sha256": "443b6e76fc4cd7d265cd18b7dee1c5a514dc02527a05be7967de4f44a3f8d724"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparc-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparc-linux/macros",
+        "mode": 33188,
+        "size": 3052,
+        "sha256": "e5159a3b98d32c1b1cf1e9b18d791360f6cec6a2e547476d46100d728ab5b0f7"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparc64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparc64-linux/macros",
+        "mode": 33188,
+        "size": 3060,
+        "sha256": "f9b8a21ba703caaf01a2946744828a966d385c4b3b917429b2178277fc866286"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparc64v-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparc64v-linux/macros",
+        "mode": 33188,
+        "size": 3057,
+        "sha256": "57131ae62d1f9c7dfb9c7738cd54113336edf93eb4ce088cdf1f67025b46cf69"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparcv8-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparcv8-linux/macros",
+        "mode": 33188,
+        "size": 3057,
+        "sha256": "b020d3e6f8472f032eaf6d9e45bf980a1fe79310ebe1977dc29096a5effe990e"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparcv9-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparcv9-linux/macros",
+        "mode": 33188,
+        "size": 3052,
+        "sha256": "e5159a3b98d32c1b1cf1e9b18d791360f6cec6a2e547476d46100d728ab5b0f7"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparcv9v-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/sparcv9v-linux/macros",
+        "mode": 33188,
+        "size": 3049,
+        "sha256": "12ec822dbcf1de953eff897803a92da39eb23f2c004186412a7a068a58488903"
+      },
+      {
+        "path": "/usr/lib/rpm/platform/x86_64-linux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/platform/x86_64-linux/macros",
+        "mode": 33188,
+        "size": 3033,
+        "sha256": "d46e0ba264eaec5072e60eb3b070c8dfd8aac4b9136ccfb05294f1a81251df54"
+      },
+      {
+        "path": "/usr/lib/rpm/python-macro-helper",
+        "mode": 33188,
+        "size": 634,
+        "sha256": "40fa71de2e6a820ab7f78c5bbc78c24df6a294f62f8c5d1b8be250099269c0cd"
+      },
+      {
+        "path": "/usr/lib/rpm/rpm.daily",
+        "mode": 33188,
+        "size": 296,
+        "sha256": "b98748f664b3245cb7f3d22927b541ee659c221094df7e4d7e5950b6d73eb37d"
+      },
+      {
+        "path": "/usr/lib/rpm/rpm.log",
+        "mode": 33188,
+        "size": 61,
+        "sha256": "ed0a8b7f8ec41ea0d6d8d7ccdc698d216cd7a7154e77bbdaf8eb02bc4535ab0a"
+      },
+      {
+        "path": "/usr/lib/rpm/rpm.supp",
+        "mode": 33188,
+        "size": 688,
+        "sha256": "d88d7b62b79bf754a47ba69d0997ae82c4f0e5ea6af3f8fe2e40ffb1fc3fe054"
+      },
+      {
+        "path": "/usr/lib/rpm/rpm2cpio.sh",
+        "mode": 33261,
+        "size": 1249,
+        "sha256": "9a4f2fc1e0e7dc8f2b93809d5ed2eb1fa4ab36e3442b95243cb209ba823741b7"
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_dump",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_load",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_loadcvt",
+        "mode": 33261,
+        "size": 1467,
+        "sha256": "3a493a0f840898a69a353108c12fa743812618f7e46926a43e2afe6a50dba175"
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_recover",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_stat",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_upgrade",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/rpmdb_verify",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/rpm/rpmpopt-4.14.3",
+        "mode": 33188,
+        "size": 11424,
+        "sha256": "ec241e1705df13c117cae3a286ae16e5b5dc9c99720b079289cdcc0aff64a567"
+      },
+      {
+        "path": "/usr/lib/rpm/rpmrc",
+        "mode": 33188,
+        "size": 17154,
+        "sha256": "0376c2bcaeda95235883c368d021659d839eb55bba793187cc63bb3ecb207980"
+      },
+      {
+        "path": "/usr/lib/rpm/tgpg",
+        "mode": 33261,
+        "size": 929,
+        "sha256": "c02352279bc7e500ef1ce692935971047606f54e8d4673dcf6ed8ef6def25752"
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d/rpm.conf",
+        "mode": 33188,
+        "size": 22,
+        "sha256": "175c0da0b7f1425939a2f3f109dd6dfa1caef09de6a9cc3a22acde02cb654ef1"
+      },
+      {
+        "path": "/usr/share/licenses/rpm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/rpm/COPYING",
+        "mode": 33188,
+        "size": 44182,
+        "sha256": "171d94d9f1641316bff7f157a903237dc69cdb5fca405fed8c832c76ed8370f9"
+      },
+      {
+        "path": "/var/lib/rpm",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Basenames",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Conflictname",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Dirnames",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Group",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Installtid",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Name",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Obsoletename",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Packages",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Providename",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Requirename",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Sha1header",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Sigmd5",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/rpm/Triggername",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

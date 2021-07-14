@@ -1,0 +1,75 @@
+{
+  "name": "jaxb-impl",
+  "version": "2.3.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "oracle",
+      "Product": "java_me",
+      "Version": "2.3.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jaxb-impl-2.3.0.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1501687337410",
+        "Build-Id": "2.3.0",
+        "Build-Jdk": "9-ea",
+        "Build-Version": "JAXB RI 2.3.0",
+        "Built-By": "build",
+        "Bundle-Description": "Old JAXB Runtime module. Contains sources requiredfor runtime processing.",
+        "Bundle-DocURL": "http://www.oracle.com/",
+        "Bundle-License": "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Old JAXB Runtime",
+        "Bundle-SymbolicName": "com.sun.xml.bind.jaxb-impl",
+        "Bundle-Vendor": "Oracle Corporation",
+        "Bundle-Version": "2.3.0",
+        "Class-Path": "jaxb-core.jar",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "com.sun.xml.bind;uses:=\"com.sun.xml.bind.v2.runtime.reflect,javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.datatype,javax.xml.namespace,javax.xml.stream,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.api;uses:=\"com.sun.xml.bind.v2.model.annotation,com.sun.xml.bind.v2.model.runtime,com.sun.xml.bind.v2.runtime,javax.xml.bind,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,org.w3c.dom,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.marshaller;version=\"2.3.0\",com.sun.xml.bind.unmarshaller;uses:=\"org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.util;uses:=\"com.sun.xml.bind,javax.xml.bind.helpers,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2;uses:=\"com.sun.xml.bind.api,com.sun.xml.bind.v2.model.annotation,javax.xml.bind\";version=\"2.3.0\",com.sun.xml.bind.v2.bytecode;version=\"2.3.0\",com.sun.xml.bind.v2.model.annotation;uses:=\"com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.model.nav,com.sun.xml.bind.v2.runtime\";version=\"2.3.0\",com.sun.xml.bind.v2.model.impl;uses:=\"com.sun.xml.bind.api,com.sun.xml.bind.v2.model.annotation,com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.model.nav,com.sun.xml.bind.v2.model.runtime,com.sun.xml.bind.v2.runtime,javax.activation,javax.xml.namespace\";version=\"2.3.0\",com.sun.xml.bind.v2.model.runtime;uses:=\"com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.runtime.reflect,javax.xml.bind,javax.xml.namespace,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.runtime;uses:=\"com.sun.istack,com.sun.xml.bind.api,com.sun.xml.bind.marshaller,com.sun.xml.bind.v2.model.annotation,com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.model.runtime,com.sun.xml.bind.v2.runtime.output,com.sun.xml.bind.v2.runtime.property,com.sun.xml.bind.v2.runtime.unmarshaller,javax.activation,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.transform.sax,javax.xml.validation,org.w3c.dom,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.runtime.output;uses:=\"com.sun.xml.bind.marshaller,com.sun.xml.bind.v2.runtime,com.sun.xml.fastinfoset.stax,javax.xml.stream,org.jvnet.staxex,org.w3c.dom,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.runtime.property;uses:=\"com.sun.xml.bind.api,com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.model.runtime,com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.runtime.reflect,com.sun.xml.bind.v2.runtime.unmarshaller,com.sun.xml.bind.v2.util,javax.xml.namespace,javax.xml.stream,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.runtime.reflect;uses:=\"com.sun.xml.bind.api,com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.model.runtime,com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.runtime.unmarshaller,javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.stream,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.runtime.reflect.opt;uses:=\"com.sun.xml.bind.api,com.sun.xml.bind.v2.model.runtime,com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.runtime.reflect,javax.xml.stream,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.runtime.unmarshaller;uses:=\"com.sun.xml.bind,com.sun.xml.bind.api,com.sun.xml.bind.unmarshaller,com.sun.xml.bind.util,com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.runtime.output,com.sun.xml.bind.v2.runtime.reflect,javax.activation,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.transform.sax,javax.xml.validation,org.w3c.dom,org.xml.sax\";version=\"2.3.0\",com.sun.xml.bind.v2.schemagen;uses:=\"com.sun.xml.bind.api,com.sun.xml.bind.v2.model.core,com.sun.xml.bind.v2.model.nav,com.sun.xml.txw2.output,javax.xml.bind,javax.xml.namespace\";version=\"2.3.0\",com.sun.xml.bind.v2.schemagen.xmlschema;uses:=\"com.sun.xml.txw2,com.sun.xml.txw2.annotation,javax.xml.namespace\";version=\"2.3.0\",com.sun.xml.bind.v2.util;uses:=\"com.sun.xml.bind.v2.runtime,com.sun.xml.bind.v2.runtime.unmarshaller,javax.activation,javax.xml.namespace,javax.xml.transform.stream,org.xml.sax\";version=\"2.3.0\"",
+        "Git-Revision": "f79cd3867fe74f4d2d7e98b249c45b4749c8aa9b",
+        "Git-Url": "scm:git:git://java.net/jaxb~v2/jaxb-bundles/jaxb-impl",
+        "Implementation-Title": "JAXB Implementation",
+        "Implementation-Vendor": "Oracle",
+        "Implementation-Vendor-Id": "com.oracle",
+        "Implementation-Version": "2.3.0",
+        "Import-Package": "com.sun.istack;version=\"[3.0,4)\";resolution:=optional,com.sun.xml.bind;resolution:=optional,com.sun.xml.bind.annotation;resolution:=optional,com.sun.xml.bind.api;resolution:=optional,com.sun.xml.bind.api.impl;resolution:=optional,com.sun.xml.bind.marshaller;resolution:=optional,com.sun.xml.bind.unmarshaller;resolution:=optional,com.sun.xml.bind.util;resolution:=optional,com.sun.xml.bind.v2;resolution:=optional,com.sun.xml.bind.v2.bytecode;resolution:=optional,com.sun.xml.bind.v2.model.annotation;resolution:=optional,com.sun.xml.bind.v2.model.core;resolution:=optional,com.sun.xml.bind.v2.model.impl;resolution:=optional,com.sun.xml.bind.v2.model.nav;resolution:=optional,com.sun.xml.bind.v2.model.runtime;resolution:=optional,com.sun.xml.bind.v2.model.util;resolution:=optional,com.sun.xml.bind.v2.runtime;resolution:=optional,com.sun.xml.bind.v2.runtime.output;resolution:=optional,com.sun.xml.bind.v2.runtime.property;resolution:=optional,com.sun.xml.bind.v2.runtime.reflect;resolution:=optional,com.sun.xml.bind.v2.runtime.reflect.opt;resolution:=optional,com.sun.xml.bind.v2.runtime.unmarshaller;resolution:=optional,com.sun.xml.bind.v2.schemagen;resolution:=optional,com.sun.xml.bind.v2.schemagen.episode;resolution:=optional,com.sun.xml.bind.v2.schemagen.xmlschema;resolution:=optional,com.sun.xml.bind.v2.util;resolution:=optional,com.sun.xml.fastinfoset.sax;version=\"[1.2,2)\";resolution:=optional,com.sun.xml.fastinfoset.stax;version=\"[1.2,2)\";resolution:=optional,com.sun.xml.txw2;resolution:=optional,com.sun.xml.txw2.annotation;resolution:=optional,com.sun.xml.txw2.output;resolution:=optional,javax.activation,javax.imageio,javax.imageio.stream,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.stream.events,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stream,javax.xml.validation,org.jvnet.fastinfoset;version=\"[1.2,2)\";resolution:=optional,org.jvnet.staxex;version=\"[1.7,2)\";resolution:=optional,org.w3c.dom,org.xml.sax,org.xml.sax.helpers",
+        "Major-Version": "2.3.0",
+        "Manifest-Version": "1.0",
+        "Originally-Created-By": "Apache Maven 3.3.9",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Specification-Title": "Java Architecture for XML Binding",
+        "Specification-Version": "2.3",
+        "Tool": "Bnd-3.3.0.201609221906"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.sun.xml.bind/jaxb-impl/pom.properties",
+      "name": "",
+      "groupId": "com.sun.xml.bind",
+      "artifactId": "jaxb-impl",
+      "version": "2.3.0",
+      "extraFields": {}
+    }
+  }
+}

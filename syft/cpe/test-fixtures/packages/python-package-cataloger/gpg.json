@@ -1,0 +1,28 @@
+{
+  "name": "gpg",
+  "version": "1.13.1",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python3.6/site-packages/gpg-1.13.1-py3.6.egg-info",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": [
+    "LGPL2.1+ (the library), GPL2+ (tests and examples)"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/gpg@1.13.1",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "gpg",
+    "version": "1.13.1",
+    "license": "LGPL2.1+ (the library), GPL2+ (tests and examples)",
+    "author": "The GnuPG hackers",
+    "authorEmail": "gnupg-devel@gnupg.org",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib64/python3.6/site-packages"
+  }
+}

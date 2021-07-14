@@ -1,0 +1,147 @@
+{
+  "name": "policycoreutils",
+  "version": "2.5-34.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "selinuxproject",
+      "Product": "policycoreutils",
+      "Version": "2.5",
+      "Update": "34.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/policycoreutils@0:2.5-34.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "policycoreutils",
+    "version": "2.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "34.0.1.el7",
+    "sourceRpm": "policycoreutils-2.5-34.0.1.el7.src.rpm",
+    "size": 5330371,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "http://www.selinuxproject.org",
+    "files": [
+      {
+        "path": "/etc/sestatus.conf",
+        "mode": 33188,
+        "size": 216,
+        "sha256": "7237d8d48517c7788589ba5a78ec41d28da0f0ae2f9cf06f68b2de154c233416"
+      },
+      {
+        "path": "/usr/bin/secon",
+        "mode": 33261,
+        "size": 24640,
+        "sha256": "141f5de7ca70cf2934c01b232a634918976ea9e4756ea9522c1b33ba59650029"
+      },
+      {
+        "path": "/usr/libexec/selinux/hll",
+        "mode": 16877,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/selinux/hll/pp",
+        "mode": 33261,
+        "size": 11336,
+        "sha256": "6758ed5052e5220d85b31fc91aa1625df918fd05764e19306eefc234ab484064"
+      },
+      {
+        "path": "/usr/sbin/fixfiles",
+        "mode": 33261,
+        "size": 11294,
+        "sha256": "0d122e7c3d999a2fdae3a59692a83747ec5b7da73c683aa507f445b35c4c40e9"
+      },
+      {
+        "path": "/usr/sbin/genhomedircon",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/load_policy",
+        "mode": 33261,
+        "size": 11232,
+        "sha256": "02a23adc242a7cfbe5e7b42d0f825134f318c44488dac734b286a8e1db35e470"
+      },
+      {
+        "path": "/usr/sbin/restorecon",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/semodule",
+        "mode": 33261,
+        "size": 24336,
+        "sha256": "d3392355397d4358d47a3d2c95f21e1daad8c3f042ab7f75e7369c9ee11c19d7"
+      },
+      {
+        "path": "/usr/sbin/sestatus",
+        "mode": 33261,
+        "size": 15376,
+        "sha256": "87079e8892745de1751f5c50b9bf8e420bb1a8d1afd8d00180c421319e5e17a7"
+      },
+      {
+        "path": "/usr/sbin/setfiles",
+        "mode": 33261,
+        "size": 27816,
+        "sha256": "d114bdebd7138bc77d8873d62b5caabb8ff7d0eb00519465540fd696a97c4096"
+      },
+      {
+        "path": "/usr/sbin/setsebool",
+        "mode": 33261,
+        "size": 15352,
+        "sha256": "4c3a169d6ed176a04a85ed3322ec33ec254ad9ed766ee7bea6ab74a9dfb163e4"
+      },
+      {
+        "path": "/usr/share/doc/policycoreutils",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/policycoreutils-2.5",
+        "mode": 16877,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/policycoreutils-2.5/COPYING",
+        "mode": 33188,
+        "size": 18009,
+        "sha256": "204d8eff92f95aac4df6c8122bc1505f468f3a901e5a4cc08940e0ede1938994"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/policycoreutils.mo",
+        "mode": 33188,
+        "size": 19507,
+        "sha256": "36345269751f076d134db8825d9a4cfe2b95fa6984bea2a31fbae1ac616427a9"
+      },
+      {
+        "path": "/usr/share/locale/en_US/LC_MESSAGES/policycoreutils.mo",
+        "mode": 33188,
+        "size": 490,
+        "sha256": "72a24685b64910fae458b80414035d9524371a5759039e6321edfe27fc9d62f4"
+      }
+    ]
+  }
+}

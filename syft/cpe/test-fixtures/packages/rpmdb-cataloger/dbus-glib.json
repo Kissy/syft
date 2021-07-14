@@ -1,0 +1,81 @@
+{
+  "name": "dbus-glib",
+  "version": "0.100-7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "dbus-glib",
+      "Version": "0.100",
+      "Update": "7.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/dbus-glib@0:0.100-7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dbus-glib",
+    "version": "0.100",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "7.el7",
+    "sourceRpm": "dbus-glib-0.100-7.el7.src.rpm",
+    "size": 292957,
+    "license": "AFL and GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.freedesktop.org/software/dbus/",
+    "files": [
+      {
+        "path": "/usr/bin/dbus-binding-tool",
+        "mode": 33261,
+        "size": 92664,
+        "sha256": "1367f76e0af346ceb25d3cece4796835e53181737054e64d69954ab6e20089a8"
+      },
+      {
+        "path": "/usr/lib64/libdbus-glib-1.so.2",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdbus-glib-1.so.2.2.2",
+        "mode": 33261,
+        "size": 164128,
+        "sha256": "93acbfbe045072fc10580c60bf15fb35aa4aa336f235189031b551d7349009b4"
+      },
+      {
+        "path": "/usr/share/doc/dbus-glib-0.100",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/dbus-glib-0.100/COPYING",
+        "mode": 33188,
+        "size": 29053,
+        "sha256": "ef1634fc21d9112dca08f2557313584719d534d05213cf14f3c77938506266b4"
+      },
+      {
+        "path": "/usr/share/doc/dbus-glib-0.100/NEWS",
+        "mode": 33188,
+        "size": 7112,
+        "sha256": "17c03ca8b5a3de9af679914448c17df358d55cf33f88678d212c22f2ff0686a6"
+      }
+    ]
+  }
+}

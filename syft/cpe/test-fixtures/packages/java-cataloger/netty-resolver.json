@@ -1,0 +1,41 @@
+{
+  "name": "netty-resolver",
+  "version": "4.1.22.Final",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "netty",
+      "Product": "netty",
+      "Version": "4.1.22",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/io.netty/netty-resolver@4.1.22.Final",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/neo4j-java-driver-1.6.4.jar:netty-resolver",
+    "pomProperties": {
+      "path": "META-INF/maven/io.netty/netty-resolver/pom.properties",
+      "name": "",
+      "groupId": "io.netty",
+      "artifactId": "netty-resolver",
+      "version": "4.1.22.Final",
+      "extraFields": {}
+    }
+  }
+}

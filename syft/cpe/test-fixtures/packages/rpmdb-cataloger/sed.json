@@ -1,0 +1,81 @@
+{
+  "name": "sed",
+  "version": "4.5-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "sed",
+      "Version": "4.5",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/sed@0:4.5-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "sed",
+    "version": "4.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "sed-4.5-2.el8.src.rpm",
+    "size": 765126,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://sed.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/bin/sed",
+        "mode": 33261,
+        "size": 118200,
+        "sha256": "c61ded2c76cd38584016c3d76b034b5148ce617012f1c0aa704b67f4d66cf49a"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5c/4f1321907480333515791cf5ae92af5a403ea6",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/sed",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/sed/COPYING",
+        "mode": 33188,
+        "size": 35151,
+        "sha256": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b"
+      }
+    ]
+  }
+}

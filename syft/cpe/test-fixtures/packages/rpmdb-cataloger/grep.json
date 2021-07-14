@@ -1,0 +1,117 @@
+{
+  "name": "grep",
+  "version": "3.1-6.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "grep",
+      "Version": "3.1",
+      "Update": "6.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/grep@0:3.1-6.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "grep",
+    "version": "3.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el8",
+    "sourceRpm": "grep-3.1-6.el8.src.rpm",
+    "size": 835205,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/grep/",
+    "files": [
+      {
+        "path": "/etc/GREP_COLORS",
+        "mode": 33188,
+        "size": 94,
+        "sha256": "e94e50735e137e769b40e230f019d5be755571129e0f7669c4570bb45c5c162e"
+      },
+      {
+        "path": "/etc/profile.d/colorgrep.csh",
+        "mode": 33188,
+        "size": 196,
+        "sha256": "74d270fe4476fdcba60df7d00c808e11681ac918f335c951cba4f118532a4b8c"
+      },
+      {
+        "path": "/etc/profile.d/colorgrep.sh",
+        "mode": 33188,
+        "size": 201,
+        "sha256": "89008d115c5bbd783b985d8cab18e935978c83e362043ffc981063ffed74e1c7"
+      },
+      {
+        "path": "/usr/bin/egrep",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "f7c621ae0ceb26a76802743830bc469288996f64342901ae5292950ff713e981"
+      },
+      {
+        "path": "/usr/bin/fgrep",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "5c8b1486de899cdd010d3cacde94579999cb82d0be9ec8c131b1b56886cfd36b"
+      },
+      {
+        "path": "/usr/bin/grep",
+        "mode": 33261,
+        "size": 198280,
+        "sha256": "b99c0a18e353d125de71fc7626d4835d7c92cd8f9d804b75272c5bb95997342a"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b9",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b9/87fcca282a2f74af37adcf643ed4fd074be51c",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/libexec/grepconf.sh",
+        "mode": 33261,
+        "size": 253,
+        "sha256": "8940897293b3261b51af2783be99e4861dc060989b249eb1c0ad2bf7a717a2a5"
+      },
+      {
+        "path": "/usr/share/licenses/grep",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/grep/COPYING",
+        "mode": 33188,
+        "size": 35148,
+        "sha256": "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e"
+      }
+    ]
+  }
+}

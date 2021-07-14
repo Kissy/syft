@@ -1,0 +1,135 @@
+{
+  "name": "shared-mime-info",
+  "version": "1.8-5.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mime_project",
+      "Product": "mime",
+      "Version": "1.8",
+      "Update": "5.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/shared-mime-info@0:1.8-5.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "shared-mime-info",
+    "version": "1.8",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el7",
+    "sourceRpm": "shared-mime-info-1.8-5.el7.src.rpm",
+    "size": 2379876,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://freedesktop.org/Software/shared-mime-info",
+    "files": [
+      {
+        "path": "/usr/bin/update-mime-database",
+        "mode": 33261,
+        "size": 54088,
+        "sha256": "4177de5f7afcafb86a9b2c5992a737d1e109957d92526d57cd7100880972adfc"
+      },
+      {
+        "path": "/usr/share/applications/gnome-mimeapps.list",
+        "mode": 33188,
+        "size": 13634,
+        "sha256": "c1f145922a6fae5a77ab56426d149731bb804c69bfd606869c25cf15ef68e1ef"
+      },
+      {
+        "path": "/usr/share/applications/mimeapps.list",
+        "mode": 33188,
+        "size": 13634,
+        "sha256": "c1f145922a6fae5a77ab56426d149731bb804c69bfd606869c25cf15ef68e1ef"
+      },
+      {
+        "path": "/usr/share/doc/shared-mime-info-1.8",
+        "mode": 16877,
+        "size": 80,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/shared-mime-info-1.8/HACKING",
+        "mode": 33188,
+        "size": 2849,
+        "sha256": "4fc2a8af3cf49c839a7ee9ee5c2d22d2df3469438340a2052accc31b680883ae"
+      },
+      {
+        "path": "/usr/share/doc/shared-mime-info-1.8/NEWS",
+        "mode": 33188,
+        "size": 31145,
+        "sha256": "8ecfec75f5863f7f3f775af641f5c37472144bd219275302bdab073e09f4760e"
+      },
+      {
+        "path": "/usr/share/doc/shared-mime-info-1.8/README",
+        "mode": 33188,
+        "size": 846,
+        "sha256": "85439b2977955cfcf5692c5a9f688fe4d392136f1b8d967035e243e15cffc075"
+      },
+      {
+        "path": "/usr/share/doc/shared-mime-info-1.8/shared-mime-info-spec.xml",
+        "mode": 33188,
+        "size": 47868,
+        "sha256": "ee6ba4cc38e160d0bde144cf49e3e4b72f58a36236dee85676d35760fcea4512"
+      },
+      {
+        "path": "/usr/share/licenses/shared-mime-info-1.8",
+        "mode": 16877,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/shared-mime-info-1.8/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/mime",
+        "mode": 16877,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/mime/packages",
+        "mode": 16877,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/mime/packages/freedesktop.org.xml",
+        "mode": 33188,
+        "size": 2196823,
+        "sha256": "f85d877bba62e6b03a1b541e5a59bba9165f4f2b6cff31544604ef41121ed159"
+      },
+      {
+        "path": "/usr/share/pkgconfig",
+        "mode": 16877,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pkgconfig/shared-mime-info.pc",
+        "mode": 33188,
+        "size": 119,
+        "sha256": "0dadfab9c879e97b497def93fb50e5048ca12b9dac66ebe8297aa7443c5b5e3f"
+      }
+    ]
+  }
+}

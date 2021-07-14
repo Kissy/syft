@@ -1,0 +1,81 @@
+{
+  "name": "libcomps",
+  "version": "0.1.11-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "libcomps",
+      "Version": "0.1.11",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libcomps@0:0.1.11-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libcomps",
+    "version": "0.1.11",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "libcomps-0.1.11-4.el8.src.rpm",
+    "size": 217067,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/libcomps",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ea",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ea/25d0b2741c9b686527bbf8fb6f95358d4406cc",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcomps.so.0.1.11",
+        "mode": 33261,
+        "size": 197032,
+        "sha256": "9a066394585ed74255d4827cb2506a2d4eda76dd7790170f76caf7b15becb408"
+      },
+      {
+        "path": "/usr/share/licenses/libcomps",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libcomps/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

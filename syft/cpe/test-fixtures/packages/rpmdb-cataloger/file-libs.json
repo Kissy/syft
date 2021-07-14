@@ -1,0 +1,117 @@
+{
+  "name": "file-libs",
+  "version": "5.33-16.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "file_project",
+      "Product": "file",
+      "Version": "5.33",
+      "Update": "16.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/file-libs@0:5.33-16.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "file-libs",
+    "version": "5.33",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "16.el8",
+    "sourceRpm": "file-5.33-16.el8.src.rpm",
+    "size": 6383190,
+    "license": "BSD",
+    "vendor": "CentOS",
+    "url": "http://www.darwinsys.com/file/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ce",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/ce/166e63e1e018bf3274d712aaacca5051f9a4b5",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmagic.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmagic.so.1.0.0",
+        "mode": 33261,
+        "size": 161784,
+        "sha256": "028bf58fa45caf8bdca3ece532d16f331b2ef788764ed4272696e4d5195af006"
+      },
+      {
+        "path": "/usr/share/file",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/file/magic",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/file-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/file-libs/COPYING",
+        "mode": 33188,
+        "size": 1650,
+        "sha256": "3c0ad13c36f891a9b4f951e59eb2fc108065a46f849697cc6fd3cdb41cc23a3d"
+      },
+      {
+        "path": "/usr/share/magic",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/misc/magic",
+        "mode": 33188,
+        "size": 962492,
+        "sha256": "45f3c0b6f334ac4d7aafb851f9d911c932c18fc98f5e873ae19b68097d759a2f"
+      },
+      {
+        "path": "/usr/share/misc/magic.mgc",
+        "mode": 33188,
+        "size": 5192336,
+        "sha256": "5f6e2cd95a8601573842f7c0e48549259e296565b6a76a4a0f75d70bd7af4468"
+      }
+    ]
+  }
+}

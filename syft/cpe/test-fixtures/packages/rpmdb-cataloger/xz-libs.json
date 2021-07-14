@@ -1,0 +1,81 @@
+{
+  "name": "xz-libs",
+  "version": "5.2.4-3.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "tukaani",
+      "Product": "xz",
+      "Version": "5.2.4",
+      "Update": "3.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/xz-libs@0:5.2.4-3.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "xz-libs",
+    "version": "5.2.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8",
+    "sourceRpm": "xz-5.2.4-3.el8.src.rpm",
+    "size": 194799,
+    "license": "Public Domain",
+    "vendor": "CentOS",
+    "url": "http://tukaani.org/xz/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4b/9ca720dd420f278183935c63e76f079b4e8295",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblzma.so.5",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblzma.so.5.2.4",
+        "mode": 33261,
+        "size": 192024,
+        "sha256": "068e64692eea45539d4f8c7cd65f103a3334efb3f50f41835c3c3ff1e4bd4bb9"
+      },
+      {
+        "path": "/usr/share/doc/xz/COPYING",
+        "mode": 33188,
+        "size": 2775,
+        "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+      }
+    ]
+  }
+}

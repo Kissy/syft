@@ -1,0 +1,111 @@
+{
+  "name": "lz4",
+  "version": "1.8.3-1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "lz4_project",
+      "Product": "lz4",
+      "Version": "1.8.3",
+      "Update": "1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/lz4@0:1.8.3-1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "lz4",
+    "version": "1.8.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el7",
+    "sourceRpm": "lz4-1.8.3-1.el7.src.rpm",
+    "size": 205463,
+    "license": "GPLv2+ and BSD",
+    "vendor": "Oracle America",
+    "url": "https://lz4.github.io/lz4/",
+    "files": [
+      {
+        "path": "/usr/bin/lz4",
+        "mode": 33261,
+        "size": 108384,
+        "sha256": "7e310efcefff6a23ab6d53dda27a73e8eddc82a673d83025ce421327aa18815b"
+      },
+      {
+        "path": "/usr/bin/lz4c",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/lz4cat",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/unlz4",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblz4.so.1",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/liblz4.so.1.8.3",
+        "mode": 33261,
+        "size": 61752,
+        "sha256": "0a521186809773228ccfee609944ef795b7442ce6d534264a23b2d49eb6690ce"
+      },
+      {
+        "path": "/usr/share/doc/lz4-1.8.3",
+        "mode": 16877,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/lz4-1.8.3/NEWS",
+        "mode": 33188,
+        "size": 12727,
+        "sha256": "23a2a2d3cb00b198209f7d86abf80d235ed01f129b6aec8c26e4d0e53f45acdb"
+      },
+      {
+        "path": "/usr/share/licenses/lz4-1.8.3",
+        "mode": 16877,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/lz4-1.8.3/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/lz4-1.8.3/LICENSE",
+        "mode": 33188,
+        "size": 1311,
+        "sha256": "d15d99c8dc6b0ec22174c0e563a95bc40f9363ca7f9d9d793bb5c5a8e8d0af71"
+      }
+    ]
+  }
+}

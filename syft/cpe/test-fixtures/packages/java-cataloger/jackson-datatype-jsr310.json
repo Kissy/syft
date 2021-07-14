@@ -1,0 +1,71 @@
+{
+  "name": "jackson-datatype-jsr310",
+  "version": "2.11.3",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "fasterxml",
+      "Product": "jackson",
+      "Version": "2.11.3",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.11.3",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jackson-datatype-jsr310-2.11.3.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1601598340532",
+        "Build-Jdk-Spec": "1.8",
+        "Bundle-Description": "Add-on module to support JSR-310 (Java 8 Date & Time API) data types.",
+        "Bundle-DocURL": "https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Jackson datatype: JSR310",
+        "Bundle-SymbolicName": "com.fasterxml.jackson.datatype.jackson-datatype-jsr310",
+        "Bundle-Vendor": "FasterXML",
+        "Bundle-Version": "2.11.3",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "com.fasterxml.jackson.datatype.jsr310;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.module\";version=\"2.11.3\",com.fasterxml.jackson.datatype.jsr310.deser;uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype\";version=\"2.11.3\",com.fasterxml.jackson.datatype.jsr310.deser.key;uses:=\"com.fasterxml.jackson.databind\";version=\"2.11.3\",com.fasterxml.jackson.datatype.jsr310.ser;uses:=\"com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser.std\";version=\"2.11.3\",com.fasterxml.jackson.datatype.jsr310.ser.key;uses:=\"com.fasterxml.jackson.core,com.fasterxml.jackson.databind\";version=\"2.11.3\"",
+        "Implementation-Build-Date": "2020-10-02 00:25:27+0000",
+        "Implementation-Title": "Jackson datatype: JSR310",
+        "Implementation-Vendor": "FasterXML",
+        "Implementation-Vendor-Id": "com.fasterxml.jackson.datatype",
+        "Implementation-Version": "2.11.3",
+        "Import-Package": "com.fasterxml.jackson.annotation;version=\"[2.11,3)\",com.fasterxml.jackson.core;version=\"[2.11,3)\",com.fasterxml.jackson.core.type;version=\"[2.11,3)\",com.fasterxml.jackson.core.util;version=\"[2.11,3)\",com.fasterxml.jackson.databind;version=\"[2.11,3)\",com.fasterxml.jackson.databind.cfg;version=\"[2.11,3)\",com.fasterxml.jackson.databind.deser;version=\"[2.11,3)\",com.fasterxml.jackson.databind.deser.std;version=\"[2.11,3)\",com.fasterxml.jackson.databind.introspect;version=\"[2.11,3)\",com.fasterxml.jackson.databind.jsonFormatVisitors;version=\"[2.11,3)\",com.fasterxml.jackson.databind.jsontype;version=\"[2.11,3)\",com.fasterxml.jackson.databind.module;version=\"[2.11,3)\",com.fasterxml.jackson.databind.node;version=\"[2.11,3)\",com.fasterxml.jackson.databind.ser;version=\"[2.11,3)\",com.fasterxml.jackson.databind.ser.std;version=\"[2.11,3)\",com.fasterxml.jackson.databind.type;version=\"[2.11,3)\",com.fasterxml.jackson.databind.util;version=\"[2.11,3)\",com.fasterxml.jackson.datatype.jsr310;version=\"[2.11,3)\",com.fasterxml.jackson.datatype.jsr310.deser;version=\"[2.11,3)\",com.fasterxml.jackson.datatype.jsr310.deser.key;version=\"[2.11,3)\",com.fasterxml.jackson.datatype.jsr310.ser;version=\"[2.11,3)\",com.fasterxml.jackson.datatype.jsr310.ser.key;version=\"[2.11,3)\"",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.8))\"",
+        "Specification-Title": "Jackson datatype: JSR310",
+        "Specification-Vendor": "FasterXML",
+        "Specification-Version": "2.11.3",
+        "Tool": "Bnd-5.1.1.202006162103",
+        "X-Compile-Source-JDK": "1.8",
+        "X-Compile-Target-JDK": "1.8"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/pom.properties",
+      "name": "",
+      "groupId": "com.fasterxml.jackson.datatype",
+      "artifactId": "jackson-datatype-jsr310",
+      "version": "2.11.3",
+      "extraFields": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "pycurl",
+  "version": "7.19.0",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/pycurl-7.19.0-py2.7.egg-info",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "LGPL/MIT"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/pycurl@7.19.0",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "pycurl",
+    "version": "7.19.0",
+    "license": "LGPL/MIT",
+    "author": "Kjetil Jacobsen, Markus F.X.J. Oberhumer",
+    "authorEmail": "kjetilja at gmail.com, markus at oberhumer.com",
+    "platform": "All",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "yum",
+  "version": "4.2.23-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "baseurl",
+      "Product": "yum",
+      "Version": "4.2.23",
+      "Update": "4.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/yum@0:4.2.23-4.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "yum",
+    "version": "4.2.23",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "4.el8",
+    "sourceRpm": "dnf-4.2.23-4.el8.src.rpm",
+    "size": 71999,
+    "license": "GPLv2+ and GPLv2 and GPL",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/dnf",
+    "files": [
+      {
+        "path": "/etc/dnf/protected.d/yum.conf",
+        "mode": 33188,
+        "size": 4,
+        "sha256": "633e249364390d0039a36eae62b88d487e4dc524fe0a5dd166d955ed77a92524"
+      },
+      {
+        "path": "/etc/yum.conf",
+        "mode": 41471,
+        "size": 12,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/yum/pluginconf.d",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/yum/protected.d",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/yum/vars",
+        "mode": 41471,
+        "size": 11,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/yum",
+        "mode": 41471,
+        "size": 5,
+        "sha256": ""
+      }
+    ]
+  }
+}

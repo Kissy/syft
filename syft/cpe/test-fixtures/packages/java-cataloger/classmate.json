@@ -1,0 +1,46 @@
+{
+  "name": "classmate",
+  "version": "1.0.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/com.fasterxml/classmate@1.0.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/classmate-1.0.0.jar",
+    "manifest": {
+      "main": {
+        "Bnd-LastModified": "1381889304975",
+        "Build-Jdk": "1.7.0_25",
+        "Built-By": "tatu",
+        "Bundle-Description": "Library for introspecting types with full generic information        including resolving of field and method types.",
+        "Bundle-DocURL": "http://fasterxml.com",
+        "Bundle-License": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "ClassMate",
+        "Bundle-SymbolicName": "classmate",
+        "Bundle-Vendor": "fasterml.com",
+        "Bundle-Version": "1.0.0",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "com.fasterxml.classmate;uses:=\"com.fasterxml.classmate.members,com.fasterxml.classmate.types\";version=\"1.0.0\",com.fasterxml.classmate.members;uses:=\"com.fasterxml.classmate\";version=\"1.0.0\",com.fasterxml.classmate.types;uses:=\"com.fasterxml.classmate,com.fasterxml.classmate.members\";version=\"1.0.0\"",
+        "Manifest-Version": "1.0",
+        "Tool": "Bnd-1.50.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.fasterxml/classmate/pom.properties",
+      "name": "",
+      "groupId": "com.fasterxml",
+      "artifactId": "classmate",
+      "version": "1.0.0",
+      "extraFields": {}
+    }
+  }
+}

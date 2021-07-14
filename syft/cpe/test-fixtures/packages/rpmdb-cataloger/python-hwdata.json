@@ -1,0 +1,201 @@
+{
+  "name": "python-hwdata",
+  "version": "1.7.3-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "1.7.3",
+      "Update": "4.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-hwdata@0:1.7.3-4.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-hwdata",
+    "version": "1.7.3",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "4.el7",
+    "sourceRpm": "python-hwdata-1.7.3-4.el7.src.rpm",
+    "size": 175727,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "https://fedorahosted.org/spacewalk/wiki/Projects/python-hwdata",
+    "files": [
+      {
+        "path": "/usr/lib/python2.7/site-packages/hwdata.py",
+        "mode": 33188,
+        "size": 6033,
+        "sha256": "e6626961f3b52184c8de2c50ae444e31d1aee40f2e0cc63465f9882901cb4a31"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/hwdata.pyc",
+        "mode": 33188,
+        "size": 4487,
+        "sha256": "0755a313d1dbf1b6dae8e2000065089ad757eff493e5c786dbee4cd7ec90e0f8"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/hwdata.pyo",
+        "mode": 33188,
+        "size": 4487,
+        "sha256": "0755a313d1dbf1b6dae8e2000065089ad757eff493e5c786dbee4cd7ec90e0f8"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/pciutils-1.7.3-py2.7.egg-info",
+        "mode": 33188,
+        "size": 267,
+        "sha256": "63e7f11db1d9f09d1f6467a34a12cf43cb9907509f5d04262312076cd425d527"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/LICENSE",
+        "mode": 33188,
+        "size": 17987,
+        "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/example.py",
+        "mode": 33188,
+        "size": 484,
+        "sha256": "8bfe03d773238fc79ed226ee80706bbea54cedd98988d83e447ada8687407da4"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/api-objects.txt",
+        "mode": 33188,
+        "size": 664,
+        "sha256": "cf23f5d5cd889edd4a0248bd86d9b1b1f4e1ab11cd10fc0968a07c4085daa58d"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/class-tree.html",
+        "mode": 33188,
+        "size": 3807,
+        "sha256": "73fd835ab82bce3650f8e661d5197254122db9ad76159e096b65af49bcead5b6"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/crarr.png",
+        "mode": 33188,
+        "size": 340,
+        "sha256": "cc844124ee0f58d9e2eae88ebc382fcae7d404765e248969b31ec96b5edacdc5"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/epydoc.css",
+        "mode": 33188,
+        "size": 16009,
+        "sha256": "1e47a7b3791d97cd2fa36873cee795625cfb84b2ffba55b4f6e814d016c0e00e"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/epydoc.js",
+        "mode": 33188,
+        "size": 10566,
+        "sha256": "77c36687dc6fa0bd53cf6941fc78d81dc2f38b73e58728ee57df9e7c5c4ca314"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/frames.html",
+        "mode": 33188,
+        "size": 588,
+        "sha256": "640e7caed0e53c3e25ec0f998cc449ba74f17699e2f4ae2141de524e6ada0a7e"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/help.html",
+        "mode": 33188,
+        "size": 10701,
+        "sha256": "26d7d582ae80f1e094368f68608e81bc2f9ba52fc8367f2c2b429afe8112d289"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/hwdata-module.html",
+        "mode": 33188,
+        "size": 5840,
+        "sha256": "58ce20b8b7ae3734dabd5b065a0c8a22e8dce83caf412768fc5ce2ccfb438309"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/hwdata-pysrc.html",
+        "mode": 33188,
+        "size": 57989,
+        "sha256": "19f1b4e305b5c1e3432484b0f08325163d312c2ec5cf0fdad710e34f7fa05847"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/hwdata.PCI-class.html",
+        "mode": 33188,
+        "size": 11129,
+        "sha256": "bd9b48a52cc9e263f8a2265b64c8f369af1692752ed4b5259fff7ea39933254d"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/hwdata.USB-class.html",
+        "mode": 33188,
+        "size": 11129,
+        "sha256": "34dc29217d4524a77333be0048191e986fb962c28b128f26a33ef12439662360"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/identifier-index.html",
+        "mode": 33188,
+        "size": 8610,
+        "sha256": "bf66a2a785c5e75d085e0dd9cc9498b613157719d4f3635d5afa7a0857222d95"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/index.html",
+        "mode": 33188,
+        "size": 588,
+        "sha256": "640e7caed0e53c3e25ec0f998cc449ba74f17699e2f4ae2141de524e6ada0a7e"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/module-tree.html",
+        "mode": 33188,
+        "size": 3662,
+        "sha256": "7a5be50d7460fd59820527902c711fe5154f81f4e055b979a72a4718185093d0"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/redirect.html",
+        "mode": 33188,
+        "size": 1030,
+        "sha256": "e2913c2b56cf93984bf30d59a5ca6aabbb8f0aba0c63b5bd6911edce0d88ba4b"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/toc-everything.html",
+        "mode": 33188,
+        "size": 1298,
+        "sha256": "52b991d57a1c3189a976ea76d0799038c74f3edabad52a19cb0f076008479799"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/toc-hwdata-module.html",
+        "mode": 33188,
+        "size": 1268,
+        "sha256": "7c89a7483a460865433c688310ec18dd3c124d672e1ddc7b62debd76955a29aa"
+      },
+      {
+        "path": "/usr/share/doc/python-hwdata-1.7.3/html/toc.html",
+        "mode": 33188,
+        "size": 1251,
+        "sha256": "837f410801d1a11bf167f710240d73aa6a5336c0096ee2fd6f8b96d32ba93a13"
+      }
+    ]
+  }
+}

@@ -60,6 +60,7 @@ func parseRpmDB(resolver source.FileResolver, dbLocation source.Location, reader
 				Release:   entry.Release,
 				SourceRpm: entry.SourceRpm,
 				Vendor:    entry.Vendor,
+				URL:       entry.URL,
 				License:   entry.License,
 				Size:      entry.Size,
 				Files:     extractRpmdbFileRecords(resolver, entry),

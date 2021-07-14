@@ -1,0 +1,127 @@
+{
+  "name": "dnf-data",
+  "version": "4.2.23-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/dnf-data@0:4.2.23-4.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dnf-data",
+    "version": "4.2.23",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "4.el8",
+    "sourceRpm": "dnf-4.2.23-4.el8.src.rpm",
+    "size": 37292,
+    "license": "GPLv2+ and GPLv2 and GPL",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/dnf",
+    "files": [
+      {
+        "path": "/etc/dnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dnf/aliases.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dnf/dnf.conf",
+        "mode": 33188,
+        "size": 108,
+        "sha256": "1557f960a39d444375a3a28994eb082fdab2887a16da2b677ba181658f2512b7"
+      },
+      {
+        "path": "/etc/dnf/modules.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dnf/modules.defaults.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dnf/plugins",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dnf/protected.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dnf/protected.d/dnf.conf",
+        "mode": 33188,
+        "size": 4,
+        "sha256": "b6f0d7b9f4d69e86833ec77802d3af8e5ecc5b9820e1fe0d774b7922e1da57fe"
+      },
+      {
+        "path": "/etc/dnf/vars",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/libreport/events.d/collect_dnf.conf",
+        "mode": 33188,
+        "size": 813,
+        "sha256": "cc0feca59af66ea18656fc5774b78f586b97864965cf1add75b3f9944678e999"
+      },
+      {
+        "path": "/etc/logrotate.d/dnf",
+        "mode": 33188,
+        "size": 212,
+        "sha256": "32fc5ad9665f8bf30720d1774d16d79762f551c8cc2924ff47f4996e3ca0f458"
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d/dnf.conf",
+        "mode": 33188,
+        "size": 164,
+        "sha256": "cbaff13faea6f5eae694d5d45ca022b90597c8325be2919920b519bb67980a87"
+      },
+      {
+        "path": "/usr/share/licenses/dnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/dnf/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/dnf/PACKAGE-LICENSING",
+        "mode": 33188,
+        "size": 415,
+        "sha256": "c06f0c7eb611c6d77892bd02832dcae01c9fac292ccd55d205924388e178a35c"
+      },
+      {
+        "path": "/var/lib/dnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

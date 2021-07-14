@@ -1,0 +1,85 @@
+{
+  "name": "usermode",
+  "version": "1.111-6.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/usermode@0:1.111-6.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "usermode",
+    "version": "1.111",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el7",
+    "sourceRpm": "usermode-1.111-6.el7.src.rpm",
+    "size": 838759,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "https://pagure.io/usermode/",
+    "files": [
+      {
+        "path": "/etc/security/console.apps/config-util",
+        "mode": 33188,
+        "size": 24,
+        "sha256": "bd3f4ee7828affcb3a6a61962ecf5e0ed22363609286ed10495f294beb0baaff"
+      },
+      {
+        "path": "/usr/bin/consolehelper",
+        "mode": 33261,
+        "size": 7112,
+        "sha256": "b6c4895bffc0d8f1173295432e61131bf6f435bec035b5abe54bde3a613967f3"
+      },
+      {
+        "path": "/usr/sbin/userhelper",
+        "mode": 35273,
+        "size": 40328,
+        "sha256": "1b651fe7509a3a3f0d4647fc456a40abd1d8a5d465eedadddf28a3365b745041"
+      },
+      {
+        "path": "/usr/share/doc/usermode-1.111",
+        "mode": 16877,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/usermode-1.111/COPYING",
+        "mode": 33188,
+        "size": 18002,
+        "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+      },
+      {
+        "path": "/usr/share/doc/usermode-1.111/ChangeLog",
+        "mode": 33188,
+        "size": 33705,
+        "sha256": "94399eaeb2edf9e68860ff46eacad4fb4b3a244a97f7be85b07a50262ea649a8"
+      },
+      {
+        "path": "/usr/share/doc/usermode-1.111/NEWS",
+        "mode": 33188,
+        "size": 3383,
+        "sha256": "e9e7f37e32a288fa542b41307cc4f58c853c38d54415569e433d2d7e9a27492c"
+      },
+      {
+        "path": "/usr/share/doc/usermode-1.111/README",
+        "mode": 33188,
+        "size": 647,
+        "sha256": "d2b57db2cf686aea081790208d2b1175b9be6de8730914ff8ec04463e1eb826d"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/usermode.mo",
+        "mode": 33188,
+        "size": 9333,
+        "sha256": "6daf0b3d5c98c1cca217fcad277012321f7ec07e60524a2e1632a446e7bddc43"
+      }
+    ]
+  }
+}

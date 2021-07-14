@@ -1,0 +1,117 @@
+{
+  "name": "dbus-common",
+  "version": "1.12.8-11.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "dbus",
+      "Version": "1.12.8",
+      "Update": "11.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dbus-common@1:1.12.8-11.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dbus-common",
+    "version": "1.12.8",
+    "epoch": 1,
+    "architecture": "noarch",
+    "release": "11.el8",
+    "sourceRpm": "dbus-1.12.8-11.el8.src.rpm",
+    "size": 11131,
+    "license": "(GPLv2+ or AFL) and GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.freedesktop.org/Software/dbus/",
+    "files": [
+      {
+        "path": "/etc/dbus-1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dbus-1/session.conf",
+        "mode": 33188,
+        "size": 838,
+        "sha256": "2218b9313dc6d2e07d85751f318124cc5138787358ae1039703321cf6b35602a"
+      },
+      {
+        "path": "/etc/dbus-1/session.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dbus-1/system.conf",
+        "mode": 33188,
+        "size": 833,
+        "sha256": "a6f50dc70ef082a110dcdb164579cd2af221b90226c5e0aca237edcad98a1c26"
+      },
+      {
+        "path": "/etc/dbus-1/system.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/sysusers.d/dbus.conf",
+        "mode": 33188,
+        "size": 205,
+        "sha256": "3d645ac41a3fc8b63ac4b295a8c46d02c9261a0c610f2715e1c5e2c7b8286b44"
+      },
+      {
+        "path": "/usr/share/dbus-1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/dbus-1/interfaces",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/dbus-1/services",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/dbus-1/session.conf",
+        "mode": 33188,
+        "size": 3561,
+        "sha256": "206f009ddcf909422f3651c687b4623a5780fb7486c6d650e5332f57c00d6be1"
+      },
+      {
+        "path": "/usr/share/dbus-1/system-services",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/dbus-1/system.conf",
+        "mode": 33188,
+        "size": 5694,
+        "sha256": "f04a4d38054f5d67135283f8034be9517046255bdf29a467e37bf3f644be142e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "name": "libstdc++",
+  "version": "8.3.1-5.1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libstdc++@0:8.3.1-5.1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libstdc++",
+    "version": "8.3.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.1.el8",
+    "sourceRpm": "gcc-8.3.1-5.1.el8.src.rpm",
+    "size": 1855671,
+    "license": "GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD",
+    "vendor": "CentOS",
+    "url": "http://gcc.gnu.org",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e5/934a878cb488f8a88b8b1befc543bc3410209c",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libstdc++.so.6",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libstdc++.so.6.0.25",
+        "mode": 33261,
+        "size": 1661376,
+        "sha256": "56f466138433951a676587521b8afeb9b5849f08b34562eb6bf18031f2e866b0"
+      },
+      {
+        "path": "/usr/share/gcc-8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gcc-8/python",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/__init__.py",
+        "mode": 33188,
+        "size": 1,
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 128,
+        "sha256": "0deba3552ffffa97e65e965b41c89fa5dab0160d509c77e32e36851ebe70558c"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 128,
+        "sha256": "0deba3552ffffa97e65e965b41c89fa5dab0160d509c77e32e36851ebe70558c"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__init__.py",
+        "mode": 33188,
+        "size": 1161,
+        "sha256": "fc792a50d118d5feb068481d0328f89fe8762b7705011910281bfe65c1170c8f"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/__init__.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 586,
+        "sha256": "c8521a8e6b6b9c079db97ea4425e5302852b3e667c518ca89deea6a20397be71"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/__init__.cpython-36.pyc",
+        "mode": 33188,
+        "size": 586,
+        "sha256": "c8521a8e6b6b9c079db97ea4425e5302852b3e667c518ca89deea6a20397be71"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/printers.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 57331,
+        "sha256": "a846ab78027975e6f3a1e8719b181e7814354b978a50b580f2e379bd54b7fc07"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/printers.cpython-36.pyc",
+        "mode": 33188,
+        "size": 57331,
+        "sha256": "a846ab78027975e6f3a1e8719b181e7814354b978a50b580f2e379bd54b7fc07"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/xmethods.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 36279,
+        "sha256": "c7d0cae4dc1a66081c7efc5e4f6401bedc6fd728d06021bead3e71bef5f30083"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/__pycache__/xmethods.cpython-36.pyc",
+        "mode": 33188,
+        "size": 36279,
+        "sha256": "c7d0cae4dc1a66081c7efc5e4f6401bedc6fd728d06021bead3e71bef5f30083"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/printers.py",
+        "mode": 33188,
+        "size": 67991,
+        "sha256": "1e7e02c740c4cc73e5992d39d0f6e8bcf580dbbf52b65f96d70923db2069e800"
+      },
+      {
+        "path": "/usr/share/gcc-8/python/libstdcxx/v6/xmethods.py",
+        "mode": 33188,
+        "size": 27708,
+        "sha256": "627b1b17ddb0a8314bcad3dfcb045ec59d073e33ea16dda320641b30401114fe"
+      },
+      {
+        "path": "/usr/share/gdb",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gdb/auto-load",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gdb/auto-load/usr",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gdb/auto-load/usr/lib64",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gdb/auto-load/usr/lib64/__pycache__",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.25-gdb.cpython-36.opt-1.pyc",
+        "mode": 33188,
+        "size": 729,
+        "sha256": "6babf709a72bc393bc6bf40bdb35f3ba7abaacf931e082ccd9d709ddb076c94f"
+      },
+      {
+        "path": "/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.25-gdb.cpython-36.pyc",
+        "mode": 33188,
+        "size": 729,
+        "sha256": "6babf709a72bc393bc6bf40bdb35f3ba7abaacf931e082ccd9d709ddb076c94f"
+      },
+      {
+        "path": "/usr/share/gdb/auto-load/usr/lib64/libstdc++.so.6.0.25-gdb.py",
+        "mode": 33188,
+        "size": 2381,
+        "sha256": "b1c496792876df431c9441a86cd1cf6035d08a86a8b89f20a70fd4c5f07f98a6"
+      }
+    ]
+  }
+}

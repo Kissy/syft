@@ -1,0 +1,1093 @@
+{
+  "name": "setuptools",
+  "version": "39.2.0",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib/python3.6/site-packages/setuptools-39.2.0.dist-info/METADATA",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    },
+    {
+      "path": "/usr/lib/python3.6/site-packages/setuptools-39.2.0.dist-info/RECORD",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    },
+    {
+      "path": "/usr/lib/python3.6/site-packages/setuptools-39.2.0.dist-info/top_level.txt",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": [
+    "UNKNOWN"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "setuptools",
+      "Version": "39.2.0",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "python",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:pypi/setuptools@39.2.0",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "setuptools",
+    "version": "39.2.0",
+    "license": "UNKNOWN",
+    "author": "Python Packaging Authority",
+    "authorEmail": "distutils-sig@python.org",
+    "platform": "UNKNOWN",
+    "files": [
+      {
+        "path": "easy_install.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "MDC9vt5AxDsXX5qcKlBz2TnW6Tpuv_AobnfhCJ9X3PM"
+        },
+        "size": "126"
+      },
+      {
+        "path": "pkg_resources/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "D6DGFHIzVnG-ByUliqZuw3dkB3ccE6z5jdhDJFap12Y"
+        },
+        "size": "103822"
+      },
+      {
+        "path": "pkg_resources/py31compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "-ysVqoxLetAnL94uM0kHkomKQTC1JZLN2ZUjqUhMeKE"
+        },
+        "size": "600"
+      },
+      {
+        "path": "pkg_resources/_vendor/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU"
+        },
+        "size": "0"
+      },
+      {
+        "path": "pkg_resources/_vendor/appdirs.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "tgGaL0m4Jo2VeuGfoOOifLv7a7oUEJu2n1vRkqoPw-0"
+        },
+        "size": "22374"
+      },
+      {
+        "path": "pkg_resources/_vendor/pyparsing.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "PifeLY3-WhIcBVzLtv0U4T_pwDtPruBhBCkg5vLqa28"
+        },
+        "size": "229867"
+      },
+      {
+        "path": "pkg_resources/_vendor/six.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "A6hdJZVjI3t_geebZ9BzUvwRrIXo0lfwzQlM2LcKyas"
+        },
+        "size": "30098"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__about__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "zkcCPTN_6TcLW0Nrlg0176-R1QQ_WVPTm8sz1R4-HjM"
+        },
+        "size": "720"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "_vNac5TrzwsrzbOFIbF-5cHqc_Y2aPT2D7zrIR06BOo"
+        },
+        "size": "513"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/_compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "Vi_A0rAQeHbU-a9X0tt1yQm9RqkgQbDSxzRw8WlU9kA"
+        },
+        "size": "860"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/_structures.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "RImECJ4c_wTlaTYYwZYLHEiebDMaAJmK1oPARhw1T5o"
+        },
+        "size": "1416"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/markers.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "uEcBBtGvzqltgnArqb9c4RrcInXezDLos14zbBHhWJo"
+        },
+        "size": "8248"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/requirements.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "SikL2UynbsT0qtY9ltqngndha_sfo0w6XGFhAhoSoaQ"
+        },
+        "size": "4355"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/specifiers.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "SAMRerzO3fK2IkFZCaZkuwZaL_EGqHNOz4pni4vhnN0"
+        },
+        "size": "28025"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/utils.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "3m6WvPm6NNxE8rkTGmn0r75B_GZSGg7ikafxHsBN1WA"
+        },
+        "size": "421"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/version.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "OwGnxYfr2ghNzYx59qWIBkrK3SnB6n-Zfd1XaLpnnM0"
+        },
+        "size": "11556"
+      },
+      {
+        "path": "pkg_resources/extern/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "JUtlHHvlxHSNuB4pWqNjcx7n6kG-fwXg7qmJ2zNJlIY"
+        },
+        "size": "2487"
+      },
+      {
+        "path": "setuptools/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "WWIdCbFJnZ9fZoaWDN_x1vDA_Rkm-Sc15iKvPtIYKFs"
+        },
+        "size": "5700"
+      },
+      {
+        "path": "setuptools/archive_util.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "kw8Ib_lKjCcnPKNbS7h8HztRVK0d5RacU3r_KRdVnmM"
+        },
+        "size": "6592"
+      },
+      {
+        "path": "setuptools/build_meta.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "FllaKTr1vSJyiUeRjVJEZmeEaRzhYueNlimtcwaJba8"
+        },
+        "size": "5671"
+      },
+      {
+        "path": "setuptools/config.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "3L9wwF1_uprsyHsUHXXsyLmJUA5HIczJYQ2BFzLWjc0"
+        },
+        "size": "18006"
+      },
+      {
+        "path": "setuptools/dep_util.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "fgixvC1R7sH3r13ktyf7N0FALoqEXL1cBarmNpSEoWg"
+        },
+        "size": "935"
+      },
+      {
+        "path": "setuptools/depends.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "hC8QIDcM3VDpRXvRVA6OfL9AaQfxvhxHcN_w6sAyNq8"
+        },
+        "size": "5837"
+      },
+      {
+        "path": "setuptools/dist.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "1j3kuNEGaaAzWz0iLWItxziNyJTZC8MgcTfMZ4U4Wes"
+        },
+        "size": "42613"
+      },
+      {
+        "path": "setuptools/extension.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "uc6nHI-MxwmNCNPbUiBnybSyqhpJqjbhvOQ-emdvt_E"
+        },
+        "size": "1729"
+      },
+      {
+        "path": "setuptools/glibc.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "X64VvGPL2AbURKwYRsWJOXXGAYOiF_v2qixeTkAULuU"
+        },
+        "size": "3146"
+      },
+      {
+        "path": "setuptools/glob.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "Y-fpv8wdHZzv9DPCaGACpMSBWJ6amq_1e0R_i8_el4w"
+        },
+        "size": "5207"
+      },
+      {
+        "path": "setuptools/launch.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "sd7ejwhBocCDx_wG9rIs0OaZ8HtmmFU8ZC6IR_S0Lvg"
+        },
+        "size": "787"
+      },
+      {
+        "path": "setuptools/lib2to3_ex.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "t5e12hbR2pi9V4ezWDTB4JM-AISUnGOkmcnYHek3xjg"
+        },
+        "size": "2013"
+      },
+      {
+        "path": "setuptools/monkey.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "H_yJ91EtDWu20v5JsEmFeDckiYVMhpE3nMcEdxxd-Ig"
+        },
+        "size": "5261"
+      },
+      {
+        "path": "setuptools/msvc.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "8EiV9ypb3EQJQssPcH1HZbdNsbRvqsFnJ7wPFEGwFIo"
+        },
+        "size": "40877"
+      },
+      {
+        "path": "setuptools/namespaces.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "F0Nrbv8KCT2OrO7rwa03om4N4GZKAlnce-rr-cgDQa8"
+        },
+        "size": "3199"
+      },
+      {
+        "path": "setuptools/package_index.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "whsYoQBtGtQMm5bfAiYebGYLMl-HaEChPorAUEd6zdQ"
+        },
+        "size": "40136"
+      },
+      {
+        "path": "setuptools/pep425tags.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "I7lxWpy9XKELBJ0CVYiT7OPW0hkBFe0kNpbEBwXV_XQ"
+        },
+        "size": "10873"
+      },
+      {
+        "path": "setuptools/py27compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "3mwxRMDk5Q5O1rSXOERbQDXhFqwDJhhUitfMW_qpUCo"
+        },
+        "size": "536"
+      },
+      {
+        "path": "setuptools/py31compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "XuU1HCsGE_3zGvBRIhYw2iB-IhCFK4-Pxw_jMiqdNVk"
+        },
+        "size": "1192"
+      },
+      {
+        "path": "setuptools/py33compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "NKS84nl4LjLIoad6OQfgmygZn4mMvrok_b1N1tzebew"
+        },
+        "size": "1182"
+      },
+      {
+        "path": "setuptools/py36compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "VUDWxmu5rt4QHlGTRtAFu6W5jvfL6WBjeDAzeoBy0OM"
+        },
+        "size": "2891"
+      },
+      {
+        "path": "setuptools/sandbox.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "9UbwfEL5QY436oMI1LtFWohhoZ-UzwHvGyZjUH_qhkw"
+        },
+        "size": "14276"
+      },
+      {
+        "path": "setuptools/script (dev).tmpl",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "f7MR17dTkzaqkCMSVseyOCMVrPVSMdmTQsaB8cZzfuI"
+        },
+        "size": "201"
+      },
+      {
+        "path": "setuptools/script.tmpl",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "WGTt5piezO27c-Dbx6l5Q4T3Ff20A5z7872hv3aAhYY"
+        },
+        "size": "138"
+      },
+      {
+        "path": "setuptools/site-patch.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "BVt6yIrDMXJoflA5J6DJIcsJUfW_XEeVhOzelTTFDP4"
+        },
+        "size": "2307"
+      },
+      {
+        "path": "setuptools/ssl_support.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "YBDJsCZjSp62CWjxmSkke9kn9rhHHj25Cus6zhJRW3c"
+        },
+        "size": "8492"
+      },
+      {
+        "path": "setuptools/unicode_utils.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "NOiZ_5hD72A6w-4wVj8awHFM3n51Kmw1Ic_vx15XFqw"
+        },
+        "size": "996"
+      },
+      {
+        "path": "setuptools/version.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "og_cuZQb0QI6ukKZFfZWPlr1HgJBPPn2vO2m_bI9ZTE"
+        },
+        "size": "144"
+      },
+      {
+        "path": "setuptools/wheel.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "2V7-XGD0jRFvEOo3btpl1I7kUwaZIUFmqnAVYeoMwPs"
+        },
+        "size": "7778"
+      },
+      {
+        "path": "setuptools/windows_support.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "5GrfqSP2-dLGJoZTq2g6dCKkyQxxa2n5IQiXlJCoYEE"
+        },
+        "size": "714"
+      },
+      {
+        "path": "setuptools/_vendor/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU"
+        },
+        "size": "0"
+      },
+      {
+        "path": "setuptools/_vendor/pyparsing.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "PifeLY3-WhIcBVzLtv0U4T_pwDtPruBhBCkg5vLqa28"
+        },
+        "size": "229867"
+      },
+      {
+        "path": "setuptools/_vendor/six.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "A6hdJZVjI3t_geebZ9BzUvwRrIXo0lfwzQlM2LcKyas"
+        },
+        "size": "30098"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__about__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "zkcCPTN_6TcLW0Nrlg0176-R1QQ_WVPTm8sz1R4-HjM"
+        },
+        "size": "720"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "_vNac5TrzwsrzbOFIbF-5cHqc_Y2aPT2D7zrIR06BOo"
+        },
+        "size": "513"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/_compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "Vi_A0rAQeHbU-a9X0tt1yQm9RqkgQbDSxzRw8WlU9kA"
+        },
+        "size": "860"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/_structures.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "RImECJ4c_wTlaTYYwZYLHEiebDMaAJmK1oPARhw1T5o"
+        },
+        "size": "1416"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/markers.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "Gvpk9EY20yKaMTiKgQZ8yFEEpodqVgVYtfekoic1Yts"
+        },
+        "size": "8239"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/requirements.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "t44M2HVWtr8phIz2OhnILzuGT3rTATaovctV1dpnVIg"
+        },
+        "size": "4343"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/specifiers.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "SAMRerzO3fK2IkFZCaZkuwZaL_EGqHNOz4pni4vhnN0"
+        },
+        "size": "28025"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/utils.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "3m6WvPm6NNxE8rkTGmn0r75B_GZSGg7ikafxHsBN1WA"
+        },
+        "size": "421"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/version.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "OwGnxYfr2ghNzYx59qWIBkrK3SnB6n-Zfd1XaLpnnM0"
+        },
+        "size": "11556"
+      },
+      {
+        "path": "setuptools/command/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "NWzJ0A1BEengZpVeqUyWLNm2bk4P3F4iL5QUErHy7kA"
+        },
+        "size": "594"
+      },
+      {
+        "path": "setuptools/command/alias.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "KjpE0sz_SDIHv3fpZcIQK-sCkJz-SrC6Gmug6b9Nkc8"
+        },
+        "size": "2426"
+      },
+      {
+        "path": "setuptools/command/bdist_egg.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "RQ9h8BmSVpXKJQST3i_b_sm093Z-aCXbfMBEM2IrI-Q"
+        },
+        "size": "18185"
+      },
+      {
+        "path": "setuptools/command/bdist_rpm.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "B7l0TnzCGb-0nLlm6rS00jWLkojASwVmdhW2w5Qz_Ak"
+        },
+        "size": "1508"
+      },
+      {
+        "path": "setuptools/command/bdist_wininst.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "_6dz3lpB1tY200LxKPLM7qgwTCceOMgaWFF-jW2-pm0"
+        },
+        "size": "637"
+      },
+      {
+        "path": "setuptools/command/build_clib.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "bQ9aBr-5ZSO-9fGsGsDLz0mnnFteHUZnftVLkhvHDq0"
+        },
+        "size": "4484"
+      },
+      {
+        "path": "setuptools/command/build_ext.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "PCRAZ2xYnqyEof7EFNtpKYl0sZzT0qdKUNTH3sUdPqk"
+        },
+        "size": "13173"
+      },
+      {
+        "path": "setuptools/command/build_py.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "yWyYaaS9F3o9JbIczn064A5g1C5_UiKRDxGaTqYbtLE"
+        },
+        "size": "9596"
+      },
+      {
+        "path": "setuptools/command/develop.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "wKbOw2_qUvcDti2lZmtxbDmYb54yAAibExzXIvToz-A"
+        },
+        "size": "8046"
+      },
+      {
+        "path": "setuptools/command/dist_info.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "5t6kOfrdgALT-P3ogss6PF9k-Leyesueycuk3dUyZnI"
+        },
+        "size": "960"
+      },
+      {
+        "path": "setuptools/command/easy_install.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "y1tcBQpk5YkR4ASnmoIcVfP4FjLxPq_IYM9xfUBHnXQ"
+        },
+        "size": "87204"
+      },
+      {
+        "path": "setuptools/command/egg_info.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "3b5Y3t_bl_zZRCkmlGi3igvRze9oOaxd-dVf2w1FBOc"
+        },
+        "size": "24800"
+      },
+      {
+        "path": "setuptools/command/install.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "a0EZpL_A866KEdhicTGbuyD_TYl1sykfzdrri-zazT4"
+        },
+        "size": "4683"
+      },
+      {
+        "path": "setuptools/command/install_egg_info.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "bMgeIeRiXzQ4DAGPV1328kcjwQjHjOWU4FngAWLV78Q"
+        },
+        "size": "2203"
+      },
+      {
+        "path": "setuptools/command/install_lib.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "11mxf0Ch12NsuYwS8PHwXBRvyh671QAM4cTRh7epzG0"
+        },
+        "size": "3840"
+      },
+      {
+        "path": "setuptools/command/install_scripts.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "UD0rEZ6861mTYhIdzcsqKnUl8PozocXWl9VBQ1VTWnc"
+        },
+        "size": "2439"
+      },
+      {
+        "path": "setuptools/command/launcher manifest.xml",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "xlLbjWrB01tKC0-hlVkOKkiSPbzMml2eOPtJ_ucCnbE"
+        },
+        "size": "628"
+      },
+      {
+        "path": "setuptools/command/py36compat.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "SzjZcOxF7zdFUT47Zv2n7AM3H8koDys_0OpS-n9gIfc"
+        },
+        "size": "4986"
+      },
+      {
+        "path": "setuptools/command/register.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "bHlMm1qmBbSdahTOT8w6UhA-EgeQIz7p6cD-qOauaiI"
+        },
+        "size": "270"
+      },
+      {
+        "path": "setuptools/command/rotate.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "co5C1EkI7P0GGT6Tqz-T2SIj2LBJTZXYELpmao6d4KQ"
+        },
+        "size": "2164"
+      },
+      {
+        "path": "setuptools/command/saveopts.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "za7QCBcQimKKriWcoCcbhxPjUz30gSB74zuTL47xpP4"
+        },
+        "size": "658"
+      },
+      {
+        "path": "setuptools/command/sdist.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "obDTe2BmWt2PlnFPZZh7e0LWvemEsbCCO9MzhrTZjm8"
+        },
+        "size": "6711"
+      },
+      {
+        "path": "setuptools/command/setopt.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "NTWDyx-gjDF-txf4dO577s7LOzHVoKR0Mq33rFxaRr8"
+        },
+        "size": "5085"
+      },
+      {
+        "path": "setuptools/command/test.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "MeBAcXUePGjPKqjz4zvTrHatLvNsjlPFcagt3XnFYdk"
+        },
+        "size": "9214"
+      },
+      {
+        "path": "setuptools/command/upload.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "i1gfItZ3nQOn5FKXb8tLC2Kd7eKC8lWO4bdE6NqGpE4"
+        },
+        "size": "1172"
+      },
+      {
+        "path": "setuptools/command/upload_docs.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "oXiGplM_cUKLwE4CWWw98RzCufAu8tBhMC97GegFcms"
+        },
+        "size": "7311"
+      },
+      {
+        "path": "setuptools/extern/__init__.py",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "2eKMsBMwsZqolIcYBtLZU3t96s6xSTP4PTaNfM5P-I0"
+        },
+        "size": "2499"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/DESCRIPTION.rst",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "mOsk4uH4ma3S7RjGk8m4kEMQssSAZxI8Dj1Z8EZHkxA"
+        },
+        "size": "1547"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/LICENSE.txt",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "wyo6w5WvYyHv0ovnPQagDw22q4h9HCHU_sRhKNIFbVo"
+        },
+        "size": "1078"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/METADATA",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "gHeHu4S3oYwMrgCuSC88ChBAIaZOkzUWzKpg9Xomdro"
+        },
+        "size": "3028"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/RECORD"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/WHEEL",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8"
+        },
+        "size": "110"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/dependency_links.txt",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "HlkCFkoK5TbZ5EMLbLKYhLcY_E31kBWD8TqW2EgmatQ"
+        },
+        "size": "239"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/entry_points.txt",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "jBqCYDlVjl__sjYFGXo1JQGIMAYFJE-prYWUtnMZEew"
+        },
+        "size": "2990"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/metadata.json",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "20034ySWEQzNtb_Cyg6EYzoZfpYjyHsKleWelH--ROo"
+        },
+        "size": "4969"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/top_level.txt",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "2HUXVVwA4Pff1xgTFr3GsTXXKaPaO6vlG6oNJ_4u4Tg"
+        },
+        "size": "38"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/zip-safe",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs"
+        },
+        "size": "1"
+      },
+      {
+        "path": "../../../bin/easy_install",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "Gezk0fVCHeU4cjSAPY5QeEYRqYmWoPAKE8Edpwhp15U"
+        },
+        "size": "246"
+      },
+      {
+        "path": "../../../bin/easy_install-3.6",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "Gezk0fVCHeU4cjSAPY5QeEYRqYmWoPAKE8Edpwhp15U"
+        },
+        "size": "246"
+      },
+      {
+        "path": "setuptools-39.2.0.dist-info/INSTALLER",
+        "digest": {
+          "algorithm": "sha256",
+          "value": "zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg"
+        },
+        "size": "4"
+      },
+      {
+        "path": "pkg_resources/_vendor/__pycache__/pyparsing.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/__pycache__/six.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/__pycache__/appdirs.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/version.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/markers.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/utils.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/extern/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "pkg_resources/__pycache__/py31compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/__pycache__/pyparsing.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/__pycache__/six.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/version.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/markers.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/__about__.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/utils.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/requirements.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/_structures.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/_compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/extern/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/version.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/depends.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/package_index.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/monkey.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/build_meta.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/glob.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/config.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/extension.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/launch.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/unicode_utils.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/py36compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/dist.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/namespaces.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/dep_util.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/pep425tags.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/ssl_support.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/sandbox.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/lib2to3_ex.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/py27compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/glibc.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/site-patch.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/wheel.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/py31compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/windows_support.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/msvc.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/archive_util.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/__pycache__/py33compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/upload_docs.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/build_py.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/develop.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/install_lib.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/install_egg_info.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/dist_info.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/setopt.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/py36compat.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/bdist_egg.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/saveopts.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/bdist_wininst.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/bdist_rpm.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/__init__.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/build_ext.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/upload.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/sdist.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/register.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/install_scripts.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/build_clib.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/alias.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/rotate.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/install.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/easy_install.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/egg_info.cpython-36.pyc"
+      },
+      {
+        "path": "setuptools/command/__pycache__/test.cpython-36.pyc"
+      },
+      {
+        "path": "__pycache__/easy_install.cpython-36.pyc"
+      }
+    ],
+    "sitePackagesRootPath": "/usr/lib/python3.6/site-packages",
+    "topLevelPackages": [
+      "easy_install",
+      "pkg_resources",
+      "setuptools"
+    ]
+  }
+}

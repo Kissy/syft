@@ -1,0 +1,73 @@
+{
+  "name": "libverto",
+  "version": "0.3.0-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libverto@0:0.3.0-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libverto",
+    "version": "0.3.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libverto-0.3.0-5.el8.src.rpm",
+    "size": 28244,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "https://github.com/latchset/libverto",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c1/cd50cbe655e131c6742cc1b459417d20910f5c",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libverto.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libverto.so.1.0.0",
+        "mode": 33261,
+        "size": 25040,
+        "sha256": "ff518bfc1d08bb9ed31db49f4d8f59f63d301e462e50c54f503198feb6b64ecf"
+      },
+      {
+        "path": "/usr/share/licenses/libverto",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libverto/COPYING",
+        "mode": 33188,
+        "size": 1054,
+        "sha256": "ee2f49235ed5947ace182dcb3aba92655aeafab4f3a33c98a9c6d75a6a238480"
+      }
+    ]
+  }
+}

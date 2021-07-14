@@ -1,0 +1,63 @@
+{
+  "name": "nspr",
+  "version": "4.25.0-2.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "netscape_portable_runtime",
+      "Version": "4.25.0",
+      "Update": "2.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nspr@0:4.25.0-2.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nspr",
+    "version": "4.25.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el7_9",
+    "sourceRpm": "nspr-4.25.0-2.el7_9.src.rpm",
+    "size": 287576,
+    "license": "MPLv2.0",
+    "vendor": "Oracle America",
+    "url": "http://www.mozilla.org/projects/nspr/",
+    "files": [
+      {
+        "path": "/usr/lib64/libnspr4.so",
+        "mode": 33261,
+        "size": 251792,
+        "sha256": "494db5ebb7b48dfa3b6a15a5c071514ffc86b1c184421b8bb4daffa2c06513eb"
+      },
+      {
+        "path": "/usr/lib64/libplc4.so",
+        "mode": 33261,
+        "size": 20040,
+        "sha256": "8eaa8dcdf753d4f6816961cb7c9cb91fed81aa39900cfeb5689700a5829e3fd7"
+      },
+      {
+        "path": "/usr/lib64/libplds4.so",
+        "mode": 33261,
+        "size": 15744,
+        "sha256": "474b2455535ad80ae15e10bba0522010f9e529fba46fa0f8ee13bae376c55dbf"
+      }
+    ]
+  }
+}

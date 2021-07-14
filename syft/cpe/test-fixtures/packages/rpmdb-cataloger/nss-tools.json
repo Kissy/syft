@@ -1,0 +1,171 @@
+{
+  "name": "nss-tools",
+  "version": "3.53.1-3.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "nss",
+      "Version": "3.53.1",
+      "Update": "3.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nss-tools@0:3.53.1-3.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nss-tools",
+    "version": "3.53.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el7_9",
+    "sourceRpm": "nss-3.53.1-3.el7_9.src.rpm",
+    "size": 2152776,
+    "license": "MPLv2.0",
+    "vendor": "Oracle America",
+    "url": "http://www.mozilla.org/projects/security/pki/nss/",
+    "files": [
+      {
+        "path": "/usr/bin/certutil",
+        "mode": 33261,
+        "size": 179880,
+        "sha256": "f2bbf7642a9a778ce9b39ed2bcb968645f522dbdd3d6dadaeea635db347ce12d"
+      },
+      {
+        "path": "/usr/bin/cmsutil",
+        "mode": 33261,
+        "size": 104960,
+        "sha256": "23025b46b2a07e77538090b54174456e3692067968808c300fd71bf50c77faf5"
+      },
+      {
+        "path": "/usr/bin/crlutil",
+        "mode": 33261,
+        "size": 121808,
+        "sha256": "22a27e7649cd852a8e77ec2a0ae7707f498dd680b1099475481a83f2cac4d1d8"
+      },
+      {
+        "path": "/usr/bin/modutil",
+        "mode": 33261,
+        "size": 161520,
+        "sha256": "517fb147e4b47fdd417658ad19f52e96c352a0c401935fabf10ec0b87f2c329a"
+      },
+      {
+        "path": "/usr/bin/nss-policy-check",
+        "mode": 33261,
+        "size": 11456,
+        "sha256": "83b1a520f0952b55f3189afffbc26e6f79a79c47dd440defd03be986cfc6ce3f"
+      },
+      {
+        "path": "/usr/bin/pk12util",
+        "mode": 33261,
+        "size": 97312,
+        "sha256": "7cae6380e98b92c21966f8f67e2843e6cdb310ecf5c86d2c3bb9f0687a46fd33"
+      },
+      {
+        "path": "/usr/bin/signver",
+        "mode": 33261,
+        "size": 96752,
+        "sha256": "f38210c845cead570fffca788495061319e10340f4c1af7bf613f81a546b504f"
+      },
+      {
+        "path": "/usr/bin/ssltap",
+        "mode": 33261,
+        "size": 117064,
+        "sha256": "497ff6c987893367c10b56b7941db0a45b47737731b0daf80002235f1db0ad22"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/atob",
+        "mode": 33261,
+        "size": 11432,
+        "sha256": "55d62187ab6400967959a7f1f24f2029dec2dff4f3e3ae9b13f23f9914c9fba2"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/btoa",
+        "mode": 33261,
+        "size": 11464,
+        "sha256": "fa497a292f0e6764a09e2624ce52e5e5bc76fa0c5c849bff34e4c338cf2f5157"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/derdump",
+        "mode": 33261,
+        "size": 88048,
+        "sha256": "b7131439fabd8579e86a37c0d3aecff8f2e3ce267d5571779477e391f5488502"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/listsuites",
+        "mode": 33261,
+        "size": 83896,
+        "sha256": "018be7bf7e3afc8d8a25d07d616373eddca3155e5854cdc21a3cc1b9c4f5b12d"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/ocspclnt",
+        "mode": 33261,
+        "size": 100552,
+        "sha256": "e7998b0e1bd50af64f2a8c346952794ed5088e1ff1bf4d7e232ed03e4a8ea1f2"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/pp",
+        "mode": 33261,
+        "size": 88024,
+        "sha256": "9d888565a7adbc3361543f388c954521da379be6f49424778d045ae9ab5a9f6b"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/selfserv",
+        "mode": 33261,
+        "size": 122104,
+        "sha256": "287c2a9bc7bda8a15b8ce0c09fe33c68f423315486e01ae8f77a5051640592bb"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/signtool",
+        "mode": 33261,
+        "size": 176152,
+        "sha256": "0dbc8851a3a13bc92a5c05d4c4329ef3862b34c207c6ba5f6cf05148d320feae"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/strsclnt",
+        "mode": 33261,
+        "size": 105416,
+        "sha256": "46748665adffe505d63d89a9937795ffe5d35c7f6af5b477e29047b8558d6885"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/symkeyutil",
+        "mode": 33261,
+        "size": 101512,
+        "sha256": "6bfaad0cf6e9a4b1b5212efe1d9fde8170efbd800d1d64943601e1acf3a662dc"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/tstclnt",
+        "mode": 33261,
+        "size": 113496,
+        "sha256": "bef8e2f85e1d36b6a4585e51c60b79091d1e6d3c29b7ec36abaad2bb2d8d2c15"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/vfychain",
+        "mode": 33261,
+        "size": 96424,
+        "sha256": "28a42dc8c9ec2e9333e594de2666563de9803fb1b446e2290c50f33c5df71331"
+      },
+      {
+        "path": "/usr/lib64/nss/unsupported-tools/vfyserv",
+        "mode": 33261,
+        "size": 101192,
+        "sha256": "7228d2ed93221d3af2d3c471ada454678e39d6aa0576336c5a83b58759f10345"
+      }
+    ]
+  }
+}

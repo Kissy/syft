@@ -1,0 +1,235 @@
+{
+  "name": "rhnlib",
+  "version": "2.5.65-8.0.3.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/rhnlib@0:2.5.65-8.0.3.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rhnlib",
+    "version": "2.5.65",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "8.0.3.el7",
+    "sourceRpm": "rhnlib-2.5.65-8.0.3.el7.src.rpm",
+    "size": 217591,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "https://github.com/spacewalkproject/spacewalk",
+    "files": [
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/SSL.py",
+        "mode": 33188,
+        "size": 10439,
+        "sha256": "cb89038342096433a19e7499a973218d6c6f39510559c1077aa1de3c2a56b4da"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/SSL.pyc",
+        "mode": 33188,
+        "size": 8179,
+        "sha256": "679ac7b35ff7d841246a5b4f0058a790e6599261b1a6e9dc75d8f0e5d20d3381"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/SSL.pyo",
+        "mode": 33188,
+        "size": 8179,
+        "sha256": "679ac7b35ff7d841246a5b4f0058a790e6599261b1a6e9dc75d8f0e5d20d3381"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/SmartIO.py",
+        "mode": 33188,
+        "size": 2714,
+        "sha256": "42450445fcf39c178ce566cdc1b0ae00573871b503ea18f5441298202577cd61"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/SmartIO.pyc",
+        "mode": 33188,
+        "size": 3166,
+        "sha256": "2d4f527bc30f4fa8af257828e384034940e5a656d079d230b50e977115406043"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/SmartIO.pyo",
+        "mode": 33188,
+        "size": 3166,
+        "sha256": "2d4f527bc30f4fa8af257828e384034940e5a656d079d230b50e977115406043"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/UserDictCase.py",
+        "mode": 33188,
+        "size": 2875,
+        "sha256": "c35c2d313509e7bee515693534ad8b38bf30fbecb383c2d7115f35f268c67f6e"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/UserDictCase.pyc",
+        "mode": 33188,
+        "size": 3751,
+        "sha256": "a07e758e80af5a5d4a5e8a8a6cf071b26c0315212d989532fd90d300173395f4"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/UserDictCase.pyo",
+        "mode": 33188,
+        "size": 3751,
+        "sha256": "a07e758e80af5a5d4a5e8a8a6cf071b26c0315212d989532fd90d300173395f4"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/__init__.py",
+        "mode": 33188,
+        "size": 133,
+        "sha256": "cac9085b3853a93ba21efa661cf57bab5d8ac7abd5de4b8186ca0355422e5bf8"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/__init__.pyc",
+        "mode": 33188,
+        "size": 221,
+        "sha256": "ca4e46e8772b522851e4d9ead399b04a227d77943524e45260b753ae0264a0c1"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/__init__.pyo",
+        "mode": 33188,
+        "size": 221,
+        "sha256": "ca4e46e8772b522851e4d9ead399b04a227d77943524e45260b753ae0264a0c1"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/connections.py",
+        "mode": 33188,
+        "size": 9307,
+        "sha256": "732f34afb88e180095519e36672d2d31842d78e03f9ffe95a9487cd1c6cb59e8"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/connections.pyc",
+        "mode": 33188,
+        "size": 8870,
+        "sha256": "c9848e2ce4120bc8eff85241f729d2d9de052593831925bac15c2a26ba5e7fb7"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/connections.pyo",
+        "mode": 33188,
+        "size": 8807,
+        "sha256": "84a5c5c22aaabba3fb45069c350134bbc9f8057c38796deb569e44a1c9b941ad"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/nonblocking.py",
+        "mode": 33188,
+        "size": 2441,
+        "sha256": "eccc7ece55e4540e4b60644de32d0b7af8e77910ab1c72bbb32ff62c1e5d82b9"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/nonblocking.pyc",
+        "mode": 33188,
+        "size": 2758,
+        "sha256": "dc6d04a7738dd7f5914bd374aac6bad1c7393be9544ed0d5ee5fecb1ddb3000d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/nonblocking.pyo",
+        "mode": 33188,
+        "size": 2758,
+        "sha256": "dc6d04a7738dd7f5914bd374aac6bad1c7393be9544ed0d5ee5fecb1ddb3000d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/rhnLockfile.py",
+        "mode": 33188,
+        "size": 3331,
+        "sha256": "9f3dd59336d7f86d7e8fc0590ebf572b656b3fa8d6ff7a176cc46f04e373b1b7"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/rhnLockfile.pyc",
+        "mode": 33188,
+        "size": 3264,
+        "sha256": "ff4851cd3f6950902c13352fa00e1e4657539ac149c0fb2a1abc2f6fbc6b580d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/rhnLockfile.pyo",
+        "mode": 33188,
+        "size": 3264,
+        "sha256": "ff4851cd3f6950902c13352fa00e1e4657539ac149c0fb2a1abc2f6fbc6b580d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/rpclib.py",
+        "mode": 33188,
+        "size": 24124,
+        "sha256": "85683fee7ec2fe149b13af86563f57eeb8b579698e481497d1728d61aed91ec5"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/rpclib.pyc",
+        "mode": 33188,
+        "size": 21734,
+        "sha256": "d919c8d4c4491ce8cb4c13ce36ca8dcd6d915589e21696f0c9fb6ceefecbe24f"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/rpclib.pyo",
+        "mode": 33188,
+        "size": 21614,
+        "sha256": "f2ad011f7c204d37def5311fa36be129196119e0716fb60f110bef4e99591e15"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/transports.py",
+        "mode": 33188,
+        "size": 31535,
+        "sha256": "95c82ecdd538588993490b5580893f36f59f5446a12f8a86e32cd6d5fdc3bdce"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/transports.pyc",
+        "mode": 33188,
+        "size": 23397,
+        "sha256": "a7edd67837dbd3ea73d5c571183596d51963c242b2bd0376ae68770694f672bf"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhn/transports.pyo",
+        "mode": 33188,
+        "size": 23397,
+        "sha256": "a7edd67837dbd3ea73d5c571183596d51963c242b2bd0376ae68770694f672bf"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/rhnlib-2.5.65-py2.7.egg-info",
+        "mode": 33188,
+        "size": 345,
+        "sha256": "cb0f6c45475476823b87bec542fd1be7f1703be40a9f35e9cd121021687b913c"
+      },
+      {
+        "path": "/usr/share/doc/rhnlib-2.5.65",
+        "mode": 16877,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/rhnlib-2.5.65/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/doc/rhnlib-2.5.65/ChangeLog",
+        "mode": 33188,
+        "size": 4764,
+        "sha256": "b176d712017f742a24696ee60120a9c945f801f013167a45e9b8976da61dbc6f"
+      },
+      {
+        "path": "/usr/share/doc/rhnlib-2.5.65/README",
+        "mode": 33188,
+        "size": 1066,
+        "sha256": "fe551ca705cb85292b3edd18a3b0264a577b2b2905bbf75ca2d151b46a2e0dcc"
+      },
+      {
+        "path": "/usr/share/doc/rhnlib-2.5.65/TODO",
+        "mode": 33188,
+        "size": 664,
+        "sha256": "5604da5a4e38b7b58068bc06ecb70333a0756d5f995ce7fd42b86795a15d96c3"
+      }
+    ]
+  }
+}

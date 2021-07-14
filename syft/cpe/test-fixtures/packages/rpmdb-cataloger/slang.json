@@ -1,0 +1,91 @@
+{
+  "name": "slang",
+  "version": "2.2.4-11.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/slang@0:2.2.4-11.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "slang",
+    "version": "2.2.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "11.el7",
+    "sourceRpm": "slang-2.2.4-11.el7.src.rpm",
+    "size": 1865696,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.jedsoft.org/slang/",
+    "files": [
+      {
+        "path": "/usr/lib64/libslang.so.2",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libslang.so.2.2.4",
+        "mode": 33261,
+        "size": 1133040,
+        "sha256": "ffe71d612e741b5f4f7c8c7b692fd211a7d15d21411d02b0f7062943d6913af8"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/COPYING",
+        "mode": 33188,
+        "size": 18006,
+        "sha256": "ff05a90962e7773f8bdc47b2a9585130526039102759b524c1dffbd57cfe469b"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/NEWS",
+        "mode": 33188,
+        "size": 10261,
+        "sha256": "17ebb09f96964201552ab7ed9f7eb8abd15549dcc9aff95aa9b992c25a62dd75"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/README",
+        "mode": 33188,
+        "size": 1156,
+        "sha256": "dfa4edc25b610952699296de20c58b19f93d451f121df402b13c4e8e7685feec"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/changes.txt",
+        "mode": 33188,
+        "size": 165962,
+        "sha256": "19c4a1b98fe00cad89d3460700363fe7de25b782c7f89c8364a3532e280f4348"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/grammar.txt",
+        "mode": 33188,
+        "size": 2784,
+        "sha256": "a70d985942327696a338aae67731ffc77eb3b9e0530a714fc449c6e43ff241f2"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/slang.txt",
+        "mode": 33188,
+        "size": 264432,
+        "sha256": "3f31c02d5b1dc3bb7491b3d119693bc7aceafc57913f507b2822fedbd3f0ee07"
+      },
+      {
+        "path": "/usr/share/doc/slang-2.2.4/slangfun.txt",
+        "mode": 33188,
+        "size": 270055,
+        "sha256": "1d650668a1977235a4f42964d7caafcf78292a5393565c8dfae8980c2a714391"
+      }
+    ]
+  }
+}

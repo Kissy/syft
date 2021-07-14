@@ -1,0 +1,117 @@
+{
+  "name": "pcre2",
+  "version": "10.32-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "pcre",
+      "Product": "pcre2",
+      "Version": "10.32",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/pcre2@0:10.32-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pcre2",
+    "version": "10.32",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "pcre2-10.32-2.el8.src.rpm",
+    "size": 656478,
+    "license": "BSD",
+    "vendor": "CentOS",
+    "url": "http://www.pcre.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c6/35d2616b678171eb204331dccfec6ca46f57ae",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f6/c73db0dcf94e454e367a7c33b483c71e8d8e82",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpcre2-8.so.0",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpcre2-8.so.0.7.1",
+        "mode": 33261,
+        "size": 543160,
+        "sha256": "25d1e1e092c4ae7abc482ec7d61eefd2cd0d33fed7ca3b7b60b3deb4d58ba70a"
+      },
+      {
+        "path": "/usr/lib64/libpcre2-posix.so.2",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libpcre2-posix.so.2.0.1",
+        "mode": 33261,
+        "size": 11648,
+        "sha256": "d54da651ad342e3a86d24795d49cc75005aad8a2850b1ae024d0be2e4d29860d"
+      },
+      {
+        "path": "/usr/share/licenses/pcre2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/pcre2/COPYING",
+        "mode": 33188,
+        "size": 97,
+        "sha256": "99272c55f3dcfa07a8a7e15a5c1a33096e4727de74241d65fa049fccfdd59507"
+      },
+      {
+        "path": "/usr/share/licenses/pcre2/LICENCE",
+        "mode": 33188,
+        "size": 3456,
+        "sha256": "c4a8b89cd38d6a7501d5b11a472fa15e71a051b66d6331c6cda364101389d6ee"
+      }
+    ]
+  }
+}

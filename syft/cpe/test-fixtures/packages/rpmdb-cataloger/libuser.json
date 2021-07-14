@@ -1,0 +1,213 @@
+{
+  "name": "libuser",
+  "version": "0.60-9.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libuser_project",
+      "Product": "libuser",
+      "Version": "0.60",
+      "Update": "9.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libuser@0:0.60-9.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libuser",
+    "version": "0.60",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.el7",
+    "sourceRpm": "libuser-0.60-9.el7.src.rpm",
+    "size": 1952592,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "https://fedorahosted.org/libuser/",
+    "files": [
+      {
+        "path": "/etc/libuser.conf",
+        "mode": 33188,
+        "size": 2391,
+        "sha256": "bc8aa93ad61547a0ab70d373d7b68bc4b95b017009d1403c194fca6660ab5517"
+      },
+      {
+        "path": "/usr/bin/lchfn",
+        "mode": 33261,
+        "size": 15896,
+        "sha256": "486d1abda282ff18d777a4c42866cbda9cca3173a5c3b0d6061aa72094f75efd"
+      },
+      {
+        "path": "/usr/bin/lchsh",
+        "mode": 33261,
+        "size": 15864,
+        "sha256": "569f1988bb2f1487d0d35cac07187d4659d5014b975f7df8a2c65b518df8a6f1"
+      },
+      {
+        "path": "/usr/lib64/libuser",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libuser.so.1",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libuser.so.1.5.0",
+        "mode": 33261,
+        "size": 129152,
+        "sha256": "8cc8066603c8996c206b92500d19f4b3e160f64499501026da1ccdaa27bd1bf2"
+      },
+      {
+        "path": "/usr/lib64/libuser/libuser_files.so",
+        "mode": 33261,
+        "size": 45520,
+        "sha256": "1b9c947e6fa096591f077358971c2f2ac6c992ba780edde3f95c33f2d836ff62"
+      },
+      {
+        "path": "/usr/lib64/libuser/libuser_ldap.so",
+        "mode": 33261,
+        "size": 49400,
+        "sha256": "3a0d233e5ef23b494e2706be0a4bf3ef3c008e2294f5fae8e661f025509ea907"
+      },
+      {
+        "path": "/usr/lib64/libuser/libuser_shadow.so",
+        "mode": 33261,
+        "size": 45512,
+        "sha256": "0f79a91f880b57a950c9bc759b214ec14e471ad48f75a55303a15c456b7ea435"
+      },
+      {
+        "path": "/usr/sbin/lchage",
+        "mode": 33261,
+        "size": 15784,
+        "sha256": "61b32e7f0764075326c0fae6566d69d55ce97e7a4b3f2e14c091719f0f9df847"
+      },
+      {
+        "path": "/usr/sbin/lgroupadd",
+        "mode": 33261,
+        "size": 11552,
+        "sha256": "30368ebd258d2aa0343b462e39324fb31f3dc0f4090368b37c9f23dd58352dd3"
+      },
+      {
+        "path": "/usr/sbin/lgroupdel",
+        "mode": 33261,
+        "size": 11528,
+        "sha256": "bdd09dbfadf9af54367db5e81b1993f1c1a94ea673620c9748118a55db6db7af"
+      },
+      {
+        "path": "/usr/sbin/lgroupmod",
+        "mode": 33261,
+        "size": 15808,
+        "sha256": "9f5745f6381f8d066a8c177bf8fdc41daf820aec6dddfcb3a30ab457e9bef0aa"
+      },
+      {
+        "path": "/usr/sbin/lid",
+        "mode": 33261,
+        "size": 15768,
+        "sha256": "544b42657f87a043e9c08281b6d36a2580cfca01ba59f06b3781ea44057192df"
+      },
+      {
+        "path": "/usr/sbin/lnewusers",
+        "mode": 33261,
+        "size": 15832,
+        "sha256": "cb5572c7314b82afb5831ae44cb370794919161b59ab473b03da4f8f699e9059"
+      },
+      {
+        "path": "/usr/sbin/lpasswd",
+        "mode": 33261,
+        "size": 15872,
+        "sha256": "ee9e2cd5f0280503913f777e9b5a8c91847ee92e0a8a5013ebfa1c7171b24174"
+      },
+      {
+        "path": "/usr/sbin/luseradd",
+        "mode": 33261,
+        "size": 15752,
+        "sha256": "c36aef2719ef11b5071d53f6d6ea3eb79911cdfb71ae294b22eeffaf417ea40a"
+      },
+      {
+        "path": "/usr/sbin/luserdel",
+        "mode": 33261,
+        "size": 11576,
+        "sha256": "70ad24eee1720d8e8303030742a9bb87f5cb3e7af10ccdce4d9aa6098a6a65ac"
+      },
+      {
+        "path": "/usr/sbin/lusermod",
+        "mode": 33261,
+        "size": 19896,
+        "sha256": "3748dbd5bf1144c8e820346726d7eedb378497c12bca1754ea73243aef844cdb"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/AUTHORS",
+        "mode": 33188,
+        "size": 35,
+        "sha256": "240f0641ccaa35c688ab5e13c8740718041f75ddf41bb155168ec63e6962854c"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/COPYING",
+        "mode": 33188,
+        "size": 25383,
+        "sha256": "b7993225104d90ddd8024fd838faf300bea5e83d91203eab98e29512acebd69c"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/NEWS",
+        "mode": 33188,
+        "size": 23165,
+        "sha256": "83c7c617076dd857399de55bd4e11179671d2e0b3c2ddca61bba1f37bae078a7"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/README",
+        "mode": 33188,
+        "size": 568,
+        "sha256": "3164251ed93a04a49cf799da8ac26f0c91c914b235ac377a80972e6f138a6784"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/TODO",
+        "mode": 33188,
+        "size": 1696,
+        "sha256": "da25b22786fc73c1a0d2096be6ebfdedfa1ef69a13f276d2881de960cd52764d"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/attributes.txt",
+        "mode": 33188,
+        "size": 412,
+        "sha256": "9906b505733c0b99de7e24c0c26ef33fd649f73a599b56e4fcef144b6bec84fd"
+      },
+      {
+        "path": "/usr/share/doc/libuser-0.60/rfc2307.txt",
+        "mode": 33188,
+        "size": 41396,
+        "sha256": "b1a142e70fe45a9120fefac7da706ff83d15254b622431dd9e998c577b3eac93"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/libuser.mo",
+        "mode": 33188,
+        "size": 17412,
+        "sha256": "ef3a7174ac08ade3dec508a6d02ec747f27c6827d48bb19aff84ae0287dffe86"
+      }
+    ]
+  }
+}

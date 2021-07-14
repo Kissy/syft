@@ -1,0 +1,351 @@
+{
+  "name": "glib2",
+  "version": "2.56.4-8.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnome",
+      "Product": "libglib2",
+      "Version": "2.56.4",
+      "Update": "8.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/glib2@0:2.56.4-8.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "glib2",
+    "version": "2.56.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "8.el8",
+    "sourceRpm": "glib2-2.56.4-8.el8.src.rpm",
+    "size": 12272168,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.gtk.org",
+    "files": [
+      {
+        "path": "/usr/bin/gapplication",
+        "mode": 33261,
+        "size": 20976,
+        "sha256": "cec26da86b3c3105f682c5bcf315eda945126b2592b467e77af705715e993621"
+      },
+      {
+        "path": "/usr/bin/gdbus",
+        "mode": 33261,
+        "size": 49936,
+        "sha256": "795032ffa0e37b46b2823aed16591ad0c26938cc36369f0b878945b1c513119b"
+      },
+      {
+        "path": "/usr/bin/gio",
+        "mode": 33261,
+        "size": 87432,
+        "sha256": "7e53178d7288abcce546f8dd912e3b84299dbaffb93c4efbc788e9a78e9a7f86"
+      },
+      {
+        "path": "/usr/bin/gio-querymodules-64",
+        "mode": 33261,
+        "size": 16832,
+        "sha256": "deff748c68a6e4851c795e4bd0a7951c0335091f622d199d4935861224d3a7d6"
+      },
+      {
+        "path": "/usr/bin/glib-compile-schemas",
+        "mode": 33261,
+        "size": 50200,
+        "sha256": "310346d8cfde7d74005c83ed84ae798c11d33eedab52f731cc7bd5eaf175dc04"
+      },
+      {
+        "path": "/usr/bin/gsettings",
+        "mode": 33261,
+        "size": 29352,
+        "sha256": "8fcf18071d58ea9f14af031c4f295043ee1bcf18fb8f6f68a57ddfd40b675d06"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/22",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/22/7e9b717683eb904d4a09fcd27ffb15c6e22686",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/27",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/27/a54b624fceffb68fc4163d6a2a1982b2c4016e",
+        "mode": 41471,
+        "size": 48,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2f/603cfb651dfed0dbdff74d7abb5308399747ec",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3b/ea76bd288a76f1f61d41e601696aed5c398876",
+        "mode": 41471,
+        "size": 32,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/58",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/58/f989a97b7d84e636e5885db27a42281581baef",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7b/8cbc1fc1ce1397e6bd398b2193cd75616b4c3d",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7b/e761d4c8935cb72273ea8ed17ab98e07e13d28",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/9c/6010bcc879212dd8c540f5bd75790b1a39c04f",
+        "mode": 41471,
+        "size": 48,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b5/77f1ed5446eaeede79a1d56029c6a910f4a8ff",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cd/0b41685298dd8671d0db65a8ace3e5042fd248",
+        "mode": 41471,
+        "size": 48,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e2/f09e484ced3d8a4efa32735852ebb4d5cc50e4",
+        "mode": 41471,
+        "size": 44,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/gio",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/gio/modules",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgio-2.0.so.0",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgio-2.0.so.0.5600.4",
+        "mode": 33261,
+        "size": 1765968,
+        "sha256": "adbaaa7b4bb66d64f62d429d400bb8b7e85b3b3be4737239d8b1cf67e393186d"
+      },
+      {
+        "path": "/usr/lib64/libglib-2.0.so.0",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libglib-2.0.so.0.5600.4",
+        "mode": 33261,
+        "size": 1168056,
+        "sha256": "a9d05c962bb5a6eed8472b53769cf08be4e2c53108256bd4c13dac7564bceccc"
+      },
+      {
+        "path": "/usr/lib64/libgmodule-2.0.so.0",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgmodule-2.0.so.0.5600.4",
+        "mode": 33261,
+        "size": 15944,
+        "sha256": "df96d083e12e7d3383e07ed5307b152b07012433a5eede671072b7fd1825abd9"
+      },
+      {
+        "path": "/usr/lib64/libgobject-2.0.so.0",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgobject-2.0.so.0.5600.4",
+        "mode": 33261,
+        "size": 347536,
+        "sha256": "52dbf8a679e6bfa37e9ac38b404ee3b49f6cc1f47dc6df993091d9ba7e1ffa1a"
+      },
+      {
+        "path": "/usr/lib64/libgthread-2.0.so.0",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgthread-2.0.so.0.5600.4",
+        "mode": 33261,
+        "size": 7512,
+        "sha256": "efafc11c9a803a77ae8f079976ea61740b3eaf1ec796c584cb51674ab957d780"
+      },
+      {
+        "path": "/usr/share/bash-completion",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/gapplication",
+        "mode": 33188,
+        "size": 1389,
+        "sha256": "199885a791120de218784b28d189becea2cdbdd1c297e8a4a92602a969857fe7"
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/gdbus",
+        "mode": 33188,
+        "size": 935,
+        "sha256": "819c76693b994a291c175c3d7a394022b7429644794816071ae40b5ca405105e"
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/gsettings",
+        "mode": 33188,
+        "size": 2829,
+        "sha256": "8b0b278b6e20a401e94afb6164f99f73ee49af70e12e6c7c054a48fc8dccb552"
+      },
+      {
+        "path": "/usr/share/glib-2.0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/glib-2.0/schemas",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/glib2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/glib2/COPYING",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      },
+      {
+        "path": "/usr/share/locale/en_CA/LC_MESSAGES/glib20.mo",
+        "mode": 33188,
+        "size": 80096,
+        "sha256": "52e840a49e7106cbfa4adb0400f8d357105a8e68aea944dda1023dee325e3b62"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/glib20.mo",
+        "mode": 33188,
+        "size": 118994,
+        "sha256": "9b9b761311cfde7115dc4b986c45c567dc7445c01a5fdacbd464200e64b77a2a"
+      }
+    ]
+  }
+}

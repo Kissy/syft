@@ -18,6 +18,7 @@ type RpmdbMetadata struct {
 	Size      int               `json:"size"`
 	License   string            `json:"license"`
 	Vendor    string            `json:"vendor"`
+	URL       string            `json:"url"`
 	Files     []RpmdbFileRecord `json:"files"`
 }
 

@@ -1,0 +1,159 @@
+{
+  "name": "bind-export-libs",
+  "version": "9.11.20-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "isc",
+      "Product": "bind",
+      "Version": "9.11.20",
+      "Update": "5.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/bind-export-libs@32:9.11.20-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "bind-export-libs",
+    "version": "9.11.20",
+    "epoch": 32,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "bind-9.11.20-5.el8.src.rpm",
+    "size": 3099961,
+    "license": "MPLv2.0",
+    "vendor": "CentOS",
+    "url": "http://www.isc.org/products/BIND/",
+    "files": [
+      {
+        "path": "/etc/ld.so.conf.d/bind-export-x86_64.conf",
+        "mode": 33188,
+        "size": 26,
+        "sha256": "efeec53def06657c947f064463d5ebdb68f7c6f9e40cc2e72fc11c263484942e"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3a",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3a/a42f26210056f237a98816e9afff0b1a82dd3a",
+        "mode": 41471,
+        "size": 60,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c/9d72afa39c41349e6ca7a28ee7534f60b39f7a",
+        "mode": 41471,
+        "size": 59,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6c/b77e0c8ce812394d50684c9306809bb0c4da64",
+        "mode": 41471,
+        "size": 62,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c2/ea72ad245df317d99866b575b0234b8b982a0d",
+        "mode": 41471,
+        "size": 60,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/bind9-export",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libdns-export.so.1110",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libdns-export.so.1110.0.3",
+        "mode": 33261,
+        "size": 2361904,
+        "sha256": "1c1ec3dbc476588acaa3d4c3afa1dbeafff2aa6644ed26636e16aedd8d21246c"
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libirs-export.so.161",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libirs-export.so.161.0.1",
+        "mode": 33261,
+        "size": 49376,
+        "sha256": "b2d7f8dc153ee13028801f97ae2c9e524e64233ab2ee4a9e00ec483426f54b02"
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libisc-export.so.1105",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libisc-export.so.1105.1.0",
+        "mode": 33261,
+        "size": 472112,
+        "sha256": "d03c295601af7c5251a7a41b2fb89764e742349ddf76db575adfc2fb97997144"
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libisccfg-export.so.163",
+        "mode": 41471,
+        "size": 27,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/bind9-export/libisccfg-export.so.163.0.8",
+        "mode": 33261,
+        "size": 186832,
+        "sha256": "2910d2bed275ed3cae32abbade84d522e31e02aecd1361d4b8787907fd496b55"
+      },
+      {
+        "path": "/usr/share/licenses/bind-export-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/bind-export-libs/COPYRIGHT",
+        "mode": 33188,
+        "size": 29711,
+        "sha256": "da2aec2b7f6f0feb16bcb080e2c587375fd3195145f047e4d92d112f5b9db501"
+      }
+    ]
+  }
+}

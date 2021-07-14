@@ -1,0 +1,189 @@
+{
+  "name": "python-urlgrabber",
+  "version": "3.10-10.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "3.10",
+      "Update": "10.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-urlgrabber@0:3.10-10.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-urlgrabber",
+    "version": "3.10",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "10.el7",
+    "sourceRpm": "python-urlgrabber-3.10-10.el7.src.rpm",
+    "size": 503358,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://urlgrabber.baseurl.org/",
+    "files": [
+      {
+        "path": "/usr/bin/urlgrabber",
+        "mode": 33261,
+        "size": 12465,
+        "sha256": "e999332f2f03964406c5405df1a55e7f94fa14b01c8666790b2ddfe95c21c811"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber-3.10-py2.7.egg-info",
+        "mode": 33188,
+        "size": 2265,
+        "sha256": "bebb48df47532f41203bf1e6f96456dcacec0102db3ba6dff10bf44c96fd7b2f"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/__init__.py",
+        "mode": 33188,
+        "size": 2362,
+        "sha256": "420629991c7146581a7d23b62c68c90653948fd31dd00d9bef4bd7d257a41f34"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/__init__.pyc",
+        "mode": 33188,
+        "size": 1724,
+        "sha256": "1152df1c75ade9320e134e3d1cdf132e269100fa73ddceae29bd0d8a8f332491"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/__init__.pyo",
+        "mode": 33188,
+        "size": 1724,
+        "sha256": "1152df1c75ade9320e134e3d1cdf132e269100fa73ddceae29bd0d8a8f332491"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/byterange.py",
+        "mode": 33188,
+        "size": 17143,
+        "sha256": "e253d971beb79a8ecc4746122df644e0f334f9b34fec71211e421653cca0d546"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/byterange.pyc",
+        "mode": 33188,
+        "size": 16449,
+        "sha256": "6fc7658eaf3aa7861e32c1b2e3366ed55adaaf36baab96bf4346486ba336d5c2"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/byterange.pyo",
+        "mode": 33188,
+        "size": 16300,
+        "sha256": "18f487ba34e0c723894dde30889e76f37191a6191b01f77f5e58e73833c3e59d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/grabber.py",
+        "mode": 33188,
+        "size": 96523,
+        "sha256": "e93bd35eb4481b489714ab64e18aad7bb7e7d23356745e6712e7a50d1acaa322"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/grabber.pyc",
+        "mode": 33188,
+        "size": 83736,
+        "sha256": "878abb53e7b0aa3789918ffdab73e4b8e85cca913ba23b7f6e8adec4d57e039f"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/grabber.pyo",
+        "mode": 33188,
+        "size": 83655,
+        "sha256": "4d248ef6f1e9419241381c441e771ae1abfadec85e0eda9f0ac195b965cab096"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/mirror.py",
+        "mode": 33188,
+        "size": 19886,
+        "sha256": "def9dac31be71d35f4602b92624e7f2664bfa3cafc761ced73167484e164a80f"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/mirror.pyc",
+        "mode": 33188,
+        "size": 18258,
+        "sha256": "49e17c9ec965afa33725480df91002662697878c0c49ea8d37e1c528b0e56137"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/mirror.pyo",
+        "mode": 33188,
+        "size": 18258,
+        "sha256": "49e17c9ec965afa33725480df91002662697878c0c49ea8d37e1c528b0e56137"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/progress.py",
+        "mode": 33188,
+        "size": 33254,
+        "sha256": "9ab89416fbcb8721966780b19c89a6a92af8c5139e00fd0c573d71c73fa0ca15"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/progress.pyc",
+        "mode": 33188,
+        "size": 29952,
+        "sha256": "2afd34c6e02e8ee9ffc49a547c150e424c8d72b3b115666b013562a5579a3c67"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/urlgrabber/progress.pyo",
+        "mode": 33188,
+        "size": 29897,
+        "sha256": "6f7f412a40b8e21664e64c7a74e1aa4c436306bfdbb320c42fd3adf84543c745"
+      },
+      {
+        "path": "/usr/libexec/urlgrabber-ext-down",
+        "mode": 33261,
+        "size": 2603,
+        "sha256": "bcd176185dc82e8c753825b4d1acfa3dd18c6254e7af6811a49e79efc5690c80"
+      },
+      {
+        "path": "/usr/share/doc/python-urlgrabber-3.10",
+        "mode": 16877,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-urlgrabber-3.10/ChangeLog",
+        "mode": 33188,
+        "size": 9418,
+        "sha256": "a6eb4c37f8ec17f12a773d8f9d5756b55fc59f1c739c21aa8947ff4a70a53c4f"
+      },
+      {
+        "path": "/usr/share/doc/python-urlgrabber-3.10/LICENSE",
+        "mode": 33188,
+        "size": 24389,
+        "sha256": "eea173a556abac0370461e57e12aab266894ea6be3874c2be05fd87871f75449"
+      },
+      {
+        "path": "/usr/share/doc/python-urlgrabber-3.10/README",
+        "mode": 33188,
+        "size": 995,
+        "sha256": "47adbf6d5848965d9f0d554bed9ed3dbba48d4293913fc9d6d1b99e06475c6ac"
+      },
+      {
+        "path": "/usr/share/doc/python-urlgrabber-3.10/TODO",
+        "mode": 33188,
+        "size": 2084,
+        "sha256": "ff0a5bc743e4e5912830e21128c38a516910c9b2bffb108286be3da576498bc1"
+      }
+    ]
+  }
+}

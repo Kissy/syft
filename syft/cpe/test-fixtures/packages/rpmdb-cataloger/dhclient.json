@@ -1,0 +1,129 @@
+{
+  "name": "dhclient",
+  "version": "4.2.5-82.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "isc",
+      "Product": "dhcp",
+      "Version": "4.2.5",
+      "Update": "82.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/dhclient@12:4.2.5-82.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dhclient",
+    "version": "4.2.5",
+    "epoch": 12,
+    "architecture": "x86_64",
+    "release": "82.0.1.el7",
+    "sourceRpm": "dhcp-4.2.5-82.0.1.el7.src.rpm",
+    "size": 486193,
+    "license": "ISC",
+    "vendor": "Oracle America",
+    "url": "http://isc.org/products/DHCP/",
+    "files": [
+      {
+        "path": "/etc/NetworkManager",
+        "mode": 16877,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/NetworkManager/dispatcher.d",
+        "mode": 16877,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/NetworkManager/dispatcher.d/11-dhclient",
+        "mode": 33261,
+        "size": 1123,
+        "sha256": "98643c61b475c903b84e6dc554c176b211e706700ae002ec9ca85674892b01e9"
+      },
+      {
+        "path": "/etc/dhcp/dhclient-exit-hooks.d",
+        "mode": 16877,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dhcp/dhclient-exit-hooks.d/azure-cloud.sh",
+        "mode": 33188,
+        "size": 594,
+        "sha256": "a729a1255f75ec40290f12644d926a6d3df6e1fecc6e7daa5ec6dc6739692c8e"
+      },
+      {
+        "path": "/etc/dhcp/dhclient.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/pm-utils/sleep.d/56dhclient",
+        "mode": 33261,
+        "size": 1810,
+        "sha256": "687344e144ab436a393163defc54aa2cf85bbc16aab321f982dee63624c1ec31"
+      },
+      {
+        "path": "/usr/sbin/dhclient",
+        "mode": 33261,
+        "size": 424272,
+        "sha256": "84248c4382aaf5ac8a2def6b5054d4490a4be8d5d45ea1bfb29f644595ae62e3"
+      },
+      {
+        "path": "/usr/sbin/dhclient-script",
+        "mode": 33261,
+        "size": 31307,
+        "sha256": "6aeee4e87d74aa51da76412326864e87b15077d5c75828c5b1fd1913c951b853"
+      },
+      {
+        "path": "/usr/share/doc/dhclient-4.2.5",
+        "mode": 16877,
+        "size": 90,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/dhclient-4.2.5/README.dhclient.d",
+        "mode": 33188,
+        "size": 2092,
+        "sha256": "f90548aa54b4bfe60d6f8eac08c084fe268c392f7fdb1d839b7e46a8d9629fb2"
+      },
+      {
+        "path": "/usr/share/doc/dhclient-4.2.5/dhclient.conf.example",
+        "mode": 33188,
+        "size": 1024,
+        "sha256": "b24cd016d3e51fdbe7df92d296ccf2529e477adb9eb46f0a0f7059e4e161f235"
+      },
+      {
+        "path": "/usr/share/doc/dhclient-4.2.5/dhclient6.conf.example",
+        "mode": 33188,
+        "size": 382,
+        "sha256": "fda6bf3cdf0460d214a018d46d13dfcb811875db3e1346e98f44bb1fda22fb43"
+      },
+      {
+        "path": "/var/lib/dhclient",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      }
+    ]
+  }
+}

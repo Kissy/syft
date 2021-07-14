@@ -1,0 +1,111 @@
+{
+  "name": "openssh-clients",
+  "version": "7.4p1-21.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "openbsd",
+      "Product": "openssh",
+      "Version": "7.4p1",
+      "Update": "21.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/openssh-clients@0:7.4p1-21.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "openssh-clients",
+    "version": "7.4p1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "21.0.1.el7",
+    "sourceRpm": "openssh-7.4p1-21.0.1.el7.src.rpm",
+    "size": 2643192,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://www.openssh.com/portable.html",
+    "files": [
+      {
+        "path": "/etc/ssh/ssh_config",
+        "mode": 33188,
+        "size": 2276,
+        "sha256": "f7fdf3c720f3823f93602c2624ce0b102fcfad8400798749cb7883d6969aad47"
+      },
+      {
+        "path": "/usr/bin/scp",
+        "mode": 33261,
+        "size": 91376,
+        "sha256": "9db8a9852850623f673605c040e4cf409926e40a805f4305d433c63ae9d23262"
+      },
+      {
+        "path": "/usr/bin/sftp",
+        "mode": 33261,
+        "size": 145424,
+        "sha256": "05c188715721366059115b9effde8f6068569b968187a08b0e1819af614541dd"
+      },
+      {
+        "path": "/usr/bin/slogin",
+        "mode": 41471,
+        "size": 5,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/ssh",
+        "mode": 33261,
+        "size": 774552,
+        "sha256": "b8d0e1194879c86acf5e027e784cbcfa524374fbbba5e9b315810c27e15e998e"
+      },
+      {
+        "path": "/usr/bin/ssh-add",
+        "mode": 33261,
+        "size": 360944,
+        "sha256": "8ead2747bb4c76a594b6eb778ce5f48dce5c9a2a874b613b4f3639cd26fca74a"
+      },
+      {
+        "path": "/usr/bin/ssh-agent",
+        "mode": 33865,
+        "size": 382216,
+        "sha256": "e4d890e7b3315cd672187fa8cbbef9643033a418cb0bd7da5aa4c857eba0b544"
+      },
+      {
+        "path": "/usr/bin/ssh-copy-id",
+        "mode": 33261,
+        "size": 10469,
+        "sha256": "2030a00fa735fe2bbdac3d69ee6dfedd90e084eec28cec46be3004017f4a0e75"
+      },
+      {
+        "path": "/usr/bin/ssh-keyscan",
+        "mode": 33261,
+        "size": 441032,
+        "sha256": "aa6faddc083571f8ce8597b50f9f2a0574335a4870ff0c6d1dcc3474144235bb"
+      },
+      {
+        "path": "/usr/lib64/fipscheck/ssh.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "4d132e504a8787ffcdd88c9b862fcee543d3f2755fcbf4030359147fbf9330fb"
+      },
+      {
+        "path": "/usr/libexec/openssh/ssh-pkcs11-helper",
+        "mode": 33261,
+        "size": 369608,
+        "sha256": "8200c0f93a53ce672b8d823280c06b2812b91edc4e9dc8564ca20f9776ffee97"
+      }
+    ]
+  }
+}

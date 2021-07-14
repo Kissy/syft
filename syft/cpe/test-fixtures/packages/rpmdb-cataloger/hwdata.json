@@ -1,0 +1,181 @@
+{
+  "name": "hwdata",
+  "version": "0.252-9.7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/hwdata@0:0.252-9.7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "hwdata",
+    "version": "0.252",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "9.7.el7",
+    "sourceRpm": "hwdata-0.252-9.7.el7.src.rpm",
+    "size": 15118514,
+    "license": "GPLv2+",
+    "vendor": "Oracle America",
+    "url": "https://github.com/vcrhonek/hwdata",
+    "files": [
+      {
+        "path": "/usr/lib/modprobe.d/dist-blacklist.conf",
+        "mode": 33188,
+        "size": 982,
+        "sha256": "f8eae43ce15cb53d0d876926641a057e9406c4163650eea76b916a76e8eba626"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-OUI.hwdb",
+        "mode": 33188,
+        "size": 1899091,
+        "sha256": "2b39aaba69d7631e05d26d4acc4c1342af531a0218af434f5d526015d4ab1f82"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-acpi-vendor.hwdb",
+        "mode": 33188,
+        "size": 148069,
+        "sha256": "61ee4c069d7e70a27d58de6af272e214b5ed233a1c0fd261730ef862e590e8f3"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-bluetooth-vendor-product.hwdb",
+        "mode": 33188,
+        "size": 140340,
+        "sha256": "6a6ad8bd08e79a995f11459f6191d922126b4cc2452ca685c2c874b7839caae6"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-net-ifname.hwdb",
+        "mode": 33188,
+        "size": 111,
+        "sha256": "24f4e463cd34f63b92679b5276190fa854aebd5730b1def5222cf7269c4c5c43"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-pci-classes.hwdb",
+        "mode": 33188,
+        "size": 15204,
+        "sha256": "81ded33eaf5c4eab216bf9c0196ec33b9702b6d5c8a44702ed3b2925af97c1f0"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-pci-vendor-model.hwdb",
+        "mode": 33188,
+        "size": 3244570,
+        "sha256": "fd98e2c4f1b6bce9fd019e827a86a368b2ef5e5de73edf39722949dfd06e94c8"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-sdio-classes.hwdb",
+        "mode": 33188,
+        "size": 811,
+        "sha256": "4a9f94ec0518cadd1afddd0e9928b05460399d5ffeee7d0d79927e0a7bfd263f"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-sdio-vendor-model.hwdb",
+        "mode": 33188,
+        "size": 4209,
+        "sha256": "fa0456f7a69fccfe29b4a4d8e195ea1ad60c0b69c7fe3a8580ffaf9ef62490bd"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-usb-classes.hwdb",
+        "mode": 33188,
+        "size": 8137,
+        "sha256": "58ea86c49a8bce3d6bb267f2a2d3961e8909dce064ed44af368c1226f823b69f"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/22-usb-vendor-model.hwdb",
+        "mode": 33188,
+        "size": 1452221,
+        "sha256": "695f5b8a900ce4fd57d46543098ac65ad2255ca468f37836bf97d6c5bc972afc"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/62-evdev.hwdb",
+        "mode": 33188,
+        "size": 17979,
+        "sha256": "c98553c69e0abfa09b3e47aff8d05f65947c602d96a90b7516d5891430815bef"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/62-keyboard.hwdb",
+        "mode": 33188,
+        "size": 77642,
+        "sha256": "502f4af2fa042b498d9c69fa7e09a43caf4ea74c21646160d8d0a0e723876656"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/72-mouse.hwdb",
+        "mode": 33188,
+        "size": 22949,
+        "sha256": "6afbf75dfae1a0e64c15ffbcefc844dd93da650b98b48db040c0c70b08e123a2"
+      },
+      {
+        "path": "/usr/lib/udev/hwdb.d/72-pointingstick.hwdb",
+        "mode": 33188,
+        "size": 7106,
+        "sha256": "57a95fd5130d96a3d3512c0df9ae20296cce2846e1cb195e460370539ff953aa"
+      },
+      {
+        "path": "/usr/share/doc/hwdata-0.252",
+        "mode": 16877,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/hwdata-0.252/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/doc/hwdata-0.252/LICENSE",
+        "mode": 33188,
+        "size": 175,
+        "sha256": "21d0406f93e884a050426ebc21931839a45d56bfcbcbfdda7686d583f36f107f"
+      },
+      {
+        "path": "/usr/share/hwdata",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/hwdata/iab.txt",
+        "mode": 33188,
+        "size": 1778721,
+        "sha256": "8afd3ecb7a7d7c73380212f8d9923b214e6492808c385d8669ab8c60ffbf863c"
+      },
+      {
+        "path": "/usr/share/hwdata/oui.txt",
+        "mode": 33188,
+        "size": 4296346,
+        "sha256": "3342c5c4de6499c9c3cc60126e57b0a8703ef6e6f9ef3d260be1ceaeb9e77929"
+      },
+      {
+        "path": "/usr/share/hwdata/pci.ids",
+        "mode": 33188,
+        "size": 1220928,
+        "sha256": "0e993a128229a287922588f3b6e6eadf62c824e8c43ad43fe5ecefb01ba64638"
+      },
+      {
+        "path": "/usr/share/hwdata/pnp.ids",
+        "mode": 33188,
+        "size": 55055,
+        "sha256": "adbc464499373b07e7ca34eb03b3bf456a16ee1f4e67ddb4da15c3b31fd6eeb8"
+      },
+      {
+        "path": "/usr/share/hwdata/sdio.ids",
+        "mode": 33188,
+        "size": 2162,
+        "sha256": "8701033c5cb8c03ac897f7e1c4013a6654cac82210c7d71e3aa9637db294f007"
+      },
+      {
+        "path": "/usr/share/hwdata/usb.ids",
+        "mode": 33188,
+        "size": 707614,
+        "sha256": "1c4d5ddab2c48e0d318705dfeedd2261835b219f88ae354182595e1ef7a007b0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "systemd-pam",
+  "version": "239-41.el8_3",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "systemd",
+      "Version": "239",
+      "Update": "41.el8_3",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/systemd-pam@0:239-41.el8_3?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "systemd-pam",
+    "version": "239",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "41.el8_3",
+    "sourceRpm": "systemd-239-41.el8_3.src.rpm",
+    "size": 906712,
+    "license": "LGPLv2+ and MIT and GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.freedesktop.org/wiki/Software/systemd",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14/415e960ef1b48d1ce8e8203e9e99783bfa8765",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/security/pam_systemd.so",
+        "mode": 33261,
+        "size": 906712,
+        "sha256": "642a49d4ac7cd368ee5e62c999468ab6cc29ffc0c4d731998c80d351f063fdea"
+      }
+    ]
+  }
+}

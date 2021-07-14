@@ -1,0 +1,28 @@
+{
+  "name": "pygpgme",
+  "version": "0.3",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/pygpgme-0.3-py2.7.egg-info",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "LGPL"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/pygpgme@0.3",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "pygpgme",
+    "version": "0.3",
+    "license": "LGPL",
+    "author": "James Henstridge",
+    "authorEmail": "james@jamesh.id.au",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages"
+  }
+}

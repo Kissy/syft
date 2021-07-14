@@ -1,0 +1,111 @@
+{
+  "name": "gnutls",
+  "version": "3.6.14-6.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "gnutls",
+      "Version": "3.6.14",
+      "Update": "6.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/gnutls@0:3.6.14-6.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "gnutls",
+    "version": "3.6.14",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el8",
+    "sourceRpm": "gnutls-3.6.14-6.el8.src.rpm",
+    "size": 2982103,
+    "license": "GPLv3+ and LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://www.gnutls.org/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/29",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/29/78e511c977559fccdc730a92706eafbbeeebb5",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/.libgnutls.so.30.28.0.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "5f3e602ce68a054f359480c471164abd6118809d5b4a8f04957c252fd584c56f"
+      },
+      {
+        "path": "/usr/lib64/.libgnutls.so.30.hmac",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgnutls.so.30",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgnutls.so.30.28.0",
+        "mode": 33261,
+        "size": 2043992,
+        "sha256": "66177ace830070da12e795ea10820769e3bbc40a7ccaf1c3a99766367f051932"
+      },
+      {
+        "path": "/usr/share/licenses/gnutls",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/gnutls/COPYING",
+        "mode": 33188,
+        "size": 35151,
+        "sha256": "e79e9c8a0c85d735ff98185918ec94ed7d175efc377012787aebcf3b80f0d90b"
+      },
+      {
+        "path": "/usr/share/licenses/gnutls/COPYING.LESSER",
+        "mode": 33188,
+        "size": 26432,
+        "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+      },
+      {
+        "path": "/usr/share/licenses/gnutls/LICENSE",
+        "mode": 33188,
+        "size": 936,
+        "sha256": "3e043d77917e48e262301b8f880812fcd82236482630a421d555a38804eee643"
+      }
+    ]
+  }
+}

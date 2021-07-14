@@ -1,0 +1,129 @@
+{
+  "name": "nss",
+  "version": "3.53.1-3.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "nss",
+      "Version": "3.53.1",
+      "Update": "3.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nss@0:3.53.1-3.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nss",
+    "version": "3.53.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el7_9",
+    "sourceRpm": "nss-3.53.1-3.el7_9.src.rpm",
+    "size": 2517386,
+    "license": "MPLv2.0",
+    "vendor": "Oracle America",
+    "url": "http://www.mozilla.org/projects/security/pki/nss/",
+    "files": [
+      {
+        "path": "/etc/pki/nss-legacy",
+        "mode": 16877,
+        "size": 30,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/nss-legacy/nss-rhel7.config",
+        "mode": 33188,
+        "size": 257,
+        "sha256": "de7d320dddb1c67ef029ad77cd1fe71500251d1f7573d2f24e8d494a20d4b297"
+      },
+      {
+        "path": "/etc/pki/nssdb",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/pki/nssdb/cert8.db",
+        "mode": 33188,
+        "size": 65536,
+        "sha256": "e45105a21696a26c834cfaa3f664c42426c99546094e22fbe3a5e1dd3fbc1f33"
+      },
+      {
+        "path": "/etc/pki/nssdb/cert9.db",
+        "mode": 33188,
+        "size": 9216,
+        "sha256": "6bda6ce59a46dea427681cc8a76295e34c7c2f17f4a2f265b39cfe258ab65ded"
+      },
+      {
+        "path": "/etc/pki/nssdb/key3.db",
+        "mode": 33188,
+        "size": 16384,
+        "sha256": "6115cab6d646a05dd6b63e21c488da6bc36975f6e5ad8d6371c30a166c41cddc"
+      },
+      {
+        "path": "/etc/pki/nssdb/key4.db",
+        "mode": 33188,
+        "size": 11264,
+        "sha256": "a2fa0ba8e20d1aee355a0f45266eb3e53fb5720ace9fe4c9bcc964f6d4fdf87d"
+      },
+      {
+        "path": "/etc/pki/nssdb/pkcs11.txt",
+        "mode": 33188,
+        "size": 451,
+        "sha256": "c56e10dfe5ea38b882421ef0c8c2ad445274c6a4db1dc1a9a6dcdc930d2a9848"
+      },
+      {
+        "path": "/etc/pki/nssdb/secmod.db",
+        "mode": 33188,
+        "size": 16384,
+        "sha256": "3790a5404f6b7edb652544eb75bfaa8f1c515f41ef14369248151d7c52cd249e"
+      },
+      {
+        "path": "/usr/lib64/libnss3.so",
+        "mode": 33261,
+        "size": 1279136,
+        "sha256": "63e992fa81b9adedd75ffb54e7bb01a8e4906adec7caae0f1bd384707cee169a"
+      },
+      {
+        "path": "/usr/lib64/libnssckbi.so",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/lib64/libsmime3.so",
+        "mode": 33261,
+        "size": 168368,
+        "sha256": "9ce2787600323212e77f4b0c27dd4e27d47877bee500352b197fb9028e6c9904"
+      },
+      {
+        "path": "/usr/lib64/libssl3.so",
+        "mode": 33261,
+        "size": 387696,
+        "sha256": "d75bbdeb2d161399404985a65a8d926fcf5825ff89237c40c86b2b7c2e520762"
+      },
+      {
+        "path": "/usr/lib64/nss/libnssckbi.so",
+        "mode": 33261,
+        "size": 557160,
+        "sha256": "baa3c895cf22998db4e63a9747f573bfe1000eaca38ce3f1c2b30b820caad2e4"
+      }
+    ]
+  }
+}

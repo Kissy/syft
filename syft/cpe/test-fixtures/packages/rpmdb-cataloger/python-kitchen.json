@@ -1,0 +1,1059 @@
+{
+  "name": "python-kitchen",
+  "version": "1.1.1-5.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "1.1.1",
+      "Update": "5.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-kitchen@0:1.1.1-5.el7?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-kitchen",
+    "version": "1.1.1",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "5.el7",
+    "sourceRpm": "python-kitchen-1.1.1-5.el7.src.rpm",
+    "size": 1439815,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "https://pypi.python.org/pypi/kitchen/",
+    "files": [
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info/PKG-INFO",
+        "mode": 33188,
+        "size": 2148,
+        "sha256": "5278085347c49cfa0b793f065149e63fdcbfcad4e8d53f3d686b720a4adf1507"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info/SOURCES.txt",
+        "mode": 33188,
+        "size": 921,
+        "sha256": "843a3249bbcbebbe80fe2655681b723c3b332f2bb3a2f9f00d2902d1a3d86317"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info/dependency_links.txt",
+        "mode": 33188,
+        "size": 1,
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen-1.1.1-py2.7.egg-info/top_level.txt",
+        "mode": 33188,
+        "size": 8,
+        "sha256": "3eafd00630c6a00422ee3274991ec851dc6243d0523aabdf340f4580d77438cf"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/__init__.py",
+        "mode": 33188,
+        "size": 1372,
+        "sha256": "343ae6434cc6ee604ba20ee463d639fb7a2d54c9e7602ce16fbf13feba4eabd6"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/__init__.pyc",
+        "mode": 33188,
+        "size": 696,
+        "sha256": "6d1678e698826d281231944adfa32f4f16621d6790a92fd88bd3398bf74ee34e"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/__init__.pyo",
+        "mode": 33188,
+        "size": 696,
+        "sha256": "6d1678e698826d281231944adfa32f4f16621d6790a92fd88bd3398bf74ee34e"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections/__init__.py",
+        "mode": 33188,
+        "size": 283,
+        "sha256": "abad9fd259b6aed1361900e85072ad469026c50c3fabb1d039ce32bfbd9f7407"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections/__init__.pyc",
+        "mode": 33188,
+        "size": 557,
+        "sha256": "cdcb41fd04b4781cdfb5ae57e2693ebb9c969303285b73e9dec2fb4bbec91a69"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections/__init__.pyo",
+        "mode": 33188,
+        "size": 557,
+        "sha256": "cdcb41fd04b4781cdfb5ae57e2693ebb9c969303285b73e9dec2fb4bbec91a69"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections/strictdict.py",
+        "mode": 33188,
+        "size": 3136,
+        "sha256": "84988c6b719d8463b0d596afb596b4aa340a0e21f6bd01b1d61b0e6f4422e053"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections/strictdict.pyc",
+        "mode": 33188,
+        "size": 3200,
+        "sha256": "d0cbadb62f34859a356540e36d1ac91874cc13f64a8c35d8fc3f0ad32d64a187"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/collections/strictdict.pyo",
+        "mode": 33188,
+        "size": 3200,
+        "sha256": "d0cbadb62f34859a356540e36d1ac91874cc13f64a8c35d8fc3f0ad32d64a187"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/exceptions.py",
+        "mode": 33188,
+        "size": 1090,
+        "sha256": "ae6337efbb8b7e23ff26c64ad17a31e51efbe02884635cf6074e054ff7f93b08"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/exceptions.pyc",
+        "mode": 33188,
+        "size": 666,
+        "sha256": "84d4428ac93ad16461aab9f35ea08dd6d6a08465254fd4ccccc0fd88e530cd53"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/exceptions.pyo",
+        "mode": 33188,
+        "size": 666,
+        "sha256": "84d4428ac93ad16461aab9f35ea08dd6d6a08465254fd4ccccc0fd88e530cd53"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/i18n",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/i18n/__init__.py",
+        "mode": 33188,
+        "size": 35583,
+        "sha256": "b2d39b68117a2857d48e97a0ae6304e610dd5d04e0146adf3f8926ed75e38dc9"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/i18n/__init__.pyc",
+        "mode": 33188,
+        "size": 29771,
+        "sha256": "a2199da45e49e05801a0c92b000ed39efea1ebe6a228786cea525df12a6d8669"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/i18n/__init__.pyo",
+        "mode": 33188,
+        "size": 29771,
+        "sha256": "a2199da45e49e05801a0c92b000ed39efea1ebe6a228786cea525df12a6d8669"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/iterutils",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/iterutils/__init__.py",
+        "mode": 33188,
+        "size": 3320,
+        "sha256": "10a086d98936276752052f178f63492f6c71533187b8d1281e1eb444514a511b"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/iterutils/__init__.pyc",
+        "mode": 33188,
+        "size": 2855,
+        "sha256": "3a449f9eef781ba24cd4bc3680ee513bd4553d040e746c60ede212e1c0de11f8"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/iterutils/__init__.pyo",
+        "mode": 33188,
+        "size": 2855,
+        "sha256": "3a449f9eef781ba24cd4bc3680ee513bd4553d040e746c60ede212e1c0de11f8"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/__init__.py",
+        "mode": 33188,
+        "size": 339,
+        "sha256": "a581970a64b69389d7f52b02a409bd77658588728299dbdd230a8ab122c31b91"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/__init__.pyc",
+        "mode": 33188,
+        "size": 606,
+        "sha256": "ea2140d247d9fd0c1db995a840ac8874ae09b8e5887c60e4971bbd7519e51baf"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/__init__.pyo",
+        "mode": 33188,
+        "size": 606,
+        "sha256": "ea2140d247d9fd0c1db995a840ac8874ae09b8e5887c60e4971bbd7519e51baf"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64/__init__.py",
+        "mode": 33188,
+        "size": 1587,
+        "sha256": "1a4df20594f7f4cdacd5116ac39af52b178b011683874459f6767d985bd53411"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64/__init__.pyc",
+        "mode": 33188,
+        "size": 951,
+        "sha256": "da471bc87fec1f00edae9f1818ceb7a8024374a516fecc44655522027bab932d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64/__init__.pyo",
+        "mode": 33188,
+        "size": 951,
+        "sha256": "da471bc87fec1f00edae9f1818ceb7a8024374a516fecc44655522027bab932d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64/_base64.py",
+        "mode": 33188,
+        "size": 11405,
+        "sha256": "706455d8741ab7c95e30b9e2f6bb57270d16cbd0a2d2389ea68da48e5f7e423f"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64/_base64.pyc",
+        "mode": 33188,
+        "size": 11614,
+        "sha256": "8286ef668517928a227c3bc2324f657077b746f8358431a4538282e09acd6153"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/base64/_base64.pyo",
+        "mode": 33188,
+        "size": 11614,
+        "sha256": "8286ef668517928a227c3bc2324f657077b746f8358431a4538282e09acd6153"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/sets",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/sets/__init__.py",
+        "mode": 33188,
+        "size": 3238,
+        "sha256": "9cf734a34415fd1fffbae4c6e4c4150ea5c2c9c197986ccfad8183fdbbcfaecd"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/sets/__init__.pyc",
+        "mode": 33188,
+        "size": 2432,
+        "sha256": "79a833f95daba3ba69777108fba2298920fc63b55fcf225e1fa65f05b9e29fa3"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/sets/__init__.pyo",
+        "mode": 33188,
+        "size": 2432,
+        "sha256": "79a833f95daba3ba69777108fba2298920fc63b55fcf225e1fa65f05b9e29fa3"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/subprocess.py",
+        "mode": 33188,
+        "size": 250,
+        "sha256": "77d58b3428a5292561f8d51a328cee0acf09a94fdec2bf9359a72e9fe88f5dd3"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/subprocess.pyc",
+        "mode": 33188,
+        "size": 252,
+        "sha256": "0d5a82117e846a9d3e7866c2c1635865ce65d6a9338de60c9b20bb5bdc915e02"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat24/subprocess.pyo",
+        "mode": 33188,
+        "size": 252,
+        "sha256": "0d5a82117e846a9d3e7866c2c1635865ce65d6a9338de60c9b20bb5bdc915e02"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/__init__.py",
+        "mode": 33188,
+        "size": 287,
+        "sha256": "dbb834142393351226a5f1fc1bd89659430b2b6590cfd1c15aecad2b034c2237"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/__init__.pyc",
+        "mode": 33188,
+        "size": 523,
+        "sha256": "1d2bb8a3699358bfe1a1e516da6d8189f6d08c21a0b298c9a0ca4ff95cd09647"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/__init__.pyo",
+        "mode": 33188,
+        "size": 523,
+        "sha256": "1d2bb8a3699358bfe1a1e516da6d8189f6d08c21a0b298c9a0ca4ff95cd09647"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections/__init__.py",
+        "mode": 33188,
+        "size": 350,
+        "sha256": "6d8c9c61709a4d99eeb2ebdf05a579e267e056806d39d5cd6ee6b35b23b2d674"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections/__init__.pyc",
+        "mode": 33188,
+        "size": 381,
+        "sha256": "c5eca673dac5ff7fc20254e22b1920c6130da78504f4dd5903aafb0f04d707bb"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections/__init__.pyo",
+        "mode": 33188,
+        "size": 381,
+        "sha256": "c5eca673dac5ff7fc20254e22b1920c6130da78504f4dd5903aafb0f04d707bb"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections/_defaultdict.py",
+        "mode": 33188,
+        "size": 5504,
+        "sha256": "0295bafc59ce1bde7a1498505c383af86aac4ead0720b9bc706cdddf94769c50"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections/_defaultdict.pyc",
+        "mode": 33188,
+        "size": 3241,
+        "sha256": "2f7a9460a49792d715a5de510a488ba1af3ecd0dd64773a0e24fdaa0a76c3dd0"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat25/collections/_defaultdict.pyo",
+        "mode": 33188,
+        "size": 3241,
+        "sha256": "2f7a9460a49792d715a5de510a488ba1af3ecd0dd64773a0e24fdaa0a76c3dd0"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/__init__.py",
+        "mode": 33188,
+        "size": 419,
+        "sha256": "aedb3dd86779117712cf5b81d8b0705d9f9ac355fbc5d7be65638708aebf1570"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/__init__.pyc",
+        "mode": 33188,
+        "size": 667,
+        "sha256": "d2b493e0859795d30005b7c3b06d479e267e1400e1ed94c4874582574c02ef11"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/__init__.pyo",
+        "mode": 33188,
+        "size": 667,
+        "sha256": "d2b493e0859795d30005b7c3b06d479e267e1400e1ed94c4874582574c02ef11"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess/__init__.py",
+        "mode": 33188,
+        "size": 1625,
+        "sha256": "eb03d35e173e687b869c954db70d6e3b1a052dbd012ea837b1e1de882be1caeb"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess/__init__.pyc",
+        "mode": 33188,
+        "size": 832,
+        "sha256": "cb5832f7be0f0a6d86cfbdc622f9b22dbbe859dd581aed2f8f4e1d9be0e29f11"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess/__init__.pyo",
+        "mode": 33188,
+        "size": 832,
+        "sha256": "cb5832f7be0f0a6d86cfbdc622f9b22dbbe859dd581aed2f8f4e1d9be0e29f11"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess/_subprocess.py",
+        "mode": 33188,
+        "size": 55753,
+        "sha256": "5069a0fede8578b4c02adaccdf9277a42df4063c90baa34fa5503acf8e7ae844"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess/_subprocess.pyc",
+        "mode": 33188,
+        "size": 42081,
+        "sha256": "5cc0b19c41e8f2ba181f52730be7a32abcef7044139010e8bd6c99346f5cb76d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/pycompat27/subprocess/_subprocess.pyo",
+        "mode": 33188,
+        "size": 42081,
+        "sha256": "5cc0b19c41e8f2ba181f52730be7a32abcef7044139010e8bd6c99346f5cb76d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/release.py",
+        "mode": 33188,
+        "size": 1651,
+        "sha256": "e85779d1e0885449b91e6247b94054aaa312998c2b6ec1d5d1667f0ce6c9e4ce"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/release.pyc",
+        "mode": 33188,
+        "size": 2016,
+        "sha256": "8258f3c54e146e2b5cfd86b5c2951171a95ecb3ac0a816a4fafbfda734417f60"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/release.pyo",
+        "mode": 33188,
+        "size": 2016,
+        "sha256": "8258f3c54e146e2b5cfd86b5c2951171a95ecb3ac0a816a4fafbfda734417f60"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/__init__.py",
+        "mode": 33188,
+        "size": 414,
+        "sha256": "78c3486c34a713b094ba4d5ff0d5235a26ffae31889aba25c00802b8a08f7825"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/__init__.pyc",
+        "mode": 33188,
+        "size": 667,
+        "sha256": "0e06ff531685878f01749f1bdd5b6678f0257a2885eb34012a6df56daab03f97"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/__init__.pyo",
+        "mode": 33188,
+        "size": 667,
+        "sha256": "0e06ff531685878f01749f1bdd5b6678f0257a2885eb34012a6df56daab03f97"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/converters.py",
+        "mode": 33188,
+        "size": 41623,
+        "sha256": "6d032b497ad25305ff92b0612e9bea5c9b1cf984e56cb0d26a9a9e6b9f7b362b"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/converters.pyc",
+        "mode": 33188,
+        "size": 37358,
+        "sha256": "903c65b76886eb4345b586cc8762391936140fc56e3720f1a164678f72a48440"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/converters.pyo",
+        "mode": 33188,
+        "size": 37358,
+        "sha256": "903c65b76886eb4345b586cc8762391936140fc56e3720f1a164678f72a48440"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/display.py",
+        "mode": 33188,
+        "size": 39442,
+        "sha256": "1e761728fc72ef58b4a67014d76fdbb956eb25b89eb13d5a71aedb8201717a99"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/display.pyc",
+        "mode": 33188,
+        "size": 31710,
+        "sha256": "1e8b0e9bbdc2f058bf4320e7e7bf46840a3818d07f40d933ecdb4d4283c2a45e"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/display.pyo",
+        "mode": 33188,
+        "size": 31710,
+        "sha256": "1e8b0e9bbdc2f058bf4320e7e7bf46840a3818d07f40d933ecdb4d4283c2a45e"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/exceptions.py",
+        "mode": 33188,
+        "size": 1269,
+        "sha256": "232b8068e0255fae19bef07a8ca493ab0324061cb07e80fb811bdb28dc6c84f7"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/exceptions.pyc",
+        "mode": 33188,
+        "size": 1006,
+        "sha256": "06a12c183066ab07143bdfffca4b50499a4d27d23608471454595ac7ba8ce0b9"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/exceptions.pyo",
+        "mode": 33188,
+        "size": 1006,
+        "sha256": "06a12c183066ab07143bdfffca4b50499a4d27d23608471454595ac7ba8ce0b9"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/misc.py",
+        "mode": 33188,
+        "size": 12396,
+        "sha256": "811f881a6a7efffe26dc9f3d9a61c6681b8940e5f993d3b1b0ab1113410717bd"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/misc.pyc",
+        "mode": 33188,
+        "size": 10622,
+        "sha256": "ec7c04368767d4d2719c265ef3337f959f65a2deb3564a28f73988bd5c9bdcfa"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/misc.pyo",
+        "mode": 33188,
+        "size": 10622,
+        "sha256": "ec7c04368767d4d2719c265ef3337f959f65a2deb3564a28f73988bd5c9bdcfa"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/utf8.py",
+        "mode": 33188,
+        "size": 6272,
+        "sha256": "5e9a43f5a26f24d6f54176eeff011af3938fea6e6defbf1f9d20a988b6572cc2"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/utf8.pyc",
+        "mode": 33188,
+        "size": 6074,
+        "sha256": "586ee52c7ea3e5b151f72900a8745ead43d9aa26c87891244bb00b209a3e722c"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/text/utf8.pyo",
+        "mode": 33188,
+        "size": 6074,
+        "sha256": "586ee52c7ea3e5b151f72900a8745ead43d9aa26c87891244bb00b209a3e722c"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/versioning",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/versioning/__init__.py",
+        "mode": 33188,
+        "size": 4447,
+        "sha256": "c17eea5c7a068ed7822e0df205cdb75bf6203cdbd1950f866c1df6b24dc9501d"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/versioning/__init__.pyc",
+        "mode": 33188,
+        "size": 3878,
+        "sha256": "f07407217140097a9a9eac9952c205482b1f4958721f8855af28ae5e6b4cce3e"
+      },
+      {
+        "path": "/usr/lib/python2.7/site-packages/kitchen/versioning/__init__.pyo",
+        "mode": 33188,
+        "size": 3878,
+        "sha256": "f07407217140097a9a9eac9952c205482b1f4958721f8855af28ae5e6b4cce3e"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/COPYING",
+        "mode": 33188,
+        "size": 17992,
+        "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/COPYING.LESSER",
+        "mode": 33188,
+        "size": 26434,
+        "sha256": "36b6d3fa47916943fd5fec313c584784946047ec1337a78b440e5992cb595f89"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/NEWS",
+        "mode": 33188,
+        "size": 5821,
+        "sha256": "095a0f53fbb792691596d2b6dae23a43e575c694bcdfbf47308e67aa8f795700"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/README",
+        "mode": 33188,
+        "size": 2777,
+        "sha256": "0632669e055865f46f0abe935b4285d6ffc5142b082a776e578fc9289312eb47"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-collections.txt",
+        "mode": 33188,
+        "size": 122,
+        "sha256": "f30ae3c684817fc5cdebf5895bc498bbd8f2a0619adc8f062a562be6cd5a842a"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-exceptions.txt",
+        "mode": 33188,
+        "size": 250,
+        "sha256": "0f14515963039d73e3e4cf4a2f39efbb1e1d3d2d02601c30f6e035f2efd3dc0e"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-i18n.txt",
+        "mode": 33188,
+        "size": 1027,
+        "sha256": "7c3da6862d3a59aa26fbf11a8f757fc0aa89ab6cb72e3bfcd84d7f709481857a"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-iterutils.txt",
+        "mode": 33188,
+        "size": 203,
+        "sha256": "2145b0b8097b2ae1350e46888391ddf35c9799c757975cefbf670846cccf5c6c"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-overview.txt",
+        "mode": 33188,
+        "size": 520,
+        "sha256": "ffd6752430783dea7bfdaa0fafaa225dd3093cbffa352197564136ecda04bdae"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-pycompat24.txt",
+        "mode": 33188,
+        "size": 1048,
+        "sha256": "7103fbd04929ce0115011facc0e658eaed2357ac75e6f70a653d9a65cb230e7c"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-pycompat25.txt",
+        "mode": 33188,
+        "size": 173,
+        "sha256": "c2286626db31eed8c7376ce00c9df5261caf2d43bd2990d40f0257df4658d652"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-pycompat27.txt",
+        "mode": 33188,
+        "size": 1150,
+        "sha256": "43f2a4bd31459f33bd0e4775059617e2bddc31f98ae01e4703c6fd9df1d5971d"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-text-converters.txt",
+        "mode": 33188,
+        "size": 18697,
+        "sha256": "4d1fbe4902f2fbfbd5f5ff5311845d26656b205f94e72f65c4ea669d9af57766"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-text-display.txt",
+        "mode": 33188,
+        "size": 912,
+        "sha256": "908953a9bded877fdd8788521651c502c3a85128fbbc78b2a538c481abc0cc4c"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-text-misc.txt",
+        "mode": 33188,
+        "size": 48,
+        "sha256": "ab7e1ad8e6e1b6edbbdba3f2e925798550268378f17b20048a81d5cb3241cadc"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-text-utf8.txt",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "b2e260cdb1f170a3668551fb987f56bbc92bfb96ac31bd1b54ec7b61f5e8d4c0"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-text.txt",
+        "mode": 33188,
+        "size": 707,
+        "sha256": "79bf03c5348ffdaf6dfde5e55c72656751a10ba062296ccbd4812e23e74fbff6"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/api-versioning.txt",
+        "mode": 33188,
+        "size": 146,
+        "sha256": "6d0f009052dde4c3b9dd028116a50cf1ef87c341ab7c2d831593418e518c91d2"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/designing-unicode-apis.txt",
+        "mode": 33188,
+        "size": 31335,
+        "sha256": "25633d55b09624e38cb495fdcc855a79ecc1cf895376b601734b3966010313f5"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/glossary.txt",
+        "mode": 33188,
+        "size": 4315,
+        "sha256": "459eded4903c820555dcd2ac252ee6789b32c01215b9b021f23c828c768a3b71"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/hacking.txt",
+        "mode": 33188,
+        "size": 13538,
+        "sha256": "6cdf929364d0f6e47f9c5292fa6418d3327c8e4e9f3b78447b102d7f35e2d6b3"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/index.txt",
+        "mode": 33188,
+        "size": 5910,
+        "sha256": "09246332bbbea3b452bc5f555ce441c10ec8633cb564ee4dcd38f83953ce0501"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/porting-guide-0.3.txt",
+        "mode": 33188,
+        "size": 9482,
+        "sha256": "d1956b08dc06bd6bf73901100686d46854e1436386ba413cb4fd2c07590526be"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/tutorial.txt",
+        "mode": 33188,
+        "size": 828,
+        "sha256": "80c15fa36fdfcc70013eff5f00e674e03fbe8ebc03da2062c59b08e1ebc94b38"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_sources/unicode-frustrations.txt",
+        "mode": 33188,
+        "size": 26965,
+        "sha256": "bce638668e0e2db27803b48ffab64ad6a3148c3d41eaaf1c5b4337bec3fde408"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/ajax-loader.gif",
+        "mode": 33188,
+        "size": 673,
+        "sha256": "5d045fd991ddf2b208dd9bf39a591f50e6ec793416e2867f54e8c6c7e89b68c2"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/basic.css",
+        "mode": 33188,
+        "size": 8463,
+        "sha256": "a3191ecec4d09e8d4cb00f04cc2f475eaab197dc54b026f6ed1bd6304e5334c9"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/comment-bright.png",
+        "mode": 33188,
+        "size": 3500,
+        "sha256": "fbf050c2a28e6cee57d0cc9611371951519946dd4997fe16f22e5645034ba9ab"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/comment-close.png",
+        "mode": 33188,
+        "size": 3578,
+        "sha256": "3ea320043e367d66516cb66f175a015c64199b44af409b83d91209019ee9c530"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/comment.png",
+        "mode": 33188,
+        "size": 3445,
+        "sha256": "d3eb24bb509cbc6bc987d9ee2df98dab9150931aafe02046f040dd042764e605"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/default.css",
+        "mode": 33188,
+        "size": 4040,
+        "sha256": "5e85270d8e8e115bc0bc85aa3d5aacb7b34c840a0e22e2c33d542f35a4808ac1"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/doctools.js",
+        "mode": 33188,
+        "size": 6840,
+        "sha256": "8b9faeae765ee1e9afa8145ba4695652b2c4eebdaf698bc74f779e56e7f56415"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/down-pressed.png",
+        "mode": 33188,
+        "size": 368,
+        "sha256": "0e6472317b0dbe74a73361c7cb16681c63747fd9203b2e244861ff543bdf6ba2"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/down.png",
+        "mode": 33188,
+        "size": 363,
+        "sha256": "6ba01d176cbd96888354284a0c9dbe24543b81f8c47a64e940bb5490c7f413cb"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/file.png",
+        "mode": 33188,
+        "size": 392,
+        "sha256": "1834b8fc8c98c09f88cb2264011c3ef917fe651f2678721384c0aae346dfb062"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/jquery.js",
+        "mode": 33188,
+        "size": 72174,
+        "sha256": "e23a2a4e2d7c2b41ebcdd8ffc0679df7140eb7f52e1eebabf827a88182643c59"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/minus.png",
+        "mode": 33188,
+        "size": 199,
+        "sha256": "141ae2a6288687b83d817f7fc0daef577e43d1410871f2f9fd1ceff0af825faa"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/opensearch.xml",
+        "mode": 33188,
+        "size": 498,
+        "sha256": "bf3710e61a29f87c8e9c1d3510990aa457170e73fb4762c1b1397dac9a86e3e0"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/plus.png",
+        "mode": 33188,
+        "size": 199,
+        "sha256": "55fcc0d9d9d52070dae60f646ec56c0dd111be1c13459b06470c7ff5b6f2fbf7"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/pygments.css",
+        "mode": 33188,
+        "size": 3932,
+        "sha256": "9a34b97c69412d94ce88fa6f43b208ab09e58166a2c9d798aaa769dff02083cd"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/searchtools.js",
+        "mode": 33188,
+        "size": 16043,
+        "sha256": "a7469788210da2c5ee8583b28f7aeafb8a5a7c56137d2b9e2a9bec8a8f690d45"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/sidebar.js",
+        "mode": 33188,
+        "size": 4740,
+        "sha256": "6b0e4fd814cedd6bb1369cf8926d4f397ec1e37637d00cff0e21dc265594c424"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/underscore.js",
+        "mode": 33188,
+        "size": 8574,
+        "sha256": "d5e0c52ccd3aee99f6562c12f8e261bb97c44795bafc4fe9bca29961d6843547"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/up-pressed.png",
+        "mode": 33188,
+        "size": 372,
+        "sha256": "c8f4ce1c60d51b25fcf8317e1371b3fbbed3262199366d90abdd4df9d39a658e"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/up.png",
+        "mode": 33188,
+        "size": 363,
+        "sha256": "36946056f97cc557c78918d50b635167168d5252523e61668746f3a64d1139c3"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/_static/websupport.js",
+        "mode": 33188,
+        "size": 25246,
+        "sha256": "9a8a2f3ed9471f795195fe3340ff3263223f851a9a584637d30663d8ec7e13ed"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-collections.html",
+        "mode": 33188,
+        "size": 8039,
+        "sha256": "6872095aeba364595be5b084c597fc2e653c2e944b271397cfb173b1c973a49b"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-exceptions.html",
+        "mode": 33188,
+        "size": 7019,
+        "sha256": "3bb114965f2b91d0f0bf544a39da387bb79f3a73c4d91651f016cc2ca42c9dd2"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-i18n.html",
+        "mode": 33188,
+        "size": 55117,
+        "sha256": "e9016ea32420c524d7e8e9550db5d2ccbcf319cc8ade9bc926ca2748e0376c0c"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-iterutils.html",
+        "mode": 33188,
+        "size": 11939,
+        "sha256": "01b6cc22e28314cfe3495bfbe5734946a408d61614c069a191a2d870459e4d86"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-overview.html",
+        "mode": 33188,
+        "size": 8070,
+        "sha256": "b3422782511991f1e1fc3dc162960d40922c03e1ec7cdbdd84e7596957308924"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-pycompat24.html",
+        "mode": 33188,
+        "size": 18889,
+        "sha256": "048483d1522ba9292f875e269768aeb3318297a3326a1e722ae1a72ac4206ef2"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-pycompat25.html",
+        "mode": 33188,
+        "size": 5923,
+        "sha256": "9b57435c0e6d717775d990162da21b92fd6a8d4c5c3763e0bfdefe58b35533fb"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-pycompat27.html",
+        "mode": 33188,
+        "size": 7536,
+        "sha256": "86a4c8c9edfbfd8455b701ca24b8f640c5fd4da831af25a7145d1171ae369c15"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-text-converters.html",
+        "mode": 33188,
+        "size": 128745,
+        "sha256": "4b79f4291d575c91f23ea95ff7e9da6a2f74ad1cdbd9e9286775699d8f86f3f5"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-text-display.html",
+        "mode": 33188,
+        "size": 55031,
+        "sha256": "c94f1a1d397eb1a6e8d0285d9172dcd19312e07c2a388f83a88aba58a56da975"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-text-misc.html",
+        "mode": 33188,
+        "size": 23527,
+        "sha256": "9e889f01b577f8dce50efa0060046518f434cdf6c6181088ebc08bd7dc2e59ee"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-text-utf8.html",
+        "mode": 33188,
+        "size": 13834,
+        "sha256": "c64783bbca875031e6c3985453f81341c247e325f920f5e040eefbf6d6b07a24"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-text.html",
+        "mode": 33188,
+        "size": 8302,
+        "sha256": "8164efcf9f1107ea90248fb7f0ab9004d0bea8c38511a2d9ad40f7e4ecf5291b"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/api-versioning.html",
+        "mode": 33188,
+        "size": 11745,
+        "sha256": "b8454626e78de9218f9bce9741c42d19c9ed38a3f3817ff526f1193bd97bd3dd"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/designing-unicode-apis.html",
+        "mode": 33188,
+        "size": 79220,
+        "sha256": "96523b14222f26a6de0d50ee3fd795de33969291250e9ff45f685d0cf85f6798"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/genindex.html",
+        "mode": 33188,
+        "size": 23543,
+        "sha256": "839e260611fd301a169a63225b4d9fc3f96a36847a49b2ddfb46f876acba6603"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/glossary.html",
+        "mode": 33188,
+        "size": 10574,
+        "sha256": "bcc094302c9836bb7bcf50d9250c5b9903b59b013e5d7a73ed2186e9568ca232"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/hacking.html",
+        "mode": 33188,
+        "size": 30532,
+        "sha256": "4c2c0290e5ffd26a270f339f20575f5379bfb36523510f30bdeefa33edf87a5c"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/index.html",
+        "mode": 33188,
+        "size": 18109,
+        "sha256": "a39255bc636c459c3ad86e1402ea976be1319917241835d72fbfdd4843d68e9a"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/objects.inv",
+        "mode": 33188,
+        "size": 1654,
+        "sha256": "46d6b31c7fb44b45b80363970fe905275e33fcbf0889f0591bd0a7383ddc58ab"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/porting-guide-0.3.html",
+        "mode": 33188,
+        "size": 35085,
+        "sha256": "726174f82462c9b418a846c582cab4012c098a742ecc90d9b4af157e86d2cabc"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/py-modindex.html",
+        "mode": 33188,
+        "size": 7047,
+        "sha256": "cfca6a15ffc33c48baad50a3dfc6cd9bf93421d27b01b7bf0844316a7fa3dae9"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/search.html",
+        "mode": 33188,
+        "size": 3540,
+        "sha256": "a547631a01cb11eff629cccabe4d870aeb0a7b3c03350ea106c04c31d125f422"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/searchindex.js",
+        "mode": 33188,
+        "size": 30533,
+        "sha256": "cf65c49b3823ceede96dc7978a7673c04d29ad973652f6846824929a1cb09a48"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/tutorial.html",
+        "mode": 33188,
+        "size": 7826,
+        "sha256": "45616136511906733afa2eb89b6c79f4b358e3b560e3e4f381528c119f2b5327"
+      },
+      {
+        "path": "/usr/share/doc/python-kitchen-1.1.1/html/unicode-frustrations.html",
+        "mode": 33188,
+        "size": 63180,
+        "sha256": "484fdc4b5cf4d5ca6a8b5cb57d413b6bdc2e32305c69792cb5719df9aa7f770e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "nss-sysinit",
+  "version": "3.53.1-3.el7_9",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mozilla",
+      "Product": "nss",
+      "Version": "3.53.1",
+      "Update": "3.el7_9",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/nss-sysinit@0:3.53.1-3.el7_9?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "nss-sysinit",
+    "version": "3.53.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el7_9",
+    "sourceRpm": "nss-3.53.1-3.el7_9.src.rpm",
+    "size": 14111,
+    "license": "MPLv2.0",
+    "vendor": "Oracle America",
+    "url": "http://www.mozilla.org/projects/security/pki/nss/",
+    "files": [
+      {
+        "path": "/usr/bin/setup-nsssysinit",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/setup-nsssysinit.sh",
+        "mode": 33261,
+        "size": 1539,
+        "sha256": "0167a887461ed55622edd123d4852e9dec5391d8228a38ef1d13d7fa0e9b066b"
+      },
+      {
+        "path": "/usr/lib64/libnsssysinit.so",
+        "mode": 33261,
+        "size": 11400,
+        "sha256": "443713400dd08ab3c6bb4847fea7516a3be80b9da620f68a18e1acbaae627679"
+      }
+    ]
+  }
+}

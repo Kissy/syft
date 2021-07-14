@@ -1,0 +1,73 @@
+{
+  "name": "libnsl2",
+  "version": "1.2.0-2.20180605git4a062cf.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/libnsl2@0:1.2.0-2.20180605git4a062cf.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libnsl2",
+    "version": "1.2.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.20180605git4a062cf.el8",
+    "sourceRpm": "libnsl2-1.2.0-2.20180605git4a062cf.el8.src.rpm",
+    "size": 147122,
+    "license": "BSD and LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/thkukuk/libnsl",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e2/4e23fc5955c8e181c09c283208f74885469b7d",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnsl.so.2",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnsl.so.2.0.0",
+        "mode": 33261,
+        "size": 120592,
+        "sha256": "cdd2cd11210e27f0b955b428330543b783ed348576d75a4a116715e26e68bb5d"
+      },
+      {
+        "path": "/usr/share/licenses/libnsl2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libnsl2/COPYING",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

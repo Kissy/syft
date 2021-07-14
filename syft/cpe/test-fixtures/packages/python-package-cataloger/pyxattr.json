@@ -1,0 +1,35 @@
+{
+  "name": "pyxattr",
+  "version": "0.5.1",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info/PKG-INFO",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    },
+    {
+      "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info/top_level.txt",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "LGPL"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/pyxattr@0.5.1",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "pyxattr",
+    "version": "0.5.1",
+    "license": "LGPL",
+    "author": "Iustin Pop",
+    "authorEmail": "iusty@k1024.org",
+    "platform": "Linux",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages",
+    "topLevelPackages": [
+      "xattr"
+    ]
+  }
+}

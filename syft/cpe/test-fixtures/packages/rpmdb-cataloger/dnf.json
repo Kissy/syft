@@ -1,0 +1,79 @@
+{
+  "name": "dnf",
+  "version": "4.2.23-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/dnf@0:4.2.23-4.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dnf",
+    "version": "4.2.23",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "4.el8",
+    "sourceRpm": "dnf-4.2.23-4.el8.src.rpm",
+    "size": 1918779,
+    "license": "GPLv2+ and GPLv2 and GPL",
+    "vendor": "CentOS",
+    "url": "https://github.com/rpm-software-management/dnf",
+    "files": [
+      {
+        "path": "/usr/bin/dnf",
+        "mode": 41471,
+        "size": 5,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/dnf-makecache.service",
+        "mode": 33188,
+        "size": 457,
+        "sha256": "64fd20c5163f9a310c2e0211e53d4f731285535a4798c6c074f16c1e6680304d"
+      },
+      {
+        "path": "/usr/lib/systemd/system/dnf-makecache.timer",
+        "mode": 33188,
+        "size": 297,
+        "sha256": "4f56295144f3045d3a2b58d553eeb51a6d8a7fa8048d729e7aed3a5f8536396c"
+      },
+      {
+        "path": "/usr/share/bash-completion",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/bash-completion/completions/dnf",
+        "mode": 33188,
+        "size": 10212,
+        "sha256": "c2c1d7a637fb3e83e3b6b838e5859a8903eef843b806cd4670cfaf118717bbd3"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/dnf.mo",
+        "mode": 33188,
+        "size": 24363,
+        "sha256": "ba794fc7977ecea84b80f89eda43bcc7d15cb147d3f342eb52001c26d12e783c"
+      },
+      {
+        "path": "/var/cache/dnf",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

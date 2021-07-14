@@ -1,0 +1,91 @@
+{
+  "name": "pyxattr",
+  "version": "0.5.1-5.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pyxattr@0:0.5.1-5.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pyxattr",
+    "version": "0.5.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el7",
+    "sourceRpm": "pyxattr-0.5.1-5.el7.src.rpm",
+    "size": 63304,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://pyxattr.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info/PKG-INFO",
+        "mode": 33188,
+        "size": 456,
+        "sha256": "1a7d375b209ff75c686b47a78cf0c277a8146ccf3979ce4e347e91828e2c398c"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info/SOURCES.txt",
+        "mode": 33188,
+        "size": 281,
+        "sha256": "1b2bccf09bd678abb0a88dfedd0208b70cde0f4ce3c65dff53ef7b19a70a6fce"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info/dependency_links.txt",
+        "mode": 33188,
+        "size": 1,
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyxattr-0.5.1-py2.7.egg-info/top_level.txt",
+        "mode": 33188,
+        "size": 6,
+        "sha256": "58d523efd29244331392770befa2f8bd55b3ef594532d3b8dbf94b70dc72e674"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/xattr.so",
+        "mode": 33188,
+        "size": 32520,
+        "sha256": "25eb7c61aa8bdc4b369ffe5c879e9a6ca78be2747a909e5e5331715a9f112e1e"
+      },
+      {
+        "path": "/usr/share/doc/pyxattr-0.5.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pyxattr-0.5.1/COPYING",
+        "mode": 33188,
+        "size": 26527,
+        "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+      },
+      {
+        "path": "/usr/share/doc/pyxattr-0.5.1/NEWS",
+        "mode": 33188,
+        "size": 2057,
+        "sha256": "f04abd21106a1f218790fb7a6ff5f04fbc49d09da1929d2f02d13fe12e383ccd"
+      },
+      {
+        "path": "/usr/share/doc/pyxattr-0.5.1/README",
+        "mode": 33188,
+        "size": 1456,
+        "sha256": "1b4915bb18077ce7f7539302d3b946badda638f3ff75e62312aa6ff88c687b7c"
+      }
+    ]
+  }
+}

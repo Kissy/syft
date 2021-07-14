@@ -1,0 +1,49 @@
+{
+  "name": "flyway-migrate-core",
+  "version": "2020.12",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "migrate_project",
+      "Product": "migrate",
+      "Version": "2020.12",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/com.traveldoo.generic/flyway-migrate-core@2020.12",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/flyway-migrate-core-2020.12.jar",
+    "manifest": {
+      "main": {
+        "Build-Jdk": "11.0.8",
+        "Built-By": "jenkins",
+        "Created-By": "Apache Maven 3.5.2",
+        "Manifest-Version": "1.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.traveldoo.generic/flyway-migrate-core/pom.properties",
+      "name": "",
+      "groupId": "com.traveldoo.generic",
+      "artifactId": "flyway-migrate-core",
+      "version": "2020.12",
+      "extraFields": {}
+    }
+  }
+}

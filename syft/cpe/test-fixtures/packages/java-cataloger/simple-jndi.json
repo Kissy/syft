@@ -1,0 +1,46 @@
+{
+  "name": "simple-jndi",
+  "version": "0.23.0",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "pkg:maven/com.github.h-thurow/simple-jndi@0.23.0",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/simple-jndi-0.23.0.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Bnd-LastModified": "1587880819287",
+        "Build-Jdk": "1.8.0_152",
+        "Built-By": "hot",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "com.github.h-thurow:simple-jndi",
+        "Bundle-SymbolicName": "simple-jndi",
+        "Bundle-Version": "0.23.0",
+        "Created-By": "1.8.0_152 (Oracle Corporation)",
+        "Export-Package": "org.osjava;version=\"0.22.0\",org.osjava.datasource;version=\"0.22.0\";uses:=\"javax.sql\",org.osjava.sj;version=\"0.22.0\";uses:=\"javax.naming,javax.naming.spi\",org.osjava.sj.jndi;version=\"0.22.0\";uses:=\"javax.naming\",org.osjava.sj.loader;version=\"0.22.0\";uses:=\"javax.naming\",org.osjava.sj.loader.convert;version=\"0.22.0\"",
+        "Import-Package": "org.apache.commons.dbcp;resolution:=optional;version=\"[1.4,2)\",org.apache.commons.pool;resolution:=optional;version=\"[1.5,2)\",org.apache.commons.pool.impl;resolution:=optional;version=\"[1.5,2)\",javax.naming,javax.naming.spi,javax.sql,javax.xml.parsers,org.apache.commons.io;version=\"[1.4,2)\",org.apache.commons.lang;version=\"[2.6,3)\",org.apache.commons.lang.math;version=\"[2.6,3)\",org.apache.commons.lang.text;version=\"[2.6,3)\",org.slf4j;version=\"[1.7,2)\",org.w3c.dom,org.xml.sax",
+        "JAVA_9_HOME": "/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home",
+        "Manifest-Version": "1.0",
+        "Require-Capability": "osgi.ee;filter:=\"(&(osgi.ee=JavaSE)(version=1.7))\"",
+        "Tool": "Bnd-4.1.0.201810181252"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/com.github.h-thurow/simple-jndi/pom.properties",
+      "name": "",
+      "groupId": "com.github.h-thurow",
+      "artifactId": "simple-jndi",
+      "version": "0.23.0",
+      "extraFields": {}
+    }
+  }
+}

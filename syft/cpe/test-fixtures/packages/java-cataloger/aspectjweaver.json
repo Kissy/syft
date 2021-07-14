@@ -1,0 +1,45 @@
+{
+  "name": "aspectjweaver",
+  "version": "1.9.6",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/aspectjweaver-1.9.6.jar",
+    "manifest": {
+      "main": {
+        "Agent-Class": "org.aspectj.weaver.loadtime.Agent",
+        "Archiver-Version": "Plexus Archiver",
+        "Automatic-Module-Name": "org.aspectj.weaver",
+        "Build-Jdk": "1.8.0_241",
+        "Built-By": "aclement",
+        "Can-Redefine-Classes": "true",
+        "Created-By": "Apache Maven",
+        "Manifest-Version": "1.0",
+        "Premain-Class": "org.aspectj.weaver.loadtime.Agent"
+      },
+      "namedSections": {
+        "org/aspectj/weaver/": {
+          "Bundle-Copyright": "(C) Copyright 1999-2001 Xerox Corporation,2002 Palo Alto Research Center, Incorporated (PARC),2003-2019 Contributors. All Rights Reserved",
+          "Bundle-Name": "AspectJ Weaver",
+          "Bundle-Version": "1.9.6",
+          "Implementation-Title": "org.aspectj.weaver",
+          "Implementation-Vendor": "https://www.eclipse.org/aspectj/",
+          "Implementation-Version": "1.9.6",
+          "Specification-Title": "AspectJ Weaver Classes",
+          "Specification-Vendor": "https://www.eclipse.org/aspectj/",
+          "Specification-Version": "1.9.6"
+        }
+      }
+    }
+  }
+}

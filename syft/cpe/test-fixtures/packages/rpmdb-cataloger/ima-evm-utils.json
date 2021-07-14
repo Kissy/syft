@@ -1,0 +1,91 @@
+{
+  "name": "ima-evm-utils",
+  "version": "1.1-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/ima-evm-utils@0:1.1-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "ima-evm-utils",
+    "version": "1.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "ima-evm-utils-1.1-5.el8.src.rpm",
+    "size": 123538,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "http://linux-ima.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/bin/evmctl",
+        "mode": 33261,
+        "size": 52224,
+        "sha256": "1b420df1fca420ad83c9defef2e351c0bc61f8e3d2b6ba5a469e528f16a9e5bd"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/18",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/18/f4a9dca4c5233be259afb9b6ef481d5cecf3a5",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6e/fce98266ddf2c06d7805a433d5eb90f53eab98",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libimaevm.so.0",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libimaevm.so.0.0.0",
+        "mode": 33261,
+        "size": 31512,
+        "sha256": "7164ed3d512b639e0cbeb70a512fc9122fb06d4aa63cc9d123b492772889987d"
+      },
+      {
+        "path": "/usr/share/licenses/ima-evm-utils",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/ima-evm-utils/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

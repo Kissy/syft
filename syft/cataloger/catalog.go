@@ -1,6 +1,7 @@
 package cataloger
 
 import (
+	"encoding/json"
 	"github.com/anchore/syft/internal/bus"
 	"github.com/anchore/syft/internal/log"
 	"github.com/anchore/syft/syft/cpe"
@@ -11,6 +12,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
+	"os"
 )
 
 // Monitor provides progress-related data for observing the progress of a Catalog() call (published on the event bus).
@@ -66,6 +68,13 @@ func Catalog(resolver source.Resolver, cpeDictionary cpe.Dictionary, theDistro *
 
 			// add to catalog
 			catalog.Add(p)
+
+			file, _ := os.Create("/Users/glebiller/Workspace/platform/chef/syft/syft/cpe/test-fixtures/packages/" + theCataloger.Name() + "/" + p.Name + ".json")
+			encoder := json.NewEncoder(file)
+			encoder.SetEscapeHTML(false)
+			encoder.SetIndent("", "  ")
+			_ = encoder.Encode(p)
+			file.Close()
 		}
 	}
 

@@ -1,0 +1,93 @@
+{
+  "name": "libzstd",
+  "version": "1.4.4-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "facebook",
+      "Product": "zstandard",
+      "Version": "1.4.4",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libzstd@0:1.4.4-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libzstd",
+    "version": "1.4.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "zstd-1.4.4-1.el8.src.rpm",
+    "size": 698061,
+    "license": "BSD and GPLv2",
+    "vendor": "CentOS",
+    "url": "https://github.com/facebook/zstd",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fd/cb787a51c046cefb6d6c745834bff93ba6c359",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libzstd.so.1",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libzstd.so.1.4.4",
+        "mode": 33261,
+        "size": 678440,
+        "sha256": "b6dd39f1c0e1fc40d9d3e7c279d49ab45121d85c4e7c14d4f11e815fe13524b5"
+      },
+      {
+        "path": "/usr/share/licenses/libzstd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libzstd/COPYING",
+        "mode": 33188,
+        "size": 18091,
+        "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+      },
+      {
+        "path": "/usr/share/licenses/libzstd/LICENSE",
+        "mode": 33188,
+        "size": 1530,
+        "sha256": "2c1a7fa704df8f3a606f6fc010b8b5aaebf403f3aeec339a12048f1ba7331a0b"
+      }
+    ]
+  }
+}

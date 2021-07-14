@@ -1,0 +1,105 @@
+{
+  "name": "cryptsetup-libs",
+  "version": "2.3.3-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "cryptsetup_project",
+      "Product": "cryptsetup",
+      "Version": "2.3.3",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/cryptsetup-libs@0:2.3.3-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "cryptsetup-libs",
+    "version": "2.3.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "cryptsetup-2.3.3-2.el8.src.rpm",
+    "size": 2075183,
+    "license": "GPLv2+ and LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://gitlab.com/cryptsetup/cryptsetup",
+    "files": [
+      {
+        "path": "/run/cryptsetup",
+        "mode": 16832,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/c5/328f8a0fe11ded44d3e9c2cb9c151efeb337bf",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/tmpfiles.d/cryptsetup.conf",
+        "mode": 33188,
+        "size": 35,
+        "sha256": "d6bb4b689200c2348945700a6b0dad5df92bc2015860d15f36a25590814d77b0"
+      },
+      {
+        "path": "/usr/lib64/libcryptsetup.so.12",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcryptsetup.so.12.6.0",
+        "mode": 33261,
+        "size": 510184,
+        "sha256": "bf3310aaf77f7cd2631013ce6f1d30bceff444395a6349ad278d76671a841183"
+      },
+      {
+        "path": "/usr/share/licenses/cryptsetup-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/cryptsetup-libs/COPYING",
+        "mode": 33188,
+        "size": 18802,
+        "sha256": "45670cce8b6a0ddd66c8016cd8ccef6cd71f35717cbacc7f1e895b3855207b33"
+      },
+      {
+        "path": "/usr/share/licenses/cryptsetup-libs/COPYING.LGPL",
+        "mode": 33188,
+        "size": 27247,
+        "sha256": "8c33cc37871654ec7ed87e6fbb896c8cf33ef5ef05b1611a5aed857596ffafa5"
+      }
+    ]
+  }
+}

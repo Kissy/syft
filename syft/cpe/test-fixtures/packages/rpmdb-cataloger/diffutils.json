@@ -1,0 +1,79 @@
+{
+  "name": "diffutils",
+  "version": "3.3-5.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/diffutils@0:3.3-5.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "diffutils",
+    "version": "3.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el7",
+    "sourceRpm": "diffutils-3.3-5.el7.src.rpm",
+    "size": 1065606,
+    "license": "GPLv3+",
+    "vendor": "Oracle America",
+    "url": "http://www.gnu.org/software/diffutils/diffutils.html",
+    "files": [
+      {
+        "path": "/usr/bin/cmp",
+        "mode": 33261,
+        "size": 45272,
+        "sha256": "be7cbc47abed3a42c09c83f172c220a49ffac0c364d2c620e30814b6e82880b5"
+      },
+      {
+        "path": "/usr/bin/diff",
+        "mode": 33261,
+        "size": 200224,
+        "sha256": "769c6a583c8f03a5c4fd07815f216e84ebe1d5f0c98811e90240186c5065eb8d"
+      },
+      {
+        "path": "/usr/bin/diff3",
+        "mode": 33261,
+        "size": 62200,
+        "sha256": "ee407b28765a5f3ffdfb75092137d3a258864d717fcd2c3146db0b4f2e52356a"
+      },
+      {
+        "path": "/usr/bin/sdiff",
+        "mode": 33261,
+        "size": 49640,
+        "sha256": "f52150c7c27f7982d9fd966dc89c85b55874116d24002a1e7afeee3ce4d0a28e"
+      },
+      {
+        "path": "/usr/share/doc/diffutils-3.3",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/diffutils-3.3/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/doc/diffutils-3.3/NEWS",
+        "mode": 33188,
+        "size": 12995,
+        "sha256": "ebd230790d734d6799c9ca127c4c78d037433bcd0c3f0d2afc9f43bd6a76c716"
+      },
+      {
+        "path": "/usr/share/doc/diffutils-3.3/README",
+        "mode": 33188,
+        "size": 2854,
+        "sha256": "55090196e2cd0db679d9b42174428e6edd8d53bb1d4a473bd972eb7b50037f08"
+      }
+    ]
+  }
+}

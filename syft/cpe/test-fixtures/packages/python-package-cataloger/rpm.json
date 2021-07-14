@@ -1,0 +1,42 @@
+{
+  "name": "rpm",
+  "version": "4.14.3",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python3.6/site-packages/rpm-4.14.3-py3.6.egg-info",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": [
+    "UNKNOWN"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "rpm",
+      "Product": "rpm",
+      "Version": "4.14.3",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "python",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:pypi/rpm@4.14.3",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "rpm",
+    "version": "4.14.3",
+    "license": "UNKNOWN",
+    "author": "UNKNOWN",
+    "authorEmail": "rpm-maint@lists.rpm.org",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib64/python3.6/site-packages"
+  }
+}

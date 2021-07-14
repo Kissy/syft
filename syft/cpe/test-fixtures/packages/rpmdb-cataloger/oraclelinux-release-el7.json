@@ -1,0 +1,67 @@
+{
+  "name": "oraclelinux-release-el7",
+  "version": "1.0-13.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/oraclelinux-release-el7@0:1.0-13.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "oraclelinux-release-el7",
+    "version": "1.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "13.1.el7",
+    "sourceRpm": "oraclelinux-release-el7-1.0-13.1.el7.src.rpm",
+    "size": 30046,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "",
+    "files": [
+      {
+        "path": "/etc/yum.repos.d/oracle-linux-ol7.repo",
+        "mode": 33188,
+        "size": 4075,
+        "sha256": "fc43d1dfdd1502f1077eb17fc96f66c605f85d4e760f04f6511ba3171e4f082f"
+      },
+      {
+        "path": "/etc/yum.repos.d/uek-ol7.repo",
+        "mode": 33188,
+        "size": 2587,
+        "sha256": "4ea9eaff1f8825b1133c621ab352d55ccc1bf44fe9a432697e31a16b2a3b8469"
+      },
+      {
+        "path": "/etc/yum.repos.d/virt-ol7.repo",
+        "mode": 33188,
+        "size": 226,
+        "sha256": "c57615e8b7859360bd9f4f093181bc373694e0a4f4b924dd3fe8b85bac0e34ec"
+      },
+      {
+        "path": "/usr/bin/ol_yum_configure.sh",
+        "mode": 33261,
+        "size": 5149,
+        "sha256": "d27eaef3b9b652d3fa3c198c0ab1cab424aea002751fe1039f0edbf207ac0c2f"
+      },
+      {
+        "path": "/usr/share/doc/oraclelinux-release-el7",
+        "mode": 16877,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/oraclelinux-release-el7/LICENSE",
+        "mode": 33261,
+        "size": 18009,
+        "sha256": "204d8eff92f95aac4df6c8122bc1505f468f3a901e5a4cc08940e0ede1938994"
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "name": "systemd-libs",
+  "version": "239-41.el8_3",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "freedesktop",
+      "Product": "systemd",
+      "Version": "239",
+      "Update": "41.el8_3",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/systemd-libs@0:239-41.el8_3?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "systemd-libs",
+    "version": "239",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "41.el8_3",
+    "sourceRpm": "systemd-239-41.el8_3.src.rpm",
+    "size": 4502174,
+    "license": "LGPLv2+ and MIT",
+    "vendor": "CentOS",
+    "url": "http://www.freedesktop.org/wiki/Software/systemd",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/06",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/06/79fac3ed60df7256d1414c31df0e386bd18089",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/61",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/61/ff52934b902e97a5124db63f01b67883d0bed3",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/81/1f2fed83983aa511e2fd410c456acbd1a6b5c0",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/98",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/98/d142b8171ec71070dd8bf4e240f81359c5b416",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/be",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/be/3639001e07aff721b91472fada168cf9eaf4b3",
+        "mode": 41471,
+        "size": 44,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnss_myhostname.so.2",
+        "mode": 33261,
+        "size": 678696,
+        "sha256": "801db0f1d0690e0e2af8c2e42a20cb718de354e08656b595c75f1a621b0e7ab5"
+      },
+      {
+        "path": "/usr/lib64/libnss_resolve.so.2",
+        "mode": 33261,
+        "size": 902584,
+        "sha256": "2226943c6d958376905044fb3918498639043c47885e7528891f6ada428ce05d"
+      },
+      {
+        "path": "/usr/lib64/libnss_systemd.so.2",
+        "mode": 33261,
+        "size": 906688,
+        "sha256": "02c2f073096999cc4cb8ebdccd428e04ae82f73303a6a1fb35701178c70e496b"
+      },
+      {
+        "path": "/usr/lib64/libsystemd.so.0",
+        "mode": 41471,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsystemd.so.0.23.0",
+        "mode": 33261,
+        "size": 1358800,
+        "sha256": "e6c6d9a0522efe8f2361e86159975a153128e2b09e1a0333e55471c5c00b86a3"
+      },
+      {
+        "path": "/usr/lib64/libudev.so.1",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libudev.so.1.6.11",
+        "mode": 33261,
+        "size": 628744,
+        "sha256": "fb9e2d3150e97519b714725b36e67ac67098166f60817001c690f0420efb8557"
+      },
+      {
+        "path": "/usr/share/licenses/systemd",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/systemd/LICENSE.LGPL2.1",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

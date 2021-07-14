@@ -1,0 +1,28 @@
+{
+  "name": "rhnlib",
+  "version": "2.5.65",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib/python2.7/site-packages/rhnlib-2.5.65-py2.7.egg-info",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "GPL"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/rhnlib@2.5.65",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "rhnlib",
+    "version": "2.5.65",
+    "license": "GPL",
+    "author": "Mihai Ibanescu",
+    "authorEmail": "misa@redhat.com",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib/python2.7/site-packages"
+  }
+}

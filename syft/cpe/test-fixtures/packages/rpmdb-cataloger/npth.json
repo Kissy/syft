@@ -1,0 +1,73 @@
+{
+  "name": "npth",
+  "version": "1.5-4.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/npth@0:1.5-4.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "npth",
+    "version": "1.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el8",
+    "sourceRpm": "npth-1.5-4.el8.src.rpm",
+    "size": 47909,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=npth.git",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a4",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a4/1fdf4ad239c5c2439a39d7be3174f77858d4e7",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnpth.so.0",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libnpth.so.0.1.1",
+        "mode": 33261,
+        "size": 21384,
+        "sha256": "dd524880183221b8b8f5bbe08d58af24405a8b0104436c7e14f17b61319f877e"
+      },
+      {
+        "path": "/usr/share/licenses/npth",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/npth/COPYING.LIB",
+        "mode": 33188,
+        "size": 26525,
+        "sha256": "ce64d5f7b49ea6d80fdb6d4cdee6839d1a94274f7493dc797c3b55b65ec8e9ed"
+      }
+    ]
+  }
+}

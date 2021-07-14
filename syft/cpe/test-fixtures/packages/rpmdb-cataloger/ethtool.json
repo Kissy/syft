@@ -1,0 +1,87 @@
+{
+  "name": "ethtool",
+  "version": "5.0-2.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "kernel",
+      "Product": "ethtool",
+      "Version": "5.0",
+      "Update": "2.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/ethtool@2:5.0-2.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "ethtool",
+    "version": "5.0",
+    "epoch": 2,
+    "architecture": "x86_64",
+    "release": "2.el8",
+    "sourceRpm": "ethtool-5.0-2.el8.src.rpm",
+    "size": 502623,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "https://www.kernel.org/pub/software/network/ethtool/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/43",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/43/56cfc74aadb9fc1e73b02654d80078e27c878e",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/ethtool",
+        "mode": 33261,
+        "size": 445368,
+        "sha256": "f9b4b550a581b9d5de07361f91c183fbd4142b15497bf4266c5c72b867eb78c5"
+      },
+      {
+        "path": "/usr/share/licenses/ethtool",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/ethtool/COPYING",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/licenses/ethtool/LICENSE",
+        "mode": 33188,
+        "size": 100,
+        "sha256": "5d632934396f90c82dfebe3c9512648bbb6333b406113d0cd331b0e0aa2d34a1"
+      }
+    ]
+  }
+}

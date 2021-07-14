@@ -1,0 +1,87 @@
+{
+  "name": "libmnl",
+  "version": "1.0.4-6.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "netfilter",
+      "Product": "libmnl",
+      "Version": "1.0.4",
+      "Update": "6.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libmnl@0:1.0.4-6.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libmnl",
+    "version": "1.0.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el8",
+    "sourceRpm": "libmnl-1.0.4-6.el8.src.rpm",
+    "size": 53687,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://netfilter.org/projects/libmnl",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/72",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/72/8dfaadd1cf4a41db2e06baa2c6f1c1e2b9deb2",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmnl.so.0",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libmnl.so.0.2.0",
+        "mode": 33261,
+        "size": 25936,
+        "sha256": "1831b10a8eca072d8b0a3631f45be53e47d486cddad231ac9a920a5ed41832bc"
+      },
+      {
+        "path": "/usr/share/licenses/libmnl",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libmnl/COPYING",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      }
+    ]
+  }
+}

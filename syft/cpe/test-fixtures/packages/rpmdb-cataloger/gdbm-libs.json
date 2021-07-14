@@ -1,0 +1,97 @@
+{
+  "name": "gdbm-libs",
+  "version": "1.18-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/gdbm-libs@1:1.18-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "gdbm-libs",
+    "version": "1.18",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "gdbm-1.18-1.el8.src.rpm",
+    "size": 135248,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/gdbm/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2f",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2f/593dc3f676e5512d9bc03c9f1303288a8d699c",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/70",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/70/58d003f39b5794bc6f4a408bba5fd94a9763a3",
+        "mode": 41471,
+        "size": 45,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgdbm.so.6",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgdbm.so.6.0.0",
+        "mode": 33261,
+        "size": 77816,
+        "sha256": "71377112fa0caa789139e1ce3023f3c1c35f870016e5fcfe03c46b4c3fc451e1"
+      },
+      {
+        "path": "/usr/lib64/libgdbm_compat.so.4",
+        "mode": 41471,
+        "size": 23,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgdbm_compat.so.4.0.0",
+        "mode": 33261,
+        "size": 22360,
+        "sha256": "e7d720648d77b465db4f04d3c70e44d1e034f59ae727c4dbd1e3e7f7a7d50ee9"
+      },
+      {
+        "path": "/usr/share/licenses/gdbm-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/gdbm-libs/COPYING",
+        "mode": 33188,
+        "size": 35072,
+        "sha256": "690d762f2e8e149ab1e2d6a409a3853b6151a2533b2382fae549a176d6bedecf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "fipscheck-lib",
+  "version": "1.4.1-6.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/fipscheck-lib@0:1.4.1-6.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "fipscheck-lib",
+    "version": "1.4.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el7",
+    "sourceRpm": "fipscheck-1.4.1-6.el7.src.rpm",
+    "size": 11466,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://fedorahosted.org/fipscheck/",
+    "files": [
+      {
+        "path": "/etc/prelink.conf.d",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/prelink.conf.d/fipscheck.conf",
+        "mode": 33188,
+        "size": 57,
+        "sha256": "61d530724232169c335af905cb99f600482459777bbe367737d688565064bed0"
+      },
+      {
+        "path": "/usr/lib64/fipscheck",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/fipscheck/libfipscheck.so.1.2.1.hmac",
+        "mode": 33188,
+        "size": 65,
+        "sha256": "6e59a9ca8e3b645aa6fc7628f5e3c93339e8b898233e3b49b5a8a0f6943314b0"
+      },
+      {
+        "path": "/usr/lib64/fipscheck/libfipscheck.so.1.hmac",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libfipscheck.so.1",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libfipscheck.so.1.2.1",
+        "mode": 33261,
+        "size": 11344,
+        "sha256": "6313182e9bb2eb59c61e3d27358b166e180ecae363ba5fb9eb2e923634656844"
+      }
+    ]
+  }
+}

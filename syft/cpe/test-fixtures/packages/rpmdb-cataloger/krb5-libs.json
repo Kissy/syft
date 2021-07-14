@@ -1,0 +1,363 @@
+{
+  "name": "krb5-libs",
+  "version": "1.18.2-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "mit",
+      "Product": "kerberos_5",
+      "Version": "1.18.2",
+      "Update": "5.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/krb5-libs@0:1.18.2-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "krb5-libs",
+    "version": "1.18.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "krb5-1.18.2-5.el8.src.rpm",
+    "size": 2234718,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "http://web.mit.edu/kerberos/www/",
+    "files": [
+      {
+        "path": "/etc/gss",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/gss/mech.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/krb5.conf",
+        "mode": 33188,
+        "size": 812,
+        "sha256": "003cd0a16a54e9ff1e852cb08b8d5b0b3df17ac8f8cc382537097d82e35251b2"
+      },
+      {
+        "path": "/etc/krb5.conf.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/krb5.conf.d/crypto-policies",
+        "mode": 41471,
+        "size": 42,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2d/23f710da5ceff9917492155ac50d05278390fc",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/4b/41849e47029730e8d8042f5e47f80ba3545e44",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/60",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/60/b105c9f466b2cac797d8de1a815091899134eb",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6b/922606f809f4c9bf90bfaa5832c3c5acf80339",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/6e/6eda5aeb939068afe61aa5bb25b3077352f4d0",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/75",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/75/bf1be5128ebc3d3ae9efc9cb60b99885a3d29e",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/77",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/77/e25a93fc6f234116fcd716472d87d7c0210309",
+        "mode": 41471,
+        "size": 51,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b6/2f615763854f0675bd283f34ca358500ec954a",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/be",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/be/dd1cefd7f87e04326537f6ad2b7063459bb64d",
+        "mode": 41471,
+        "size": 47,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/authdata",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/kdb",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/libkrb5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/preauth",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/preauth/spake.so",
+        "mode": 33261,
+        "size": 87496,
+        "sha256": "d978bad21e057fc4416815212eb33314a4650bfd77f4da68be5d68e8e1ab68fd"
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/tls",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/krb5/plugins/tls/k5tls.so",
+        "mode": 33261,
+        "size": 20232,
+        "sha256": "7d59cd68f26c032b460c9d0de0d5bcde8d6e5e0f87f9c0a84dd797c0fc1d08d6"
+      },
+      {
+        "path": "/usr/lib64/libgssapi_krb5.so.2",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgssapi_krb5.so.2.2",
+        "mode": 33261,
+        "size": 356136,
+        "sha256": "3df8cb751bc0884bba2cdf1acf4ba74fe8244e135dbff01fb07a2f5a34770615"
+      },
+      {
+        "path": "/usr/lib64/libgssrpc.so.4",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgssrpc.so.4.2",
+        "mode": 33261,
+        "size": 138688,
+        "sha256": "47067052f5842887ef4f937e645e1236af2380a9030b7d89778efa098be007c7"
+      },
+      {
+        "path": "/usr/lib64/libk5crypto.so.3",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libk5crypto.so.3.1",
+        "mode": 33261,
+        "size": 96648,
+        "sha256": "6c3ba3cff999a657efbdea3ac182e17cfbb5108321e93b7fa3d07ff338dd34d8"
+      },
+      {
+        "path": "/usr/lib64/libkdb5.so.10",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libkdb5.so.10.0",
+        "mode": 33261,
+        "size": 87624,
+        "sha256": "456d8eb1b263fafc30ce9e26cd8c2fce1afeddcdeea92aecbf55badd1c7e1286"
+      },
+      {
+        "path": "/usr/lib64/libkrad.so.0",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libkrad.so.0.0",
+        "mode": 33261,
+        "size": 45408,
+        "sha256": "222fb39b80ac20ea54b9ba43c2a2fc9716dc0db081082951a8138ef68682966f"
+      },
+      {
+        "path": "/usr/lib64/libkrb5.so.3",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libkrb5.so.3.3",
+        "mode": 33261,
+        "size": 967880,
+        "sha256": "24c33289ac5557d6df86d560d52fcc77a8fb5bc7ecc02883f425f0bc11bfb290"
+      },
+      {
+        "path": "/usr/lib64/libkrb5support.so.0",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libkrb5support.so.0.1",
+        "mode": 33261,
+        "size": 71640,
+        "sha256": "68cb91d73119994d7f8de09dcd786a3540f0d96a55e56ed5dd876e5cc551abf4"
+      },
+      {
+        "path": "/usr/share/licenses/krb5-libs",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/krb5-libs/LICENSE",
+        "mode": 33188,
+        "size": 62857,
+        "sha256": "b7a5f14a8719bce5e49a761998aa55438fc890fb40f71228d6a49546f6d5690d"
+      },
+      {
+        "path": "/usr/share/locale/en_US/LC_MESSAGES/mit-krb5.mo",
+        "mode": 33188,
+        "size": 410,
+        "sha256": "77df12674577f3a59f39384ab8b417975995c04fc444376a5b653951d7792549"
+      },
+      {
+        "path": "/var/kerberos",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/kerberos/krb5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/kerberos/krb5/user",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

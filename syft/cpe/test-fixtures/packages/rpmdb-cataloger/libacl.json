@@ -1,0 +1,75 @@
+{
+  "name": "libacl",
+  "version": "2.2.53-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "acl_project",
+      "Product": "acl",
+      "Version": "2.2.53",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libacl@0:2.2.53-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libacl",
+    "version": "2.2.53",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "acl-2.2.53-1.el8.src.rpm",
+    "size": 59272,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://savannah.nongnu.org/projects/acl",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b0",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/b0/f738cdb1ed9e14f117f063739a9a4f9afda533",
+        "mode": 41471,
+        "size": 40,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libacl.so.1",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libacl.so.1.1.2253",
+        "mode": 33261,
+        "size": 59272,
+        "sha256": "a8b756e123eb05d7e2e7c2551506fd095fc45cdc14c2abbd9f7b369fdc403268"
+      }
+    ]
+  }
+}

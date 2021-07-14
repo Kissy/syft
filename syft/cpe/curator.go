@@ -3,6 +3,8 @@ package cpe
 import (
 	"crypto/sha256"
 	"fmt"
+	"github.com/anchore/syft/internal"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"net/url"
 	"os"
@@ -28,6 +30,8 @@ import (
 const MetaName = "official-cpe-dictionary_v2.3.meta"
 const FileName = "official-cpe-dictionary_v2.3.xml"
 
+var ignoringCpeReferences = []string{"advisory", "bug", "change", "release", "security", "version", "-", "."}
+
 type Curator struct {
 	fs         afero.Fs
 	config     config.CPEDictionary
@@ -35,8 +39,9 @@ type Curator struct {
 }
 
 type CPE struct {
-	Vendor  string `json:"vendor"`
-	Product string `json:"product"`
+	Vendor  string             `json:"vendor"`
+	Product string             `json:"product"`
+	URLs    internal.StringSet `json:"URLs"`
 }
 
 // Type give the document type to used for indexing
@@ -338,11 +343,17 @@ func (c *Curator) index(metadata *Metadata, tempDir string) error {
 
 func newBatchIndex(index bleve.Index, list *cpedict.CPEList) *bleve.Batch {
 	var batchIndex = index.NewBatch()
+	var cpesToPrint []*CPE
+
+	cpes := make(map[string]CPE)
+	refUrlName := internal.NewStringSet()
+
 	for _, item := range list.Items {
 		if item.Deprecated {
 			continue
 		}
 
+		// TODO configure ?
 		if item.CPE23.Name.Part != "a" {
 			continue
 		}
@@ -350,14 +361,41 @@ func newBatchIndex(index bleve.Index, list *cpedict.CPEList) *bleve.Batch {
 		entry := CPE{
 			Vendor:  wfn.StripSlashes(item.CPE23.Name.Vendor),
 			Product: wfn.StripSlashes(item.CPE23.Name.Product),
+			URLs:    internal.NewStringSet(),
 		}
 
 		id := entryToID(entry)
+		if val, ok := cpes[id]; ok {
+			for _, refUrl := range item.References {
+				val.URLs.Add(refUrl.URL)
+			}
+		} else {
+			for _, ref := range item.References {
+				refUrlName.Add(ref.Desc)
+				lowerDesc := strings.ToLower(ref.Desc)
+
+				for _, ignoringRef := range ignoringCpeReferences {
+					if strings.Contains(lowerDesc, ignoringRef) {
+						entry.URLs.Add(RemoveProtocol(ref.URL))
+					}
+				}
+			}
+			cpes[id] = entry
+			cpesToPrint = append(cpesToPrint, &entry)
+		}
+
 		err := batchIndex.Index(id, entry)
 		if err != nil {
 			fmt.Println("failed to index CPE entry", err)
 		}
 	}
+
+	slice := refUrlName.ToSlice()
+	fmt.Print(slice)
+	file, _ := os.Create("/Users/glebiller/Workspace/platform/chef/syft/syft/cpe/test-fixtures/packages/cpe-dictionary.yaml")
+	_ = yaml.NewEncoder(file).Encode(cpesToPrint)
+	file.Close()
+
 	return batchIndex
 }
 

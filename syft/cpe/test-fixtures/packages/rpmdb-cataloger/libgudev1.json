@@ -1,0 +1,49 @@
+{
+  "name": "libgudev1",
+  "version": "219-78.0.1.el7_9.2",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/libgudev1@0:219-78.0.1.el7_9.2?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libgudev1",
+    "version": "219",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "78.0.1.el7_9.2",
+    "sourceRpm": "systemd-219-78.0.1.el7_9.2.src.rpm",
+    "size": 51496,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://www.freedesktop.org/wiki/Software/systemd",
+    "files": [
+      {
+        "path": "/usr/lib64/girepository-1.0/GUdev-1.0.typelib",
+        "mode": 33188,
+        "size": 7528,
+        "sha256": "b6e26e8d150f17a0885d5a5be26bad004e21a104eca8bbf14233b4199a1e7303"
+      },
+      {
+        "path": "/usr/lib64/libgudev-1.0.so.0",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgudev-1.0.so.0.2.0",
+        "mode": 33261,
+        "size": 43968,
+        "sha256": "8c3463e73c5064b2cf6783bb253dff318abe6c68d467ddbf6a2ff867fbbe6187"
+      }
+    ]
+  }
+}

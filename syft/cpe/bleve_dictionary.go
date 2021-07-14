@@ -2,6 +2,8 @@ package cpe
 
 import (
 	"fmt"
+	"github.com/blevesearch/bleve/v2/search/query"
+	"net/url"
 	"regexp"
 	"sort"
 	"strings"
@@ -41,7 +43,7 @@ func (d BleveDictionary) IdentifyPackageCPEs(p pkg.Package) []pkg.CPE {
 	version, update := extractVersionAndUpdate(p)
 
 	CPEs := make([]pkg.CPE, 0)
-	result, err := d.search(vendors, products)
+ 	result, err := d.search(vendors, products)
 	if err != nil {
 		log.Warnf("unable to retrieve CPE from dictionary: %w", err)
 		return CPEs
@@ -60,27 +62,23 @@ func (d BleveDictionary) IdentifyPackageCPEs(p pkg.Package) []pkg.CPE {
 }
 
 func (d BleveDictionary) search(vendors []Candidate, products []Candidate) (SearchResult, error) {
+	/*
 	globalQuery := bleve.NewBooleanQuery()
 
-	// Vendor
-	vendorQuery := bleve.NewBooleanQuery()
-	for _, vendor := range vendors {
-		var q = bleve.NewMatchQuery(vendor.Term)
-		q.SetField("vendor")
-		q.SetBoost(vendor.Boost)
-		vendorQuery.AddShould(q)
-	}
-	globalQuery.AddMust(vendorQuery)
+	approximateQuery := bleve.NewBooleanQuery()
+	approximateQuery.AddMust(buildMatchQuery(vendors, "vendor"))
+	approximateQuery.AddMust(buildMatchQuery(products, "product"))
+	globalQuery.AddShould(approximateQuery)
 
-	// Product
-	productQuery := bleve.NewBooleanQuery()
-	for _, product := range products {
-		var q = bleve.NewMatchQuery(product.Term)
-		q.SetField("product")
-		q.SetBoost(product.Boost)
-		productQuery.AddShould(q)
-	}
-	globalQuery.AddMust(productQuery)
+	exactProductQuery := bleve.NewBooleanQuery()
+	exactProductQuery.AddShould(buildMatchQuery(vendors, "vendor"))
+	exactProductQuery.AddMust(buildTermQuery(products, "product"))
+	globalQuery.AddShould(exactProductQuery)*/
+
+	globalQuery := bleve.NewBooleanQuery()
+	buildMatchQuery(globalQuery, vendors, "vendor")
+	buildMatchQuery(globalQuery, products, "product")
+	//buildTermQuery(globalQuery, products, "product")
 
 	searchRequest := bleve.NewSearchRequest(globalQuery)
 	searchResults, err := d.Index.Search(searchRequest)
@@ -98,13 +96,38 @@ func (d BleveDictionary) search(vendors []Candidate, products []Candidate) (Sear
 			vendor := fields[0]
 			product := fields[1]
 
-			if d.validateResult(vendors, vendor) && d.validateResult(products, product) {
-				return SearchResult{Vendor: vendor, Product: product}, nil
+			if /*d.validateResult(vendors, vendor) && */d.validateResult(products, product) {
+				//score := fmt.Sprint(result.Score)
+				return SearchResult{Vendor: vendor/* + " " + score*/, Product: product}, nil
 			}
 		}
 	}
 
 	return NotFound, nil
+}
+
+func buildMatchQuery(query *query.BooleanQuery, candidates []Candidate, term string) {
+	for _, candidate := range candidates {
+		if len(candidate.Term) == 0 {
+			continue
+		}
+		var q = bleve.NewMatchQuery(candidate.Term)
+		q.SetField(term)
+		q.SetBoost(candidate.Boost)
+		query.AddShould(q)
+	}
+}
+
+func buildTermQuery(globalQuery *query.BooleanQuery, candidates []Candidate, term string) {
+	for _, candidate := range candidates {
+		if len(candidate.Term) == 0 {
+			continue
+		}
+		var q = bleve.NewTermQuery(candidate.Term)
+		q.SetField(term)
+		q.SetBoost(candidate.Boost)
+		globalQuery.AddShould(q)
+	}
 }
 
 func (d BleveDictionary) Close() error {
@@ -124,12 +147,36 @@ func (d BleveDictionary) candidateVendors(p pkg.Package) []Candidate {
 		}
 	}
 
+	switch p.Type {
+	case pkg.RpmPkg:
+		if p.MetadataType == pkg.RpmdbMetadataType {
+			if metadata, ok := p.Metadata.(pkg.RpmdbMetadata); ok {
+				// TODO remove http(s)
+				if parsedUrl, err := url.Parse(metadata.URL); err == nil {
+					vendors = candidatesFromUrl(parsedUrl, vendors)
+				} else {
+					log.Warnf("failed to parse url (%w): %w", metadata.URL, err)
+				}
+			}
+		}
+	}
+
 	for _, specificVendor := range d.SpecificVendors {
 		if specificVendor.Match.MatchString(p.Name) {
 			vendors = append(vendors, specificVendor.Candidate)
 		}
 	}
 
+	return vendors
+}
+
+func candidatesFromUrl(parsedUrl *url.URL, vendors []Candidate) []Candidate {
+	trimmed := strings.TrimPrefix(parsedUrl.Path, "/")
+	parts := strings.Split(trimmed, "/")
+	vendors = append(vendors, Candidate{Term: CleanHost(parsedUrl.Host), Boost: 1})
+	for _, part := range parts {
+		vendors = append(vendors, Candidate{Term: part, Boost: 1})
+	}
 	return vendors
 }
 

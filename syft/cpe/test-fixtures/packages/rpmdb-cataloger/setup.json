@@ -1,0 +1,229 @@
+{
+  "name": "setup",
+  "version": "2.12.2-6.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/setup@0:2.12.2-6.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "setup",
+    "version": "2.12.2",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "6.el8",
+    "sourceRpm": "setup-2.12.2-6.el8.src.rpm",
+    "size": 724837,
+    "license": "Public Domain",
+    "vendor": "CentOS",
+    "url": "https://pagure.io/setup/",
+    "files": [
+      {
+        "path": "/etc/aliases",
+        "mode": 33188,
+        "size": 1529,
+        "sha256": "a4c569569f893bc22fbe696c459f8fba0fe4565022637300b705b54a95c47bce"
+      },
+      {
+        "path": "/etc/bashrc",
+        "mode": 33188,
+        "size": 3019,
+        "sha256": "d925e7ec2fdd6861be5f3a6d5a08a1ff13a10d23ebbb8d26717b1b75ca4f118f"
+      },
+      {
+        "path": "/etc/csh.cshrc",
+        "mode": 33188,
+        "size": 1629,
+        "sha256": "51e9d0f4d05d1ba38da624f4c063808361faf53f3d140f5a331ebf8db029384e"
+      },
+      {
+        "path": "/etc/csh.login",
+        "mode": 33188,
+        "size": 1078,
+        "sha256": "792cec9fd4aaa93a5a759ad2dbfc2289c561cb39df57b50fbebb4a40b82c23fc"
+      },
+      {
+        "path": "/etc/dnf/protected.d/setup.conf",
+        "mode": 33188,
+        "size": 6,
+        "sha256": "9752eb62a6845a78a9e2eaeb4a6eb2d93a1b654ee8665f71d516cfaca3e7cf57"
+      },
+      {
+        "path": "/etc/environment",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/etc/ethertypes",
+        "mode": 33188,
+        "size": 1362,
+        "sha256": "ed38f9d644befc87eb41a8649c310073240d9a8cd75b2f9c115b5d9d7e5d033c"
+      },
+      {
+        "path": "/etc/exports",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/etc/filesystems",
+        "mode": 33188,
+        "size": 66,
+        "sha256": "ba1ed4fe76cd63c37dbd44a040921db7810c4b63f46ee6635779627a4a36a196"
+      },
+      {
+        "path": "/etc/group",
+        "mode": 33188,
+        "size": 264,
+        "sha256": "5be46faf83078411c18ce0f3cb5e5fc5b56b8cb214a7f5a65dbbef6cb8249e16"
+      },
+      {
+        "path": "/etc/gshadow",
+        "mode": 32768,
+        "size": 198,
+        "sha256": "50b56bf2e0d5dd28900aa04478a9d4cc2ca1ea3452a76a71c71b5ade7f2221cd"
+      },
+      {
+        "path": "/etc/host.conf",
+        "mode": 33188,
+        "size": 9,
+        "sha256": "380f5fe21d755923b44203b58ca3c8b9681c485d152bd5d7e3914f67d821d32a"
+      },
+      {
+        "path": "/etc/hosts",
+        "mode": 33188,
+        "size": 158,
+        "sha256": "498f494232085ec83303a2bc6f04bea840c2b210fbbeda31a46a6e5674d4fc0e"
+      },
+      {
+        "path": "/etc/inputrc",
+        "mode": 33188,
+        "size": 942,
+        "sha256": "3df12b75483c9019090f18bdf46c47399959eddc2b721cf9b563f4010a89a830"
+      },
+      {
+        "path": "/etc/motd",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/etc/networks",
+        "mode": 33188,
+        "size": 58,
+        "sha256": "ae89ab2e35076a070ae7cf5b0edf600c3ea6999e15db9b543ef35dfc76d37cb1"
+      },
+      {
+        "path": "/etc/passwd",
+        "mode": 33188,
+        "size": 533,
+        "sha256": "d137fa8bf6ca9020c35a5bf992f32d4c803497e856e0254618f5abcb2f2425c6"
+      },
+      {
+        "path": "/etc/printcap",
+        "mode": 33188,
+        "size": 233,
+        "sha256": "f809352567a37d932b014311cf626774b97b63ec06d4f7bdd8a9cfcc34c691d9"
+      },
+      {
+        "path": "/etc/profile",
+        "mode": 33188,
+        "size": 2123,
+        "sha256": "b68fe1cd69c9cd923e5dece44bbb6239f3c6e8f747770f6779093b807ba21e99"
+      },
+      {
+        "path": "/etc/profile.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/profile.d/csh.local",
+        "mode": 33188,
+        "size": 80,
+        "sha256": "07a2a80f1386c89941b3da4cda68790afe19f7425a14e01acdc2fbddb73b5508"
+      },
+      {
+        "path": "/etc/profile.d/lang.csh",
+        "mode": 33188,
+        "size": 2486,
+        "sha256": "ca36c6c6c22c6f2df04529ef468d808c61eba3324189dbb3d56351b288920ac2"
+      },
+      {
+        "path": "/etc/profile.d/lang.sh",
+        "mode": 33188,
+        "size": 2312,
+        "sha256": "1315a04361297386158bb7cde1910d4f74d7f57784b4bb87187704a94100edd7"
+      },
+      {
+        "path": "/etc/profile.d/sh.local",
+        "mode": 33188,
+        "size": 81,
+        "sha256": "3c5de252d65ae8c40e54c21be09dc574ca3641d036d7b44174939a7e64863920"
+      },
+      {
+        "path": "/etc/protocols",
+        "mode": 33188,
+        "size": 6568,
+        "sha256": "d0e614d3ac7c6d9f6fe7b6c8ac678f26cca185de66f5dd34b56e634b2398a8cd"
+      },
+      {
+        "path": "/etc/services",
+        "mode": 33188,
+        "size": 692252,
+        "sha256": "ac7ed9a0608f2ee925d17dfa8154102f56d863e0ab53f39053ff27120ce571ce"
+      },
+      {
+        "path": "/etc/shadow",
+        "mode": 32768,
+        "size": 346,
+        "sha256": "95acff4bd68d7419749a04e29d25929c7645b436e6f10261306578dafc805f6f"
+      },
+      {
+        "path": "/etc/shells",
+        "mode": 33188,
+        "size": 44,
+        "sha256": "4ec4e8c524a4f10ca5898ccfaa6d29e7e08aff3a681f6bafbb62e7bec91aa154"
+      },
+      {
+        "path": "/etc/subgid",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/etc/subuid",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/share/licenses/setup",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/setup/COPYING",
+        "mode": 33188,
+        "size": 118,
+        "sha256": "628095e1ef656bbe9034cf5bfa3c220880a16cd0ceea25b17cd2198ea3503e03"
+      },
+      {
+        "path": "/var/log/lastlog",
+        "mode": 33188,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

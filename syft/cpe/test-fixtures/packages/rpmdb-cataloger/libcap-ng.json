@@ -1,0 +1,87 @@
+{
+  "name": "libcap-ng",
+  "version": "0.7.9-5.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libcap-ng_project",
+      "Product": "libcap-ng",
+      "Version": "0.7.9",
+      "Update": "5.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libcap-ng@0:0.7.9-5.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libcap-ng",
+    "version": "0.7.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "5.el8",
+    "sourceRpm": "libcap-ng-0.7.9-5.el8.src.rpm",
+    "size": 51278,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "http://people.redhat.com/sgrubb/libcap-ng",
+    "files": [
+      {
+        "path": "/lib64/libcap-ng.so.0",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/lib64/libcap-ng.so.0.0.0",
+        "mode": 33261,
+        "size": 24736,
+        "sha256": "d7c6793e372618692b6948383bc1405f42bbe4d0bc626c78805a20d27feb62e8"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/28",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/28/7e879ad8f7122a5ed8f28f3679037f68a69a82",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libcap-ng",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libcap-ng/COPYING.LIB",
+        "mode": 33188,
+        "size": 26542,
+        "sha256": "f18a0811fa0e220ccbc42f661545e77f0388631e209585ed582a1c693029c6aa"
+      }
+    ]
+  }
+}

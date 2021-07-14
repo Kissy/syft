@@ -1,0 +1,50 @@
+{
+  "name": "webjars-locator-core",
+  "version": "0.45",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "joachim_ruhs",
+      "Product": "locator",
+      "Version": "0.45",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/org.webjars/webjars-locator-core@0.45",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/webjars-locator-core-0.45.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Build-Jdk": "1.8.0_212",
+        "Built-By": "jw",
+        "Created-By": "Apache Maven 3.6.0",
+        "Manifest-Version": "1.0"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/org.webjars/webjars-locator-core/pom.properties",
+      "name": "",
+      "groupId": "org.webjars",
+      "artifactId": "webjars-locator-core",
+      "version": "0.45",
+      "extraFields": {}
+    }
+  }
+}

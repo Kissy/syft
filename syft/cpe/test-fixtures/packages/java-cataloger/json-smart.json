@@ -1,0 +1,41 @@
+{
+  "name": "json-smart",
+  "version": "1.3.1",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "json\\+\\+_project",
+      "Product": "json\\+\\+",
+      "Version": "1.3.1",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/net.minidev/json-smart@1.3.1",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/nimbus-jose-jwt-9.0.1.jar:json-smart",
+    "pomProperties": {
+      "path": "META-INF/maven/net.minidev/json-smart/pom.properties",
+      "name": "",
+      "groupId": "net.minidev",
+      "artifactId": "json-smart",
+      "version": "1.3.1",
+      "extraFields": {}
+    }
+  }
+}

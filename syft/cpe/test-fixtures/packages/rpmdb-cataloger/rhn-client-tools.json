@@ -1,0 +1,559 @@
+{
+  "name": "rhn-client-tools",
+  "version": "2.0.2-24.0.7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/rhn-client-tools@0:2.0.2-24.0.7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rhn-client-tools",
+    "version": "2.0.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "24.0.7.el7",
+    "sourceRpm": "rhn-client-tools-2.0.2-24.0.7.el7.src.rpm",
+    "size": 2055407,
+    "license": "GPLv2",
+    "vendor": "Oracle America",
+    "url": "http://linux.oracle.com",
+    "files": [
+      {
+        "path": "/etc/logrotate.d/up2date",
+        "mode": 33188,
+        "size": 32,
+        "sha256": "beb4bfc3c709f0393929a52be7d9fcf9f97d8aeec734b19ae01222b9b75543d4"
+      },
+      {
+        "path": "/etc/rpm/macros.up2date",
+        "mode": 33188,
+        "size": 28,
+        "sha256": "2f2c6dcbc41dee699e63f2e0db16f053ac4e73b3faa6c514200385145c840cc4"
+      },
+      {
+        "path": "/etc/sysconfig/rhn",
+        "mode": 16877,
+        "size": 64,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rhn/allowed-actions",
+        "mode": 16877,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rhn/allowed-actions/configfiles",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rhn/allowed-actions/script",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rhn/clientCaps.d",
+        "mode": 16877,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/sysconfig/rhn/up2date",
+        "mode": 33188,
+        "size": 1897,
+        "sha256": "70fcdc0000bc4d6cc368cdf0d600120436f82549318efc6da744e6f959d4ef6e"
+      },
+      {
+        "path": "/usr/sbin/rhn-profile-sync",
+        "mode": 33261,
+        "size": 1410,
+        "sha256": "d70d88434905534d96a08291e04ca1c2fde0adc64bdfde37247ece07194c743f"
+      },
+      {
+        "path": "/usr/share/doc/rhn-client-tools-2.0.2",
+        "mode": 16877,
+        "size": 55,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/rhn-client-tools-2.0.2/AUTHORS",
+        "mode": 33188,
+        "size": 400,
+        "sha256": "3e308ecc9ac6e4c338d0aa3e3ec6228cc9677a103d55372893e0f80782b18cc9"
+      },
+      {
+        "path": "/usr/share/doc/rhn-client-tools-2.0.2/LICENSE",
+        "mode": 33188,
+        "size": 17987,
+        "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6"
+      },
+      {
+        "path": "/usr/share/doc/rhn-client-tools-2.0.2/mirrors.txt",
+        "mode": 33188,
+        "size": 2016,
+        "sha256": "4c0fa35ebe59d18f19320e8669bab4a8c3f8173bcc35826bddcf4aed100bae18"
+      },
+      {
+        "path": "/usr/share/locale/en_GB/LC_MESSAGES/rhn-client-tools.mo",
+        "mode": 33188,
+        "size": 488,
+        "sha256": "e746738076d1b6efc178adeac3386665017d0d7a4b582547954b9b19b43e671d"
+      },
+      {
+        "path": "/usr/share/rhn",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/rhn/RPM-GPG-KEY",
+        "mode": 33188,
+        "size": 1011,
+        "sha256": "e7fc1d42ffd85a831ad547575c6d385709afa726ed7ea5aa0cbd8004a411b017"
+      },
+      {
+        "path": "/usr/share/rhn/ULN-CA-CERT",
+        "mode": 33188,
+        "size": 9693,
+        "sha256": "5982f21463a8a47b920f3977663d1bcbb3e43cec2494f2e29006d6fbba79cb23"
+      },
+      {
+        "path": "/usr/share/rhn/__init__.py",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/share/rhn/__init__.pyc",
+        "mode": 33188,
+        "size": 113,
+        "sha256": "4bf443bd867281649edbd78bfc366efff294f7e7850f5657613045d1a93186b1"
+      },
+      {
+        "path": "/usr/share/rhn/__init__.pyo",
+        "mode": 33188,
+        "size": 113,
+        "sha256": "4bf443bd867281649edbd78bfc366efff294f7e7850f5657613045d1a93186b1"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/__init__.py",
+        "mode": 33188,
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/__init__.pyc",
+        "mode": 33188,
+        "size": 128,
+        "sha256": "7117776b0b34fe6768701b571405ed4bf17f66510266559278ab35a186a9c5e0"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/__init__.pyo",
+        "mode": 33188,
+        "size": 128,
+        "sha256": "7117776b0b34fe6768701b571405ed4bf17f66510266559278ab35a186a9c5e0"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/capabilities.py",
+        "mode": 33188,
+        "size": 7354,
+        "sha256": "453869a8b150fd919045325df82a6e5b49c8bb05cac834fc14cc435b92d08785"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/capabilities.pyc",
+        "mode": 33188,
+        "size": 6401,
+        "sha256": "964efc66ea3cf30e77015b3b148c4aa5032fcacf1039104cc729e1e6525301f4"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/capabilities.pyo",
+        "mode": 33188,
+        "size": 6318,
+        "sha256": "49bcaa949bf6bd786c90d1d5197f087d67d77b3beb7fef93ad28644d7719ca66"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/clientCaps.py",
+        "mode": 33188,
+        "size": 2116,
+        "sha256": "9a05b4e53dc76ba1e946fdae3eb304c3cdaf3299213abedcab8ee514c1d35e6a"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/clientCaps.pyc",
+        "mode": 33188,
+        "size": 2528,
+        "sha256": "9612537d27bcccc759ef6db6e503af7b78ce232fb3ac09f99e2d42339a283d4b"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/clientCaps.pyo",
+        "mode": 33188,
+        "size": 2528,
+        "sha256": "9612537d27bcccc759ef6db6e503af7b78ce232fb3ac09f99e2d42339a283d4b"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/config.py",
+        "mode": 33188,
+        "size": 11685,
+        "sha256": "b8cd997e337f180897c8711ce812acfe93c7271b789c150ce3254f3197342968"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/config.pyc",
+        "mode": 33188,
+        "size": 11947,
+        "sha256": "224195093d96ae19ec092ef22caec32e4bfe5391f014aafb07f2970a66b8abc4"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/config.pyo",
+        "mode": 33188,
+        "size": 11947,
+        "sha256": "224195093d96ae19ec092ef22caec32e4bfe5391f014aafb07f2970a66b8abc4"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/debUtils.py",
+        "mode": 33188,
+        "size": 2592,
+        "sha256": "d09f3a6f0b833b7ac564c6c583dc045932e2bcb37d16694f6714bf7c9232d023"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/debUtils.pyc",
+        "mode": 33188,
+        "size": 2626,
+        "sha256": "c1757753e66f240cf4f38151c2fe94d15fd0565cbc1d48a5d360e3a80d32468e"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/debUtils.pyo",
+        "mode": 33188,
+        "size": 2626,
+        "sha256": "c1757753e66f240cf4f38151c2fe94d15fd0565cbc1d48a5d360e3a80d32468e"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/haltree.py",
+        "mode": 33188,
+        "size": 4597,
+        "sha256": "173c09291d52351947301b4e30da35115d9bc6999f3dfda779e39422e727829d"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/haltree.pyc",
+        "mode": 33188,
+        "size": 3761,
+        "sha256": "b3910f42bb776e1764ae08eab2e2a7ab899d001bdba67bbcdd2b3b24974319f6"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/haltree.pyo",
+        "mode": 33188,
+        "size": 3761,
+        "sha256": "b3910f42bb776e1764ae08eab2e2a7ab899d001bdba67bbcdd2b3b24974319f6"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/hardware.py",
+        "mode": 33188,
+        "size": 29763,
+        "sha256": "b162e9f17196974887d31afad178df0c4ee49a897538bf7202671edb675b7d83"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/hardware.pyc",
+        "mode": 33188,
+        "size": 21452,
+        "sha256": "129b21574b0a5ea63519dd36fad8fe6bf8e7f12c455ef4e9cdcccfb0e115edea"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/hardware.pyo",
+        "mode": 33188,
+        "size": 21452,
+        "sha256": "129b21574b0a5ea63519dd36fad8fe6bf8e7f12c455ef4e9cdcccfb0e115edea"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/hardware_gudev.py",
+        "mode": 33188,
+        "size": 12977,
+        "sha256": "f90e8e7f8413effeef5346dd5f0c0cd4a04c723fae90a7646211753519e6935e"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/hardware_gudev.pyc",
+        "mode": 33188,
+        "size": 9400,
+        "sha256": "370eaba886ff6dd53b4787de0450d818e12283fd37279e41f1edb7f39bc060ed"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/hardware_gudev.pyo",
+        "mode": 33188,
+        "size": 9400,
+        "sha256": "370eaba886ff6dd53b4787de0450d818e12283fd37279e41f1edb7f39bc060ed"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/pkgUtils.py",
+        "mode": 33188,
+        "size": 250,
+        "sha256": "563ab3a4361cc383d1b4bb75a28bd758dd3cea99b230b9db0b764c8b7c76b182"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/pkgUtils.pyc",
+        "mode": 33188,
+        "size": 280,
+        "sha256": "9996967517c8b8bebd90fb04bbad1a53f1e4568b07c2ea64e3baf5a3b40cd507"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/pkgUtils.pyo",
+        "mode": 33188,
+        "size": 280,
+        "sha256": "9996967517c8b8bebd90fb04bbad1a53f1e4568b07c2ea64e3baf5a3b40cd507"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/pkgplatform.py",
+        "mode": 33188,
+        "size": 309,
+        "sha256": "7cacf44e48b4815d7b51a40c5c34fba4dd3f03301350c3a977c36147618d2608"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/pkgplatform.pyc",
+        "mode": 33188,
+        "size": 372,
+        "sha256": "08ab970d754ee411251eb4cb892f86784df6122b7732f863d362d6d5c61e6ea7"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/pkgplatform.pyo",
+        "mode": 33188,
+        "size": 372,
+        "sha256": "08ab970d754ee411251eb4cb892f86784df6122b7732f863d362d6d5c61e6ea7"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnChannel.py",
+        "mode": 33188,
+        "size": 4499,
+        "sha256": "27e75197e69f56dbfaffa53aab58c5e108a8f03cdaa61ff7891cf27f7e18628c"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnChannel.pyc",
+        "mode": 33188,
+        "size": 5846,
+        "sha256": "ec31f0ea88d556862e9b8c2573fcaf4c7090a05a40f116c619232b532eb16469"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnChannel.pyo",
+        "mode": 33188,
+        "size": 5846,
+        "sha256": "ec31f0ea88d556862e9b8c2573fcaf4c7090a05a40f116c619232b532eb16469"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnHardware.py",
+        "mode": 33188,
+        "size": 272,
+        "sha256": "6dc5d30c21d72e9efb83076bf99f31026da0a4d3213b844bf51aff10259ee80b"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnHardware.pyc",
+        "mode": 33188,
+        "size": 542,
+        "sha256": "726625f303558324f0cc2da104556e83b6887d8a92f0e8c2d1f3c46ad523bd07"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnHardware.pyo",
+        "mode": 33188,
+        "size": 542,
+        "sha256": "726625f303558324f0cc2da104556e83b6887d8a92f0e8c2d1f3c46ad523bd07"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnPackageInfo.py",
+        "mode": 33188,
+        "size": 2031,
+        "sha256": "8b7d0372f98b7c1e4c6b3800b41e215603880797baae2027d19f7747a04f5066"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnPackageInfo.pyc",
+        "mode": 33188,
+        "size": 2453,
+        "sha256": "4516004676d7c32f52085253793c2ab70b300856f0d36d4f2e6a1cec0b89ef56"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnPackageInfo.pyo",
+        "mode": 33188,
+        "size": 2453,
+        "sha256": "4516004676d7c32f52085253793c2ab70b300856f0d36d4f2e6a1cec0b89ef56"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhncli.py",
+        "mode": 33188,
+        "size": 8569,
+        "sha256": "b38415b31bcd4924808804354f6f6992ee823010a2a38ff187d8903bd4715973"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhncli.pyc",
+        "mode": 33188,
+        "size": 8133,
+        "sha256": "f1b51663d3423cc27ca1d06fa148119d8b77831120ff68aff724a66cd6ed30a2"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhncli.pyo",
+        "mode": 33188,
+        "size": 8133,
+        "sha256": "f1b51663d3423cc27ca1d06fa148119d8b77831120ff68aff724a66cd6ed30a2"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnserver.py",
+        "mode": 33188,
+        "size": 8705,
+        "sha256": "51cc33aee0a11045e2b9c047614adc1a71007d03e6f5d4b0fbf2152ec644dae5"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnserver.pyc",
+        "mode": 33188,
+        "size": 5456,
+        "sha256": "1b4225bcf763b026e6ef2aae02518e80dc01a7910b10160c55fe19b3b62ede41"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rhnserver.pyo",
+        "mode": 33188,
+        "size": 5456,
+        "sha256": "1b4225bcf763b026e6ef2aae02518e80dc01a7910b10160c55fe19b3b62ede41"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rpcServer.py",
+        "mode": 33188,
+        "size": 10340,
+        "sha256": "1656335ee8bdf000cc86273ff0522fbb353ddfd69dfeb388cdd8e803fca6cbc5"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rpcServer.pyc",
+        "mode": 33188,
+        "size": 8357,
+        "sha256": "e41ca1b91137e364a1ca90a8d4f68a229b787a7e12c69a4409df99906285a42d"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rpcServer.pyo",
+        "mode": 33188,
+        "size": 8357,
+        "sha256": "e41ca1b91137e364a1ca90a8d4f68a229b787a7e12c69a4409df99906285a42d"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rpmUtils.py",
+        "mode": 33188,
+        "size": 5415,
+        "sha256": "ecaab1a491702d0346271699a6958d88a81adaa8df7e5ca41d0595668bf35e97"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rpmUtils.pyc",
+        "mode": 33188,
+        "size": 3741,
+        "sha256": "8100e47e131959497a528a1814ad6ad77d939e663bd0729b71e3fc3d5697ccf8"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/rpmUtils.pyo",
+        "mode": 33188,
+        "size": 3741,
+        "sha256": "8100e47e131959497a528a1814ad6ad77d939e663bd0729b71e3fc3d5697ccf8"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/transaction.py",
+        "mode": 33188,
+        "size": 4137,
+        "sha256": "f59eed84e16c7a1f556cc2f6c99d28614b1f41a543a906eb875be4b2f979f4b2"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/transaction.pyc",
+        "mode": 33188,
+        "size": 3272,
+        "sha256": "5af603b1f4aad23ca3572c3c3dd01d5720a20962b78375515ebfb8bbb1f5e744"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/transaction.pyo",
+        "mode": 33188,
+        "size": 3272,
+        "sha256": "5af603b1f4aad23ca3572c3c3dd01d5720a20962b78375515ebfb8bbb1f5e744"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateAuth.py",
+        "mode": 33188,
+        "size": 7031,
+        "sha256": "7f7cad3f1be71124c5de06ad37658fd22ec91a2c8ea692228103bc4878b423b5"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateAuth.pyc",
+        "mode": 33188,
+        "size": 6465,
+        "sha256": "442f20c982d05b32a61ed137da9405f649f9e93ef031a13816be0a6194ffc858"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateAuth.pyo",
+        "mode": 33188,
+        "size": 6465,
+        "sha256": "442f20c982d05b32a61ed137da9405f649f9e93ef031a13816be0a6194ffc858"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateErrors.py",
+        "mode": 33188,
+        "size": 10443,
+        "sha256": "027ac504b28faa99050ff1ca5ec2ef9872444fc8d4670f4fd41cc7bf0d68be17"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateErrors.pyc",
+        "mode": 33188,
+        "size": 16522,
+        "sha256": "402833fb8fc58ca4815b1d8b60d37a94fe8ede6ff010c818eb0573d147c6760b"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateErrors.pyo",
+        "mode": 33188,
+        "size": 16522,
+        "sha256": "402833fb8fc58ca4815b1d8b60d37a94fe8ede6ff010c818eb0573d147c6760b"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateLog.py",
+        "mode": 33188,
+        "size": 2857,
+        "sha256": "69ae92edae0d17861e16ee0ae48ecf0a494421ea77338f10cbfe6f9b1acd6b75"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateLog.pyc",
+        "mode": 33188,
+        "size": 3894,
+        "sha256": "7f5a2cecd7790157648be3e23b387c2181a0acbf4f05997076e8de0170da9e2d"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateLog.pyo",
+        "mode": 33188,
+        "size": 3894,
+        "sha256": "7f5a2cecd7790157648be3e23b387c2181a0acbf4f05997076e8de0170da9e2d"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateUtils.py",
+        "mode": 33188,
+        "size": 3482,
+        "sha256": "f4983781d1dfad726746ef02df7bd533fd5a6dcd1f71e4b35c32371400ba728f"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateUtils.pyc",
+        "mode": 33188,
+        "size": 3548,
+        "sha256": "46f7e8fddca9b873170c2a6e87c7c4efce8d0c4bf69821349ed7f2ffcb0a5fc7"
+      },
+      {
+        "path": "/usr/share/rhn/up2date_client/up2dateUtils.pyo",
+        "mode": 33188,
+        "size": 3548,
+        "sha256": "46f7e8fddca9b873170c2a6e87c7c4efce8d0c4bf69821349ed7f2ffcb0a5fc7"
+      },
+      {
+        "path": "/var/spool/up2date",
+        "mode": 16832,
+        "size": 27,
+        "sha256": ""
+      }
+    ]
+  }
+}

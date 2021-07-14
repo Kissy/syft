@@ -1,0 +1,111 @@
+{
+  "name": "cracklib-dicts",
+  "version": "2.9.0-11.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "cracklib_project",
+      "Product": "cracklib",
+      "Version": "2.9.0",
+      "Update": "11.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/cracklib-dicts@0:2.9.0-11.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "cracklib-dicts",
+    "version": "2.9.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "11.el7",
+    "sourceRpm": "cracklib-2.9.0-11.el7.src.rpm",
+    "size": 9389116,
+    "license": "LGPLv2+",
+    "vendor": "Oracle America",
+    "url": "http://sourceforge.net/projects/cracklib/",
+    "files": [
+      {
+        "path": "/usr/lib64/cracklib_dict.hwm",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/cracklib_dict.pwd",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/cracklib_dict.pwi",
+        "mode": 41471,
+        "size": 36,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/mkdict",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/packer",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/cracklib/cracklib-small.hwm",
+        "mode": 33188,
+        "size": 1024,
+        "sha256": "fc099d887da628648ae12960a25299b46a3f6755e3f502c3d9f996c57ecab4aa"
+      },
+      {
+        "path": "/usr/share/cracklib/cracklib-small.pwd",
+        "mode": 33188,
+        "size": 250120,
+        "sha256": "e71f019475f92bee027cc10edc95be3d746f360ef227f219b34f14fb5e99dac6"
+      },
+      {
+        "path": "/usr/share/cracklib/cracklib-small.pwi",
+        "mode": 33188,
+        "size": 13232,
+        "sha256": "e0a83bf09a39e6f4d5357d2ce671f09b2df3d2d3c5b313edb1fc90d911d52fdd"
+      },
+      {
+        "path": "/usr/share/cracklib/pw_dict.hwm",
+        "mode": 33188,
+        "size": 1024,
+        "sha256": "4944564a13a8abd534ab152a2dd3c51e79aa3bb1cd0b24d20d6dca1836421b68"
+      },
+      {
+        "path": "/usr/share/cracklib/pw_dict.pwd",
+        "mode": 33188,
+        "size": 8663484,
+        "sha256": "d3696d678f2a8671a38ea3a7d9124ec019b937254fd475e23abde1060d2e374b"
+      },
+      {
+        "path": "/usr/share/cracklib/pw_dict.pwi",
+        "mode": 33188,
+        "size": 460232,
+        "sha256": "e1fe368bd44a8ce476b261b4d3243e1fd5c3a7ee53a3045cd052ed7a1a2c5b71"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "rootfiles",
+  "version": "8.1-22.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/rootfiles@0:8.1-22.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "rootfiles",
+    "version": "8.1",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "22.el8",
+    "sourceRpm": "rootfiles-8.1-22.el8.src.rpm",
+    "size": 599,
+    "license": "Public Domain",
+    "vendor": "CentOS",
+    "url": "",
+    "files": [
+      {
+        "path": "/root/.bash_logout",
+        "mode": 33188,
+        "size": 18,
+        "sha256": "2584c4ba8b0d2a52d94023f420b7e356a1b1a3f2291ad5eba06683d58c48570d"
+      },
+      {
+        "path": "/root/.bash_profile",
+        "mode": 33188,
+        "size": 176,
+        "sha256": "173704a195292bed3d32ebaff5ace8810f7d02e986c43c0cb514d173dc4b2d5c"
+      },
+      {
+        "path": "/root/.bashrc",
+        "mode": 33188,
+        "size": 176,
+        "sha256": "413f2dc32504db2907974b6a9fea78414e804048bd9f3a02c28bd6292b87b0ed"
+      },
+      {
+        "path": "/root/.cshrc",
+        "mode": 33188,
+        "size": 100,
+        "sha256": "4e9418cde048f912e4aadb76ba55045b5d9af0e0565f7091bfc752154451eca9"
+      },
+      {
+        "path": "/root/.tcshrc",
+        "mode": 33188,
+        "size": 129,
+        "sha256": "1bb91935e2cee1d5d2ab7e8d92125acbfac12d9bf3f1c7922aa4ce77ae7ea131"
+      }
+    ]
+  }
+}

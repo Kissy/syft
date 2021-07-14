@@ -1,0 +1,75 @@
+{
+  "name": "sqlite",
+  "version": "3.7.17-8.el7_7.1",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "sqlite",
+      "Product": "sqlite",
+      "Version": "3.7.17",
+      "Update": "8.el7_7.1",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/sqlite@0:3.7.17-8.el7_7.1?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "sqlite",
+    "version": "3.7.17",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "8.el7_7.1",
+    "sourceRpm": "sqlite-3.7.17-8.el7_7.1.src.rpm",
+    "size": 814295,
+    "license": "Public Domain",
+    "vendor": "Oracle America",
+    "url": "http://www.sqlite.org/",
+    "files": [
+      {
+        "path": "/usr/bin/sqlite3",
+        "mode": 33261,
+        "size": 56264,
+        "sha256": "6053ca03d490324f9c6abfe6b26176a7c9a6f6207a4a858407096067c88f09e1"
+      },
+      {
+        "path": "/usr/lib64/libsqlite3.so.0",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsqlite3.so.0.8.6",
+        "mode": 33261,
+        "size": 753272,
+        "sha256": "810f397d232c95ad439222549f368e73afa1945bc9c0f1b1ae838902864d21bc"
+      },
+      {
+        "path": "/usr/share/doc/sqlite-3.7.17",
+        "mode": 16877,
+        "size": 20,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/sqlite-3.7.17/README",
+        "mode": 33188,
+        "size": 1732,
+        "sha256": "2a94460b525a68283b0f77bea53e1be980b8346d4b1bb2d5751f61e3a7f36991"
+      }
+    ]
+  }
+}

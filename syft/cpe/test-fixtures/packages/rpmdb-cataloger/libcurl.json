@@ -1,0 +1,57 @@
+{
+  "name": "libcurl",
+  "version": "7.29.0-59.0.1.el7_9.1",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "haxx",
+      "Product": "libcurl",
+      "Version": "7.29.0",
+      "Update": "59.0.1.el7_9.1",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libcurl@0:7.29.0-59.0.1.el7_9.1?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libcurl",
+    "version": "7.29.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "59.0.1.el7_9.1",
+    "sourceRpm": "curl-7.29.0-59.0.1.el7_9.1.src.rpm",
+    "size": 439280,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "http://curl.haxx.se/",
+    "files": [
+      {
+        "path": "/usr/lib64/libcurl.so.4",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libcurl.so.4.3.0",
+        "mode": 33261,
+        "size": 439280,
+        "sha256": "cd1da03946ce07127d40b50d5ec126311e59a9d58a1cfe1e0e4dc82b10152cb6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "name": "kexec-tools",
+  "version": "2.0.20-34.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/kexec-tools@0:2.0.20-34.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "kexec-tools",
+    "version": "2.0.20",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "34.el8",
+    "sourceRpm": "kexec-tools-2.0.20-34.el8.src.rpm",
+    "size": 1246423,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "",
+    "files": [
+      {
+        "path": "/etc/kdump",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/kdump.conf",
+        "mode": 33188,
+        "size": 8484,
+        "sha256": "750a3c77276db35111d049a1267b8ba6aab4a6397b0a3aaa876fae6723cc4e31"
+      },
+      {
+        "path": "/etc/kdump/post.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/kdump/pre.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/makedumpfile.conf.sample",
+        "mode": 33188,
+        "size": 5122,
+        "sha256": "b789d52eeff476170729617551bd35df0a4a5ab22ed80a55cd4356f9b96fab7c"
+      },
+      {
+        "path": "/etc/sysconfig/kdump",
+        "mode": 33188,
+        "size": 1768,
+        "sha256": "4aaf9b332d6fcd52ed42091371e5b147802a2098a6de527545ff376dd867c52b"
+      },
+      {
+        "path": "/usr/bin/kdumpctl",
+        "mode": 33261,
+        "size": 30634,
+        "sha256": "a2818b1ddd6c8eea36ade00ef77582536bfb1296eee35851a662dd2151be2e9c"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/7e/6ab6a796fb1a7e391fa5e4737cb5185cbac206",
+        "mode": 41471,
+        "size": 43,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/88",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/88/984102451a8bd965d2040659d065e26385c0e3",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cc",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/cc/2c407a4342d8773b5f09ed5671656ef3932b52",
+        "mode": 41471,
+        "size": 33,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e9",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e9/028910c20e3840e9bd9076875ff503cc9af558",
+        "mode": 41471,
+        "size": 26,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99earlykdump",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99earlykdump/early-kdump.sh",
+        "mode": 33261,
+        "size": 1690,
+        "sha256": "615a5497d1c586796ad2163d174f74b151b1dbaa87597a64e5e24727dc4ae2e0"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99earlykdump/module-setup.sh",
+        "mode": 33261,
+        "size": 1879,
+        "sha256": "f819b213de84fda98b2859af7c7beaa8e6aa92400106751dc5e73a878699bae4"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/kdump-capture.service",
+        "mode": 33188,
+        "size": 945,
+        "sha256": "e29e6e34a69281d6f149ef08fee7b6f8f79ae3911a0ffaf233cabe6898307f4b"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/kdump-emergency.service",
+        "mode": 33188,
+        "size": 905,
+        "sha256": "38c89025ea2856ef3d66aa18623728e0b7dbf9d8ce5b23e733fddb6361337ea7"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/kdump-emergency.target",
+        "mode": 33188,
+        "size": 451,
+        "sha256": "75d3637d8829009015f9ac0b6b2b93b260f6700f3bf930155080906b696d4720"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/kdump-error-handler.service",
+        "mode": 33188,
+        "size": 934,
+        "sha256": "d5cd3a6cce04955a07ae5cd7790ae17365b90a4989f1888d7b7f487316a1544d"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/kdump-error-handler.sh",
+        "mode": 33261,
+        "size": 145,
+        "sha256": "23bb509940a9ecc3944bb88526b974f49cfb7d6c133fe11615d8d4604141e4c9"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/kdump.sh",
+        "mode": 33261,
+        "size": 6685,
+        "sha256": "126a0dbb17e2b2d62c1c70d065f368a36d59e30eef4664484dcc4cd190b2a8b2"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/module-setup.sh",
+        "mode": 33261,
+        "size": 26760,
+        "sha256": "8b5c80601c012f7b2a0af84f8b54f093d09e5476aa23755c0f2856d42b669583"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99kdumpbase/monitor_dd_progress",
+        "mode": 33188,
+        "size": 482,
+        "sha256": "2e343a54c032f6af0d5f7b5fb49f2d90057b2a234625fe7ee6c1afb21cb5c435"
+      },
+      {
+        "path": "/usr/lib/kdump",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/kdump/kdump-lib-initramfs.sh",
+        "mode": 33188,
+        "size": 6154,
+        "sha256": "276e9df62db142a1fe844ab3309e239516b7139601d73647b53a8579b12323cc"
+      },
+      {
+        "path": "/usr/lib/kdump/kdump-lib.sh",
+        "mode": 33261,
+        "size": 19649,
+        "sha256": "f19f81e0edffb149e5e5b94e3090c19115c4eed02e066a3bc9a71657098eca7c"
+      },
+      {
+        "path": "/usr/lib/systemd/system-generators/kdump-dep-generator.sh",
+        "mode": 33261,
+        "size": 504,
+        "sha256": "f660e26df9c4843340093a294bcd41a68a71cea48314b5d1a3553bba5038bbbc"
+      },
+      {
+        "path": "/usr/lib/systemd/system/kdump.service",
+        "mode": 33188,
+        "size": 349,
+        "sha256": "ed8d22fafa6cfafaddcfd9fec82e3fa7fa42aa0366f69676fafa97e200b0506a"
+      },
+      {
+        "path": "/usr/lib/udev/kdump-udev-throttler",
+        "mode": 33261,
+        "size": 1444,
+        "sha256": "125d538a59172f779b40ea32fea1e4eb50d849f25eb2537a48328d4401136679"
+      },
+      {
+        "path": "/usr/lib/udev/rules.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/udev/rules.d/98-kexec.rules",
+        "mode": 33188,
+        "size": 695,
+        "sha256": "c4e3768d55cf3c6e617670f22d4e6f0e0bbc13c278a6c6fba88533f6a25106b8"
+      },
+      {
+        "path": "/usr/lib64/eppic_makedumpfile.so",
+        "mode": 33261,
+        "size": 340360,
+        "sha256": "5dd406315aa30f4861929cdfbfc6533ed42022b2638f3fbe3e6fa47432e8d666"
+      },
+      {
+        "path": "/usr/sbin/kexec",
+        "mode": 33261,
+        "size": 196032,
+        "sha256": "6e1c5351528f0effdee0e2d57ac6e3327adfe6ceb0bc4970bc1a583ef7ea6882"
+      },
+      {
+        "path": "/usr/sbin/makedumpfile",
+        "mode": 33261,
+        "size": 419104,
+        "sha256": "a5c9b9b2675eeb477e59a2f076a3ac1f9cd7d5ee1c2581db20f34da4584925f5"
+      },
+      {
+        "path": "/usr/sbin/mkdumprd",
+        "mode": 33261,
+        "size": 13117,
+        "sha256": "e0eea6ca7569cb05634e579a8b95f5fba3ef08dc4e84be8b65365e645094f16a"
+      },
+      {
+        "path": "/usr/sbin/vmcore-dmesg",
+        "mode": 33261,
+        "size": 21256,
+        "sha256": "4ba53f321c148ab3312bfe79606f73ebca51014e2d76fbe91f8c30487d870616"
+      },
+      {
+        "path": "/usr/share/kdump",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/kexec-tools",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/kexec-tools/COPYING",
+        "mode": 33188,
+        "size": 18008,
+        "sha256": "fa5fc1d1eec39532ea517518eeefd7b6e3c14341a55e5880a0e2a49eee47a5b7"
+      },
+      {
+        "path": "/usr/share/makedumpfile",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/README",
+        "mode": 33188,
+        "size": 9613,
+        "sha256": "13742f4f8ca0fbac7fcb32d00f3c3573de49458fc4b744a815023d163bd00257"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/ap_messages_3_10_to_4_8.c",
+        "mode": 33188,
+        "size": 1476,
+        "sha256": "958a13aef551aec0d87c39dd547d19555533a108d718aa196aa61b6cbd54df3f"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/dir_names_3_10_to_3_13.c",
+        "mode": 33188,
+        "size": 1154,
+        "sha256": "36bc2522bf7a2a34e174834848b6288fcd8c8802a6e49525232c0f379666d0ba"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/dir_names_3_14_to_4_8.c",
+        "mode": 33188,
+        "size": 1298,
+        "sha256": "4e4fa43dfe2dfd66ad3f49e401fed48e581d6e391350633f60a8745df4b0cc5d"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/keyring_3_10_to_4_3.c",
+        "mode": 33188,
+        "size": 843,
+        "sha256": "429d5bd5697f8d658c6933d55663c933531587a1591462a22a8a3c7d36566946"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/keyring_4_4_to_4_8.c",
+        "mode": 33188,
+        "size": 10806,
+        "sha256": "96f305662687325d9f999fc85499c46331d00c062682fa20ef77a4eeac5f826d"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/proc_names_3_10_to_4_8.c",
+        "mode": 33188,
+        "size": 665,
+        "sha256": "4022d00ed0cc1990f90f6cbfb6539ca882197b9225de07c71297e8cc5ce0cd03"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/tcp_sk_buf_3_10_to_4_8.c",
+        "mode": 33188,
+        "size": 1521,
+        "sha256": "02f9ff6537b88a18bc694f6aef93ebaedba26fbde2e7fbf88dee61c791edb945"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/udp_sk_buf_3_10_to_4_8.c",
+        "mode": 33188,
+        "size": 1588,
+        "sha256": "a46735bc26bde6adc469b13ab0a85e03324633e21e32ebb2784f3d5fa6870a97"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/unix_sk_buff_3_10_to_4_8.c",
+        "mode": 33188,
+        "size": 1545,
+        "sha256": "b01a3f1ea2c52fd2cc1f8ee8363d4f09b19466195802d1b5a77dd068fda31ae1"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/vhost_net_buffers_3_10_to_3_18.c",
+        "mode": 33188,
+        "size": 1886,
+        "sha256": "224727f30eebc8ba9c6c2522b2666f17fa09b008ed58662bc6b0161550cff785"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/vhost_net_buffers_3_19_to_4_8.c",
+        "mode": 33188,
+        "size": 2031,
+        "sha256": "912f16c251bfe9180dfb84f190aa0e85695bcb23be924b60c5eeefd057392741"
+      },
+      {
+        "path": "/usr/share/makedumpfile/eppic_scripts/vhost_scsi_buffers_3_10_to_4_8.c",
+        "mode": 33188,
+        "size": 1300,
+        "sha256": "7a3f5a6a579c32a9c9b32bdb5b8118f481663f807d5142d71ebe83cd84489e86"
+      },
+      {
+        "path": "/var/crash",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

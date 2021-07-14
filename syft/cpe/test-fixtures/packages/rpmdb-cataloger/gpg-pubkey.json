@@ -1,0 +1,30 @@
+{
+  "name": "gpg-pubkey",
+  "version": "ec551f03-53619141",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/gpg-pubkey@0:ec551f03-53619141?arch=",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "gpg-pubkey",
+    "version": "ec551f03",
+    "epoch": 0,
+    "architecture": "",
+    "release": "53619141",
+    "sourceRpm": "",
+    "size": 0,
+    "license": "pubkey",
+    "vendor": "",
+    "url": "",
+    "files": []
+  }
+}

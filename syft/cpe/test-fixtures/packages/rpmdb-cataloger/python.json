@@ -1,0 +1,93 @@
+{
+  "name": "python",
+  "version": "2.7.5-90.0.1.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "2.7.5",
+      "Update": "90.0.1.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python@0:2.7.5-90.0.1.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python",
+    "version": "2.7.5",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "90.0.1.el7",
+    "sourceRpm": "python-2.7.5-90.0.1.el7.src.rpm",
+    "size": 80835,
+    "license": "Python",
+    "vendor": "Oracle America",
+    "url": "http://www.python.org/",
+    "files": [
+      {
+        "path": "/usr/bin/pydoc",
+        "mode": 33261,
+        "size": 78,
+        "sha256": "b6e75f63e060df544a70c81090b735c6b75ff54c0909bc0b73795a5df123e523"
+      },
+      {
+        "path": "/usr/bin/python",
+        "mode": 41471,
+        "size": 7,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/python2",
+        "mode": 41471,
+        "size": 9,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/python2.7",
+        "mode": 33261,
+        "size": 7144,
+        "sha256": "9206eabf476db4406b025841397fd8e6678a4ce499c16d7738a1a1c82b1ae326"
+      },
+      {
+        "path": "/usr/libexec/platform-python",
+        "mode": 41471,
+        "size": 18,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-2.7.5",
+        "mode": 16877,
+        "size": 35,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-2.7.5/LICENSE",
+        "mode": 33188,
+        "size": 14249,
+        "sha256": "555e4d87b1019e08d4bc50651d9a647bbb9f981b7006452f3955e1c520bdaab7"
+      },
+      {
+        "path": "/usr/share/doc/python-2.7.5/README",
+        "mode": 33188,
+        "size": 53750,
+        "sha256": "f571efbf24a1bcc2eaebe423f4c8dbdfa38acb4f4093fcaa6678f8e034da60e6"
+      }
+    ]
+  }
+}

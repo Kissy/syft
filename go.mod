@@ -43,3 +43,5 @@ require (
 	golang.org/x/mod v0.3.0
 	gopkg.in/yaml.v2 v2.3.0
 )
+
+replace github.com/anchore/go-rpmdb v0.0.0-20201106153645-0043963c2e12 => "../go-rpmdb"

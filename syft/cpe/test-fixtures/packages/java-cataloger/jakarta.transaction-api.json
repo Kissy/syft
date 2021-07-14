@@ -1,0 +1,69 @@
+{
+  "name": "jakarta.transaction-api",
+  "version": "1.3.3",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "karotz",
+      "Product": "api",
+      "Version": "1.3.3",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.3",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jakarta.transaction-api-1.3.3.jar",
+    "manifest": {
+      "main": {
+        "Archiver-Version": "Plexus Archiver",
+        "Automatic-Module-Name": "java.transaction",
+        "Bnd-LastModified": "1564784149519",
+        "Build-Jdk": "1.8.0_202",
+        "Built-By": "default",
+        "Bundle-Description": "Jakarta(TM) Transactions 1.3 API Design Specification",
+        "Bundle-DocURL": "https://github.com/eclipse-ee4j",
+        "Bundle-License": "http://www.eclipse.org/legal/epl-2.0, https://www.gnu.org/software/classpath/license.html",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "javax.transaction API",
+        "Bundle-SymbolicName": "jakarta.transaction-api",
+        "Bundle-Vendor": "EE4J Community",
+        "Bundle-Version": "1.3.3",
+        "Created-By": "1.8.0_202 (Oracle Corporation)",
+        "Export-Package": "javax.transaction;uses:=\"javax.interceptor,javax.transaction.xa,javax.enterprise.util,javax.enterprise.context\";version=\"1.3.3\"",
+        "Extension-Name": "javax.transaction",
+        "Implementation-Vendor": "EE4J Community",
+        "Implementation-Vendor-Id": "org.glassfish",
+        "Implementation-Version": "1.3.3",
+        "Import-Package": "javax.enterprise.context,javax.enterprise.util,javax.interceptor;version=\"[1.2,1.2.98)\",javax.transaction;version=\"1.3.3\",javax.transaction.xa",
+        "Manifest-Version": "1.0",
+        "Specification-Vendor": "Oracle Corporation",
+        "Specification-Version": "1.3",
+        "Tool": "Bnd-0.0.255"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/jakarta.transaction/jakarta.transaction-api/pom.properties",
+      "name": "",
+      "groupId": "jakarta.transaction",
+      "artifactId": "jakarta.transaction-api",
+      "version": "1.3.3",
+      "extraFields": {}
+    }
+  }
+}

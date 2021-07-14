@@ -1,0 +1,105 @@
+{
+  "name": "python-gudev",
+  "version": "147.2-7.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "python",
+      "Product": "python",
+      "Version": "147.2",
+      "Update": "7.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/python-gudev@0:147.2-7.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "python-gudev",
+    "version": "147.2",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "7.el7",
+    "sourceRpm": "python-gudev-147.2-7.el7.src.rpm",
+    "size": 46348,
+    "license": "LGPLv3+",
+    "vendor": "Oracle America",
+    "url": "http://github.com/nzjrs/python-gudev",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/gudev.so",
+        "mode": 33261,
+        "size": 29688,
+        "sha256": "4bcd88435407b64ff6ede8b4184536407adebf4bb84511b457021b67c84b1782"
+      },
+      {
+        "path": "/usr/share/doc/python-gudev-147.2",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/python-gudev-147.2/COPYING",
+        "mode": 33188,
+        "size": 7639,
+        "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+      },
+      {
+        "path": "/usr/share/doc/python-gudev-147.2/NEWS",
+        "mode": 33188,
+        "size": 312,
+        "sha256": "6770337f0a2406fe7e806579ffce4ff23f9d6b06ccc06b596f7544310c8e1ba3"
+      },
+      {
+        "path": "/usr/share/doc/python-gudev-147.2/README",
+        "mode": 33188,
+        "size": 122,
+        "sha256": "9cb1b933538ca28a4ed5aaa6b1092298b9a1ee6a8630694faf454dead6062ead"
+      },
+      {
+        "path": "/usr/share/doc/python-gudev-147.2/test.py",
+        "mode": 33188,
+        "size": 1387,
+        "sha256": "0ae0cfd99c2f3ac2cca1f6e7c3b97d665019f5216588af7e7d175eb250e8fa17"
+      },
+      {
+        "path": "/usr/share/pygobject",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pygobject/2.0",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pygobject/2.0/defs",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/pygobject/2.0/defs/gudev.defs",
+        "mode": 33188,
+        "size": 7200,
+        "sha256": "04720524fe5fb49ad4b6d67c806067d6f6310e10a18dd460ffee71ddd92c5d22"
+      }
+    ]
+  }
+}

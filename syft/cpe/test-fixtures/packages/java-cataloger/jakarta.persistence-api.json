@@ -1,0 +1,66 @@
+{
+  "name": "jakarta.persistence-api",
+  "version": "2.2.3",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "karotz",
+      "Product": "api",
+      "Version": "2.2.3",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:maven/jakarta.persistence/jakarta.persistence-api@2.2.3",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/jakarta.persistence-api-2.2.3.jar",
+    "manifest": {
+      "main": {
+        "Automatic-Module-Name": "java.persistence",
+        "Bnd-LastModified": "1564765237028",
+        "Build-Jdk": "11.0.2",
+        "Built-By": "default",
+        "Bundle-Description": "Jakarta Persistence 2.2 API jar",
+        "Bundle-DocURL": "https://www.eclipse.org",
+        "Bundle-License": "http://www.eclipse.org/legal/epl-2.0, http://www.eclipse.org/org/documents/edl-v10.php",
+        "Bundle-ManifestVersion": "2",
+        "Bundle-Name": "Jakarta Persistence API jar",
+        "Bundle-SymbolicName": "jakarta.persistence-api",
+        "Bundle-Vendor": "Eclipse Foundation",
+        "Bundle-Version": "2.2.3",
+        "Created-By": "Apache Maven Bundle Plugin",
+        "Export-Package": "javax.persistence.metamodel;version=\"2.2.3\",javax.persistence;uses:=\"javax.persistence.criteria,javax.persistence.metamodel,javax.persistence.spi\";version=\"2.2.3\",javax.persistence.criteria;uses:=\"javax.persistence,javax.persistence.metamodel\";version=\"2.2.3\",javax.persistence.spi;uses:=\"javax.persistence,javax.sql\";version=\"2.2.3\"",
+        "Extension-Name": "jakarta.persistence",
+        "Implementation-Version": "2.2.3",
+        "Import-Package": "javax.persistence,javax.persistence.criteria,javax.persistence.metamodel,javax.persistence.spi,javax.sql",
+        "Manifest-Version": "1.0",
+        "Specification-Vendor": "Eclipse Foundation",
+        "Specification-Version": "2.2",
+        "Tool": "Bnd-3.5.0.201709291849"
+      }
+    },
+    "pomProperties": {
+      "path": "META-INF/maven/jakarta.persistence/jakarta.persistence-api/pom.properties",
+      "name": "",
+      "groupId": "jakarta.persistence",
+      "artifactId": "jakarta.persistence-api",
+      "version": "2.2.3",
+      "extraFields": {}
+    }
+  }
+}

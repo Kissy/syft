@@ -1,0 +1,111 @@
+{
+  "name": "libsemanage",
+  "version": "2.9-3.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "selinuxproject",
+      "Product": "libsemanage",
+      "Version": "2.9",
+      "Update": "3.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libsemanage@0:2.9-3.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libsemanage",
+    "version": "2.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8",
+    "sourceRpm": "libsemanage-2.9-3.el8.src.rpm",
+    "size": 307826,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://github.com/SELinuxProject/selinux/wiki",
+    "files": [
+      {
+        "path": "/etc/selinux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/selinux/semanage.conf",
+        "mode": 33188,
+        "size": 2425,
+        "sha256": "68d403bca3d7bd2e90d00cf44622dc0598817197994812e06367df0c239b1204"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/2d/815e88fc32f527d3220be112355ed711b64d86",
+        "mode": 41471,
+        "size": 38,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libsemanage.so.1",
+        "mode": 33261,
+        "size": 274080,
+        "sha256": "e358ead77bd2614ae0dfd202c3646a2db8b02fff05401772016da5743b7523af"
+      },
+      {
+        "path": "/usr/libexec/selinux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libsemanage",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libsemanage/COPYING",
+        "mode": 33188,
+        "size": 26432,
+        "sha256": "6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3"
+      },
+      {
+        "path": "/var/lib/selinux",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/var/lib/selinux/tmp",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

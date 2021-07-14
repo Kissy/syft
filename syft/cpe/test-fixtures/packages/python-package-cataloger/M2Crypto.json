@@ -1,0 +1,49 @@
+{
+  "name": "M2Crypto",
+  "version": "0.21.1",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/site-packages/M2Crypto-0.21.1-py2.7.egg-info/PKG-INFO",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    },
+    {
+      "path": "/usr/lib64/python2.7/site-packages/M2Crypto-0.21.1-py2.7.egg-info/top_level.txt",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "BSD-style license"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "m2crypto_project",
+      "Product": "m2crypto",
+      "Version": "0.21.1",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "python",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:pypi/M2Crypto@0.21.1",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "M2Crypto",
+    "version": "0.21.1",
+    "license": "BSD-style license",
+    "author": "Heikki Toivonen",
+    "authorEmail": "heikki@osafoundation.org",
+    "platform": "any",
+    "sitePackagesRootPath": "/usr/lib64/python2.7/site-packages",
+    "topLevelPackages": [
+      "M2Crypto"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "hardlink",
+  "version": "1.0-19.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "hardlink_project",
+      "Product": "hardlink",
+      "Version": "1.0",
+      "Update": "19.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/hardlink@1:1.0-19.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "hardlink",
+    "version": "1.0",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "19.el7",
+    "sourceRpm": "hardlink-1.0-19.el7.src.rpm",
+    "size": 16585,
+    "license": "GPL+",
+    "vendor": "Oracle America",
+    "url": "http://pkgs.fedoraproject.org/gitweb/?p=hardlink.git",
+    "files": [
+      {
+        "path": "/usr/sbin/hardlink",
+        "mode": 33261,
+        "size": 15696,
+        "sha256": "40bac4a0c0cee155879d34b137b86616ab0e75b2cd974c957835b76737ce6d1b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "name": "dhcp-libs",
+  "version": "4.3.6-41.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "isc",
+      "Product": "dhcp",
+      "Version": "4.3.6",
+      "Update": "41.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dhcp-libs@12:4.3.6-41.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dhcp-libs",
+    "version": "4.3.6",
+    "epoch": 12,
+    "architecture": "x86_64",
+    "release": "41.el8",
+    "sourceRpm": "dhcp-4.3.6-41.el8.src.rpm",
+    "size": 161256,
+    "license": "ISC",
+    "vendor": "CentOS",
+    "url": "http://isc.org/products/DHCP/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/14/cad47b77beb9fd749d1f5357615c5c6d251dc0",
+        "mode": 41471,
+        "size": 39,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3b",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/3b/9d1dba431578f1a79b3adf3836787dfb195e26",
+        "mode": 41471,
+        "size": 41,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdhcpctl.so.0",
+        "mode": 41471,
+        "size": 19,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libdhcpctl.so.0.0.0",
+        "mode": 33261,
+        "size": 24536,
+        "sha256": "316300bc7d6437cd00ea56b1bc7c41eb84f095866643a1c9dffe54f3087a2f34"
+      },
+      {
+        "path": "/usr/lib64/libomapi.so.0",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libomapi.so.0.0.0",
+        "mode": 33261,
+        "size": 136720,
+        "sha256": "5e9eccd29e614d77a9f6a12ccfdac9a82b485e747085376ab88901019734ca0c"
+      }
+    ]
+  }
+}

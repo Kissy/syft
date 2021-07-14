@@ -1,0 +1,129 @@
+{
+  "name": "libidn",
+  "version": "1.28-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "libidn",
+      "Version": "1.28",
+      "Update": "4.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libidn@0:1.28-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libidn",
+    "version": "1.28",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "libidn-1.28-4.el7.src.rpm",
+    "size": 630423,
+    "license": "LGPLv2+ and GPLv3+ and GFDL",
+    "vendor": "Oracle America",
+    "url": "http://www.gnu.org/software/libidn/",
+    "files": [
+      {
+        "path": "/usr/bin/idn",
+        "mode": 33261,
+        "size": 33240,
+        "sha256": "b48bb2b09dab952ec836f2720e85c389764271a3c667ff5ed92e7e2a65233ad1"
+      },
+      {
+        "path": "/usr/lib64/libidn.so.11",
+        "mode": 41471,
+        "size": 17,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libidn.so.11.6.11",
+        "mode": 33261,
+        "size": 208928,
+        "sha256": "1f3a4f432666d810a33abbe8d2c0d05001cef5205a04693d86dd0a7271213f8e"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/AUTHORS",
+        "mode": 33188,
+        "size": 45890,
+        "sha256": "aee334465e333c4c7cc5b75b35d7d8d95569cf87e837a3dd1bb726b793f5414c"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/COPYING",
+        "mode": 33188,
+        "size": 1255,
+        "sha256": "a6f17773c69c6417468b2503d1724e8a5b765f7de3596468e1168d1f12688592"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/COPYING.LESSERv2",
+        "mode": 33188,
+        "size": 26530,
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/COPYING.LESSERv3",
+        "mode": 33188,
+        "size": 7651,
+        "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/COPYINGv2",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/COPYINGv3",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/FAQ",
+        "mode": 33188,
+        "size": 2182,
+        "sha256": "99ac718cf7666072a59407fe6c6bab91c6d552e4671aef70af8e5dbc397510de"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/NEWS",
+        "mode": 33188,
+        "size": 50068,
+        "sha256": "5902b586745318cc400dcf29c7704107af457d3decf485302eb17017d9080c09"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/README",
+        "mode": 33188,
+        "size": 1206,
+        "sha256": "17a50e1c3ea9f114a465066d1d3932f0021e226571f70789f66177cd1aebe19a"
+      },
+      {
+        "path": "/usr/share/doc/libidn-1.28/THANKS",
+        "mode": 33188,
+        "size": 2780,
+        "sha256": "8eecdf282838119184c3357287d67b9cf9298ec01bac01e3dc8c9bfa213f9566"
+      }
+    ]
+  }
+}

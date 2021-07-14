@@ -1,0 +1,115 @@
+{
+  "name": "pyliblzma",
+  "version": "0.5.3-11.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/oraclelinux/pyliblzma@0:0.5.3-11.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "pyliblzma",
+    "version": "0.5.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "11.el7",
+    "sourceRpm": "pyliblzma-0.5.3-11.el7.src.rpm",
+    "size": 190112,
+    "license": "LGPLv3+",
+    "vendor": "Oracle America",
+    "url": "https://launchpad.net/pyliblzma",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/liblzma.py",
+        "mode": 33188,
+        "size": 164,
+        "sha256": "d63bfbef1ebfbb344d1fb580a62c6a014f2dc7a7c67551612931f8b367cd726d"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/liblzma.pyc",
+        "mode": 33188,
+        "size": 361,
+        "sha256": "115b1e23d4dc02ef56c615cfcbb8d828a6657e7dc1ca2f58a4b63b0740444053"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/liblzma.pyo",
+        "mode": 33188,
+        "size": 361,
+        "sha256": "115b1e23d4dc02ef56c615cfcbb8d828a6657e7dc1ca2f58a4b63b0740444053"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/lzma.so",
+        "mode": 33261,
+        "size": 67888,
+        "sha256": "ca39637cc9e416e881c5d8a29cfe4c74cb9bebdc35a74e0ea7e307e5d35255cf"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info/PKG-INFO",
+        "mode": 33188,
+        "size": 800,
+        "sha256": "abe7332e63dfd134208fe2a155490aff6cf212dd9b7e0736eecf9776413b1f3f"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info/SOURCES.txt",
+        "mode": 33188,
+        "size": 622,
+        "sha256": "133afb7817f412ff2194cb5c0182ab557eeb5eabab15766fd0ba23fce9115e60"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info/dependency_links.txt",
+        "mode": 33188,
+        "size": 1,
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/pyliblzma-0.5.3-py2.7.egg-info/top_level.txt",
+        "mode": 33188,
+        "size": 13,
+        "sha256": "d303314a268ff5bc5ba1eb140dce89540605da0a0ac7489074e54ae208ca00d4"
+      },
+      {
+        "path": "/usr/share/doc/pyliblzma-0.5.3",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/pyliblzma-0.5.3/ChangeLog",
+        "mode": 33188,
+        "size": 115555,
+        "sha256": "06d1e8d86e8898c7d6235f8133575adcc36d781edc3ddcadca5a70744fdd0160"
+      },
+      {
+        "path": "/usr/share/doc/pyliblzma-0.5.3/NEWS",
+        "mode": 33188,
+        "size": 3287,
+        "sha256": "c207fda83ba0d9e94d25b98459fbc87c095b0a388d768ebcb6a94e064d01a9af"
+      },
+      {
+        "path": "/usr/share/doc/pyliblzma-0.5.3/README",
+        "mode": 33188,
+        "size": 751,
+        "sha256": "e96c575fd0920126981f0ef912a19259fd799a8924bc4cd149d22f2297fd159d"
+      },
+      {
+        "path": "/usr/share/doc/pyliblzma-0.5.3/THANKS",
+        "mode": 33188,
+        "size": 670,
+        "sha256": "1b74b7551b1e4d8e0dfc1b319707b40258c217113422c85bea7fbca66bc978ba"
+      }
+    ]
+  }
+}

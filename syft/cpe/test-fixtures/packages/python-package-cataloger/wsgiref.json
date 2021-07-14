@@ -1,0 +1,28 @@
+{
+  "name": "wsgiref",
+  "version": "0.1.2",
+  "found_by": "python-package-cataloger",
+  "locations": [
+    {
+      "path": "/usr/lib64/python2.7/wsgiref.egg-info",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": [
+    "PSF or ZPL"
+  ],
+  "language": "python",
+  "type": "python",
+  "cpes": [],
+  "purl": "pkg:pypi/wsgiref@0.1.2",
+  "metadata_type": "PythonPackageMetadata",
+  "metadata": {
+    "name": "wsgiref",
+    "version": "0.1.2",
+    "license": "PSF or ZPL",
+    "author": "Phillip J. Eby",
+    "authorEmail": "web-sig@python.org",
+    "platform": "UNKNOWN",
+    "sitePackagesRootPath": "/usr/lib64/python2.7"
+  }
+}

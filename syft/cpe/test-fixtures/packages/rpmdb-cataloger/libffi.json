@@ -1,0 +1,87 @@
+{
+  "name": "libffi",
+  "version": "3.1-22.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libffi_project",
+      "Product": "libffi",
+      "Version": "3.1",
+      "Update": "22.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libffi@0:3.1-22.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libffi",
+    "version": "3.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "22.el8",
+    "sourceRpm": "libffi-3.1-22.el8.src.rpm",
+    "size": 53620,
+    "license": "MIT",
+    "vendor": "CentOS",
+    "url": "http://sourceware.org/libffi",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e5",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/e5/28247c1aa7e2dcba8f0a992c990d8372d3dbc6",
+        "mode": 41471,
+        "size": 37,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libffi.so.6",
+        "mode": 41471,
+        "size": 15,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libffi.so.6.0.2",
+        "mode": 33261,
+        "size": 37024,
+        "sha256": "50f810dfaf2e669e1068c5861ff71bc0ccf0ef097e20bc0aed47042160ac0da7"
+      },
+      {
+        "path": "/usr/share/licenses/libffi",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libffi/LICENSE",
+        "mode": 33188,
+        "size": 1132,
+        "sha256": "0f4d7a0bfb83c37465d42dc305f124189196cc0cc2cc8d6f8461103682aebbc5"
+      }
+    ]
+  }
+}

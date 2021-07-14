@@ -1,0 +1,87 @@
+{
+  "name": "dracut-squash",
+  "version": "049-95.git20200804.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "kernel",
+      "Product": "dracut",
+      "Version": "049",
+      "Update": "95.git20200804.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dracut-squash@0:049-95.git20200804.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dracut-squash",
+    "version": "049",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "95.git20200804.el8",
+    "sourceRpm": "dracut-049-95.git20200804.el8.src.rpm",
+    "size": 3054,
+    "license": "GPLv2+ and LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://dracut.wiki.kernel.org/",
+    "files": [
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash/clear-squash.sh",
+        "mode": 33261,
+        "size": 174,
+        "sha256": "d59317f3dfa52b5849e2a0b0ca988b68bf6679f577d3372ebd112c5155f74271"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash/init.sh",
+        "mode": 33261,
+        "size": 135,
+        "sha256": "1a4168dff97f24599f3df69b4ca11fe593d438aaeaa65dada0ca9007a9808f49"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash/module-setup.sh",
+        "mode": 33188,
+        "size": 885,
+        "sha256": "68e2a65a39beb7e77201e690678e2671054464c28dab94aea957baf919d59017"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash/setup-squash.sh",
+        "mode": 33261,
+        "size": 1345,
+        "sha256": "a862593a77029c32c77f87edc8163775795298f4988a34b08edaae485b1c8727"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash/shutdown.sh",
+        "mode": 33261,
+        "size": 143,
+        "sha256": "a78b0a2429c0ad3976fcc296533fce076f071cf27464c22f37508343f29e3fc9"
+      },
+      {
+        "path": "/usr/lib/dracut/modules.d/99squash/squash-mnt-clear.service",
+        "mode": 33188,
+        "size": 372,
+        "sha256": "9a2b9ca246aa27dd600c83e76e768d3afa968786ae3eb61f58a8300e00e26b28"
+      }
+    ]
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "name": "libxml2-python",
+  "version": "2.9.1-6.0.1.el7.5",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "xmlsoft",
+      "Product": "libxml2",
+      "Version": "2.9.1",
+      "Update": "6.0.1.el7.5",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libxml2-python@0:2.9.1-6.0.1.el7.5?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libxml2-python",
+    "version": "2.9.1",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.0.1.el7.5",
+    "sourceRpm": "libxml2-2.9.1-6.0.1.el7.5.src.rpm",
+    "size": 1503026,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "http://xmlsoft.org/",
+    "files": [
+      {
+        "path": "/usr/lib64/python2.7/site-packages/drv_libxml2.py",
+        "mode": 33188,
+        "size": 15061,
+        "sha256": "656d04d01d582e44e75e17a9323971a4353449f4985c1e6415dc8cff498f3e4b"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/drv_libxml2.pyc",
+        "mode": 33188,
+        "size": 11202,
+        "sha256": "05ef9eed7839f1df8c0c4080f49ac0b22867aa5afae76fed2abcc1916e104232"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/drv_libxml2.pyo",
+        "mode": 33188,
+        "size": 11202,
+        "sha256": "05ef9eed7839f1df8c0c4080f49ac0b22867aa5afae76fed2abcc1916e104232"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/libxml2.py",
+        "mode": 33188,
+        "size": 345539,
+        "sha256": "0ed63712c84f51dfacd7c752d746c8cc8206448774f682a72b4754cd03ab3a82"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/libxml2.pyc",
+        "mode": 33188,
+        "size": 449468,
+        "sha256": "8d550a8cf1cbb8c6914a569f3615833b63ee4db9a2690a71e99e6409c3606d44"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/libxml2.pyo",
+        "mode": 33188,
+        "size": 449468,
+        "sha256": "8d550a8cf1cbb8c6914a569f3615833b63ee4db9a2690a71e99e6409c3606d44"
+      },
+      {
+        "path": "/usr/lib64/python2.7/site-packages/libxml2mod.so",
+        "mode": 33261,
+        "size": 427968,
+        "sha256": "228c9d28b03a14d4de6278bbfd5f1dc449cf114956d7dcfd6e776c03f3baa3d7"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/TODO",
+        "mode": 33188,
+        "size": 1623,
+        "sha256": "3493f94d408ec7485884aab29849f89948933a9ad90814195b4ccecfb0c3cb5f"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/apibuild.py",
+        "mode": 33261,
+        "size": 81665,
+        "sha256": "5f5e5bdddafaaabd4c02361fcfb3c8294b86e886b3e71e0cf5e4677a90fa561f"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/attribs.py",
+        "mode": 33261,
+        "size": 819,
+        "sha256": "5c03a74ad276780f22cd27bc5587163e23351c4a148e446c05ad0ae8f9413531"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/build.py",
+        "mode": 33261,
+        "size": 1551,
+        "sha256": "380169713b027ebcc07247dcf7b6e47946a046c3a3b5e19b411e63f7e3a98eb7"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/compareNodes.py",
+        "mode": 33261,
+        "size": 1516,
+        "sha256": "d6b2cf9784a83919fff9226c03245a37753c65f7e8024046a5cf6611d25ac4f7"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/ctxterror.py",
+        "mode": 33261,
+        "size": 1324,
+        "sha256": "10692dba0adee063c0601c1ba3f6d05805420712792a43774201b62f11a25b5f"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/cutnpaste.py",
+        "mode": 33261,
+        "size": 1289,
+        "sha256": "88dfc2e31c6c1d00b939cbac49004d1e12d09425482069acbc2e4179c10d1d70"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/dtdvalid.py",
+        "mode": 33261,
+        "size": 619,
+        "sha256": "ce6e1d2b8fb211956bc3bedfe4a3fa5f740095294ebde4083cd5f31a5bfbe6e7"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/error.py",
+        "mode": 33261,
+        "size": 1061,
+        "sha256": "8257f7bdba92c41b431869ad8715cef2d7229cc981240ec904c89ee088b18e25"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/inbuf.py",
+        "mode": 33261,
+        "size": 498,
+        "sha256": "12b40c38d5a2e6b6274d88553f020941ed88cda31e88cba32532f1cd752e0f8c"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/index.py",
+        "mode": 33261,
+        "size": 32908,
+        "sha256": "da4c390c17fb40c0b1c31326608fea7d55feb001ac315ece038e533a92470f9b"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/indexes.py",
+        "mode": 33261,
+        "size": 2968,
+        "sha256": "084b8337edd1027f184c81ca1bc0f0ccd3c4e4c42d06a6224f0444ebd6ff46ba"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/input_callback.py",
+        "mode": 33261,
+        "size": 5126,
+        "sha256": "4735c1d1a788865465cdbfdd8c85a89a088b32047a9409eac73fbe4741813c7d"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/libxml2class.txt",
+        "mode": 33188,
+        "size": 22953,
+        "sha256": "816e528a45fe3eb8805a04b5f404c1a59ae7bf08ed5a409531766b3f4e5ab60f"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/nsdel.py",
+        "mode": 33261,
+        "size": 1589,
+        "sha256": "2d8f1d339e45ce3d461a4233dde5ff3c72611043a59df3415fd09ed6b0021144"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/outbuf.py",
+        "mode": 33261,
+        "size": 3145,
+        "sha256": "87d70a56f07787f91da715075e003601905b2267314828759360c3c293e788d6"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/push.py",
+        "mode": 33261,
+        "size": 769,
+        "sha256": "33baab5fbd2aad49ae3d7c5c78db34e8f662ffd4debae3550e5619c0c6066e5c"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/pushSAX.py",
+        "mode": 33261,
+        "size": 1494,
+        "sha256": "7fc13b816beb54e8198ef1b55e6072982955b64b4668d57886b4d42d045a8fba"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/pushSAXhtml.py",
+        "mode": 33261,
+        "size": 1612,
+        "sha256": "d3b9d5190dc80d97a803fe5263d9fcaed1a048c84a0fd2fcff48624d75d61de2"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/python.html",
+        "mode": 33188,
+        "size": 19847,
+        "sha256": "f1628447abfb44f87a37885204bfcb579f90f739b09a47984e76d637d6373812"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader.py",
+        "mode": 33261,
+        "size": 12521,
+        "sha256": "f059104d7180b4e0276c3f5d4463ca6ea7bc8970641cf41fd2e2d7d90d856d0d"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader2.py",
+        "mode": 33261,
+        "size": 5345,
+        "sha256": "c9a0ca07259dcf4c8bc42645fdd8c09d4e3ba858cab86a782ec66186284c015c"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader3.py",
+        "mode": 33261,
+        "size": 4153,
+        "sha256": "3d927186f0060e062b0014f5ab7efeea7c93adcaebb2735330568e597e76b196"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader4.py",
+        "mode": 33261,
+        "size": 1179,
+        "sha256": "ce31e8a2f786429ba11c33fded44d46e114efa57c37b68134fe6f7beed6be681"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader5.py",
+        "mode": 33261,
+        "size": 1251,
+        "sha256": "73037634d515003748d51df9fc005164bf45b92cf32ea26bfd03a02a3e1251a8"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader6.py",
+        "mode": 33261,
+        "size": 2673,
+        "sha256": "dc8b28b60f96525480182c038ccbe72da43deac6adb560af54de84a6b1287806"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader7.py",
+        "mode": 33261,
+        "size": 1758,
+        "sha256": "bdf24f42f4fabd6c14fd249c28ae23039f490acd764480d0cd7f910e056f89bb"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/reader8.py",
+        "mode": 33261,
+        "size": 683,
+        "sha256": "d87f79fea1ff942e2e0c1d6620a8d8661164cdebb0d611f4bf9aafe6423c74af"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/readererr.py",
+        "mode": 33261,
+        "size": 1279,
+        "sha256": "5946706d0bac15f464aa8c583189f4319882980baf0303e9030d1f7aaa7f3e20"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/readernext.py",
+        "mode": 33261,
+        "size": 2484,
+        "sha256": "65f93cdf022f5cf5a54e75dfd8e603136b38777d1dc42fbd588a5b91ef157e7b"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/regexp.py",
+        "mode": 33261,
+        "size": 716,
+        "sha256": "d3d05c0ceb3b5d6e4093fa09eb4762d134c33ea4420cf77b35c6fb1714b1ea77"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/relaxng.py",
+        "mode": 33261,
+        "size": 1203,
+        "sha256": "ae04c31cd5d50e52c49073f55a2b4e402be4fea3f15f40163e9131581251f621"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/resolver.py",
+        "mode": 33261,
+        "size": 857,
+        "sha256": "6e8dd170c8fcbafc4fa80de55bb50a69ab5915b4ada4e1957b26db269d96d2dd"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/schema.py",
+        "mode": 33261,
+        "size": 1310,
+        "sha256": "3029a99875e64ad4a9cfab4872084da559493802801fdbc81b556ec0d0b1c511"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/serialize.py",
+        "mode": 33261,
+        "size": 4277,
+        "sha256": "57f4914b3450bfe0a897d7142f646b7d356bfd9b0011868a93c6c8dc76771d1e"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/sync.py",
+        "mode": 33261,
+        "size": 3524,
+        "sha256": "1e70af50735e5fef38b20ab0a91b8b7ffbdf6481a3978b99e29d4f4edc618039"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/thread2.py",
+        "mode": 33261,
+        "size": 2306,
+        "sha256": "9e4967a6cf4170463dce11115658b1f10928e87b8a113af991951ac697482d06"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/tst.py",
+        "mode": 33261,
+        "size": 587,
+        "sha256": "5706ad8c88efbefa478b1e8ebcb429952516b0ca835795347f09d54241d49d50"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/tstLastError.py",
+        "mode": 33261,
+        "size": 2902,
+        "sha256": "a24b1ef3c8761476f96c9efd9d6f4187e9114083ffcccdf68e3208fceb9649e8"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/tstURI.py",
+        "mode": 33261,
+        "size": 1103,
+        "sha256": "33d20ab8fac08edb5744671b6657bff4aa72103639e7ad4a1a0b882d68933ed9"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/tstmem.py",
+        "mode": 33261,
+        "size": 720,
+        "sha256": "85f53c610cfd612da3b50b10a85b9a7839448dd0ed8495ab18cf4007b9decbca"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/tstxpath.py",
+        "mode": 33261,
+        "size": 1465,
+        "sha256": "1941f6cdc3e533112cecbb4d44e685746069703b26d1f6fb26f25fdbddde6f55"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/validDTD.py",
+        "mode": 33261,
+        "size": 1225,
+        "sha256": "75190a68c95e15a360738f0e6d30023063bdf5cd3c22d33f1e8778788a15adb0"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/validRNG.py",
+        "mode": 33261,
+        "size": 1945,
+        "sha256": "19a60466c9f1ff384872e9406570d844d9220cd8a8eda1d7096cebe41959fa82"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/validSchemas.py",
+        "mode": 33261,
+        "size": 2065,
+        "sha256": "b21dc1379b08cda38713c03b11fcc49f7ba3107e1e9d2734fe9f3b2d9b2b42e5"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/validate.py",
+        "mode": 33261,
+        "size": 1720,
+        "sha256": "eba7c19b188f23e92fc55de6a0e8aeed09c28679ab5cbf7ba7380b9298f7a8c9"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/walker.py",
+        "mode": 33261,
+        "size": 2408,
+        "sha256": "6f31540b161de62846aacd9d12662cd1ec514a8537f1de227625b45f85aee6dd"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/xpath.py",
+        "mode": 33261,
+        "size": 1195,
+        "sha256": "bed086f942f17edc82d51be74edea32dd668a884c1ea0da7af4afb80c02a3e1f"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/xpathext.py",
+        "mode": 33261,
+        "size": 1124,
+        "sha256": "3d7c3f633ffa5ba6aabdf5bf43c03cc306b4adacef1666111bd6340ca4bd0b6e"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/xpathleak.py",
+        "mode": 33261,
+        "size": 1563,
+        "sha256": "1f65c36a1a1687fc829315cd46a0fc77bc00bd98ca51e05af92aa19be6b26a85"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/xpathns.py",
+        "mode": 33261,
+        "size": 552,
+        "sha256": "393186756b5d59eaeb79ef71929f74eeb861a1d29bd6f5cc55394f7f076bc4ad"
+      },
+      {
+        "path": "/usr/share/doc/libxml2-python-2.9.1/xpathret.py",
+        "mode": 33261,
+        "size": 1319,
+        "sha256": "5512fdc3bfad5f729842305f300e9cd48252f42045fbb31a511f6311f019488b"
+      }
+    ]
+  }
+}

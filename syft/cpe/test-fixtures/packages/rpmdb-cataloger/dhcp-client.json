@@ -1,0 +1,123 @@
+{
+  "name": "dhcp-client",
+  "version": "4.3.6-41.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "isc",
+      "Product": "dhcp_client",
+      "Version": "4.3.6",
+      "Update": "41.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/dhcp-client@12:4.3.6-41.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "dhcp-client",
+    "version": "4.3.6",
+    "epoch": 12,
+    "architecture": "x86_64",
+    "release": "41.el8",
+    "sourceRpm": "dhcp-4.3.6-41.el8.src.rpm",
+    "size": 530652,
+    "license": "ISC",
+    "vendor": "CentOS",
+    "url": "http://isc.org/products/DHCP/",
+    "files": [
+      {
+        "path": "/etc/NetworkManager",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/NetworkManager/dispatcher.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/NetworkManager/dispatcher.d/11-dhclient",
+        "mode": 33261,
+        "size": 1062,
+        "sha256": "752fff425446e7e9007d663775cfc87a2d63e5ecb9a723350c7481c8c02e0f99"
+      },
+      {
+        "path": "/etc/dhcp",
+        "mode": 16872,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/dhcp/dhclient.conf",
+        "mode": 33188,
+        "size": 513,
+        "sha256": "2fdf1f93579dc1e3cbf9518ece2e3eda50a385dc63b070eb63f5f7b794149410"
+      },
+      {
+        "path": "/etc/dhcp/dhclient.d",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fc",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/fc/908f3a0f94829cafdbe3f49301ef745b65d3bf",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/pm-utils/sleep.d/56dhclient",
+        "mode": 33261,
+        "size": 1810,
+        "sha256": "687344e144ab436a393163defc54aa2cf85bbc16aab321f982dee63624c1ec31"
+      },
+      {
+        "path": "/usr/sbin/dhclient",
+        "mode": 33261,
+        "size": 464696,
+        "sha256": "d14e96205d1f0f4aaa756fc7aaa7fe66b6d6083b9bc9477f0c02e04fd50d6619"
+      },
+      {
+        "path": "/usr/sbin/dhclient-script",
+        "mode": 33261,
+        "size": 33646,
+        "sha256": "38c2791c43539e7c79e1772a412d7c211bf75ad78303d64a0d68c5bff7cad765"
+      },
+      {
+        "path": "/var/lib/dhclient",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      }
+    ]
+  }
+}

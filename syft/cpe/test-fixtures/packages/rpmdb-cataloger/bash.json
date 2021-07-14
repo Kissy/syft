@@ -1,0 +1,207 @@
+{
+  "name": "bash",
+  "version": "4.4.19-12.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnu",
+      "Product": "bash",
+      "Version": "4.4.19",
+      "Update": "12.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/bash@0:4.4.19-12.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "bash",
+    "version": "4.4.19",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "12.el8",
+    "sourceRpm": "bash-4.4.19-12.el8.src.rpm",
+    "size": 6861588,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "https://www.gnu.org/software/bash",
+    "files": [
+      {
+        "path": "/etc/skel/.bash_logout",
+        "mode": 33188,
+        "size": 18,
+        "sha256": "2584c4ba8b0d2a52d94023f420b7e356a1b1a3f2291ad5eba06683d58c48570d"
+      },
+      {
+        "path": "/etc/skel/.bash_profile",
+        "mode": 33188,
+        "size": 141,
+        "sha256": "28bc81aadfd6e6639675760dc11dddd4ed1fcbd08f423224a93c09802552b87e"
+      },
+      {
+        "path": "/etc/skel/.bashrc",
+        "mode": 33188,
+        "size": 376,
+        "sha256": "036d993cef232aecccdd124aed13e65cea76527529e94075500706141617baf5"
+      },
+      {
+        "path": "/usr/bin/alias",
+        "mode": 33261,
+        "size": 29,
+        "sha256": "c9e358c5012c2cf9171ec4f7692ac3a1cbc280617b610d77d813653a1d0dfeb8"
+      },
+      {
+        "path": "/usr/bin/bash",
+        "mode": 33261,
+        "size": 1150704,
+        "sha256": "9f808eaedfdc95126f45720026072c5b63df56e7d9a6cb76499add95c63dcbe7"
+      },
+      {
+        "path": "/usr/bin/bashbug",
+        "mode": 41471,
+        "size": 10,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/bashbug-64",
+        "mode": 33261,
+        "size": 7348,
+        "sha256": "d237f71cc1c5c49634d83927375fafe230ba9624350ebce5aeb0fc2696764776"
+      },
+      {
+        "path": "/usr/bin/bg",
+        "mode": 33261,
+        "size": 26,
+        "sha256": "6eb427fec008b7f3443dc0d3d374979fec87a7d8c27093512bc0b2d52c4e65ec"
+      },
+      {
+        "path": "/usr/bin/cd",
+        "mode": 33261,
+        "size": 26,
+        "sha256": "efe0fc3df889d7046ebba2d60b7f0f1290be4d4874ffd6cd31372b183fc093b4"
+      },
+      {
+        "path": "/usr/bin/command",
+        "mode": 33261,
+        "size": 31,
+        "sha256": "c92ce8c379784b9593fb98a54666cfd84aedab93004df8b8396abe11f7f62077"
+      },
+      {
+        "path": "/usr/bin/fc",
+        "mode": 33261,
+        "size": 26,
+        "sha256": "c39aec5916a27223773952cc38f3e8ccfc83c74315d130ea8a80a36577df7d7a"
+      },
+      {
+        "path": "/usr/bin/fg",
+        "mode": 33261,
+        "size": 26,
+        "sha256": "c1e5f55cb58aee22036e5553bc221f75416fb4ef5dc54ec3d6b62c89ae88e1b1"
+      },
+      {
+        "path": "/usr/bin/getopts",
+        "mode": 33261,
+        "size": 31,
+        "sha256": "6f9c9454233a6c5666933c99bed545c72b9af1c835c94b6e6baf28d7cb86530f"
+      },
+      {
+        "path": "/usr/bin/hash",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "2fbf068f4ae7e8240abe961f4e502b58bfbf79d846d5003e5841162662fa3041"
+      },
+      {
+        "path": "/usr/bin/jobs",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "c72308b9c8028894ff3ec7c79002a2edd4e1f57c6f88136bbc5208fb71595f62"
+      },
+      {
+        "path": "/usr/bin/read",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "861f68383739416356289201125631a7826e722a08ff7906bda76fedf3064105"
+      },
+      {
+        "path": "/usr/bin/sh",
+        "mode": 41471,
+        "size": 4,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/type",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "bbba5642dd6d04f4272cc24946cae0d3da128b55df84516374b041c9bac42b35"
+      },
+      {
+        "path": "/usr/bin/ulimit",
+        "mode": 33261,
+        "size": 30,
+        "sha256": "cf6fda74a767e0361031e9eb221c344977a8cd8d885b0384797213484aedd683"
+      },
+      {
+        "path": "/usr/bin/umask",
+        "mode": 33261,
+        "size": 29,
+        "sha256": "987439db80ef5206e72c77ef979391a37a9739c8b30b42d7163b5281cc3514f3"
+      },
+      {
+        "path": "/usr/bin/unalias",
+        "mode": 33261,
+        "size": 31,
+        "sha256": "5331b3af54dfd98f900c43b67b079d1da8f0670f25da09429f9f681d77dbffdb"
+      },
+      {
+        "path": "/usr/bin/wait",
+        "mode": 33261,
+        "size": 28,
+        "sha256": "c888588a6995433b050fe8da3164c5ca60239bf4c3e110b52d6130d7b36728ba"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d6",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d6/860cc6bde275862ffc23fd60a7c1e2507c818f",
+        "mode": 41471,
+        "size": 24,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/bash",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/bash/COPYING",
+        "mode": 33188,
+        "size": 35147,
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "hostname",
+  "version": "3.20-6.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/hostname@0:3.20-6.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "hostname",
+    "version": "3.20",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "6.el8",
+    "sourceRpm": "hostname-3.20-6.el8.src.rpm",
+    "size": 43979,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://packages.qa.debian.org/h/hostname.html",
+    "files": [
+      {
+        "path": "/usr/bin/dnsdomainname",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/domainname",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/hostname",
+        "mode": 33261,
+        "size": 21664,
+        "sha256": "26532eeae676157e70231d911474e48d31085b5f2e511ce908349dbb02f0f69c"
+      },
+      {
+        "path": "/usr/bin/nisdomainname",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/ypdomainname",
+        "mode": 41471,
+        "size": 8,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a8",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/a8/a7ee9d5002492edfc62e3e2e44149e981f9866",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/systemd/system/nis-domainname.service",
+        "mode": 33188,
+        "size": 378,
+        "sha256": "571aea8d633c0a9a08a453a387768cfa7e819c52a0cf6302036c0cc8711907ee"
+      },
+      {
+        "path": "/usr/libexec/hostname/nis-domainname",
+        "mode": 33261,
+        "size": 166,
+        "sha256": "e34871863f59e9f0eee4674217d11d4ae46fe20b6496170787f0e45170997a4a"
+      },
+      {
+        "path": "/usr/share/licenses/hostname",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/hostname/gpl-2.0.txt",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

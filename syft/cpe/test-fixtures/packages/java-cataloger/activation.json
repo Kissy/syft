@@ -1,0 +1,48 @@
+{
+  "name": "activation",
+  "version": "1.1",
+  "found_by": "java-cataloger",
+  "locations": [
+    {
+      "path": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar"
+    }
+  ],
+  "licenses": null,
+  "language": "java",
+  "type": "java-archive",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "sun",
+      "Product": "java_system_application_server",
+      "Version": "1.1",
+      "Update": "",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "java",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "",
+  "metadata_type": "JavaMetadata",
+  "metadata": {
+    "virtualPath": "/Users/glebiller/Workspace/platform/chef/site-resources/site-resources-api/target/site-resources-api.jar:BOOT-INF/lib/activation-1.1.jar",
+    "manifest": {
+      "main": {
+        "Ant-Version": "Apache Ant 1.6.5",
+        "Created-By": "1.5.0_06-b03 (Sun Microsystems Inc.)",
+        "Extension-Name": "javax.activation",
+        "Implementation-Title": "Sun Java System Application Server",
+        "Implementation-Vendor": "Sun Microsystems, Inc.",
+        "Implementation-Vendor-Id": "com.sun",
+        "Implementation-Version": "1.1",
+        "Manifest-Version": "1.0",
+        "Specification-Title": "JavaBeans(TM) Activation Framework Specification",
+        "Specification-Vendor": "Sun Microsystems, Inc.",
+        "Specification-Version": "1.1"
+      }
+    }
+  }
+}

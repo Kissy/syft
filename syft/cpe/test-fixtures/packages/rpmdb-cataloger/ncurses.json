@@ -1,0 +1,141 @@
+{
+  "name": "ncurses",
+  "version": "5.9-14.20130511.el7_4",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "ncurses_project",
+      "Product": "ncurses",
+      "Version": "5.9",
+      "Update": "14.20130511.el7_4",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/ncurses@0:5.9-14.20130511.el7_4?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "ncurses",
+    "version": "5.9",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "14.20130511.el7_4",
+    "sourceRpm": "ncurses-5.9-14.20130511.el7_4.src.rpm",
+    "size": 439386,
+    "license": "MIT",
+    "vendor": "Oracle America",
+    "url": "http://invisible-island.net/ncurses/ncurses.html",
+    "files": [
+      {
+        "path": "/usr/bin/captoinfo",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/clear",
+        "mode": 33261,
+        "size": 7192,
+        "sha256": "a13b0e6a3b812c0dfa6506075eb1cf191a6e896ea993029403c22faab9cdb933"
+      },
+      {
+        "path": "/usr/bin/infocmp",
+        "mode": 33261,
+        "size": 57416,
+        "sha256": "b36d5538d3bc4f98c518116c3cb8228109ebb065e3cd6a0af08e50329e30620c"
+      },
+      {
+        "path": "/usr/bin/infotocap",
+        "mode": 41471,
+        "size": 3,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/reset",
+        "mode": 41471,
+        "size": 4,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/tabs",
+        "mode": 33261,
+        "size": 15680,
+        "sha256": "de3abe513aeb4cb6a3fa91f451d9d81520df5e21afd9d79c9f57fed19f99dd5e"
+      },
+      {
+        "path": "/usr/bin/tic",
+        "mode": 33261,
+        "size": 65800,
+        "sha256": "2b226e1be861b22a32adb772b2068bb14be436c6b8dd18e67af86c2713a54085"
+      },
+      {
+        "path": "/usr/bin/toe",
+        "mode": 33261,
+        "size": 15800,
+        "sha256": "055322f52a449f64df10ad619a2dfa9e759bb8f32fc965bc4d516465efdc0bfc"
+      },
+      {
+        "path": "/usr/bin/tput",
+        "mode": 33261,
+        "size": 15792,
+        "sha256": "54ce4573d0947a56822f5db0b0e8e6a0ba3a9cb0e7f0a3894036d5ca8b54d12a"
+      },
+      {
+        "path": "/usr/bin/tset",
+        "mode": 33261,
+        "size": 20072,
+        "sha256": "62e334df645566afd8c46b6af61a73274e157477374d2a3de72909c5192597b7"
+      },
+      {
+        "path": "/usr/share/doc/ncurses-5.9",
+        "mode": 16877,
+        "size": 4096,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/ncurses-5.9/ANNOUNCE",
+        "mode": 33188,
+        "size": 13750,
+        "sha256": "1694388b7f5ce0819e1f8fd1c2b40979e82df58541ceb0c8b60c683f29378b78"
+      },
+      {
+        "path": "/usr/share/doc/ncurses-5.9/AUTHORS",
+        "mode": 33188,
+        "size": 2529,
+        "sha256": "5e59823796c266525a92a6cd31bf144603a7d1b65362e48aa85e74a2b8093d50"
+      },
+      {
+        "path": "/usr/share/doc/ncurses-5.9/NEWS.bz2",
+        "mode": 33188,
+        "size": 131412,
+        "sha256": "bb48de080557f81b9626ebd0baf48e559ae241dace93d57b7d618a441f8737fb"
+      },
+      {
+        "path": "/usr/share/doc/ncurses-5.9/README",
+        "mode": 33188,
+        "size": 10212,
+        "sha256": "37e56186af1edbc4b0c41b85e224295fe2ef114399a488651ebc658f57bf80c7"
+      },
+      {
+        "path": "/usr/share/doc/ncurses-5.9/TO-DO",
+        "mode": 33188,
+        "size": 9651,
+        "sha256": "9a40247610befa57d2c47d0fcd5d3ff3587edad07287f17a8279b98e4221692a"
+      }
+    ]
+  }
+}

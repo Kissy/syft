@@ -1,0 +1,87 @@
+{
+  "name": "libssh2",
+  "version": "1.8.0-4.el7",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2a306e861e84af0e7e5b2aea6c2c3ad578f9d32ead52e940d1eb6cba2387e3c8"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "libssh2",
+      "Product": "libssh2",
+      "Version": "1.8.0",
+      "Update": "4.el7",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/oraclelinux/libssh2@0:1.8.0-4.el7?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libssh2",
+    "version": "1.8.0",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "4.el7",
+    "sourceRpm": "libssh2-1.8.0-4.el7.src.rpm",
+    "size": 191488,
+    "license": "BSD",
+    "vendor": "Oracle America",
+    "url": "http://www.libssh2.org/",
+    "files": [
+      {
+        "path": "/usr/lib64/libssh2.so.1",
+        "mode": 41471,
+        "size": 16,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libssh2.so.1.0.1",
+        "mode": 33261,
+        "size": 186704,
+        "sha256": "707e43b28e69fb799bc64da33a444f9d202a6da8359de95594d4dd816f0f8c9e"
+      },
+      {
+        "path": "/usr/share/doc/libssh2-1.8.0",
+        "mode": 16877,
+        "size": 71,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/libssh2-1.8.0/AUTHORS",
+        "mode": 33188,
+        "size": 1202,
+        "sha256": "12228e95c6b41c76d00b6ca8f2bf7bfb3372f3f32b6c62f34882530b9406f26d"
+      },
+      {
+        "path": "/usr/share/doc/libssh2-1.8.0/COPYING",
+        "mode": 33188,
+        "size": 1886,
+        "sha256": "e15ed284a15e80115467d6d7f030f0d89d8fabbecd78fb6e0f861f0cfc128fd9"
+      },
+      {
+        "path": "/usr/share/doc/libssh2-1.8.0/README",
+        "mode": 33188,
+        "size": 476,
+        "sha256": "428a810c75712693e66d2104ab64b976992a2670109959a8f771a609022ed25e"
+      },
+      {
+        "path": "/usr/share/doc/libssh2-1.8.0/RELEASE-NOTES",
+        "mode": 33188,
+        "size": 1220,
+        "sha256": "00e946eaef2f7ca9550e5aedd9c8d0a830c72507ad04b5bb5362609a390e9d52"
+      }
+    ]
+  }
+}

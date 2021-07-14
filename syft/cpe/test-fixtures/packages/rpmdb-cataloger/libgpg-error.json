@@ -1,0 +1,123 @@
+{
+  "name": "libgpg-error",
+  "version": "1.31-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "gnupg",
+      "Product": "libgpg-error",
+      "Version": "1.31",
+      "Update": "1.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/libgpg-error@0:1.31-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "libgpg-error",
+    "version": "1.31",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "libgpg-error-1.31-1.el8.src.rpm",
+    "size": 902818,
+    "license": "LGPLv2+",
+    "vendor": "CentOS",
+    "url": "https://www.gnupg.org/related_software/libgpg-error/",
+    "files": [
+      {
+        "path": "/usr/bin/gpg-error",
+        "mode": 33261,
+        "size": 34976,
+        "sha256": "b4e8dfff1b89e4362c8761aea7609aa7570d68a377a124db5238eaee41154a42"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/10",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/10/1264fa39fb83eae557555b5e0d6fe0153407e8",
+        "mode": 41471,
+        "size": 44,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bb",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/bb/7f7160a8a0111df58798d38c564c8035a195c1",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgpg-error.so.0",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib64/libgpg-error.so.0.24.2",
+        "mode": 33261,
+        "size": 145984,
+        "sha256": "d4e115d012cf30a506674f47b55652f67eee3c18168f7c2ea10ca1b58cacbe20"
+      },
+      {
+        "path": "/usr/share/libgpg-error",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/libgpg-error/errorref.txt",
+        "mode": 33188,
+        "size": 35668,
+        "sha256": "3fdf9d4c2ffde9cd9da0aa3f90183608a25bdced8f02e9e92500ec4d77785ed2"
+      },
+      {
+        "path": "/usr/share/licenses/libgpg-error",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/libgpg-error/COPYING",
+        "mode": 33188,
+        "size": 18002,
+        "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+      },
+      {
+        "path": "/usr/share/licenses/libgpg-error/COPYING.LIB",
+        "mode": 33188,
+        "size": 26527,
+        "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+      }
+    ]
+  }
+}

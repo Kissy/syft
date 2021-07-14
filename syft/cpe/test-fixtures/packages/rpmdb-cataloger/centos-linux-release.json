@@ -1,0 +1,139 @@
+{
+  "name": "centos-linux-release",
+  "version": "8.3-1.2011.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/centos-linux-release@0:8.3-1.2011.el8?arch=noarch",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "centos-linux-release",
+    "version": "8.3",
+    "epoch": 0,
+    "architecture": "noarch",
+    "release": "1.2011.el8",
+    "sourceRpm": "centos-linux-release-8.3-1.2011.el8.src.rpm",
+    "size": 25326,
+    "license": "GPLv2",
+    "vendor": "CentOS",
+    "url": "https://centos.org",
+    "files": [
+      {
+        "path": "/etc/centos-release",
+        "mode": 33188,
+        "size": 30,
+        "sha256": "73ee4791ccfd40077bf41e9b3cfbf00b2b51c9f534c9ce75e1967562277dcee1"
+      },
+      {
+        "path": "/etc/centos-release-upstream",
+        "mode": 33188,
+        "size": 42,
+        "sha256": "1881cae4c699005deb76d0da5307a02fdf841bc3761eb8191254ffd083bd542f"
+      },
+      {
+        "path": "/etc/issue",
+        "mode": 33188,
+        "size": 23,
+        "sha256": "188029a4a5fc320b6157195899bf6d424610d385949a857a811d992602fa48c9"
+      },
+      {
+        "path": "/etc/issue.net",
+        "mode": 33188,
+        "size": 22,
+        "sha256": "17657f4ee63966a9c7687e97028b9ca514f6e9bcbefec4b7f4e81ac861eb3483"
+      },
+      {
+        "path": "/etc/os-release",
+        "mode": 41471,
+        "size": 21,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/redhat-release",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/rpm/macros.dist",
+        "mode": 33188,
+        "size": 66,
+        "sha256": "ac1de6c6cd2c05b8411d4ab341e98c64d7699606900f628de5e7834c96c5f818"
+      },
+      {
+        "path": "/etc/system-release",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      },
+      {
+        "path": "/etc/system-release-cpe",
+        "mode": 33188,
+        "size": 23,
+        "sha256": "54c701dd1ed293e03c931055aceb61b0cb5cd4aa61908b7e42c0d5f4ce8a719f"
+      },
+      {
+        "path": "/usr/lib/os-release",
+        "mode": 33188,
+        "size": 333,
+        "sha256": "30a1390632ded0e88bc7133f80a18053e7e495fc3a5b88bdc70964af0460bbdf"
+      },
+      {
+        "path": "/usr/lib/systemd/system-preset/85-display-manager.preset",
+        "mode": 33188,
+        "size": 264,
+        "sha256": "ac3e811c49cac013f48b46a20a514b1dbc1a55831498dd4d211bf111a0faa3a9"
+      },
+      {
+        "path": "/usr/lib/systemd/system-preset/90-default.preset",
+        "mode": 33188,
+        "size": 3982,
+        "sha256": "f2547732c5fa871ff31f0a770340b0fb3d4a35fac213a1f691e8ea9356f1d75c"
+      },
+      {
+        "path": "/usr/lib/systemd/system-preset/99-default-disable.preset",
+        "mode": 33188,
+        "size": 10,
+        "sha256": "3127b197b9eae62eb84eeed69b0413419612238332006183e36a3fba89578378"
+      },
+      {
+        "path": "/usr/share/centos-release",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/centos-release/EULA",
+        "mode": 33188,
+        "size": 298,
+        "sha256": "070988e97cf5f7a52ad927dcf03f75a93ee3c9257099030ce637431e86847f2a"
+      },
+      {
+        "path": "/usr/share/licenses/centos-linux-release",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/licenses/centos-linux-release/LICENSE",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      },
+      {
+        "path": "/usr/share/redhat-release",
+        "mode": 41471,
+        "size": 14,
+        "sha256": ""
+      }
+    ]
+  }
+}

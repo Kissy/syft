@@ -1,0 +1,171 @@
+{
+  "name": "xz",
+  "version": "5.2.4-3.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "tukaani",
+      "Product": "xz",
+      "Version": "5.2.4",
+      "Update": "3.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/xz@0:5.2.4-3.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "xz",
+    "version": "5.2.4",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "3.el8",
+    "sourceRpm": "xz-5.2.4-3.el8.src.rpm",
+    "size": 432832,
+    "license": "GPLv2+ and Public Domain",
+    "vendor": "CentOS",
+    "url": "http://tukaani.org/xz/",
+    "files": [
+      {
+        "path": "/etc/profile.d/colorxzgrep.csh",
+        "mode": 33188,
+        "size": 162,
+        "sha256": "67e78cc79449a9eacb0be5bfe833f443508bc5602ce81af1847f20f0be1de25a"
+      },
+      {
+        "path": "/etc/profile.d/colorxzgrep.sh",
+        "mode": 33188,
+        "size": 183,
+        "sha256": "0446ca350ab8205a36deeab4c39413a87ea8b61588fe8385658c1083aad8fa3f"
+      },
+      {
+        "path": "/usr/bin/unxz",
+        "mode": 41471,
+        "size": 2,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/xz",
+        "mode": 33261,
+        "size": 91432,
+        "sha256": "dd57ef03bc26e855f8290cfca3febd57aa55afa43acdcf50eb9ddcd52a5696aa"
+      },
+      {
+        "path": "/usr/bin/xzcat",
+        "mode": 41471,
+        "size": 2,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/xzcmp",
+        "mode": 41471,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/xzdec",
+        "mode": 33261,
+        "size": 18376,
+        "sha256": "dae172b90afc082b8d5ea4dc69c771c4f46dc4b7c12f84decf67d378a276ad2c"
+      },
+      {
+        "path": "/usr/bin/xzdiff",
+        "mode": 33261,
+        "size": 6632,
+        "sha256": "78de84e66db69fb76488031b9760567d27bea09cb6a411cb494d914cb96ea53e"
+      },
+      {
+        "path": "/usr/bin/xzegrep",
+        "mode": 41471,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/xzfgrep",
+        "mode": 41471,
+        "size": 6,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/bin/xzgrep",
+        "mode": 33261,
+        "size": 5628,
+        "sha256": "fbb4431fbf461d43c8a8473d8afd461a3a64c5dc6d3a35dd0b15dca2253ec4e9"
+      },
+      {
+        "path": "/usr/bin/xzless",
+        "mode": 33261,
+        "size": 1802,
+        "sha256": "88046aad2ff0b9507e746278ce5bd1222ccf80f9765a9629463f5119cc459c1f"
+      },
+      {
+        "path": "/usr/bin/xzmore",
+        "mode": 33261,
+        "size": 2161,
+        "sha256": "6ee498368573c3a6c56e45e76cd4374fa593ae3ec3526cf929ec553a3b7f8c55"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0e",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/0e/eb164ebc6f9615f9a7f93f605ea5a51ddaad0e",
+        "mode": 41471,
+        "size": 22,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f1",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/f1/36921a5ce9893143c2041d9200079820a01603",
+        "mode": 41471,
+        "size": 25,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/xz",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/share/doc/xz/COPYING",
+        "mode": 33188,
+        "size": 2775,
+        "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+      },
+      {
+        "path": "/usr/share/doc/xz/COPYING.GPLv2",
+        "mode": 33188,
+        "size": 18092,
+        "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+      }
+    ]
+  }
+}

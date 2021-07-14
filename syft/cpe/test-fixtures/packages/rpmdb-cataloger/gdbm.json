@@ -1,0 +1,91 @@
+{
+  "name": "gdbm",
+  "version": "1.18-1.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [],
+  "purl": "pkg:rpm/centos/gdbm@1:1.18-1.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "gdbm",
+    "version": "1.18",
+    "epoch": 1,
+    "architecture": "x86_64",
+    "release": "1.el8",
+    "sourceRpm": "gdbm-1.18-1.el8.src.rpm",
+    "size": 399977,
+    "license": "GPLv3+",
+    "vendor": "CentOS",
+    "url": "http://www.gnu.org/software/gdbm/",
+    "files": [
+      {
+        "path": "/usr/bin/gdbm_dump",
+        "mode": 33261,
+        "size": 23904,
+        "sha256": "529f23c0e6c5aa4245fb4933a893a402cd8502272a86d17c9b8acc75937eb9ba"
+      },
+      {
+        "path": "/usr/bin/gdbm_load",
+        "mode": 33261,
+        "size": 28256,
+        "sha256": "e47b85ae815b8c084f5c0ffef24b8c03c115fcb81f2cfaa205cd70d416adb113"
+      },
+      {
+        "path": "/usr/bin/gdbmtool",
+        "mode": 33261,
+        "size": 119952,
+        "sha256": "fc910ba180d88fc4c78d778bdddceb6c613519bf9058ab8b3fc98822f098dd97"
+      },
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/45",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/45/db0973367371f08b177e4618849b4ecd14e997",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5c",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/5c/5d0a0e38974d9f8df2992d8ba744f71947b719",
+        "mode": 41471,
+        "size": 28,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d2",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/d2/64fe52cadc76fab3943dfed0b92676b0647e91",
+        "mode": 41471,
+        "size": 29,
+        "sha256": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "squashfs-tools",
+  "version": "4.3-19.el8",
+  "found_by": "rpmdb-cataloger",
+  "locations": [
+    {
+      "path": "/var/lib/rpm/Packages",
+      "layerID": "sha256:2653d992f4ef2bfd27f94db643815aa567240c37732cae1405ad1c1309ee9859"
+    }
+  ],
+  "licenses": null,
+  "language": "",
+  "type": "rpm",
+  "cpes": [
+    {
+      "Part": "a",
+      "Vendor": "squashfs_project",
+      "Product": "squashfs",
+      "Version": "4.3",
+      "Update": "19.el8",
+      "Edition": "",
+      "SWEdition": "",
+      "TargetSW": "",
+      "TargetHW": "",
+      "Other": "",
+      "Language": ""
+    }
+  ],
+  "purl": "pkg:rpm/centos/squashfs-tools@0:4.3-19.el8?arch=x86_64",
+  "metadata_type": "RpmdbMetadata",
+  "metadata": {
+    "name": "squashfs-tools",
+    "version": "4.3",
+    "epoch": 0,
+    "architecture": "x86_64",
+    "release": "19.el8",
+    "sourceRpm": "squashfs-tools-4.3-19.el8.src.rpm",
+    "size": 502829,
+    "license": "GPLv2+",
+    "vendor": "CentOS",
+    "url": "http://squashfs.sourceforge.net/",
+    "files": [
+      {
+        "path": "/usr/lib/.build-id",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/38",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/38/da38430e2efaee0dc82032496b79b86c95427e",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/74",
+        "mode": 16877,
+        "size": 0,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/lib/.build-id/74/e3c5e5e63b15526211db37d90b94c28473ade8",
+        "mode": 41471,
+        "size": 31,
+        "sha256": ""
+      },
+      {
+        "path": "/usr/sbin/mksquashfs",
+        "mode": 33261,
+        "size": 250144,
+        "sha256": "25c7d7baeb7f7a7497a55694806dba8712c8adddb7fd3bf96287363d9fa171b0"
+      },
+      {
+        "path": "/usr/sbin/unsquashfs",
+        "mode": 33261,
+        "size": 139088,
+        "sha256": "96f0c9f0d8c9f8eb5c3d72678f5c3a89ad3273d7d73368a3db3c31bff4f3c0e4"
+      }
+    ]
+  }
+}
